@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage[dvipsnames]{xcolor} % Add this line to define OliveGreen
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textit{Comprensión y Redacción de Textos II}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+\pagenumbering{gobble}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Versión Borrador del Artículo de Opinión} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Compresión y Redacción de Textos II.}
+}
+
+\author{
+  \begin{tabular}{ll}
+    Huatay Salcedo, Luis Elías & U24218809 \\
+  \end{tabular} \\\\
+  \texttt{Sección 12934}
+}
+
+% ENVIROMENTS
+
+% \newenvironment{indexPre}{}{}
+% \newenvironment{introduccion}{}{}
+% \newenvironment{marcoTeorico}{}{}
+% \newenvironment{problematica}{}{}
+% \newenvironment{objetivoGeneral}{}{}
+% \newenvironment{terminosEstadisticos}{}{}
+% \newenvironment{recoleccionDeInformacion}{}{}
+% \newenvironment{metodologia}{}{}
+% \newenvironment{analisisDescriptivo}{}{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+  Docente. Mg. Pablo Orlando Rabines\ Pumayalla
+\end{center}
+
+\restoregeometry
+
+\pagenumbering{arabic} 
+\setcounter{page}{2}
+
+\newpage
+
+\begin{center}
+\textbf{\large{El Turismo Espacial: ¿Alguien se apunta?}}
+\end{center}
+
+\textcolor{red}{Es ``claro como el agua'' que el avance de la tenología ah crecido a pasos estratosféricos, nunca mejor dicho. La humanidad ha logrado cosas que hace 50 años eran impensables, como la creación de la internet, la inteligencia artificial, la clonación, la exploración espacial, entre otras. Es en esta última que se ha llegado a un punto en el que la idea de viajar al espacio ya no es solo un sueño de ciencia ficción, sino una realidad que está a punto de ser accesible para cualquier persona, o al menos para aquellos que tengan el dinero suficiente. Pero, claramente ``no todo es color de rosa'', y es que el turismo espacial plantea una serie de problemas éticos y medioambientales que no pueden ser ignorados.} \textcolor{blue}{Pero, acaso ¿los viajes espaciales y el medio ambiente no pueden llevarse de la mano?. Es en este contexto ¿Crees que afectará significatívamente el medio ambiente?} \textcolor{OliveGreen}{Yo considero que no, a continuación te explico cómo el turismo espacial puede ser una oportunidad para la humanidad y el planeta.}
+
+\textcolor{red}{En primer lugar, me parece que el turismo espacial puede abrir muchísimas más oportunidades para la investigación científica y la exploración espacial.} \textcolor{blue}{Por ejemplo, los vuelos espaciales privados pueden transportar experimentos a entornos de microgravedad, abriendo nuevas posibilidades para la investigación en campos como la biología, la física y la medicina} \textcolor{OliveGreen}{Esto porque la microgravedad es un entorno único que no se puede replicar en la Tierra, y que puede ser clave para el desarrollo de nuevas tecnologías y tratamientos médicos, estaríamos como ``Pedro por su casa'' aprovechando un entorno controlado para realizar experimentos que no serían posibles en la Tierra.} \textcolor{blue}{Además, las empresas privadas que compiten en este mercado invierten considerables recursos en el desarrollo de tecnologías espaciales más eficientes, rentables y sostenibles.} \textcolor{OliveGreen}{Lo que significa que el turismo espacial no solo puede impulsar la investigación científica, sino también la innovación tecnológica y el desarrollo sostenible, por ejemplo, mientras la NASA se ocupa de grandes objetivos de exploración, compañias como Space-X y Blue Origin mejoran la tasa, rentabilidad y sostenibilidad de los viajes espaciales.}
+
+\textcolor{red}{En segundo lugar y aunque parezca sorprendemente hispotético, el turismo espacial puede ser beneficioso para el medio ambiente gracias al `èfecto perspectiva''.} \textcolor{blue}{La experiencia de observar la Tierra desde el espacio, con su fragilidad y belleza expuestas en toda su magnitud, tiene un profundo impacto en la percepción de nuestro planeta.} \textcolor{OliveGreen}{Este fenómeno ha llevado a muchos astronautas a inclinarse por la protección del medio ambiente y a comprometerse con la búsqueda de soluciones a la crisis climática.} \textcolor{blue}{Además, la empresa Space Perspective, ha usado este fenoméno como incentivo para desarrollar una propuesta amigable y sostenible de turismo espacial.} \textcolor{OliveGreen}{Ellos están desarrollando un sistema de transporte espacial de bajo impacto ambiental que utiliza un globo de gran altitud para llevar turistas a la estratosfera, permitiendo una vista panorámica de la Tierra sin las emisiones contaminantes de los cohetes tradicionales.}
+
+Por todo lo anterior expuesto, creo que el turismo espacial puede ser una oportunidad para la humanidad y el planeta. No solo puede impulsar la investigación científica, la innovación tecnológica y el desarrollo sostenible, sino que también puede fomentar una mayor conciencia ambiental y un compromiso con la protección de nuestro planeta. Por supuesto, queda reflexionar sobre la importante abordar los desafíos éticos y medioambientales que plantea el turismo espacial, pero creo que estos problemas pueden ser superados con una regulación adecuada y un enfoque sostenible.
+  
+\end{document}

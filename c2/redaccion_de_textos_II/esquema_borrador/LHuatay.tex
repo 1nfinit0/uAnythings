@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textit{Comprensión y Redacción de Textos II}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+\pagenumbering{gobble}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Versión Final del Texto Argumentativo.} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Compresión y Redacción de Textos II.}
+}
+
+\author{
+  \begin{tabular}{ll}
+    Huatay Salcedo, Luis Elías & U24218809 \\
+  \end{tabular} \\\\
+  \texttt{Sección 12934}
+}
+
+% ENVIROMENTS
+
+\newenvironment{indexPre}{}{}
+\newenvironment{introduccion}{}{}
+\newenvironment{marcoTeorico}{}{}
+\newenvironment{problematica}{}{}
+\newenvironment{objetivoGeneral}{}{}
+\newenvironment{terminosEstadisticos}{}{}
+\newenvironment{recoleccionDeInformacion}{}{}
+\newenvironment{metodologia}{}{}
+\newenvironment{analisisDescriptivo}{}{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+  Docente. Mg. Pablo Orlando Rabines\ Pumayalla
+\end{center}
+
+\restoregeometry
+
+\pagenumbering{arabic} % Numeración arábiga para el resto del documento
+\setcounter{page}{2}   % Iniciar numeración en la página 2
+
+\newpage
+
+\begin{center}
+\textbf{\large{Los parques acuáticos en el litoral peruano: ¿una buena idea?}}
+\end{center}
+
+La instalación de parques acuáticos en el litoral peruano ha generado una serie de controversias en los últimos años. Por un lado, los defensores de esta idea argumentan que estos parques son una excelente alternativa para el turismo y la recreación. Por otro lado, los detractores señalan que la presencia de estos parques podría afectar el ecosistema marino y la actividad pesquera en la zona. En el conexto nacional se destaca la existencia de diferentes opiniones dentro del gremio de pescadores sobre el proyecto Olaya Park. Mientras algunos se oponen al proyecto por sus posibles impactos ambientales, otros lo apoyan argumentando que no afectará las zonas de pesca y que podría impulsar el turismo y generar empleo en la zona. Así mismo también se menciona que existen tensiones entre diferentes grupos de pescadores y acusaciones de irregularidades en el litoral de Chorrillos. En el contexto del mar limeño y más precisamente en este último distrito, la presencia de parques acuáticos ha generado dichas tensión a tal punto que el alcalde de Chorrillos ha rechazado la instalación del parque acuático Olaya Park. De acuerdo a ello surge la siguiente pregunta. \textbf{\textit{¿Crees que se debería permitir la instalación de parques acuáticos en el litoral peruano?}}, personalmente considero que si se debería permitir la instalación de parques acuáticos en el litoral peruano. A continuación se presentan los argumentos que sustentan mi posición.
+
+\textcolor{red}{Considero que la implementación de parques acuáticos en el litoral peruano debería permitirse, ya que representan un impulso económico significativo para las comunidades costeras.} \textcolor{blue}{Por ejemplo, el caso de Brasil muestra cómo el desarrollo de esta industria se ha consolidado como un generador de empleo y un atractivo turístico de gran alcance.} Los parques acuáticos en ese país no solo contribuyen a incrementar los ingresos locales, sino que también impulsan el turismo, favoreciendo el crecimiento de sectores como la hotelería y la gastronomía. El éxito de esta industria en Brasil ha ido en aumento en los últimos años, atrayendo a millones de visitantes que buscan experiencias seguras y entretenidas. \textcolor{blue}{Del mismo modo, en destinos como Paracas en Perú, la instalación de parques acuáticos como Yakupark ha demostrado que estos espacios pueden ser exitosos sin perjudicar el entorno natural.} Así, permitir la construcción de parques acuáticos en el litoral peruano no solo beneficiaría la economía local, sino que además podría posicionar a estas zonas como puntos turísticos importantes para el país.
+
+
+
+\textcolor{red}{Por otro lado, los parques acuáticos también representan un beneficio significativo para las familias y comunidades locales, ofreciendo espacios recreativos seguros y accesibles.} \textcolor{blue}{El desarrollo de estos parques en las áreas costeras peruanas brinda una experiencia única, adecuada para todas las edades y atractiva tanto para turistas como para la población local.} En el caso de Yakupark en Paracas, su éxito como destino recreativo ha ayudado a visibilizar la zona y atraer a un público diverso que busca experiencias de ocio. Inclusive, con una biodiversidad marina única, la presencia de parques acuáticos no solo no ha afectado el ecosistema, sino que ha contribuido a su conservación y protección, ello gracias a los protocolos de seguridad y cuidado del medio ambiente implementados por las empresas responsables de estos espacios. \textcolor{blue}{Los ingresos generados a partir de estos parques acuáticos pueden impulsar mejoras económicas en la región y beneficiar a los habitantes locales.} Esto se traduce en más empleos directos e indirectos, además de una promoción turística que atrae nuevas inversiones. Asimismo, los fondos recaudados pueden destinarse a la conservación del medio ambiente, permitiendo preservar la biodiversidad marina y los ecosistemas costeros, los cuales son clave para la sostenibilidad de las actividades recreativas en el área. En conjunto, estos beneficios económicos, sociales y ambientales justifican la instalación de parques acuáticos en el litoral peruano como una estrategia valiosa de desarrollo regional.
+
+\newpage
+
+Finalmente, considero que la instalación de parques acuáticos en el litoral peruano debería permitirse porque podría ser una oportunidad para impulsar el desarrollo económico y generar empleo en la región. La presencia de parques acuáticos en destinos turísticos como Paracas ha demostrado ser una fuente de ingresos y desarrollo económico en otros países de la región. Por lo tanto, considero que la instalación de parques acuáticos en el litoral peruano podría ser una oportunidad para impulsar el turismo y generar empleo en la región. Por ello se hace un llamado a la reflexión sobre la evaluación inteligente de los pros y contras de la instalación de parques acuáticos en el litoral peruano.
+  
+\end{document}

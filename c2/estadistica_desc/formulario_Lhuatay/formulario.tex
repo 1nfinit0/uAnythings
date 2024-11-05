@@ -29,6 +29,13 @@
 \newenvironment{varianciaYDesviacionEstandar}{}{}
 \newenvironment{coeficienteDeVariacion}{}{}
 \newenvironment{cuantiles}{}{}
+\newenvironment{asimetria}{}{}
+\newenvironment{curtosis}{}{}
+\newenvironment{tecnicasDeConteo}{}{}
+\newenvironment{probabilidad}{}{}
+\newenvironment{probabilidadIndependiente}{}{}
+\newenvironment{probabilidadDependiente}{}{}
+\newenvironment{distribucionBinomial}{}{}
 
 \begin{document}
 
@@ -277,6 +284,135 @@
         \textbf{Nota:}
         Los cuantiles son valores que dividen a la muestra en partes iguales, se calculan con la fórmula anterior, donde se busca la clase que contiene al cuantil y se despeja el valor del mismo. En esta fórmula se escoge la clase que contiene al cuantil escogiendo la clase de $F_i$ que contenga la posición dada por: $\dfrac{p \cdot n}{100}$.
     \end{cuantiles}
+    \begin{asimetria}
+        \begin{center}
+            \textbf{\large Coeficiente de asimetría de Pearson}
+            \hrulefill
+            \begin{equation*}
+                A_s = 3\left(\dfrac{\bar{x} - M_e}{S}\right)
+            \end{equation*}
+        \end{center}
+        \vspace{-1cm}
+        Donde:
+        \begin{itemize}
+            \item $\bar{x}$: Media aritmética.
+            \item $M_e$: Mediana.
+            \item $S$: Desviación estándar.
+        \end{itemize}
+        \textbf{Nota:}
+        El coeficiente de asimetría de Pearson es una medida de asimetría de la distribución de los datos, si el coeficiente es positivo, la distribución es asimétrica a la derecha, si es negativo, la distribución es asimétrica a la izquierda y si es cero, la distribución es simétrica.
+    \end{asimetria}
+    \begin{curtosis}
+        \begin{center}
+            \textbf{\large Grado de Curtosis}
+            \hrulefill
+            \begin{equation*}
+                K_u = \dfrac{P_{75} - P_{25}}{2\left(P_{90} - P_{10}\right)}
+            \end{equation*}
+        \end{center}
+        \vspace{-1cm}
+        Donde:
+        \begin{itemize}
+            \item $P_{10}$: Percentil 10.
+            \item $P_{25}$: Percentil 25.
+            \item $P_{75}$: Percentil 75.
+            \item $P_{90}$: Percentil 90.
+        \end{itemize}
+        \textbf{Nota:}
+        El grado de curtosis es una medida de la forma de la distribución de los datos, si el coeficiente es mayor a 0.263, la distribución es leptocúrtica, si es igual a 0.263, la distribución es mesocúrtica y si es menor a 0.263, la distribución es platicúrtica.
+    \end{curtosis}
     \clearpage
 \end{multicols}
+\textbf{\large{Formulario de Probabilidades}}
+\hfill
+\begin{minipage}[t]{3cm}
+    \centering 
+    \textit{Ing. Luis Huatay}
+\end{minipage}
+    \begin{multicols}{2}
+        \begin{tecnicasDeConteo}
+            \textbf{Permutación lineal}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    P^n_k = \dfrac{n!}{(n-k)!}
+                \end{equation*}
+            \end{center}
+            Donde es importante el orden de los elementos.\\
+            \textbf{Combinación}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    C^n_k = \dfrac{n!}{k!(n-k)!}
+                \end{equation*}
+            \end{center}
+            Donde no es importante el orden de los elementos.\\
+        \end{tecnicasDeConteo}
+        \begin{probabilidad}
+            \textbf{Probabilidad}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    P(A) = \dfrac{n(A)}{n(\Omega)}
+                \end{equation*}
+            \end{center}
+            Donde:
+            \begin{itemize}
+                \item $P(A)$: Probabilidad de que ocurra el evento $A$.
+                \item $n(A)$: Número de casos favorables.
+                \item $n(\Omega)$: Número de casos posibles (espacio muestral).
+            \end{itemize}
+        \end{probabilidad}
+        \begin{probabilidadIndependiente}
+            \textbf{Probabilidad Independiente}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    P(A \cap B) = P(A) \cdot P(B)
+                \end{equation*}
+            \end{center}
+            Donde:
+            \begin{itemize}
+                \item $P(A \cap B)$: Probabilidad de que ocurran los eventos $A$ y $B$.
+                \item $P(A)$: Probabilidad de que ocurra el evento $A$.
+                \item $P(B)$: Probabilidad de que ocurra el evento $B$.
+            \end{itemize}
+        \end{probabilidadIndependiente}
+        \begin{probabilidadDependiente}
+            \textbf{Probabilidad Dependiente}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    P(A \cap B) = \dfrac{P\left(A \cap B\right)}{P\left(B\right)}
+                \end{equation*}
+            \end{center}
+            Donde:
+            \begin{itemize}
+                \item $P(A \cap B)$: Probabilidad de que ocurran los eventos $A$ y $B$.
+                \item $P(A)$: Probabilidad de que ocurra el evento $A$.
+                \item $P(B)$: Probabilidad de que ocurra el evento $B$.
+            \end{itemize}
+            \textbf{Nota:}\\
+            Considerar las intersecciones de los eventos como valores en común en una tabla de doble entrada.\\
+        \end{probabilidadDependiente}
+        \begin{distribucionBinomial}
+            \textbf{Distribución Binomial}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    P(X = k) = \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k}
+                \end{equation*}
+            \end{center}
+            Donde:
+            \begin{itemize}
+                \item $P(X = k)$: Probabilidad de que ocurran $k$ éxitos.
+                \item $n$: Número de ensayos.
+                \item $k$: Número de éxitos.
+                \item $p$: Probabilidad de éxito.
+                \item $1-p$: Probabilidad de fracaso.
+            \end{itemize}
+            Nota:
+            Cuando piden más de $k$ éxitos, se suman las probabilidades de $k$ a $n$.
+        \end{distribucionBinomial}
+    \end{multicols}
 \end{document}

@@ -1,0 +1,14 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{}%
+\contentsline {section}{\numberline {2}Objetivos}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Objetivos Específicos}{4}{}%
+\contentsline {section}{\numberline {3}Sobre los Algoritmos de Búsqueda}{5}{}%
+\contentsline {subsection}{\numberline {3.1}¿Qué son los Algoritmos de Búsqueda?}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Tipos de Algoritmos de Búsqueda}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Aplicaciones}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Grafos}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Árboles}{9}{}%
+\contentsline {section}{\numberline {4}Sobre la Teoría de Grafos}{10}{}%
+\contentsline {section}{\numberline {5}Sobre Árboles}{10}{}%
+\contentsline {section}{Referencias}{11}{}%
