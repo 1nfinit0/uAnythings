@@ -36,6 +36,7 @@
 \newenvironment{probabilidadIndependiente}{}{}
 \newenvironment{probabilidadDependiente}{}{}
 \newenvironment{distribucionBinomial}{}{}
+\newenvironment{distribucionDePoisson}{}{}
 
 \begin{document}
 
@@ -414,5 +415,23 @@
             Nota:
             Cuando piden más de $k$ éxitos, se suman las probabilidades de $k$ a $n$.
         \end{distribucionBinomial}
+        \begin{distribucionDePoisson}
+            \textbf{Distribución de Poisson}
+            \hrulefill
+            \begin{center}
+                \begin{equation*}
+                    P(X = k) = \dfrac{e^{-\lambda} \cdot \lambda^k}{k!}
+                \end{equation*}
+            \end{center}
+            Donde:
+            \begin{itemize}
+                \item $P(X = k)$: Probabilidad de que ocurran $k$ eventos.
+                \item $\lambda$: Promedio de eventos.
+                \item $e$: Número de Euler.
+                \item $k!$: Factorial de $k$.
+            \end{itemize}
+            Nota:
+            La distribución de Poisson se utiliza cuando se tiene un promedio de eventos y se quiere saber la probabilidad de que ocurran $k$ eventos en un intervalo de tiempo.
+        \end{distribucionDePoisson}
     \end{multicols}
 \end{document}

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730767698.30749 "/home/tobi/Desktop/repos/uAnythings/c2/estadistica_desc/formulario_Lhuatay/formulario.tex" "formulario.pdf" "formulario" 1730767699.33973 0
-  "/home/tobi/Desktop/repos/uAnythings/c2/estadistica_desc/formulario_Lhuatay/formulario.tex" 1730767697.97504 16533 90c0dce76ed5e6190900cf87d050f93f ""
+["pdflatex"] 1731069762.79474 "/home/tobi/Desktop/repos/uAnythings/c2/estadistica_desc/formulario_Lhuatay/formulario.tex" "formulario.pdf" "formulario" 1731069764.50989 0
+  "/home/tobi/Desktop/repos/uAnythings/c2/estadistica_desc/formulario_Lhuatay/formulario.tex" 1731069762.26576 17398 b7ce967e8e1dafba64765cf8bf4e31fd ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1727349926 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1727349926 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -181,8 +181,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1727383632.29066 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1727383603 7135082 0d1f1d20e4c427407477d99789f64513 ""
-  "formulario.aux" 1730767699.20837 194 d12d2f42a1ce5499c2e0a2e2f9926e09 "pdflatex"
-  "formulario.tex" 1730767697.97504 16533 90c0dce76ed5e6190900cf87d050f93f ""
+  "formulario.aux" 1731069764.30576 194 d12d2f42a1ce5499c2e0a2e2f9926e09 "pdflatex"
+  "formulario.tex" 1731069762.26576 17398 b7ce967e8e1dafba64765cf8bf4e31fd ""
   (generated)
   "formulario.aux"
   "formulario.log"
