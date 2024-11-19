@@ -1,51 +1,74 @@
 \documentclass{article}
-\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+
+%===============================
+%
+%          📦 Paquetes
+%
+%===============================
+
+% === Configuración del documento y tipografía ===
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
+
+% === Gráficos y representaciones visuales ===
 \usepackage{tikz}
-\usepackage{titling}
-\usepackage{array} % Para mejorar el manejo de columnas
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage{graphicx}
+\usepackage{subcaption}
+
+% === Estilo y personalización ===
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{tocloft} 
 \usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{caption}
+
+% === Matemáticas y símbolos ===
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{multicol}
 \usepackage{cancel}
-\usepackage{subcaption} % Para subtítulos de tablas
-\usepackage{float} % Para el manejo de posiciones de tablas
-\usepackage{pgfplots}
+
+% === Estructura y disposición del contenido ===
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{indentfirst}
+
+% === Hipervínculos y referencias ===
 \usepackage{hyperref}
-\pgfplotsset{compat=1.18}
-\usepackage{titlesec} % Para personalizar títulos
-\usepackage{tocloft}  % Para mejorar el índice
-\usepackage{setspace} % Para controlar el espaciado
-\usepackage{caption} % Para mejorar los captions
 
 
-% Configuración de Fancyhdr para encabezados y pies de página
+
+
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
 \fancyhead[R]{\textit{Estadística descriptiva y probabilidad}}
+\fancyfoot[R]{\thepage}
 
-\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
-
-% Ajustes de espaciado entre párrafos y márgenes superiores
 \setlength{\parskip}{1.5em}
 \setlength{\parindent}{0pt}
-\setlength{\headheight}{17.26935pt} % Altura del encabezado
-\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
-\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+\setlength{\headheight}{17.26935pt}
+\addtolength{\topmargin}{-2.26935pt}
 
-% Definición de comandos personalizados
-\newcommand{\SubItem}[1]{
-    {\setlength\itemindent{15pt} \item[-] #1}
-}
+% ENVIROMENTS
 
-\pagenumbering{gobble}
+\newenvironment{indexPre}{}{}
+\newenvironment{introduccion}{}{}
+\newenvironment{marcoTeorico}{}{}
+\newenvironment{problematica}{}{}
+\newenvironment{objetivoGeneral}{}{}
+\newenvironment{terminosEstadisticos}{}{}
+\newenvironment{recoleccionDeInformacion}{}{}
+\newenvironment{metodologia}{}{}
+\newenvironment{analisisDescriptivo}{}{}
 
 % Título del documento con mejor control de espaciado
 \title{
+  \pagenumbering{gobble}
   \includegraphics[width=5cm]{./assets/logo-utp.png} \\
   \vspace{1cm}
   \textbf{Universidad Tecnológica del Perú} \\
@@ -65,26 +88,14 @@
   \texttt{Sección 24229}
 }
 
-% ENVIROMENTS
-
-\newenvironment{indexPre}{}{}
-\newenvironment{introduccion}{}{}
-\newenvironment{marcoTeorico}{}{}
-\newenvironment{problematica}{}{}
-\newenvironment{objetivoGeneral}{}{}
-\newenvironment{terminosEstadisticos}{}{}
-\newenvironment{recoleccionDeInformacion}{}{}
-\newenvironment{metodologia}{}{}
-\newenvironment{analisisDescriptivo}{}{}
-
 \begin{document}
 \maketitle
 
 \begin{center}
-  Docente. Mg. Luis Fernando Velarde Vela  
-\end{center}
 
-\restoregeometry
+  Docente. Mg. Luis Fernando Velarde Vela
+
+\end{center}
 
 \pagenumbering{arabic} % Numeración arábiga para el resto del documento
 \setcounter{page}{2}   % Iniciar numeración en la página 2
@@ -92,36 +103,38 @@
 \newpage
 
 \begin{indexPre}
-  \begin{center}
-    \textbf{\Large Índice}
-\end{center}
-\vspace{0.5cm} % Espacio entre título y contenido
+%   \begin{center}
+%     \textbf{\Large Índice}
+% \end{center}
+% \vspace{0.5cm} % Espacio entre título y contenido
 
-\begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
-  \noindent
-  % Personalizar la numeración de la segunda lista
-  \renewcommand{\labelenumii}{\theenumi.\arabic{enumii}}
-  \begin{enumerate}
-    \item Introducción
-    \item Marco Teórico
-    \item Problemática
-    \item Objetivo general
-    \item Objetivos específicos
-    \item Términos estadísticos
-    \item Recolección de información
-    \item Metodología
-      \begin{enumerate}
-        \item Tipo de muestreo
-        \item Técnicas de análisis
-        \item Consideraciones éticas
-        \item Limitaciones del estudio
-      \end{enumerate}
-    \item Análisis Descriptivo
-      \begin{enumerate}
-        \item Tabla de frecuencias
-      \end{enumerate}
-  \end{enumerate}
-\end{spacing}
+% \begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
+%   \noindent
+%   % Personalizar la numeración de la segunda lista
+%   \renewcommand{\labelenumii}{\theenumi.\arabic{enumii}}
+%   \begin{enumerate}
+%     \item Introducción
+%     \item Marco Teórico
+%     \item Problemática
+%     \item Objetivo general
+%     \item Objetivos específicos
+%     \item Términos estadísticos
+%     \item Recolección de información
+%     \item Metodología
+%       \begin{enumerate}
+%         \item Tipo de muestreo
+%         \item Técnicas de análisis
+%         \item Consideraciones éticas
+%         \item Limitaciones del estudio
+%       \end{enumerate}
+%     \item Análisis Descriptivo
+%       \begin{enumerate}
+%         \item Tabla de frecuencias
+%       \end{enumerate}
+%   \end{enumerate}
+% \end{spacing}
+
+\tableofcontents
 
 
 \end{indexPre}
@@ -132,9 +145,13 @@
 
 \begin{introduccion}
   \section{Introducción}
+
   El uso de herramientas de inteligencia artificial (IA) en la educación ha crecido significativamente, transformando las dinámicas de enseñanza y aprendizaje. En la Universidad Tecnológica del Perú (UTP), se han implementado diversas tecnologías de IA durante el periodo académico 2024 I - II, con el objetivo de mejorar el rendimiento académico de los estudiantes. Este cambio ha despertado un interés creciente por evaluar el impacto real de estas herramientas en el desempeño de los alumnos.
 
+
+  
   Este proyecto tiene como objetivo realizar un análisis estadístico-descriptivo sobre el rendimiento académico de los estudiantes de la UTP que utilizan herramientas de IA. A través de la aplicación de técnicas y conceptos aprendidos en el curso de Estadística Descriptiva y Probabilidades, se espera identificar patrones y tendencias que contribuyan a una mejor comprensión del uso de estas tecnologías en el ámbito educativo y su potencial para optimizar el aprendizaje.
+
 \end{introduccion}
 
 \vspace*{\fill}
@@ -438,7 +455,7 @@
 
 \begin{analisisDescriptivo}
 
-  \section{Análisis Descriptivo}
+  \section{Análisis y Desarrollo}
   \vspace{-0.5cm}
   Se presenta un análisis descriptivo de los datos recolectados sobre el rendimiento académico de los estudiantes de la UTP en relación con el uso de herramientas de inteligencia artificial. Se calculan de acuerdo a los temas vistos en clase.
   

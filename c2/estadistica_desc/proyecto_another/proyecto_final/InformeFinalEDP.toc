@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Marco Teórico}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}La estadística descriptiva}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}La IA en la educación}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Los modelos NPL de Inteligencia Artificial}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Problemática}{6}{section.3}%
+\contentsline {section}{\numberline {4}Objetivo general}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Objetivos específicos}{7}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Términos estadísticos}{8}{section.5}%
+\contentsline {section}{\numberline {6}Recolección de Información}{9}{section.6}%
+\contentsline {section}{\numberline {7}Metodología}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Tipo de muestreo}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Técnicas de análisis}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Consideraciones éticas}{11}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Limitaciones del estudio}{11}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Análisis y Desarrollo}{12}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Género de la muestra:}{12}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Carrera a la que pertenecen los estudiantes:}{13}{subsection.8.2}%
