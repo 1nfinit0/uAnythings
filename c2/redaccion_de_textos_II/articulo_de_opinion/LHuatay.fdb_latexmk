@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730771336.62395 "/home/tobi/Desktop/repos/uAnythings/c2/redaccion_de_textos_II/articulo_de_opinion/LHuatay.tex" "LHuatay.pdf" "LHuatay" 1730771338.48238 0
-  "/home/tobi/Desktop/repos/uAnythings/c2/redaccion_de_textos_II/articulo_de_opinion/LHuatay.tex" 1730771336.27488 6594 ffe289b5e8b1df2d16348660c4a72cfb ""
+["pdflatex"] 1732765301.12116 "/home/tobi/Desktop/repos/uAnythings/c2/redaccion_de_textos_II/articulo_de_opinion/LHuatay.tex" "LHuatay.pdf" "LHuatay" 1732765302.79938 0
+  "/home/tobi/Desktop/repos/uAnythings/c2/redaccion_de_textos_II/articulo_de_opinion/LHuatay.tex" 1732765300.78697 6700 bbaca4973d96ce9d7f24472076382606 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1727349926 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1727349926 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -8,7 +8,6 @@
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1727349926 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1727349926 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1727349926 940 228d6584342e91276bf566bcf9716b83 ""
-  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1727349926 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1727349926 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1727349926 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1727349926 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -160,6 +159,7 @@
   "/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1727349926 8818 aa5157b46368efebf023abff55611467 ""
   "/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty" 1727349926 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
   "/usr/share/texmf-dist/tex/latex/cancel/cancel.sty" 1727349926 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
+  "/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty" 1727349926 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1727349926 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1727349926 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1727349926 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
@@ -206,10 +206,10 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1727349926 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1727349926 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1727383632.29066 5312047 b07fcd2a9090df96fc745b92a3db793b ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1727383603 7135082 0d1f1d20e4c427407477d99789f64513 ""
-  "LHuatay.aux" 1730771338.33155 355 e4443f694ea37a2b5ca012c571fc41fe "pdflatex"
-  "LHuatay.tex" 1730771336.27488 6594 ffe289b5e8b1df2d16348660c4a72cfb ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1731120478.02831 5312047 b07fcd2a9090df96fc745b92a3db793b ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1731120386 7135080 aa49292197f48a8825cf3f1bfdff21db ""
+  "LHuatay.aux" 1732765302.64697 355 e4443f694ea37a2b5ca012c571fc41fe "pdflatex"
+  "LHuatay.tex" 1732765300.78697 6700 bbaca4973d96ce9d7f24472076382606 ""
   "assets/logo-utp.png" 1729964206.4093 39230 c03999ec05698581c28121eaba34d47b ""
   (generated)
   "LHuatay.aux"

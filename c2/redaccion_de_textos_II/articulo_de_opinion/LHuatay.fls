@@ -288,6 +288,8 @@ INPUT /usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
@@ -347,7 +349,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./assets/logo-utp.png
 INPUT ./assets/logo-utp.png
 INPUT ./assets/logo-utp.png

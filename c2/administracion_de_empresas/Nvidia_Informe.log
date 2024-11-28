@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.26)  24 OCT 2024 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.8)  28 NOV 2024 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,7 +294,66 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count289
  (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/latex/titling/titling.sty
+))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen265
+\pgfdecoratedremainingdistance=\dimen266
+\pgfdecoratedinputsegmentcompleteddistance=\dimen267
+\pgfdecoratedinputsegmentremainingdistance=\dimen268
+\pgf@decorate@distancetomove=\dimen269
+\pgf@decorate@repeatstate=\count290
+\pgfdecorationsegmentamplitude=\dimen270
+\pgfdecorationsegmentlength=\dimen271
+)
+\tikz@lib@dec@box=\box64
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box65
+\pgfnodeparttwobox=\box66
+\pgfnodepartthreebox=\box67
+\pgfnodepartfourbox=\box68
+\pgfnodeparttwentybox=\box69
+\pgfnodepartnineteenbox=\box70
+\pgfnodeparteighteenbox=\box71
+\pgfnodepartseventeenbox=\box72
+\pgfnodepartsixteenbox=\box73
+\pgfnodepartfifteenbox=\box74
+\pgfnodepartfourteenbox=\box75
+\pgfnodepartthirteenbox=\box76
+\pgfnodeparttwelvebox=\box77
+\pgfnodepartelevenbox=\box78
+\pgfnodeparttenbox=\box79
+\pgfnodepartninebox=\box80
+\pgfnodeparteightbox=\box81
+\pgfnodepartsevenbox=\box82
+\pgfnodepartsixbox=\box83
+\pgfnodepartfivebox=\box84
+))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip52
 \thanksmargin=\skip53
@@ -320,54 +379,54 @@ Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks36
-\ex@=\dimen265
+\ex@=\dimen272
 )) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen266
+\pmbraise@=\dimen273
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count290
+\inf@bad=\count291
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count291
-\leftroot@=\count292
+\uproot@=\count292
+\leftroot@=\count293
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count293
-\DOTSCASE@=\count294
+\classnum@=\count294
+\DOTSCASE@=\count295
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box64
-\strutbox@=\box65
+\Mathstrutbox@=\box85
+\strutbox@=\box86
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen267
+\big@size=\dimen274
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count295
+\macc@depth=\count296
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count296
+\c@MaxMatrixCols=\count297
 \dotsspace@=\muskip16
-\c@parentequation=\count297
-\dspbrk@lvl=\count298
+\c@parentequation=\count298
+\dspbrk@lvl=\count299
 \tag@help=\toks37
-\row@=\count299
-\column@=\count300
-\maxfields@=\count301
+\row@=\count300
+\column@=\count301
+\maxfields@=\count302
 \andhelp@=\toks38
-\eqnshift@=\dimen268
-\alignsep@=\dimen269
-\tagshift@=\dimen270
-\tagwidth@=\dimen271
-\totwidth@=\dimen272
-\lineht@=\dimen273
+\eqnshift@=\dimen275
+\alignsep@=\dimen276
+\tagshift@=\dimen277
+\tagwidth@=\dimen278
+\totwidth@=\dimen279
+\lineht@=\dimen280
 \@envbody=\toks39
 \multlinegap=\skip65
 \multlinetaggap=\skip66
@@ -385,49 +444,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count302
-\mult@box=\box66
-\multicol@leftmargin=\dimen274
-\c@unbalance=\count303
-\c@collectmore=\count304
-\doublecol@number=\count305
-\multicoltolerance=\count306
-\multicolpretolerance=\count307
-\full@width=\dimen275
-\page@free=\dimen276
-\premulticols=\dimen277
-\postmulticols=\dimen278
+\c@tracingmulticols=\count303
+\mult@box=\box87
+\multicol@leftmargin=\dimen281
+\c@unbalance=\count304
+\c@collectmore=\count305
+\doublecol@number=\count306
+\multicoltolerance=\count307
+\multicolpretolerance=\count308
+\full@width=\dimen282
+\page@free=\dimen283
+\premulticols=\dimen284
+\postmulticols=\dimen285
 \multicolsep=\skip67
 \multicolbaselineskip=\skip68
-\partial@page=\box67
-\last@line=\box68
-\mc@boxedresult=\box69
-\maxbalancingoverflow=\dimen279
-\mult@rightbox=\box70
-\mult@grightbox=\box71
-\mult@firstbox=\box72
-\mult@gfirstbox=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
+\partial@page=\box88
+\last@line=\box89
+\mc@boxedresult=\box90
+\maxbalancingoverflow=\dimen286
+\mult@rightbox=\box91
+\mult@grightbox=\box92
+\mult@firstbox=\box93
+\mult@gfirstbox=\box94
 \@tempa=\box95
 \@tempa=\box96
 \@tempa=\box97
@@ -443,15 +481,36 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box107
 \@tempa=\box108
 \@tempa=\box109
-\c@minrows=\count308
-\c@columnbadness=\count309
-\c@finalcolumnbadness=\count310
-\last@try=\dimen280
-\multicolovershoot=\dimen281
-\multicolundershoot=\dimen282
-\mult@nat@firstbox=\box110
-\colbreak@box=\box111
-\mc@col@check@num=\count311
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\c@minrows=\count309
+\c@columnbadness=\count310
+\c@finalcolumnbadness=\count311
+\last@try=\dimen287
+\multicolovershoot=\dimen288
+\multicolundershoot=\dimen289
+\mult@nat@firstbox=\box131
+\colbreak@box=\box132
+\mc@col@check@num=\count312
 ) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -460,33 +519,22 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@toka=\toks41
 \t@pgfplots@tokb=\toks42
 \t@pgfplots@tokc=\toks43
-\pgfplots@tmpa=\dimen283
-\c@pgfplots@coordindex=\count312
-\c@pgfplots@scanlineindex=\count313
+\pgfplots@tmpa=\dimen290
+\c@pgfplots@coordindex=\count313
+\c@pgfplots@scanlineindex=\count314
  (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks44
 \t@pgf@tokb=\toks45
 \t@pgf@tokc=\toks46
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count314
+\c@pgfplotsarray@tmp=\count315
 ) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count315
+\c@pgfplotstable@counta=\count316
 \t@pgfplotstable@a=\toks47
 ) (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count316
- (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen284
-\pgfdecoratedremainingdistance=\dimen285
-\pgfdecoratedinputsegmentcompleteddistance=\dimen286
-\pgfdecoratedinputsegmentremainingdistance=\dimen287
-\pgf@decorate@distancetomove=\dimen288
-\pgf@decorate@repeatstate=\count317
-\pgfdecorationsegmentamplitude=\dimen289
-\pgfdecorationsegmentlength=\dimen290
-)
-\tikz@lib@dec@box=\box112
-) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\c@pgfplotslibrarysurf@no=\count317
+ (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count318
 \pgfplots@xmin@reg=\dimen291
 \pgfplots@xmax@reg=\dimen292
@@ -606,7 +654,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip69
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box113
+\ttl@box=\box133
 \beforetitleunit=\skip70
 \aftertitleunit=\skip71
 \ttl@plus=\dimen301
@@ -656,31 +704,31 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
-\l__pdf_internal_box=\box114
+\l__pdf_internal_box=\box134
 ) (./Nvidia_Informe.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `Nvidia_Informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -716,13 +764,13 @@ LaTeX Font Info:    ... okay on input line 82.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count334
 \scratchdimen=\dimen306
-\scratchbox=\box115
+\scratchbox=\box135
 \nofMPsegments=\count335
 \nofMParguments=\count336
 \everyMPshowfont=\toks49
@@ -739,322 +787,109 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 82.
+Package hyperref Info: Link coloring OFF on input line 84.
 (./Nvidia_Informe.out) (./Nvidia_Informe.out)
 \@outlinefile=\write4
 \openout4 = `Nvidia_Informe.out'.
 
-<./assets/logo-utp.png, id=63, 2055.68pt x 493.845pt>
+<./assets/logo-utp.png, id=99, 2055.68pt x 493.845pt>
 File: ./assets/logo-utp.png Graphic file (type png)
 <use ./assets/logo-utp.png>
-Package pdftex.def Info: ./assets/logo-utp.png  used on input line 84.
+Package pdftex.def Info: ./assets/logo-utp.png  used on input line 86.
 (pdftex.def)             Requested size: 142.26378pt x 34.1733pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/logo-utp.png>]
-<assets/logo-utp.png, id=75, 2055.68pt x 493.845pt>
-File: assets/logo-utp.png Graphic file (type png)
-<use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 161.
-(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/logo-utp.png>] (./Nvidia_Informe.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write5
+\openout5 = `Nvidia_Informe.toc'.
+
  [2
 
- <./assets/logo-utp.png>]
+]
+<assets/logo-utp.png, id=139, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 180.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 115.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [3]
+ [3 <./assets/logo-utp.png>]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 217.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 154.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [4]
+ [4{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 234.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 175.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [5]
-<./assets/balance.png, id=131, 764.8575pt x 383.4325pt>
-File: ./assets/balance.png Graphic file (type png)
-<use ./assets/balance.png>
-Package pdftex.def Info: ./assets/balance.png  used on input line 251.
-(pdftex.def)             Requested size: 426.79134pt x 213.95428pt.
-<./assets/ratios_financieros.png, id=132, 593.21625pt x 276.03125pt>
-File: ./assets/ratios_financieros.png Graphic file (type png)
-<use ./assets/ratios_financieros.png>
-Package pdftex.def Info: ./assets/ratios_financieros.png  used on input line 254.
-(pdftex.def)             Requested size: 227.62204pt x 105.91644pt.
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 260.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 193.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [6 <./assets/balance.png> <./assets/ratios_financieros.png>]
-<./assets/estado_resultados.png, id=139, 545.03625pt x 350.30875pt>
-File: ./assets/estado_resultados.png Graphic file (type png)
-<use ./assets/estado_resultados.png>
-Package pdftex.def Info: ./assets/estado_resultados.png  used on input line 262.
-(pdftex.def)             Requested size: 426.79134pt x 274.30878pt.
+ [6]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 265.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 228.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [7 <./assets/estado_resultados.png>]
+ [7]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 313.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 254.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [8]
-<./assets/WhatsApp Image 2024-10-24 at 9.53.00 AM.jpeg, id=158, 770.88pt x 578.16pt>
-File: ./assets/WhatsApp Image 2024-10-24 at 9.53.00 AM.jpeg Graphic file (type jpg)
-<use ./assets/WhatsApp Image 2024-10-24 at 9.53.00 AM.jpeg>
-Package pdftex.def Info: ./assets/WhatsApp Image 2024-10-24 at 9.53.00 AM.jpeg  used on input line 322.
-(pdftex.def)             Requested size: 426.79134pt x 320.08861pt.
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 326.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 294.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [9 <./assets/WhatsApp Image 2024-10-24 at 9.53.00 AM.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Investigaci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 de nue-vas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 tec-no-log^^S^^Pas
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Enero 2024 -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Informe de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 in-ves-ti-ga-ci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 com-ple-to,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 pro-gre-so del
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Equipo de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Dise~no de
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 pro-to-ti-pos de
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 GPU de al-to
- []
-
-
-Underfull \hbox (badness 4846) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Julio 2024 -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 Sep-tiem-bre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Ingenieros,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 di-se~nado-res,
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Prototipo di-
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 se~nado, prue-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 bas ini-cia-les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Departamento
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Pruebas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 op-ti-mi-za-ci^^Son
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Octubre 2024
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 - Di-ciem-bre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Laboratorios
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 de prue-bas,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 GPU op-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 ti-mi-za-da,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 ren-di-mien-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 me-jo-ra-do en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Equipo de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 prue-bas y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Relaci^^Son con
- []
-
-
-Underfull \hbox (badness 3049) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 so-cios co-mer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 cia-les pa-ra
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Noviembre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Equipos de
- []
-
-
-Underfull \hbox (badness 7099) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Acuerdos fir-
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 ma-dos con 3
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 nue-vos dis-tri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\OT1/cmr/m/n/10 Departamento
- []
-
-
-Underfull \hbox (badness 7256) in paragraph at lines 357--357
-\OT1/cmr/m/n/10 de ven-tas y
+ [9]
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 337.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+ [10]
+Overfull \hbox (15.11813pt too wide) in paragraph at lines 378--379
+ [] 
  []
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 361.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 382.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[10]
+[11]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 387.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 460.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
-[]\OT1/cmr/m/n/10 Altieri D., Mar-ti-nez E., Pe-rri M. (2018). An^^Sali-sis e in-ter-pre-ta-ci^^Son de un Ba-
+ [12]
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 473.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+[]\OT1/cmr/m/n/10 Pi~nei-ro A. Va-re-la J. Rail A. (2006) El an^^Sali-sis de importancia-valoraci^^Son apli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
-\OT1/cmr/m/n/10 lan-ce Ge-ne-ral. Re-cu-pe-ra-do de: []$\OT1/cmtt/m/n/10 https : / / www . econlink . com . ar / contenidos / ver /
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+\OT1/cmr/m/n/10 ca-do a la ges-ti^^Son de ser-vi-cios. Re-cu-pe-ra-do de: []$\OT1/cmtt/m/n/10 https : / / www . gestiopolis . com /
  []
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 403.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 489.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[12] (./Nvidia_Informe.aux
+[14] (./Nvidia_Informe.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1063,21 +898,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `Nvidia_Informe.out' has not changed.
-(rerunfilecheck)             Checksum: 9F9F26232CAC5DC69644F9F4132A9EA9;2653.
+(rerunfilecheck)             Checksum: 86E4EA4DE02BF03E502B87B150CD2D7B;3387.
  ) 
 Here is how much of TeX's memory you used:
- 33207 strings out of 476014
- 757312 string characters out of 5792005
- 1946187 words of memory out of 5000000
- 54723 multiletter control sequences out of 15000+600000
- 566922 words of font info for 71 fonts, out of 8000000 for 9000
+ 35466 strings out of 476014
+ 822896 string characters out of 5792005
+ 1948187 words of memory out of 5000000
+ 56951 multiletter control sequences out of 15000+600000
+ 567944 words of font info for 74 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 102i,15n,107p,797b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Nvidia_Informe.pdf (12 pages, 665321 bytes).
+ 102i,15n,107p,858b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on Nvidia_Informe.pdf (14 pages, 263535 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
