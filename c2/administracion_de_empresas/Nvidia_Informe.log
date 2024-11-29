@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.8)  28 NOV 2024 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.8)  28 NOV 2024 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,7 +792,7 @@ Package hyperref Info: Link coloring OFF on input line 84.
 \@outlinefile=\write4
 \openout4 = `Nvidia_Informe.out'.
 
-<./assets/logo-utp.png, id=99, 2055.68pt x 493.845pt>
+<./assets/logo-utp.png, id=103, 2055.68pt x 493.845pt>
 File: ./assets/logo-utp.png Graphic file (type png)
 <use ./assets/logo-utp.png>
 Package pdftex.def Info: ./assets/logo-utp.png  used on input line 86.
@@ -816,7 +816,7 @@ LaTeX Info: Redefining \% on input line 1.
  [2
 
 ]
-<assets/logo-utp.png, id=139, 2055.68pt x 493.845pt>
+<assets/logo-utp.png, id=144, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 115.
@@ -868,28 +868,33 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 382.
 [11]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 460.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 463.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [12]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 473.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 484.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 487.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 []\OT1/cmr/m/n/10 Pi~nei-ro A. Va-re-la J. Rail A. (2006) El an^^Sali-sis de importancia-valoraci^^Son apli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 \OT1/cmr/m/n/10 ca-do a la ges-ti^^Son de ser-vi-cios. Re-cu-pe-ra-do de: []$\OT1/cmtt/m/n/10 https : / / www . gestiopolis . com /
  []
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 489.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 503.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[14] (./Nvidia_Informe.aux
+[15] (./Nvidia_Informe.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -898,21 +903,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `Nvidia_Informe.out' has not changed.
-(rerunfilecheck)             Checksum: 86E4EA4DE02BF03E502B87B150CD2D7B;3387.
+(rerunfilecheck)             Checksum: FF60A10B788DECDEE9D09946CD1D0158;3615.
  ) 
 Here is how much of TeX's memory you used:
- 35466 strings out of 476014
- 822896 string characters out of 5792005
+ 35474 strings out of 476014
+ 822968 string characters out of 5792005
  1948187 words of memory out of 5000000
- 56951 multiletter control sequences out of 15000+600000
+ 56952 multiletter control sequences out of 15000+600000
  567944 words of font info for 74 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,15n,107p,858b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Nvidia_Informe.pdf (14 pages, 263535 bytes).
+Output written on Nvidia_Informe.pdf (15 pages, 265093 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 
