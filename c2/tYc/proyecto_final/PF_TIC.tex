@@ -48,7 +48,7 @@
     \textbf{Carlos Huari.} & \texttt{carlosplop123@gmail.com} \\
     \textbf{Jhocelin Jimenez.} & \texttt{nicollj49@gmail.com} \\
     \textbf{Eva Larico.} & \texttt{evalarico073@gmail.com} \\
-    \textbf{Kelvin Lázaro.} & \texttt{kelvinelb@gmail.com} \\
+    % \textbf{Kelvin Lázaro.} & \texttt{kelvinelb@gmail.com} \\
   \end{tabular} \\\\
   \texttt{Sección 24240}
 }
@@ -67,6 +67,29 @@ Docente Mg. Anita Condo Lopez.
 \newpage 
 
 \tableofcontents
+
+
+\newpage
+
+\section{Resumen}
+
+  % En el presente informe se propone la implementación de soluciones TIC para optimizar la operativa de la Bodega Morocco, un negocio familiar dedicado a la venta de productos de primera necesidad en San Juan de Miraflores. La bodega enfrenta desafíos relacionados con la gestión manual de sus ventas y la falta de un control de inventario adecuado, lo que limita su capacidad para tomar decisiones informadas sobre las compras y la reposición de productos.
+
+  % El objetivo general de la propuesta es automatizar el registro de ventas y la gestión de inventario de la bodega para reducir el tiempo empleado.  La solución propuesta incluye la implementación de un sistema de bases de datos para almacenar información sobre los productos, las ventas y el inventario de la bodega, el desarrollo de una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada, la generación de reportes periódicos sobre las ventas, el inventario y los productos más vendidos, la capacitación del personal de la bodega en el uso del nuevo sistema y la evaluación del impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente.
+
+  \begin{multicols}{2}
+    % Aquí el resumen uno en español y el otro en inglés.
+    \textbf{Resumen:} En el presente informe se propone la implementación de soluciones TIC para optimizar la operativa de la Bodega Morocco, un negocio familiar dedicado a la venta de productos de primera necesidad en San Juan de Miraflores. La bodega enfrenta desafíos relacionados con la gestión manual de sus ventas y la falta de un control de inventario adecuado, lo que limita su capacidad para tomar decisiones informadas sobre las compras y la reposición de productos.
+
+    El objetivo general de la propuesta es automatizar el registro de ventas y la gestión de inventario de la bodega para reducir el tiempo empleado.  La solución propuesta incluye la implementación de un sistema de bases de datos para almacenar información sobre los productos, las ventas y el inventario de la bodega, el desarrollo de una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada, la generación de reportes periódicos sobre las ventas, el inventario y los productos más vendidos, la capacitación del personal de la bodega en el uso del nuevo sistema y la evaluación del impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente.
+
+    \columnbreak
+
+    \textbf{Abstract:} In this report, the implementation of ICT solutions to optimize the operation of Bodega Morocco, a family business dedicated to the sale of essential products in San Juan de Miraflores, is proposed. The bodega faces challenges related to the manual management of its sales and the lack of adequate inventory control, which limits its ability to make informed decisions about purchases and product replenishment.
+
+    The general objective of the proposal is to automate the registration of sales and inventory management of the bodega to reduce the time spent. The proposed solution includes the implementation of a database system to store information about the products, sales, and inventory of the bodega, the development of an intuitive and easy-to-use user interface to register sales and update the inventory automatically, the generation of periodic reports on sales, inventory, and the best-selling products, the training of the bodega's staff in the use of the new system, and the evaluation of the impact of the implementation of the ICT solution on the operational efficiency of the bodega and customer satisfaction.
+
+  \end{multicols}
 
 \newpage
 
@@ -149,10 +172,7 @@ Docente Mg. Anita Condo Lopez.
 
 \end{enumerate}
 
-
-
 \newpage
-
 \section{Descripción de la Empresa}
 
   \begin{spacing}{1.5}
@@ -167,35 +187,49 @@ Docente Mg. Anita Condo Lopez.
 
   Actualmente, la Bodega Morocco opera desde un único local. A pesar de las limitaciones en infraestructura, los dueños buscan constantemente mejorar sus servicios para agilizar los procesos de compra y brindar una mejor experiencia a sus clientes. La bodega ha experimentado un crecimiento constante en los últimos años, lo que ha llevado a los dueños a considerar la posibilidad de expandir su negocio. Sin embargo, antes de tomar esta decisión, desean optimizar sus operaciones actuales para garantizar que puedan manejar un mayor volumen de ventas sin comprometer la calidad de su servicio.
 
+  Así mismo, en relación con el aumento del volumen de venta y la necesidad de mejorar la atención al cliente, los propietarios de la bodega han identificado la necesidad de implementar soluciones tecnológicas que les permitan automatizar los procesos de venta y mejorar el control de inventario. La gestión manual de las ventas y el inventario ha demostrado ser ineficiente y propensa a errores, lo que ha llevado a la acumulación de productos no vendidos y a la falta de stock de artículos esenciales. La implementación de un sistema digital permitirá a los dueños de la bodega llevar un control más preciso y eficiente de sus ventas diarias, así como obtener una visión clara del estado del inventario. Esto facilitará la toma de decisiones informadas en cuanto a la reposición de productos, evitando tanto la falta de stock como la acumulación innecesaria de mercancías.
+
+\newpage
 \section{Problemática}
 
-  La Bodega Morocco enfrenta varios desafíos en su operación diaria que limitan su capacidad de crecimiento y la calidad de su servicio. A continuación, se escogió uno de los problemas más críticos que afectan a la bodega y que se busca resolver con la implementación de soluciones TIC.
+  La bodega Morocco enfrenta un desafío relacionado con la gestión manual de sus ventas y la falta de un control de inventario adecuado. Los constantes errores en los registros manuales de las transacciones diarias, la falta de un sistema automatizado de inventario y la ausencia de un sistema digital para analizar patrones de consumo han llevado a la acumulación de productos no vendidos y a la falta de stock de artículos esenciales. Esto afecta tanto la calidad del servicio como la satisfacción del cliente, lo que a su vez limita el crecimiento y la expansión del negocio.
+
+  Es importante entender que esta como otras bodegas, son negocios que se encuentran en constante competencia con otros establecimientos similares, por lo que la eficiencia operativa y la calidad del servicio son factores clave para mantenerse competitivos en el mercado. La implementación de soluciones tecnológicas, como un sistema de registro de ventas y un sistema de control de inventario, permitirá a la bodega mejorar su eficiencia operativa, reducir los errores
 
   \subsection{Procesos Manuales de venta e inventario:}
 
-  Actualmente, la Bodega Morocco enfrenta una serie de desafíos relacionados con la gestión manual de sus ventas y la falta de un control de inventario adecuado. Los propietarios llevan un registro manual de las transacciones diarias, lo que implica un proceso laborioso, propenso a errores y que consume un tiempo considerable. Esta metodología limita su capacidad para tomar decisiones rápidas y eficaces sobre las compras y la reposición de productos.
+  Actualmente, la Bodega Morocco presenta dificultades con la gestión manual de sus ventas y la falta de un control de inventario adecuado. Los propietarios llevan un registro manual de las transacciones diarias, lo que implica un proceso laborioso, propenso a errores y que consume un tiempo considerable. Esta metodología limita su capacidad para tomar decisiones rápidas y eficaces sobre las compras y la reposición de productos.
 
-  La ausencia de un sistema automatizado de inventario complica aún más la identificación de los artículos que se están agotando o aquellos con alta demanda. Esto puede resultar en una pérdida de oportunidades de venta y en la insatisfacción de los clientes al no encontrar productos disponibles. Además, la falta de un sistema digital impide analizar patrones de consumo, lo que dificulta la planificación de compras futuras. Sin una visión clara de los productos con mayor o menor rotación, es más probable que se acumulen productos no vendidos o se agoten artículos esenciales, afectando tanto la calidad del servicio como la satisfacción del cliente.
+  La ausencia de un sistema automatizado de inventario complica aún más la identificación de los artículos que se están agotando o aquellos con alta demanda. Esto puede reProcesos Manuales de venta e inventario:sultar en una pérdida de oportunidades de venta y en la insatisfacción de los clientes al no encontrar productos disponibles. Además, la falta de un sistema digital impide analizar patrones de consumo, lo que dificulta la planificación de compras futuras. Sin una visión clara de los productos con mayor o menor rotación, es más probable que se acumulen productos no vendidos o se agoten artículos esenciales, afectando tanto la calidad del servicio como la satisfacción del cliente.
+
+  \subsection{Problemas con el stock derivado de la falta de control de inventario:}
+
+  La falta de un control de inventario adecuado ha llevado a la acumulación de productos no vendidos y a la falta de stock de artículos esenciales. Los propietarios de la bodega no tienen una visión clara del estado del inventario, lo que dificulta la toma de decisiones informadas sobre la reposición de productos. Esto puede resultar en la acumulación innecesaria de mercancías, lo que afecta la rentabilidad del negocio, o en la falta de stock de productos esenciales, lo que afecta la satisfacción del cliente.
+
+  La gestión manual del inventario también ha demostrado ser propensa a errores, lo que puede llevar a discrepancias en los registros y a la pérdida de productos. La falta de un sistema automatizado de inventario dificulta la identificación de los productos con mayor o menor rotación, lo que limita la capacidad de los propietarios para planificar las compras de reposición de forma eficiente. Esto puede resultar en la falta de stock de artículos esenciales en momentos críticos, lo que afecta la calidad del servicio y la satisfacción del cliente.
 
 \newpage
 
-\section{Objetivo}
-
-  \begin{spacing}{1.5}
-    \noindent
-    \textbf{Objetivo General:} 
+\section{Desarrollo de la situación planteada}
     
-    Automatizar el registro de ventas y la gestión de inventario de la Bodega Morocco. Con esta solución se busca reducir significativamente el tiempo empleado en los procesos manuales y minimizar los errores que suelen ocurrir al realizar estas tareas de forma no automatizada. Implementar un sistema digital permitirá a los dueños de la bodega llevar un control más preciso y eficiente de sus ventas diarias, así como obtener una visión clara del estado del inventario. Esto facilitará la toma de decisiones informadas en cuanto a la reposición de productos, evitando tanto la falta de stock como la acumulación innecesaria de mercancías.
+    Hacer uso de las distintas herramientas TIC estudiadas durante el presente ciclo académico para la implementación de un sistema de control de inventario y ventas en la Bodega Morocco, con el fin de optimizar la operativa del negocio y mejorar la satisfacción del cliente.
 
-    \textbf{Objetivos Específicos:}
+  \textbf{Objetivos:}
     \begin{itemize}
-      \item Implementar un sistema de bases de datos para almacenar información sobre los productos, las ventas y el inventario de la bodega.
-      \item Desarrollar una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada.
-      \item Generar reportes periódicos sobre las ventas, el inventario y los productos más vendidos para facilitar la toma de decisiones.
-      \item Capacitar al personal de la bodega en el uso del nuevo sistema y brindar soporte técnico continuo para garantizar su correcto funcionamiento.
-      \item Evaluar el impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente.
+
+      \item \textbf{Implementar} un sistema de bases de datos relacional del tipo MySQL para almacenar información sobre los productos, las ventas y el inventario de la bodega. Esto a fin de facilitar el acceso a los datos y la generación de informes detallados sobre el desempeño del negocio. Consideramos que esta RBDMS es la más adecuada para el almacenamiento de datos en la bodega, ya que es un sistema robusto, escalable y de código abierto que permite gestionar grandes volúmenes de información de forma eficiente.
+      
+      \item \textbf{Desarrollar} una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada. Esta interfaz que se vale de los gráficos generados digitalmente permitirá a los empleados de la bodega ingresar los datos de los productos vendidos, calcular el monto total de la venta y actualizar el inventario de forma automática. La interfaz estará diseñada de forma sencilla y amigable, con botones y campos de texto claros y fáciles de entender. Además, se implementarán validaciones para garantizar la integridad de los datos ingresados y se incluirán mensajes de error en caso de que se produzcan errores en la entrada de datos.
+      
+      
+      \item \textbf{Generar} reportes periódicos sobre las ventas, el inventario y los productos más vendidos para facilitar la toma de decisiones. Estos reportes producto de una buena gestión de las texnologías de la información proporcionarán una visión clara del desempeño del negocio y permitirán identificar oportunidades de mejora. Los reportes se generarán de forma automática a partir de los datos almacenados en la base de datos y se presentarán de forma estructurada y visual para facilitar su interpretación. Los propietarios de la bodega podrán acceder a los reportes a través de la interfaz de usuario y consultar la información de forma rápida y precisa.
+      
+
+      \item \textbf{Capacitar} al personal de la bodega en el uso del nuevo sistema y brindar soporte técnico continuo para garantizar su correcto funcionamiento. La capacitación se realizará de forma presencial y práctica, con ejemplos y ejercicios que permitan a los empleados familiarizarse con la interfaz de usuario y las funcionalidades del sistema. Además, se establecerá un canal de comunición como pueden ser por correo, redes sociales, etc, para que los empleados puedan reportar cualquier problema o duda que surja durante el uso del sistema y recibir asistencia técnica oportuna.
+      
+      
+      \item \textbf{Evaluar} el impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente. Se realizarán encuestas de satisfacción a los clientes para recopilar sus opiniones sobre el nuevo sistema y se analizarán los datos obtenidos de tal manera que podamos entender como estos surgen en un ecosistema de BD relacional, esto a fin de medir el desempeño del negocio en la solución TIC. Los propietarios de la bodega utilizarán esta información para identificar áreas de mejora y realizar ajustes en el sistema en caso de ser necesario.
     \end{itemize}
-  \end{spacing}
 
 \newpage
 
@@ -203,29 +237,140 @@ Docente Mg. Anita Condo Lopez.
 
   Para la implementación de la solución propuesta, se utilizarán las siguientes herramientas TIC:
 
-  \subsection{Sistema de Gestión de Bases de Datos (SGBD):}
+  \subsection{Sistema de Gestión de Bases de Datos (SGBD)}
 
-    Un Sistema de Gestión de Bases de Datos (SGBD) es un software que permite almacenar, organizar, recuperar y gestionar datos de forma eficiente y segura. En el caso de la Bodega Morocco, se utilizará un SGBD para almacenar información sobre los productos, las ventas y el inventario de la bodega. Esto permitirá a los propietarios acceder a los datos de forma rápida y precisa, así como generar informes detallados sobre el desempeño del negocio.
+    Un Sistema de Gestión de Bases de Datos (SGBD) es un software que permite almacenar, gestionar y recuperar información de una base de datos de forma eficiente y segura. En este caso, se utilizará MySQL como SGBD para almacenar información sobre los productos, las ventas y el inventario de la bodega. MySQL es un sistema de gestión de bases de datos relacional de código abierto que ofrece un alto rendimiento, escalabilidad y fiabilidad. Permite gestionar grandes volúmenes de datos de forma eficiente y proporciona una amplia gama de funcionalidades para el almacenamiento, la consulta y la administración de la información.
 
-  \subsection{Aplicación Web para Registro de Ventas:}
+\vspace{-0.5cm}
+  \subsection{Tenologías WEB}
 
     Una Aplicación Web es un programa informático que se ejecuta en un navegador web y que permite a los usuarios interactuar con una base de datos a través de una interfaz gráfica. En este caso, se desarrollará una aplicación web para que los empleados de la bodega puedan registrar las ventas de forma automatizada. La aplicación permitirá ingresar los datos de los productos vendidos, calcular el monto total de la venta y actualizar el inventario de forma automática.
 
-  \subsection{Sistema de Control de Inventario:}
+  \subsection{Lenguajes de Programación}
 
-    Un Sistema de Control de Inventario es una herramienta que permite llevar un registro detallado de los productos disponibles, las existencias actuales y las ventas realizadas. Este sistema se integrará con la aplicación web de registro de ventas para mantener actualizada la información del inventario en tiempo real. Los propietarios de la bodega podrán consultar el estado de los productos, identificar los artículos con mayor demanda y planificar las compras de reposición de forma más eficiente.
+    Para el desarrollo de la aplicación web, se utilizarán los siguientes lenguajes de programación:
 
-  \subsection{Generación de Reportes Automatizados:}
+    \begin{itemize}
+      \item \textbf{HTML:} Lenguaje de marcado que se utiliza para crear la estructura y el contenido de las páginas web.
+      \item \textbf{CSS:} Lenguaje de estilos que se utiliza para dar formato y diseño a las páginas web.
+      \item \textbf{JavaScript:} Lenguaje de programación que se utiliza para añadir interactividad y dinamismo a las páginas web.
+      \item \textbf{PHP:} Lenguaje de programación de código abierto que se utiliza para crear aplicaciones web dinámicas y conectarse a bases de datos.
+    \end{itemize}
 
-    La generación de reportes automatizados es una funcionalidad que permite extraer información relevante de la base de datos y presentarla de forma estructurada y visual. Se desarrollarán reportes periódicos sobre las ventas, el inventario y los productos más vendidos para facilitar la toma de decisiones de los propietarios de la bodega. Estos reportes proporcionarán una visión clara del desempeño del negocio y permitirán identificar oportunidades de mejora.
+    Estos lenguajes de programación se utilizarán para desarrollar la interfaz de usuario de la aplicación web y para conectarla con la base de datos de MySQL. Se utilizarán las tecnologías web para crear una interfaz de usuario intuitiva y fácil de usar que permita a los empleados de la bodega registrar las ventas y actualizar el inventario de forma automatizada.
+\vspace{-0.5cm}
+  \subsection{Herramientas de Diseño}
+
+    Para el diseño de la interfaz de usuario de la aplicación web, se utilizarán las siguientes herramientas:
+
+    \begin{itemize}
+      \item \textbf{Bizagi:} Herramienta de modelado de procesos de negocio que se utiliza para diseñar, documentar y optimizar los procesos de negocio de forma visual y colaborativa.
+      \item \textbf{Figma:} Herramienta de diseño de interfaces de usuario que se utiliza para crear diseños de alta fidelidad y colaborar en tiempo real con otros diseñadores.
+    \end{itemize}
 
 \newpage
 
-\section{Procesos}
+\section{Plan de implementación de la solución}
 
-A continuación se muestra el diagrama de los procesos que se llevarán a cabo en la implementación de la solución propuesta para la Bodega Morocco.
+% 1. Análisis y Planificación (2 semanas)
+% 	•	Reunión con los dueños para identificar requerimientos específicos.
+% 	•	Estudio detallado de los procesos actuales (manuales).
+% 	•	Selección de las herramientas TIC (bases de datos, aplicación web, etc.).
 
-Estos fueron realizados bajo el software Bizagi Modeler, el cual permite modelar, documentar y optimizar los procesos de negocio de forma visual y colaborativa.
+% 2. Diseño del Sistema (3 semanas)
+% 	•	Creación de prototipos para la aplicación web y el sistema de inventario.
+% 	•	Diseño de la base de datos para registrar ventas, inventario y reportes.
+% 	•	Validación del diseño con los dueños de la bodega.
+
+% 3. Desarrollo e Integración (4 semanas)
+% 	•	Programación de la aplicación web (interfaz y backend).
+% 	•	Implementación de la base de datos (SGBD).
+% 	•	Integración del sistema de inventario y generación de reportes.
+
+% 4. Pruebas (2 semanas)
+% 	•	Verificación funcional de la aplicación web y el sistema de inventario.
+% 	•	Simulación de procesos reales para detectar errores.
+% 	•	Ajustes según los resultados de las pruebas.
+
+% 5. Capacitación (1 semana)
+% 	•	Formación del personal en el uso del sistema.
+% 	•	Guías prácticas y soporte inicial.
+
+% 6. Implementación y Seguimiento (2 semanas)
+% 	•	Instalación del sistema en la bodega.
+% 	•	Monitoreo del desempeño y solución de problemas iniciales.
+
+% Diagrama de Gantt
+
+% Se presenta el cronograma detallado con las actividades y tiempos estimados:
+
+% Duración Total: 14 semanas
+
+% Actividades	Semana 1	Semana 2	Semana 3	Semana 4	Semana 5	Semana 6	Semana 7	Semana 8	Semana 9	Semana 10	Semana 11	Semana 12	Semana 13	Semana 14
+% Análisis y Planificación	X	X												
+% Diseño del Sistema			X	X	X									
+% Desarrollo e Integración					X	X	X	X						
+% Pruebas									X	X				
+% Capacitación											X			
+% Implementación y Seguimiento												X	X
+
+Se establecen los siguientes pasos para la implementación de la solución propuesta:
+
+\subsection{Análisis y Planificación (2 semanas)}
+
+  \begin{itemize}
+    \item Reunión con los dueños para identificar requerimientos específicos.
+    \item Estudio detallado de los procesos actuales (manuales).
+    \item Selección de las herramientas TIC (bases de datos, aplicación web, etc.).
+  \end{itemize}
+
+\subsection{Diseño del Sistema (3 semanas)}
+  
+    \begin{itemize}
+      \item Creación de prototipos para la aplicación web y el sistema de inventario.
+      \item Diseño de la base de datos para registrar ventas, inventario y reportes.
+      \item Validación del diseño con los dueños de la bodega.
+    \end{itemize}
+
+\subsection{Desarrollo e Integración (4 semanas)}
+
+    \begin{itemize}
+      \item Programación de la aplicación web (interfaz y backend).
+      \item Implementación de la base de datos (SGBD).
+      \item Integración del sistema de inventario y generación de reportes.
+    \end{itemize}
+
+\subsection{Pruebas (2 semanas)}
+
+    \begin{itemize}
+      \item Verificación funcional de la aplicación web y el sistema de inventario.
+      \item Simulación de procesos reales para detectar errores.
+      \item Ajustes según los resultados de las pruebas.
+    \end{itemize}
+
+\subsection{Capacitación (1 semana)}
+
+    \begin{itemize}
+      \item Formación del personal en el uso del sistema.
+      \item Guías prácticas y soporte inicial.
+    \end{itemize}
+
+
+\subsection{Implementación y Seguimiento (2 semanas)}
+
+
+    \begin{itemize}
+      \item Instalación del sistema en la bodega.
+      \item Monitoreo del desempeño y solución de problemas iniciales.
+    \end{itemize}
+
+\newpage
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{./assets/gantt.jpeg}
+  \caption{Diagrama de Gantt.}
+\end{figure}
 
 \begin{figure}[H]
   \centering
@@ -238,8 +383,6 @@ Estos fueron realizados bajo el software Bizagi Modeler, el cual permite modelar
   \includegraphics[width=0.8\textwidth]{./assets/p-clientes.png}
   \caption{Proceso del registro de un cliente.}
 \end{figure}
-
-\newpage
 
 \section{Prototipado de las soluciones}
 
@@ -273,17 +416,27 @@ A continuación se muestra un prototipo de login para el control del inventario 
 
 \newpage
 
-\begin{thebibliography}{9}
-  \addcontentsline{toc}{section}{Referencias}
+\section{Conclusiones}
 
-  \bibitem{Huidobro}
-  Huidobro J. (2007). Tecnologías de la información y la comunicación. Universidad Politénica de Madrid.
+  La implementación de un sistema de control de inventario y ventas en la Bodega Morocco permitirá optimizar la operativa del negocio y mejorar la satisfacción del cliente. La automatización de los procesos de venta y la gestión del inventario reducirá los errores
 
-  \bibitem{Silva}
-  Silva P. (2022). Implementación del sistema de ventas e inventario en Comercial Juanita, Aguas Verdes - Tumbes. Universidad Nacional de Tumbes.
+  La utilización de herramientas TIC como MySQL, PHP, HTML, CSS y JavaScript permitirá desarrollar una aplicación web intuitiva y fácil de usar que facilitará el registro de ventas y la actualización del inventario de forma automatizada. La generación de reportes periódicos sobre las ventas, el inventario y los productos más vendidos proporcionará una visión clara del desempeño del negocio y permitirá identificar oportunidades de mejora.
 
-  \bibitem{Ramirez}
-  Ramirez R. (2018). Implementación de un sistema para el control de inventario y ventas de la tienda Comercial de Ropa Novedades Yohanny - Talara. Universidad Nacional de Talara.
+  La capacitación del personal en el uso del nuevo sistema y el soporte técnico continuo garantizarán su correcto funcionamiento y su aceptación por parte de los empleados. La evaluación del impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente permitirá identificar áreas de mejora y realizar ajustes en el sistema en caso de ser necesario.
 
-\end{thebibliography}
+  En resumen, la implementación de un sistema de control de inventario y ventas en la Bodega Morocco es una solución tecnológica que contribuirá a la mejora de la eficiencia operativa del negocio y a la satisfacción del cliente. La utilización de herramientas TIC y la capacitación del personal son clave para el éxito de la implementación y para garantizar la aceptación y el uso efectivo del nuevo sistema.
+
+  \begin{thebibliography}{}
+
+    \bibitem{Huidobro} 
+    Huidobro, J. (2007). \textit{Tecnologías de la información y la comunicación}. Universidad Politécnica de Madrid.
+    
+    \bibitem{Silva} 
+    Silva, P. (2022). \textit{Implementación del sistema de ventas e inventario en Comercial Juanita, Aguas Verdes - Tumbes}. Universidad Nacional de Tumbes.
+    
+    \bibitem{Ramirez} 
+    Ramírez, R. (2018). \textit{Implementación de un sistema para el control de inventario y ventas de la tienda Comercial de Ropa Novedades Yohanny - Talara}. Universidad Nacional de Talara.
+    
+    \end{thebibliography}
+    
 \end{document}
