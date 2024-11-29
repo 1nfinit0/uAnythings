@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.8)  28 NOV 2024 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.8)  29 NOV 2024 00:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,7 +275,13 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count288
  (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/latex/titling/titling.sty
+))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip50
 \thanksmargin=\skip51
@@ -604,24 +610,24 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `PF_TIC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -657,8 +663,8 @@ LaTeX Font Info:    ... okay on input line 59.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count332
@@ -680,7 +686,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 60.
 (./PF_TIC.out) (./PF_TIC.out)
 \@outlinefile=\write4
 \openout4 = `PF_TIC.out'.
@@ -720,13 +726,13 @@ Package hyperref Info: Link coloring OFF on input line 59.
 <./assets/logo-utp.png, id=103, 2055.68pt x 493.845pt>
 File: ./assets/logo-utp.png Graphic file (type png)
 <use ./assets/logo-utp.png>
-Package pdftex.def Info: ./assets/logo-utp.png  used on input line 62.
+Package pdftex.def Info: ./assets/logo-utp.png  used on input line 63.
 (pdftex.def)             Requested size: 142.26378pt x 34.1733pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -742,148 +748,139 @@ LaTeX Info: Redefining \% on input line 1.
 <assets/logo-utp.png, id=139, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 72.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 73.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [2
 
  <./assets/logo-utp.png>]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 94.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 118.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [3]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 125.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 124.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [4]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 149.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 148.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [5]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 175.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 174.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [6]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 192.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 191.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [7]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 211.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 210.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [8]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 234.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 230.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [9]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 271.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 267.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [10]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 367.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 363.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [11]
 <./assets/gantt.jpeg, id=206, 963.6pt x 563.10374pt>
 File: ./assets/gantt.jpeg Graphic file (type jpg)
 <use ./assets/gantt.jpeg>
-Package pdftex.def Info: ./assets/gantt.jpeg  used on input line 371.
+Package pdftex.def Info: ./assets/gantt.jpeg  used on input line 368.
 (pdftex.def)             Requested size: 364.19667pt x 212.82169pt.
 <./assets/p-login.png, id=207, 942.52126pt x 524.96124pt>
 File: ./assets/p-login.png Graphic file (type png)
 <use ./assets/p-login.png>
-Package pdftex.def Info: ./assets/p-login.png  used on input line 377.
+Package pdftex.def Info: ./assets/p-login.png  used on input line 376.
 (pdftex.def)             Requested size: 364.19667pt x 202.85165pt.
-<./assets/p-clientes.png, id=208, 940.51375pt x 416.55624pt>
-File: ./assets/p-clientes.png Graphic file (type png)
-<use ./assets/p-clientes.png>
-Package pdftex.def Info: ./assets/p-clientes.png  used on input line 383.
-(pdftex.def)             Requested size: 364.19667pt x 161.29945pt.
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 386.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 380.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386 
-      
+l.380 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386 
-       <./assets/gantt.jpeg> <./assets/p-login.png>]
-<./assets/login.png, id=216, 938.50626pt x 549.05125pt>
-File: ./assets/login.png Graphic file (type png)
-<use ./assets/login.png>
-Package pdftex.def Info: ./assets/login.png  used on input line 395.
-(pdftex.def)             Requested size: 364.19667pt x 213.06514pt.
-<./assets/registro.png, id=217, 936.49875pt x 548.0475pt>
-File: ./assets/registro.png Graphic file (type png)
-<use ./assets/registro.png>
-Package pdftex.def Info: ./assets/registro.png  used on input line 401.
-(pdftex.def)             Requested size: 364.19667pt x 213.13556pt.
+l.380 \newpage
+               <./assets/gantt.jpeg> <./assets/p-login.png>]
+<./assets/p-clientes.png, id=215, 940.51375pt x 416.55624pt>
+File: ./assets/p-clientes.png Graphic file (type png)
+<use ./assets/p-clientes.png>
+Package pdftex.def Info: ./assets/p-clientes.png  used on input line 386.
+(pdftex.def)             Requested size: 364.19667pt x 161.29945pt.
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 404.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 390.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.404 
-      
+l.390 \newpage
+               <./assets/p-clientes.png>]
+<./assets/login.png, id=223, 938.50626pt x 549.05125pt>
+File: ./assets/login.png Graphic file (type png)
+<use ./assets/login.png>
+Package pdftex.def Info: ./assets/login.png  used on input line 456.
+(pdftex.def)             Requested size: 318.66948pt x 186.42361pt.
+<./assets/registro.png, id=224, 936.49875pt x 548.0475pt>
+File: ./assets/registro.png Graphic file (type png)
+<use ./assets/registro.png>
+Package pdftex.def Info: ./assets/registro.png  used on input line 464.
+(pdftex.def)             Requested size: 364.19667pt x 213.13556pt.
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 467.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+ [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.404 
-       <./assets/p-clientes.png> <./assets/login.png>]
-File: ./assets/registro.png Graphic file (type png)
-<use ./assets/registro.png>
-Package pdftex.def Info: ./assets/registro.png  used on input line 407.
-(pdftex.def)             Requested size: 364.19667pt x 213.13556pt.
-<./assets/venta.png, id=227, 931.48pt x 546.04pt>
+l.467 
+       <./assets/login.png>]
+<./assets/venta.png, id=231, 931.48pt x 546.04pt>
 File: ./assets/venta.png Graphic file (type png)
 <use ./assets/venta.png>
-Package pdftex.def Info: ./assets/venta.png  used on input line 413.
+Package pdftex.def Info: ./assets/venta.png  used on input line 472.
 (pdftex.def)             Requested size: 364.19667pt x 213.4963pt.
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 416.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 478.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [14
+ [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.416 
-      
+l.478 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.416 
-       <./assets/registro.png>]
+l.478 \newpage
+               <./assets/registro.png> <./assets/venta.png>]
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 417.
-(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
- [15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.417 \newpage
-               <./assets/venta.png>]
-File: assets/logo-utp.png Graphic file (type png)
-<use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 442.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 503.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
  [16] (./PF_TIC.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -897,18 +894,18 @@ Package rerunfilecheck Info: File `PF_TIC.out' has not changed.
 (rerunfilecheck)             Checksum: 31975DBFF6685CB31B9B6FB31DFD653F;4791.
  ) 
 Here is how much of TeX's memory you used:
- 32581 strings out of 476014
- 747870 string characters out of 5792005
+ 33225 strings out of 476014
+ 763722 string characters out of 5792005
  1941187 words of memory out of 5000000
- 54117 multiletter control sequences out of 15000+600000
+ 54752 multiletter control sequences out of 15000+600000
  567113 words of font info for 71 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 102i,15n,107p,981b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,15n,107p,981b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PF_TIC.pdf (16 pages, 1323361 bytes).
+Output written on PF_TIC.pdf (16 pages, 1326261 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

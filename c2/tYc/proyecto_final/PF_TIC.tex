@@ -3,6 +3,7 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{tikz}
+\usetikzlibrary{positioning, shapes.geometric}
 \usepackage{titling}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
@@ -78,20 +79,17 @@ Docente Mg. Anita Condo Lopez.
   % El objetivo general de la propuesta es automatizar el registro de ventas y la gestión de inventario de la bodega para reducir el tiempo empleado.  La solución propuesta incluye la implementación de un sistema de bases de datos para almacenar información sobre los productos, las ventas y el inventario de la bodega, el desarrollo de una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada, la generación de reportes periódicos sobre las ventas, el inventario y los productos más vendidos, la capacitación del personal de la bodega en el uso del nuevo sistema y la evaluación del impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente.
 
   \begin{multicols}{2}
-    % Aquí el resumen uno en español y el otro en inglés.
-    \textbf{Resumen:} En el presente informe se propone la implementación de soluciones TIC para optimizar la operativa de la Bodega Morocco, un negocio familiar dedicado a la venta de productos de primera necesidad en San Juan de Miraflores. La bodega enfrenta desafíos relacionados con la gestión manual de sus ventas y la falta de un control de inventario adecuado, lo que limita su capacidad para tomar decisiones informadas sobre las compras y la reposición de productos.
+    \textbf{Resumen:} Este informe propone implementar soluciones TIC para mejorar la operación de la Bodega Morocco, un negocio familiar en San Juan de Miraflores. Actualmente, enfrenta problemas en la gestión manual de ventas y el control de inventario, lo que dificulta la toma de decisiones informadas.
 
-    El objetivo general de la propuesta es automatizar el registro de ventas y la gestión de inventario de la bodega para reducir el tiempo empleado.  La solución propuesta incluye la implementación de un sistema de bases de datos para almacenar información sobre los productos, las ventas y el inventario de la bodega, el desarrollo de una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada, la generación de reportes periódicos sobre las ventas, el inventario y los productos más vendidos, la capacitación del personal de la bodega en el uso del nuevo sistema y la evaluación del impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente.
+    El objetivo principal es automatizar el registro de ventas e inventarios. La solución incluye un sistema de bases de datos para almacenar información, una interfaz de usuario sencilla para registrar ventas y actualizar inventarios, la generación de reportes periódicos y la capacitación del personal en el uso del sistema.
 
     \columnbreak
 
-    \textbf{Abstract:} In this report, the implementation of ICT solutions to optimize the operation of Bodega Morocco, a family business dedicated to the sale of essential products in San Juan de Miraflores, is proposed. The bodega faces challenges related to the manual management of its sales and the lack of adequate inventory control, which limits its ability to make informed decisions about purchases and product replenishment.
+    \textbf{Abstract:} This report proposes implementing ICT solutions to optimize the operation of Bodega Morocco, a family business in San Juan de Miraflores. The bodega faces challenges in manual sales management and inadequate inventory control, limiting its ability to make informed decisions.
 
-    The general objective of the proposal is to automate the registration of sales and inventory management of the bodega to reduce the time spent. The proposed solution includes the implementation of a database system to store information about the products, sales, and inventory of the bodega, the development of an intuitive and easy-to-use user interface to register sales and update the inventory automatically, the generation of periodic reports on sales, inventory, and the best-selling products, the training of the bodega's staff in the use of the new system, and the evaluation of the impact of the implementation of the ICT solution on the operational efficiency of the bodega and customer satisfaction.
+    The main objective is to automate sales and inventory management. The solution includes a database system to store data, an intuitive user interface for sales and inventory updates, periodic reports, and staff training on the new system.
 
-  \end{multicols}
-
-\newpage
+\end{multicols}
 
 \section{Marco Teórico}
 
@@ -114,7 +112,8 @@ Docente Mg. Anita Condo Lopez.
     \begin{itemize}
       \item \textbf{Facilitan la comunicación:} Las TIC permiten a las personas comunicarse de forma rápida, eficiente y económica a través de diversos medios, como el correo electrónico, las redes sociales, las llamadas telefónicas, los mensajes de texto, entre otros. Esto ha acortado las distancias y ha facilitado la interacción entre individuos, empresas, organizaciones y gobiernos en todo el mundo.
 
-      \item \textbf{Mejoran el acceso a la información:} Las TIC han democratizado el acceso a la información al permitir a las personas buscar, compartir y acceder a una amplia variedad de contenidos en línea. Esto ha contribuido a la educación, la investigación, el entreten
+      \item \textbf{Mejoran el acceso a la información:} Las TIC han democratizado el acceso a la información al permitir a las personas buscar, compartir y acceder a una amplia variedad de contenidos en línea. Esto ha contribuido a la educación, la investigación, el entretenimiento, etc.
+      
       \item \textbf{Facilitan el trabajo colaborativo:} Las TIC permiten a las personas trabajar de forma colaborativa en tiempo real, independientemente de su ubicación geográfica. Herramientas como el correo electrónico, los sistemas de gestión de proyectos, las videoconferencias y las plataformas de colaboración en línea facilitan la comunicación y la coordinación entre equipos de trabajo.
       
       \item \textbf{Optimizan los procesos empresariales:} Las TIC han revolucionado la forma en que las empresas operan al permitir la automatización de procesos, la gestión eficiente de la información, la toma de decisiones basada en datos y la mejora de la productividad. Esto ha llevado a la creación de nuevos modelos de negocio, la optimización de tareas y la generación de nuevas oportunidades en el mercado.
@@ -216,20 +215,17 @@ Docente Mg. Anita Condo Lopez.
 
   \textbf{Objetivos:}
     \begin{itemize}
-
       \item \textbf{Implementar} un sistema de bases de datos relacional del tipo MySQL para almacenar información sobre los productos, las ventas y el inventario de la bodega. Esto a fin de facilitar el acceso a los datos y la generación de informes detallados sobre el desempeño del negocio. Consideramos que esta RBDMS es la más adecuada para el almacenamiento de datos en la bodega, ya que es un sistema robusto, escalable y de código abierto que permite gestionar grandes volúmenes de información de forma eficiente.
-      
+        
       \item \textbf{Desarrollar} una interfaz de usuario intuitiva y fácil de usar para registrar las ventas y actualizar el inventario de forma automatizada. Esta interfaz que se vale de los gráficos generados digitalmente permitirá a los empleados de la bodega ingresar los datos de los productos vendidos, calcular el monto total de la venta y actualizar el inventario de forma automática. La interfaz estará diseñada de forma sencilla y amigable, con botones y campos de texto claros y fáciles de entender. Además, se implementarán validaciones para garantizar la integridad de los datos ingresados y se incluirán mensajes de error en caso de que se produzcan errores en la entrada de datos.
-      
-      
+        
       \item \textbf{Generar} reportes periódicos sobre las ventas, el inventario y los productos más vendidos para facilitar la toma de decisiones. Estos reportes producto de una buena gestión de las texnologías de la información proporcionarán una visión clara del desempeño del negocio y permitirán identificar oportunidades de mejora. Los reportes se generarán de forma automática a partir de los datos almacenados en la base de datos y se presentarán de forma estructurada y visual para facilitar su interpretación. Los propietarios de la bodega podrán acceder a los reportes a través de la interfaz de usuario y consultar la información de forma rápida y precisa.
-      
-
+        
       \item \textbf{Capacitar} al personal de la bodega en el uso del nuevo sistema y brindar soporte técnico continuo para garantizar su correcto funcionamiento. La capacitación se realizará de forma presencial y práctica, con ejemplos y ejercicios que permitan a los empleados familiarizarse con la interfaz de usuario y las funcionalidades del sistema. Además, se establecerá un canal de comunición como pueden ser por correo, redes sociales, etc, para que los empleados puedan reportar cualquier problema o duda que surja durante el uso del sistema y recibir asistencia técnica oportuna.
-      
-      
+        
       \item \textbf{Evaluar} el impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente. Se realizarán encuestas de satisfacción a los clientes para recopilar sus opiniones sobre el nuevo sistema y se analizarán los datos obtenidos de tal manera que podamos entender como estos surgen en un ecosistema de BD relacional, esto a fin de medir el desempeño del negocio en la solución TIC. Los propietarios de la bodega utilizarán esta información para identificar áreas de mejora y realizar ajustes en el sistema en caso de ser necesario.
     \end{itemize}
+    
 
 \newpage
 
@@ -366,11 +362,14 @@ Se establecen los siguientes pasos para la implementación de la solución propu
 
 \newpage
 
+El diagrama de Gantt muestra el cronograma detallado con las actividades y tiempos estimados para la implementación de la solución propuesta. El proceso se llevará a cabo en un total de 14 semanas, dividiendo las tareas en seis etapas: Análisis y Planificación, Diseño del Sistema, Desarrollo e Integración, Pruebas, Capacitación, Implementación y Seguimiento.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{./assets/gantt.jpeg}
   \caption{Diagrama de Gantt.}
 \end{figure}
+
+Proceso de login. Este algoritmo se encarga de verificar si el usuario y la contraseña ingresados son correctos. Si el usuario y la contraseña son correctos, se redirige al usuario a la página de inicio. Si el usuario y la contraseña son incorrectos, se muestra un mensaje de error y se le da la opción de intentarlo de nuevo.
 
 \begin{figure}[H]
   \centering
@@ -378,11 +377,73 @@ Se establecen los siguientes pasos para la implementación de la solución propu
   \caption{Proceso de login.}
 \end{figure}
 
+\newpage
+
+Proceso del registro de un cliente. Este algoritmo se encarga de registrar un nuevo cliente en la base de datos. El usuario ingresa los datos del cliente, como el nombre, la dirección y el número de teléfono, y se almacenan en la base de datos. Una vez que se ha registrado el cliente, se muestra un mensaje de confirmación y se redirige al usuario a la página de inicio.
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{./assets/p-clientes.png}
   \caption{Proceso del registro de un cliente.}
 \end{figure}
+
+\newpage
+
+\textbf{\large{Diagrama entidad-relación de la base de datos:}}
+
+\begin{center}
+  \begin{tikzpicture}[
+    entity/.style={draw, rectangle, rounded corners, fill=blue!20, text centered, minimum width=6cm, minimum height=1.5cm},
+    attribute/.style={text width=5cm, align=left},
+    relationship/.style={draw, diamond, fill=red!20, text centered, minimum width=2.5cm, minimum height=1.5cm},
+    line/.style={-latex, thick},
+    title/.style={font=\bfseries, yshift=0cm}, % Aumentar el desplazamiento
+    node distance=1cm % Aumentar la distancia entre los nodos
+  ]
+  
+  % Entidades
+  \node[entity] (producto) {
+      \begin{tabular}{ll}
+          \textbf{Atributo} & \textbf{Tipo} \\
+          ID Producto       & INT           \\
+          Nombre            & VARCHAR(100)  \\
+          Descripción       & TEXT          \\
+          Precio            & DECIMAL(10,2) \\
+      \end{tabular}
+  };
+  \node[above=of producto, title] {Producto};
+  
+  \node[entity, right=of producto] (venta) {
+      \begin{tabular}{ll}
+          \textbf{Atributo} & \textbf{Tipo} \\
+          ID Venta          & INT           \\
+          ID Producto       & INT (FK)      \\
+          Fecha             & DATE          \\
+          Cantidad          & INT           \\
+          Total             & DECIMAL(10,2) \\
+      \end{tabular}
+  };
+  \node[above=of venta, title] {Venta};
+  
+  \node[entity, below=of producto] (inventario) {
+      \begin{tabular}{ll}
+          \textbf{Atributo} & \textbf{Tipo} \\
+          ID Inventario     & INT           \\
+          ID Producto       & INT (FK)      \\
+          Stock Inicial     & INT           \\
+          Stock Actual      & INT           \\
+          Umbral Reposición & INT           \\
+      \end{tabular}
+  };
+  
+  % Relaciones
+  \draw[line] (producto) -- node[above] {1} (venta);
+  \draw[line] (venta) -- node[below] {N} (producto);
+  \draw[line] (producto) -- node[below] {1} (inventario);
+  \draw[line] (inventario) -- node[above] {N} (producto);
+  
+  \end{tikzpicture}
+\end{center}
 
 \section{Prototipado de las soluciones}
 
@@ -392,21 +453,19 @@ A continuación se muestra un prototipo de login para el control del inventario 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{./assets/login.png}
+  \includegraphics[width=0.7\textwidth]{./assets/login.png}
   \caption{Prototipo de login}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{./assets/registro.png}
-  \caption{Prototipo del registro de clientes.}
-\end{figure}
+Pantalla de inicio de sesión. En esta pantalla, los empleados de la bodega podrán ingresar su nombre de usuario y contraseña para acceder al sistema de control de inventario. Si los datos son correctos, se les redirigirá a la página de inicio. Si los datos son incorrectos, se mostrará un mensaje de error y se les dará la opción de intentarlo de nuevo.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{./assets/registro.png}
   \caption{Prototipo del registro de clientes.}
 \end{figure}
+
+Vista de la página de registro de clientes. En esta página, los empleados de la bodega podrán ingresar los datos de los clientes, como el nombre, la dirección y el número de teléfono, y registrarlos en la base de datos. La interfaz estará diseñada de forma sencilla y amigable, con campos de texto claros y fáciles de entender.
 
 \begin{figure}[H]
   \centering
@@ -414,17 +473,19 @@ A continuación se muestra un prototipo de login para el control del inventario 
   \caption{Prototipo del registro de ventas.}
 \end{figure}
 
+Vista de la página de registro de ventas. En esta página, los empleados de la bodega podrán ingresar los datos de los productos vendidos, calcular el monto total de la venta y actualizar el inventario de forma automática. La interfaz estará diseñada de forma sencilla y amigable, con botones y campos de texto claros y fáciles de entender.
+
 \newpage
 
 \section{Conclusiones}
 
-  La implementación de un sistema de control de inventario y ventas en la Bodega Morocco permitirá optimizar la operativa del negocio y mejorar la satisfacción del cliente. La automatización de los procesos de venta y la gestión del inventario reducirá los errores
+La implementación de un sistema de control de inventario y ventas en la Bodega Morocco no solo optimizará la operativa del negocio, sino que también mejorará la satisfacción del cliente. La automatización de los procesos de venta y la gestión de inventarios contribuirá a reducir los errores y a mejorar la precisión de las operaciones diarias.
 
-  La utilización de herramientas TIC como MySQL, PHP, HTML, CSS y JavaScript permitirá desarrollar una aplicación web intuitiva y fácil de usar que facilitará el registro de ventas y la actualización del inventario de forma automatizada. La generación de reportes periódicos sobre las ventas, el inventario y los productos más vendidos proporcionará una visión clara del desempeño del negocio y permitirá identificar oportunidades de mejora.
+El uso de herramientas TIC como MySQL, PHP, HTML, CSS y JavaScript bajo un marco de trabajo establecido con VS Code, permitirá el desarrollo de una aplicación web intuitiva y fácil de usar, facilitando tanto el registro de ventas como la actualización automatizada del inventario. Además, la generación de reportes periódicos sobre ventas, inventarios y productos más vendidos proporcionará una visión clara del desempeño del negocio, lo que ayudará a identificar áreas de mejora y optimización.
 
-  La capacitación del personal en el uso del nuevo sistema y el soporte técnico continuo garantizarán su correcto funcionamiento y su aceptación por parte de los empleados. La evaluación del impacto de la implementación de la solución TIC en la eficiencia operativa de la bodega y en la satisfacción del cliente permitirá identificar áreas de mejora y realizar ajustes en el sistema en caso de ser necesario.
+La capacitación del personal en el uso del sistema, junto con el soporte técnico continuo, será crucial para garantizar el funcionamiento eficiente de la solución, así como su aceptación por parte de los empleados. Asimismo, la evaluación del impacto de la implementación, tanto en la eficiencia operativa como en la satisfacción del cliente, permitirá detectar posibles áreas de ajuste y realizar mejoras continuas.
 
-  En resumen, la implementación de un sistema de control de inventario y ventas en la Bodega Morocco es una solución tecnológica que contribuirá a la mejora de la eficiencia operativa del negocio y a la satisfacción del cliente. La utilización de herramientas TIC y la capacitación del personal son clave para el éxito de la implementación y para garantizar la aceptación y el uso efectivo del nuevo sistema.
+En resumen, la implementación de un sistema de control de inventario y ventas en la Bodega Morocco representa una solución tecnológica que no solo mejorará la eficiencia operativa, sino también la experiencia del cliente. La integración de herramientas TIC adecuadas y la capacitación del personal son fundamentales para asegurar el éxito del proyecto y la aceptación del nuevo sistema.
 
   \begin{thebibliography}{}
 
