@@ -3,12 +3,13 @@
 \contentsline {section}{\numberline {2}Objetivos}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Objetivo General}{4}{}%
 \contentsline {subsection}{\numberline {2.2}Objetivos Específicos}{4}{}%
-\contentsline {section}{\numberline {3}Sobre los Algoritmos de Búsqueda}{5}{}%
-\contentsline {subsection}{\numberline {3.1}¿Qué son los Algoritmos de Búsqueda?}{5}{}%
-\contentsline {subsection}{\numberline {3.2}Tipos de Algoritmos de Búsqueda}{6}{}%
-\contentsline {subsection}{\numberline {3.3}Aplicaciones}{7}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Grafos}{7}{}%
-\contentsline {subsubsection}{\numberline {3.3.2}Árboles}{9}{}%
-\contentsline {section}{\numberline {4}Sobre la Teoría de Grafos}{10}{}%
-\contentsline {section}{\numberline {5}Sobre Árboles}{10}{}%
-\contentsline {section}{Referencias}{11}{}%
+\contentsline {section}{\numberline {3}Redes Genómicas: Grafos aplicados a la Biología}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Características principales del uso de grafos en redes genómicas}{5}{}%
+\contentsline {section}{\numberline {4}Grafos en la Tecnología Moderna: Conceptos teóricos}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Definición matemática:}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Características:}{10}{}%
+\contentsline {section}{\numberline {5}Impacto de las aplicaciones de grafos en la biología}{14}{}%
+\contentsline {subsection}{\numberline {5.1}Redes Genómicas}{14}{}%
+\contentsline {subsection}{\numberline {5.2}Redes de Interacción Proteína-Proteína}{16}{}%
+\contentsline {section}{\numberline {6}Conslusiones}{17}{}%
+\contentsline {section}{Referencias}{18}{}%

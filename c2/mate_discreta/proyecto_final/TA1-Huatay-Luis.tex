@@ -1,8 +1,10 @@
 \documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{natbib}
+\bibliographystyle{apalike}
 \setlength{\headheight}{17.74934pt}
 \addtolength{\topmargin}{-5.74934pt}
-\usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}
 \usepackage{enumitem}
 \usepackage{tikz}
 \usepackage{titling}
@@ -11,6 +13,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
+\usepackage{colortbl}
 \usepackage{multicol}
 \usepackage{cancel}
 \usepackage{pgfplots}
@@ -35,9 +38,9 @@
   \vspace{1cm}
   \textbf{Universidad Tecnológica del Perú} \\
   \vspace{3.5cm}
-  \textbf{Exploración de Algoritmos de Búsqueda en el Marco de Estructuras Discretas: Un Estudio de Grafos y Árboles} \\ 
+  \textbf{El Poder de los Grafos: Aplicaciones Matemáticas en Tecnología Moderna} \\ 
   \vspace{1cm}
-  \large \textbf{Para el curso de Matemática Discreta}
+  \large \textbf{Proyecto final}
 }
   \author{\textbf{Luis Huatay S.}\\\\\texttt{hsluis4326@gmail.com}\\\\\texttt{U24218809 - 35096}}
   \vspace{-1cm}
@@ -45,6 +48,8 @@
 \begin{document}
 \newgeometry{top=4cm}
 \maketitle
+% Etiqueta que quita la numeración de la página
+\thispagestyle{empty}
 \begin{center}
 Docente Mg. Mattos Quevedo, Juan Manuel
 \end{center}
@@ -54,33 +59,15 @@ Docente Mg. Mattos Quevedo, Juan Manuel
 
 \tableofcontents
 
-% \begin{enumerate}[label=\arabic*.]
-%   \item Introducción
-%   \item Objetivos
-%   \begin{enumerate}[label=2.\arabic*]
-%     \item Objetivo General
-%     \item Objetivos Específicos
-%   \end{enumerate}
-%   \item Sobre los Algoritmos de Búsqueda
-%   \begin{enumerate}[label=3.\arabic*]
-%     \item ¿Qué son los Algoritmos de Búsqueda?
-%     \item Tipos de Algoritmos de Búsqueda
-%     \item Aplicaciones
-%     \begin{enumerate}[label=3.3.\arabic*]
-%       \item Grafos
-%       \item Árboles
-%     \end{enumerate}
-%   \end{enumerate}
-%   \item Sobre la Teoría de Grafos
-%   \item Sobre la Teoría de Árboles
-%   \item Referencias
-% \end{enumerate}
-
 \newpage
 \vspace*{\fill}
 \section{Introducción}
 
-La matemática discreta es una rama de las matemáticas que se ocupa de estructuras que son fundamentalmente discretas en lugar de continuas (diferencias entre racionales y enteros). La matemática discreta es esencial para la informática y la ciencia de la computación, ya que proporciona las bases teóricas para diversas áreas, como la teoría de grafos, la teoría de conjuntos, la teoría de números y la combinatoria. En este informe, exploraremos la cómo la teoría de grafos y árboles se relacionan con los algoritmos de búsqueda y cómo se aplican en la práctica.
+Los grafos, una herramienta matemática fundamental, han trascendido su origen teórico para convertirse en el eje de innumerables avances en campos como la informática, la ingeniería, la biología, la economía, la medicina y podríamos seguir. Estas estructuras, compuestas por nodos conectados mediante aristas, son la base para modelar y resolver problemas que involucran relaciones complejas entre entidades.
+
+Desde la optimización de redes de transporte pasando por la detección de comunidades en redes sociales e inclusive en el algoritmo de recomendación de tu aplicación de videos favorita, los grafos no solo representan una manera eficiente de estructurar información, sino que también abren la puerta a soluciones innovadoras en problemas de flujo, planificación y análisis de grandes datos.
+
+Este informe se adentra en el fascinante mundo de los grafos, demostrando cómo su capacidad para modelar relaciones y dinámicas complejas los convierte en una herramienta indispensable en la era de la tecnología avanzada. Exploraremos su aplicación en la vida cotidiana, su impacto en la sociedad y el inmenso potencial que tienen para seguir transformando el mundo.
 
   
 \vspace*{\fill}
@@ -89,202 +76,494 @@ La matemática discreta es una rama de las matemáticas que se ocupa de estructu
 
 \section{Objetivos}
 
-  Los objetivos de este informe son establecidos con el fin de explorar y comprender la relación entre los algoritmos de búsqueda y la teoría de gráfos y árboles, para lo cual se plantean los siguientes:
+  La tecnología moderna así como la era digital en que vivimos ha hecho posible florecer una serie de aplicaciones que se basan en la teoría de grafos que en tiempos anteriores no hubiesen sido posibles aplicar, o no al menos de la forma tan eficiente y rápida como lo hacen hoy en día. Por ello, es importante conocer y comprender la teoría de grafos y su aplicación en la tecnología moderna.
 
   \subsection{Objetivo General}
 
-  Analizar y comprender la aplicación de algoritmos de búsqueda en el marco de estructuras discretas, con énfasis en la teoría de grafos y árboles.
+    \textbf{Analizar la teoría de grafos y su aplicación práctica en la tecnología moderna, destacando su impacto en la resolución de problemas complejos y su contribución a la transformación digital de la sociedad.}
 
   \subsection{Objetivos Específicos}
 
   \begin{enumerate}
-    \item Describir los conceptos fundamentales de los algoritmos de búsqueda y su relación con la teoría de grafos y árboles.
-    \item Explicar la diferencia entre algunos tipos de algoritmos de búsqueda.
-    \item Describir sus aplicaciones en la resolución de problemas prácticos con especial enfoque en el uso de grafos y árboles.
-    \item Describir las herramientas matemáticas y conceptos teóricos que sustentan los algoritmos de búsqueda en estructuras discretas.
+    \item \textbf{Identificar y describir} los fundamentos teóricos de los grafos, incluyendo sus definiciones, propiedades y principales tipos, con ejemplos relevantes en el ámbito de la tecnología moderna.
+    
+    \item Esto permitirá comprender la estructura y el funcionamiento de los grafos, así como su aplicación en la resolución de problemas prácticos en campos como la informática y ciencias afines.
+
+    \item \textbf{Analizar una aplicación práctica} de la teoría de grafos en un campo tecnológico específico, destacando sus características, beneficios y limitaciones en la resolución de problemas reales.
+    
+    \item Esto permitirá comprender cómo los grafos se utilizan en la práctica para modelar y resolver problemas complejos, y cómo su aplicación puede contribuir a la transformación digital de la sociedad.
+
+    \item \textbf{Evaluar el impacto} de la aplicación seleccionada en la sociedad, utilizando herramientas de análisis como el FODA, para identificar fortalezas, debilidades, oportunidades y riesgos asociados.
+    
+    \item Esto permitirá comprender cómo la aplicación de la teoría de grafos en la tecnología moderna puede generar beneficios tangibles para la sociedad, así como identificar posibles desafíos y limitaciones en su implementación.
+
+    \item \textbf{Concluir} con una reflexión crítica sobre el papel de la teoría de grafos en la tecnología moderna, destacando su importancia en la resolución de problemas complejos y su potencial para seguir transformando el mundo en el futuro. 
   \end{enumerate}
 
   \newpage
 
-  \section{Sobre los Algoritmos de Búsqueda}
+  \section{Redes Genómicas: Grafos aplicados a la Biología}
 
-  Los algoritmos de búsqueda son procedimientos computacionales que se utilizan para encontrar una solución a un problema específico. Estos algoritmos se aplican en una amplia variedad de campos, como la inteligencia artificial, la optimización, la informática y la ciencia de datos. Los algoritmos de búsqueda se basan en la exploración sistemática de un espacio de soluciones para encontrar la mejor solución posible. Existen diferentes tipos de algoritmos de búsqueda, cada uno con sus propias características y aplicaciones.
+  En el campo de la biología, los grafos se utilizan para modelar y analizar redes genómicas, que representan las interacciones entre genes, proteínas y metabolitos en un organismo. Estas redes son fundamentales para comprender los procesos biológicos a nivel molecular y para identificar las relaciones entre los componentes de un sistema biológico. Los grafos se utilizan para representar las interacciones entre los componentes de una red genómica, como las interacciones entre genes y proteínas, las vías metabólicas y las redes de regulación génica.
 
-  Según Fernandez J. (2018) Cualquier algoritmo se define, de forma básica, como el conjunto ordenado y finito de operaciones que permite encontrar la solución de un problema [Real Academia Española, 2018]. Aplicando esta definición a los problemas tratados en este trabajo, un algoritmo de búsqueda se estructura como una secuencia de pasos, finita, que debe realizarse para alcanzar un objetivo establecido de antemano. Estos algoritmos se caracterizan por los siguientes aspectos:
+  En palabras simples, una red genómica es un grafo que representa las interacciones entre los componentes de un sistema biológico, como los genes, las proteínas y los metabolitos. Estas interacciones se pueden representar como aristas en el grafo, donde los nodos representan los componentes y las aristas representan las interacciones entre ellos. Los grafos se utilizan para modelar y analizar las redes genómicas, lo que permite a los científicos comprender los procesos biológicos a nivel molecular y identificar las relaciones entre los componentes de un sistema biológico.
+
+  Según \cite{dal2001red}, el área de genómica presenta características de organización bastante peculiares debido al conjunto de factores imprescindibles para su desarrollo. Sus características son:
 
   \begin{itemize}
-    \item \textbf{Completitud:} Característica que aquellos algoritmos que son capaces de encontrar, al menos, una solución al problema, si es que existe alguna.
-    \item \textbf{Admisibilidad:} Característica de los algoritmos que retornan como solución la óptima en caso de existir alguna. Este aspecto también es denominado optimalidad.
+    \item El alto costo de la investigación.
+    \item La exigencia de integración de recursos humanos de alto nivel de capacitación en muchas áreas de conocimiento, tales como genética, biología molecular, bioinformática, física e ingeniería.
+    \item Un enorme volumen de trabajo científico implicado por el secuenciamiento, mapeo y determinación de la funcionalidad génica.
   \end{itemize}
 
   \begin{flushright}
-    \textit{Fernandez, J. (2018). Cálculo de trayectos mediante algoritmos de búsqueda informada sobre grafos ponderados dirigidos.}
+    \textit{\cite{dal2001red}}
   \end{flushright}
 
-  \subsection{¿Qué son los Algoritmos de Búsqueda?}
+  \subsection{Características principales del uso de grafos en redes genómicas}
 
-  Es entonces y de acuerdo a lo mencionado que podríamos definir a los algoritmos de búsqueda como aquellos procedimientos que permiten encontrar una solución a un problema específico, mediante la exploración sistemática de un espacio de soluciones. En consecuencia, los algoritmos de búsqueda son fundamentales en la resolución de problemas complejos, ya que permiten encontrar la mejor solución posible en un tiempo razonable.
+  Las redes genómicas son un tipo especial de grafo que se utiliza para representar las interacciones entre los componentes de un sistema biológico. Estas redes utilizan los nodos y aristas como representación de los genes, proteínas y metabolitos, y las interacciones entre ellos, respectivamente.
+  
+  Tras su implementación en la biología, las redes genómicas han permitido a los científicos comprender mejor los procesos biológicos a nivel molecular, identificar las relaciones entre los componentes de un sistema biológico y predecir las funciones de los genes y proteínas en una red genómica.
 
-  Hoy en día estas herramientas hacen posible la resolución de problemas en áreas como la inteligencia artificial, la optimización, la informática y la ciencia de datos, entre otras, inclusive en la vida cotidiana, como en la búsqueda de rutas óptimas en aplicaciones de mapas. De hecho, es en este último ejemplo donde podemos ver reflejado el concepto de grafo, ya que las calles y avenidas de una ciudad pueden ser representadas como nodos y aristas, respectivamente, en un grafo, lo que permite aplicar algoritmos de búsqueda para encontrar la ruta más corta entre dos puntos.
-
-  \newpage 
-
-  \subsection{Tipos de Algoritmos de Búsqueda}
-
-  Existen diferentes tipos de algoritmos de búsqueda, cada uno con sus propias características y aplicaciones.
-  Algunos de ellos pueden ayudar a encontrar la solución óptima, mientras que otros pueden encontrar una solución aceptable en un tiempo razonable. Algunos de los tipos de algoritmos de búsqueda más comunes son:
+  Algunas de las características principales del uso de grafos en redes genómicas son:
 
   \begin{enumerate}
-    \item \textbf{Búsqueda en Profundidad:} Este algoritmo explora un camino hasta que no haya más nodos por explorar, luego retrocede y explora otro camino. Es útil para encontrar soluciones en árboles y grafos con profundidad limitada.
-    \item \textbf{Búsqueda en Anchura:} Este algoritmo explora todos los nodos a una profundidad dada antes de pasar a la siguiente profundidad. Es útil para encontrar la solución más corta en grafos no ponderados.
-    \item \textbf{Búsqueda A*:} Este algoritmo utiliza una función heurística para estimar el costo de llegar a la solución. Es útil para encontrar la solución óptima en grafos ponderados.
-    \item \textbf{Búsqueda en Profundidad Iterativa:} Este algoritmo combina la búsqueda en profundidad y la búsqueda en anchura para encontrar la solución en grafos con profundidad desconocida.
-    \item \textbf{Búsqueda Bidireccional:} Este algoritmo explora desde el nodo inicial y el nodo final al mismo tiempo, buscando un punto de encuentro. Es útil para encontrar la solución más corta en grafos grandes.
-    \item \textbf{Búsqueda de Costo Uniforme:} Este algoritmo explora los nodos con el menor costo acumulado. Es útil para encontrar la solución óptima en grafos con costos no uniformes.
-    \item \textbf{Búsqueda en Haz:} Este algoritmo explora múltiples caminos al mismo tiempo, manteniendo solo los mejores caminos. Es útil para encontrar la solución en grafos grandes con muchos nodos.
-    \item \textbf{Búsqueda Tabú:} Este algoritmo evita explorar caminos que ya se han explorado anteriormente. Es útil para encontrar soluciones diferentes en grafos con ciclos.
-    \item \textbf{Búsqueda Genética:} Este algoritmo utiliza conceptos de evolución y selección natural para encontrar la solución óptima. Es útil para encontrar soluciones en problemas de optimización.
-    \item \textbf{Búsqueda Local:} Este algoritmo explora el vecindario de una solución actual para encontrar una solución mejor. Es útil para encontrar soluciones en problemas de optimización.
+    \item \textbf{Modelado de interacciones:} Los grafos permiten modelar las interacciones entre los componentes de una red genómica, como las interacciones entre genes, proteínas y metabolitos.
+    
+    Un nodo puede representar un gen, una proteína o un metabolito, y una arista puede representar una interacción física, una interacción genética o una interacción metabólica entre ellos.
+
+    Para representar mejor esta caracterítica se puede utilizar la siguiente notación:
+
+    \begin{align*}
+      G = (V, E)
+    \end{align*}
+
+    Donde: 
+
+    \begin{itemize}
+      \item $G$ es el grafo que representa la red genómica.
+      \item $V = \{v_1, v_2, ..., v_n\}$ es el conjunto de nodos que representan los genes, proteínas y metabolitos.
+      \item $E = \{(v_i, v_j) | v_i, v_j \in V\}$ es el conjunto de aristas que representan las interacciones entre los componentes de la red genómica.
+    \end{itemize}
+
+    Gráficamente:
+
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[node distance=2cm]
+          % Nodos
+          \node[circle, draw] (A) at (0,0) {A};
+          \node[circle, draw] (B) at (2,1) {B};
+          \node[circle, draw] (C) at (4,0) {C};
+          \node[circle, draw] (D) at (6,1) {D};
+          \node[circle, draw] (E) at (3,-1.5) {E};
+          
+          % Aristas
+          \draw (A) -- (B); % Conexión entre A y B
+          \draw (B) -- (C); % Conexión entre B y C
+          \draw (C) -- (D); % Conexión entre C y D
+          \draw (A) -- (E); % Conexión entre A y E
+          \draw (E) -- (C); % Conexión entre E y C
+          \draw (B) -- (D); % Conexión entre B y D
+      \end{tikzpicture}
+      \caption{Red Genómica}
+      \label{fig:red-genomica-mejorada}
+  \end{figure}
+
+  En la figura podemos observar un grafo que representa una red genómica, donde los nodos A, B, C, D y E representan los genes, proteínas y metabolitos, y las aristas representan las interacciones entre ellos.
+
+  Es así como los grafos pueden describir y modelar las interacciones entre los componentes de una red genómica, lo que permite a los científicos comprender mejor los comportamientos y propiedades de los sistemas biológicos a nivel molecular.
+
+   \newpage
+
+    \item \textbf{Análisis de redes:} Los grafos se utilizan para analizar las propiedades de las redes genómicas, como la conectividad, la centralidad y la modularidad.
+    
+    Sobre estas tres propiedades se puede decir que:
+
+    \begin{itemize}
+      \item \textbf{Conectividad:} La conectividad de una red genómica se refiere a la cantidad y calidad de las interacciones entre los componentes de la red. Una red genómica altamente conectada es más robusta y resistente a fallos, ya que las interacciones entre los componentes pueden compensar la pérdida de uno o más nodos.
+      
+      \item \textbf{Centralidad:} La centralidad de un nodo en una red genómica se refiere a su importancia relativa en la red. Los nodos con alta centralidad suelen ser los más conectados y pueden desempeñar un papel crucial en la estructura y función de la red.
+      
+      \item \textbf{Modularidad:} La modularidad de una red genómica se refiere a la presencia de módulos o subredes altamente interconectadas dentro de la red. Los módulos pueden representar vías metabólicas, complejos proteicos o funciones biológicas específicas, y su identificación puede ayudar a comprender la organización y la función de la red.
+    \end{itemize}
+    
+    Según \cite{berenstein2014analisis}, la primera es parte de una amplia familia de procedimientos de detección de comunidades basados en la optimización de una figura de mérito conocida como modularidad de la red. A pesar de su amplia utilización, cabe destacar que Fortunato y Bartolome demostraron en el 2007 la existencia de un límite teórico de resolución para este tipo de algoritmos. Este límite de resolución, conduce a la fusión sistemática de pequeños grupos en módulos más grandes, incluso cuando los grupos estén bien definidos.
+
+    \begin{flushright}
+      \textit{\cite{berenstein2014analisis}}
+    \end{flushright}
+
+    \item \textbf{Identificación de patrones:} Los grafos se utilizan para identificar patrones y estructuras en las redes genómicas, como los módulos y las vías metabólicas.
+    
+    La identificación de patrones y estructuras en las redes genómicas es fundamental para comprender los procesos biológicos a nivel molecular y para identificar las relaciones entre los componentes de un sistema biológico. Los grafos se utilizan para representar y analizar estas estructuras, lo que permite a los científicos identificar patrones y relaciones significativas en las redes genómicas.
+
+    Un ejemplo de identificación de patrones en una red genómica es la detección de comunidades, que consiste en identificar grupos de nodos altamente interconectados en la red lo que es posible de filtrar gracias a algorítimos áltamente especializados.
+
+    A continuación se muestra un ejemplo de una red genómica con comunidades donde se puede percibir a simple vista un grupo reducido de nodos que comparten la misma cantidad de aristas:
+
+    \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[node distance=2cm]
+          % Nodos
+          \node[circle, draw] (A) at (0,0) {A};
+          \node[circle, draw] (B) at (2,1) {B};
+          \node[circle, draw] (C) at (4,0) {C};
+          \node[circle, draw] (D) at (3,-2) {D};
+          \node[circle, draw] (E) at (1,-2) {E};
+          
+          % Conexiones (aristas)
+          \draw (A) -- (B); % A-B
+          \draw (A) -- (C); % A-C
+          \draw (B) -- (C); % B-C
+          \draw (C) -- (A); % C-A
+          \draw (A) -- (D); % A-D
+          \draw (B) -- (E); % B-E
+      \end{tikzpicture}
+      \caption{Red con nodos y relaciones diferenciadas}
+      \label{fig:red-relaciones}
+  \end{figure}
+  
+  En la figura se puede observar una red genómica con comunidades, donde los nodos A, B y C forman una comunidad altamente interconectada, mientras que los nodos D y E forman otra comunidad separada. La identificación de estas comunidades permite a los científicos comprender mejor la estructura y función de la red genómica, y puede ayudar a identificar relaciones significativas entre los componentes de un sistema biomolecular.
+
+
+    \item \textbf{Predicción de funciones:} Los grafos se utilizan para predecir las funciones de los genes y proteínas en una red genómica, basándose en sus interacciones y relaciones.
+    
+    Las funciones de los genes y proteínas en una red genómica pueden predecirse utilizando algoritmos de aprendizaje automático y análisis de redes, que utilizan la estructura y las interacciones de la red para inferir las funciones de los componentes. Los grafos se utilizan para representar y analizar estas interacciones, lo que permite a los científicos predecir las funciones de los genes y proteínas en una red genómica.
+
+    Como hemos visto un grafo puede representar las interacciones entre los componentes de una red genómica, como las interacciones entre genes, proteínas y metabolitos. Estas interacciones pueden utilizarse para inferir las funciones de los componentes, funciones como la regulación génica, la vía metabólica y la interacción proteína-proteína son algunas de las que pueden ser inferidas a partir de las interacciones en una red genómica.
+
+    Sobre estas funciones se puede decir que:
+
+    \begin{itemize}
+      \item \textbf{Regulación génica:} La regulación génica es un proceso fundamental en la biología, que regula la expresión de los genes y proteínas en un organismo. Los grafos se utilizan para modelar y analizar las redes de regulación génica, que representan las interacciones entre los factores de transcripción, los genes y las proteínas en un sistema biológico.
+      
+      \item \textbf{Vías metabólicas:} Las vías metabólicas son secuencias de reacciones químicas que transforman los metabolitos en productos finales en un organismo. Los grafos se utilizan para representar y analizar las vías metabólicas, que representan las interacciones entre los metabolitos, las enzimas y los productos en un sistema biológico.
+      
+      \item \textbf{Interacción proteína-proteína:} La interacción proteína-proteína es un proceso fundamental en la biología, que regula la formación de complejos proteicos y la transducción de señales en un organismo.
+    \end{itemize}
   \end{enumerate}
+  \newpage 
 
-\newpage
+  \section{Grafos en la Tecnología Moderna:  Conceptos teóricos}
 
-\subsection{Aplicaciones}
+  Los grafos son una herramienta matemática fundamental que se utiliza en una amplia variedad de campos, incluyendo la informática, la ingeniería, la biología, la economía y la medicina. Los grafos se utilizan para modelar y resolver problemas que involucran relaciones complejas entre entidades, como las redes de transporte, las redes sociales, las redes de comunicación y las redes de distribución.
 
-Los algoritmos de búsqueda tienen una amplia variedad de aplicaciones en la resolución de problemas prácticos. Algunas de las aplicaciones más comunes incluyen la búsqueda de rutas óptimas en mapas, la planificación de horarios, la optimización de rutas de transporte, la resolución de problemas de optimización y la planificación de tareas. En particular, los algoritmos de búsqueda son fundamentales en la resolución de problemas en grafos y árboles, donde se utilizan para encontrar la mejor solución posible en un espacio de soluciones complejas.
+  Fue Euler quien en 1736, en su famoso problema de los siete puentes de Königsberg, sentó las bases de la teoría de grafos al demostrar que no era posible recorrer los siete puentes de la ciudad sin pasar dos veces por alguno de ellos. Este problema dio origen a la teoría de grafos, que se ha convertido en una herramienta fundamental en la resolución de problemas prácticos en una amplia variedad de campos.
 
-\subsubsection{Grafos}
+  \subsection{Definición matemática:}
 
-  Una aplicación muy interesante de los algoritmos de búsqueda que utilicen grafos es en la representación de mapas geográficos y/o temáticos.
-  
-  Según Basso B, Ivo R. Álvarez N. Marcelino F. (2013) Los mapas siempre han fascinado a los topologos en virtud de ciertas cualidades que poseen. Al colorear un mapa geográfico, se acostumbra a asignar diferentes colores a dos regiones que tienen una porción de frontera que le es común. Se ha encontrado empíricamente, que cualquier mapa independiente del número de regiones que contenga y cómo éstas estén situadas. La mayoría de los mapas geográficos pueden interpretarse como grafos en lo que los vértices son los puntos de confluencia de tres o más líneas y las aristas son las líneas delimitantes de cada territorio o zona.
+  Un grafo $G$ es un par ordenado $G = (V, E)$, donde $V$ es un conjunto finito de nodos o vértices, y $E$ es un conjunto de aristas o enlaces que conectan los nodos entre sí. Las aristas pueden ser dirigidas o no dirigidas, y pueden tener pesos que representan la distancia, el costo o la capacidad de la conexión.
 
-  \begin{flushright}
-    \textit{Basso B, Ivo R. Álvarez N. Marcelino F. (2013). Teoría de Grafos.}
-  \end{flushright}
-
-  Las iterrogantes que derivan de lo anterior se expresan cómo:
-
-  \begin{itemize}
-    \item ¿Cuál es la mínima cantidad de colores necesaria para colorearlo de forma que zonas con frontera común tengan colores diferentes?
-    \item ¿Cómo deben ser los mapas que son coloreables con tan sólo 2 colores? ¿Y con 3 
-    colores presentaría mayor dificultad?
-  \end{itemize}
-
-  Según teorema: \textit{\textbf{Un mapa es coloreable con dos colores si y sólo si su grafo asociado 
-  tiene todos sus vértices con grado par y mayor o igual que dos. }}
-
-  Utilizando notación lógico-matemática, se puede expresar como:
-
-  \begin{align*}
-    \forall v \in V(G) \quad \text{gr}(v) \geq 2 \quad \land \quad \text{gr}(v) \equiv 0 \quad (\text{mod} \quad 2)
-  \end{align*}
-
-  \newpage
-
-  \textbf{Por consiguiente:} Si el mapa se colorea con dos colores los vértices de su grafo tienen grado par, pues 
-  si hubiese un vértice con grado impar al menos una cara lindaría como mínimo con 
-  dos caras más y, por lo tanto, Se precisarían tres colores. 
-
-  Un ejemplo de un plano coloreable con dos colores es el tablero de ajedrez:
+  Gráficamente:
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=5cm]{./assets/tablero_ajedrez.png}
-    \caption{Tablero de Ajedrez}
-    \label{fig:tablero-ajedrez}
-  \end{figure}
-
-  \textbf{Cuatro colores son suficientes:} Es fácil ver que un número menor de colores no es suficiente para todos los casos como lo muestran los siguientes diagramas:
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=10cm]{./assets/esfera_mapa.png}
-    \caption{Región esférica coloreada}
-    \label{fig:esfera-mapa}
-  \end{figure}
-  
-  Las regiones no pueden colorearse con menos de cuatro colores ya que cada región tiene frontera con las otras tres. El caso de un mapa plano o uno esférico es lo mismo ya que cualquier mapa en una esfera puede transformarse en un mapa plano, agujereando la esfera y aplanándola. 
-
-  El teorema de los cuatro colores, fue uno de los más famosos problemas no resueltos por la matemática. Fue planteado por primera vez en 1852. Kempe publicó una demostración en el año 1879, la cual contenía un error de razonamiento.
-
-  Finalmente el problema de los cuatro colores fue resuelto por K. Appel y W. Haken en 1976. Su demostración, que les ocupó 4 años y una considerable cantidad de tiempo de computadoras. 
-
-  
-  \newpage
-
-  \subsubsection{Árboles}
-
-  Los algoritmos de búsqueda que fundamentan su funcionamiento en árboles son fundamentales en la resolución de problemas de optimización y planificación. Un ejemplo de aplicación de los algoritmos de búsqueda en árboles es la planificación de horarios en una universidad. Según Hinojosa E. (2014) Un Árbol binario de búsqueda, puede usarse como un Árbol de búsqueda binaria. Usando notación de Árbol Binario, el algoritmo para la búsqueda de la llave key en un Árbol de este tipo es como sigue (suponemos que cada nodo contiene cuatro campos: k, que guarda el valor de la llave del registro, r, que guarda el propio registro y left y right que son apuntadores a los sub Árboles).
-
-  \begin{flushright}
-    \textit{Hinojosa E. (2014). Velocidad de respuesta de los algoritmos de búsqueda en datos contenidos en estructuras dinánimas y estáticas.}
-  \end{flushright}
-
-  \textbf{Búsqueda de elementos de un árbol binarios (BST):} La búsqueda de un elemento en un árbol binario de búsqueda (BST) es un proceso que se realiza de forma recursiva. Se comienza comparando el elemento a buscar con la raíz del árbol. Si el elemento es igual a la raíz, se ha encontrado la solución. Si el elemento es menor que la raíz, se busca en el subárbol izquierdo. Si el elemento es mayor que la raíz, se busca en el subárbol derecho. Este proceso se repite hasta encontrar el elemento o llegar a un nodo nulo, en cuyo caso se concluye que el elemento no está en el árbol.
-
-  Según el gráfico:
-
-  \begin{figure}[H]
-    \centering
-    \begin{tikzpicture}
-      \node {8}
-        child {node {3}
-          child {node {1}}
-          child {node {6}
-            child {node {4}}
-            child {node {}}
-          }
-        }
-        child {node {10}
-          child[missing] {}
-          child {node {14}
-            child {node {?}}
-            child[missing] {}
-          }
-        };
+    \begin{tikzpicture}[node distance=2cm]
+        % Nodos
+        \node[circle, draw] (A) at (0,0) {A};
+        \node[circle, draw] (B) at (2,1) {B};
+        \node[circle, draw] (C) at (6,-3) {C};
+        \node[circle, draw] (D) at (6,1) {D};
+        \node[circle, draw] (E) at (2,-2) {E};
+        
+        % Aristas
+        \draw (A) -- (B); % Conexión entre A y B
+        \draw (A) -- (C); % Conexión entre A y C
+        \draw (B) -- (C); % Conexión entre B y C
+        \draw (C) -- (D); % Conexión entre C y D
+        \draw (A) -- (E); % Conexión entre A y E
+        \draw (E) -- (C); % Conexión entre E y C
+        \draw (B) -- (D); % Conexión entre B y D
+        \draw (E) -- (D); % Conexión entre E y D
     \end{tikzpicture}
-    \caption{Árbol Binario de Búsqueda}
-    \label{fig:arbol-binario}
-  \end{figure}
+    \caption{Ejemplo de Grafo}
+    \label{fig:ejemplo-grafo}
+\end{figure}
 
+    Donde: 
 
-  \textbf{Algunas ventajas del uso de BST:}
+    \begin{itemize}
+      \item $V = \{A, B, C, D, E\}$ es el conjunto de nodos.
+      \item $E = \{(A, B), (B, C), (C, D), (A, E), (E, C), (B, D)\}$ es el conjunto de aristas.
+      \item $G = (V, E)$ es el grafo que representa la red.
+    \end{itemize}
 
-  \begin{itemize}
-    \item \textbf{Eficiencia:} La búsqueda en un árbol binario de búsqueda es eficiente, ya que el tiempo de búsqueda es proporcional a la altura del árbol.
-    \item \textbf{Escalabilidad:} Los árboles binarios de búsqueda son escalables, lo que significa que pueden manejar grandes cantidades de datos de manera eficiente.
-  \end{itemize}
+\subsection{Características:}
+
+Los grafos pueden tener una serie de características que los hacen útiles en la resolución de problemas prácticos. A diferencia de otras herramientas discretas como los árboles, los grafos permiten modelar relaciones complejas entre entidades, y pueden representar una amplia variedad de estructuras y dinámicas.
+
+Así mismo los grafos pueden ser dirigidos o no dirigidos, ponderados o no ponderados, cíclicos o acíclicos, conexos o no conexos, planares o no planares, entre otras características. Estas propiedades permiten a los grafos adaptarse a una amplia variedad de problemas y aplicaciones, y los convierten en una herramienta versátil y poderosa en la resolución de problemas prácticos.
+
+Más detalles sobre estas características se pueden encontrar:
+
+\begin{enumerate}
+  \item \textbf{Grafos Dirigidos:}
+  
+  Un grafo dirigido es aquel en el que las aristas tienen una dirección, es decir, van de un nodo a otro. Esto permite modelar relaciones asimétricas entre entidades, como las relaciones de dependencia, jerarquía o flujo en un sistema.
+  
+  \textbf{Aplicación adicional:}
+
+  En la industria de la tecnología moderna, los grafos dirigidos se utilizan en la representación de redes de comunicación, donde las aristas representan las conexiones de comunicación entre los nodos. Las aristas dirigidas permiten modelar la dirección del flujo de datos entre los nodos, lo que es fundamental para la planificación y optimización de redes de comunicación.
+
+  \textbf{Matemáticamente:}
+
+  Un grafo dirigido $G = (V, E)$ es un grafo en el que las aristas tienen una dirección, es decir, van de un nodo a otro. Las aristas dirigidas se representan como pares ordenados $(v_i, v_j)$, donde $v_i$ es el nodo de origen y $v_j$ es el nodo de destino.
+
+  \textbf{Gráficamente:}
+
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[node distance=2cm]
+        % Nodos
+        \node[circle, draw] (A) at (0,0) {A};
+        \node[circle, draw] (B) at (2,1) {B};
+        \node[circle, draw] (C) at (4,0) {C};
+        \node[circle, draw] (D) at (3,-2) {D};
+        \node[circle, draw] (E) at (1,-2) {E};
+        
+        % Conexiones (usando las aristas normales pero no flechas)
+        \draw[thick] (A) -- (B) node[midway, above] {$a \to b$}; % A -> B
+        \draw[thick] (A) -- (C) node[midway, above] {$a \to c$}; % A -> C
+        \draw[thick] (B) -- (C) node[midway, above] {$b \to c$}; % B -> C
+        \draw[thick] (C) -- (A) node[midway, below] {$c \to a$}; % C -> A
+        \draw[thick] (A) -- (D) node[midway, left] {$a \to d$}; % A -> D
+        \draw[thick] (B) -- (E) node[midway, left] {$b \to e$}; % B -> E
+    \end{tikzpicture}
+    \caption{Red con nodos dirigidos usando aristas sin flechas}
+    \label{fig:rblue-relaciones}
+\end{figure}
+
+Podemos observar un grafo dirigido donde las aristas tienen una dirección, lo que permite modelar relaciones asimétricas entre los nodos. Las aristas representan las rutas de transporte entre las ciudades, y los nodos representan las ciudades.
 
 \newpage
 
-\section{Sobre la Teoría de Grafos}
+\item \textbf{Grafos Ponderados:}
 
-  Son una herramienta matemática fundamental, que se utiliza para modelar y resolver problemas en una amplia variedad de campos, como la informática, la ingeniería, la biología y la economía. Un grafo es un conjunto de nodos (vértices) conectados por aristas (arcos), que se utilizan para representar relaciones entre entidades. Los grafos se utilizan para modelar una amplia variedad de problemas, como la planificación de rutas, la optimización de redes, la detección de comunidades y la resolución de problemas de flujo.
+Un grafo ponderado es aquel en el que las aristas tienen un peso asociado, que representa la distancia, el costo o la capacidad de la conexión entre los nodos. Esto permite modelar relaciones cuantitativas entre entidades, y es fundamental en la optimización y planificación de rutas, redes y sistemas.
 
-  Fue Euler quien en 1736, en su solución al problema de los siete puentes de Königsberg, introdujo la teoría de grafos. En este problema, Euler demostró que no era posible recorrer los siete puentes de la ciudad de Königsberg sin pasar dos veces por el mismo puente. Para ello, Euler representó los puentes y las tierras de Königsberg como nodos y aristas en un grafo, y demostró que el problema se podía resolver utilizando la teoría de grafos.
+\textbf{Aplicación adicional:}
 
-  Matemáticamente, un grafo se define como un par ordenado $G = (V, E)$, donde $V$ es un conjunto finito de nodos y $E$ es un conjunto de pares no ordenados de nodos que representan las aristas del grafo. Los grafos se pueden clasificar en diferentes tipos, como grafos dirigidos, grafos no dirigidos, grafos ponderados y grafos no ponderados, según las características de sus aristas.
+Un ejemplo de la aplicación de grafos ponderados se da en la optimización de rutas de transporte, donde las aristas tienen un peso que representa la distancia entre las ciudades. Los algoritmos de búsqueda de rutas óptimas utilizan estos pesos para encontrar la ruta más corta o más económica entre dos ciudades, lo que es fundamental para la planificación y optimización de rutas de transporte.
 
-\section{Sobre Árboles}
+Por otro lados en la industria de la tecnología moderna, los grafos ponderados se utilizan en la optimización de redes de comunicación, donde las aristas tienen un peso que representa la capacidad de la conexión entre los nodos. Los algoritmos de optimización de redes utilizan estos pesos para encontrar la ruta más eficiente y confiable entre los nodos, lo que es fundamental para la planificación y optimización de redes de comunicación.
 
-  Los árboles son una estructura de datos fundamental en informática y ciencias de la computación, que se utiliza para representar jerarquías y relaciones de dependencia entre entidades. Un árbol es un grafo acíclico dirigido, que consta de un conjunto de nodos (vértices) conectados por aristas (arcos) de tal manera que no forman ciclos. Los árboles se utilizan para modelar una amplia variedad de problemas, como la organización de archivos, la representación de estructuras de datos y la resolución de problemas de optimización.
+\textbf{Matemáticamente:}
 
-  Fue Cayley quien en 1857, en su estudio de los árboles genealógicos, introdujo la teoría de árboles. En este estudio, Cayley demostró que el número de árboles con $n$ nodos es $n^{n-2}$, lo que se conoce como la fórmula de Cayley. Esta fórmula es fundamental en la teoría de árboles y se utiliza para contar el número de árboles posibles con un número dado de nodos.
+Un grafo ponderado $G = (V, E, W)$ es un grafo en el que las aristas tienen un peso asociado, que representa la distancia, el costo o la capacidad de la conexión entre los nodos. El peso de una arista se representa como un número real o entero, y puede ser positivo o negativo.
+
+\textbf{Gráficamente:}
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[node distance=2cm]
+      % Nodos
+      \node[circle, draw] (A) at (0,0) {A};
+      \node[circle, draw] (B) at (2,1) {B};
+      \node[circle, draw] (C) at (4,0) {C};
+      \node[circle, draw] (D) at (3,-2) {D};
+      \node[circle, draw] (E) at (1,-2) {E};
+      
+      % Conexiones (grosor de línea varía según los pesos)
+      \draw[line width=1.2mm] (A) -- (B);
+      \draw[line width=0.3mm] (A) -- (C);
+      \draw[line width=0.5mm] (B) -- (C);
+      \draw[line width=0.2mm] (C) -- (A);
+      \draw[line width=2mm] (A) -- (D); 
+      \draw[line width=0.1mm] (B) -- (E);
+  \end{tikzpicture}
+  \caption{Red con nodos ponderados por arístas}
+  \label{fig:red-ponderada}
+\end{figure}
+
+Puede observarse como las aristas tienen un peso asociado que podemos vizualizar a modo de ejemplo por lo gruesa de la línea que une los nodos, lo que permite modelar relaciones cuantitativas entre los nodos.
+
+Esta forma de representación es fundamental en la optimización y planificación de rutas, redes y sistemas, y es ampliamente utilizada en la industria de la tecnología moderna para la optimización de redes de transporte y comunicación.
 
 \newpage
 
-\begin{thebibliography}{9}
-  \addcontentsline{toc}{section}{Referencias}
+\item \textbf{Grafos Cíclicos y Acíclicos:}
 
-  \bibitem{Fernandez} 
-  Fernandez, J. (2018). Cálculo de trayectos mediante algoritmos de búsqueda informada sobre grafos ponderados dirigidos.
+Un grafo cíclico es aquel en el que se pueden seguir una serie de aristas para formar un ciclo, es decir, un camino cerrado que comienza y termina en el mismo nodo. Un grafo acíclico es aquel en el que no se pueden seguir aristas para formar un ciclo, es decir, un camino cerrado que no comienza y termina en el mismo nodo.
 
-  \bibitem{Basso} 
-  Basso B, Ivo R. Álvarez N. Marcelino F. (2013). Teoría de Grafos.
+Los grafos cíclicos se utilizan para modelar relaciones cíclicas entre entidades, como las relaciones de dependencia o ciclo de vida en un sistema. Los grafos acíclicos se utilizan para modelar relaciones acíclicas entre entidades, como las relaciones de jerarquía, orden o flujo en un sistema.
 
-  \bibitem{Hinojosa} 
-  Hinojosa E. (2014). Velocidad de respuesta de los algoritmos de búsqueda en datos contenidos en estructuras dinánimas y estáticas.
+\textbf{Aplicación adicional:}
 
-\end{thebibliography}
+Un ejemplo de la aplicación de grafos cíclicos se da en la representación de redes de retroalimentación, donde las aristas representan las relaciones de retroalimentación entre los nodos. Los ciclos en el grafo permiten modelar las relaciones de retroalimentación entre los componentes de un sistema, lo que es fundamental para comprender y analizar los procesos de retroalimentación en un sistema.
+
+\textbf{Matemáticamente:}
+
+Un grafo cíclico $G = (V, E)$ es un grafo en el que se pueden seguir una serie de aristas para formar un ciclo, es decir, un camino cerrado que comienza y termina en el mismo nodo. Un grafo acíclico $G = (V, E)$ es un grafo en el que no se pueden seguir aristas para formar un ciclo, es decir, un camino cerrado que no comienza y termina en el mismo nodo.
+
+\textbf{Gráficamente:}
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[node distance=2cm]
+      % Nodos
+      \node[circle, draw] (A) at (0,0) {A};
+      \node[circle, draw] (B) at (2,1) {B};
+      \node[circle, draw] (C) at (4,0) {C};
+      \node[circle, draw] (D) at (3,-2) {D};
+      \node[circle, draw] (E) at (1,-2) {E};
+      
+      % Conexiones (aristas)
+      \draw (A) -- (B); % A -> B
+      \draw (B) -- (C); % B -> C
+      \draw (C) -- (D); % C -> D
+      \draw (D) -- (E); % D -> E
+      \draw (E) -- (A); % E -> A
+  \end{tikzpicture}
+  \caption{Red con nodos que forman un ciclo}
+  \label{fig:red-ciclica}
+\end{figure}
+
+En la figura se puede observar un grafo cíclico donde se pueden seguir una serie de aristas para formar un ciclo, lo que permite modelar relaciones cíclicas entre los nodos.
+
+Por útlimo un grafo acíclico también puede ser usado para modelar relaciones acíclicas entre entidades, como las relaciones de jerarquía, orden o flujo en un sistema muy típico en el modelamiento preliminar de bases de datos relacionales.
+
+\newpage
+
+\item \textbf{Grafos Conexos y No Conexos:}
+
+Los grafos conexos son aquellos en los que existe un camino entre cualquier par de nodos, es decir, todos los nodos están conectados entre sí. Los grafos no conexos son aquellos en los que no existe un camino entre algún par de nodos, es decir, algunos nodos no están conectados entre sí.
+
+Los grafos conexos se utilizan para modelar sistemas integrados y cohesivos, donde todos los componentes están interconectados y pueden comunicarse entre sí. Los grafos no conexos se utilizan para modelar sistemas fragmentados y dispersos, donde algunos componentes no están interconectados y no pueden comunicarse entre sí.
+
+\textbf{Aplicación adicional:}
+
+Un ejemplo de la aplicación de grafos conexos se da en la representación de redes sociales, donde los nodos representan a las personas y las aristas representan las relaciones entre ellas. Los grafos conexos permiten modelar las relaciones entre las personas y identificar comunidades y grupos en la red social, lo que es fundamental para comprender y analizar la estructura y dinámica de la red.
+
+\textbf{Matemáticamente:}
+
+Un grafo conexo $G = (V, E)$ es un grafo en el que existe un camino entre cualquier par de nodos, es decir, todos los nodos están conectados entre sí. Un grafo no conexo $G = (V, E)$ es un grafo en el que no existe un camino entre algún par de nodos, es decir, algunos nodos no están conectados entre sí.
+
+$V = \{A, B, C, D, E\}$ es el conjunto de nodos.
+
+Pero para ser conexo, todos los nodos deben estar conectados entre sí, lo que no sucede en el siguiente ejemplo:
+
+\textbf{Gráficamente:}
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[node distance=2cm]
+      % Nodos
+      \node[circle, draw] (A) at (0,0) {A};
+      \node[circle, draw] (B) at (2,1) {B};
+      \node[circle, draw] (C) at (4,0) {C};
+      \node[circle, draw] (D) at (3,-2) {D};
+      \node[circle, draw] (E) at (1,-2) {E};
+      
+      % Conexiones (aristas)
+      \draw (A) -- (B); % A -> B
+      \draw (B) -- (C); % B -> C
+      \draw (C) -- (D); % C -> D
+      \draw (D) -- (E); % D -> E
+  \end{tikzpicture}
+  \caption{Red con nodos no conexos}
+  \label{fig:red-no-conexa}
+\end{figure}
+
+En la figura se puede observar un grafo no conexo donde no existe un camino entre algunos pares de nodos, lo que indica que algunos nodos no están conectados entre sí.
+
+Esto puede ser un problema en la representación de redes sociales, donde los nodos representan a las personas y las aristas representan las relaciones entre ellas. Los grafos no conexos pueden indicar la presencia de comunidades o grupos aislados en la red social, lo que es fundamental para comprender y analizar la estructura y dinámica de la red.
+
+\end{enumerate}
+
+\newpage
+
+\section{Impacto de las aplicaciones de grafos en la biología}
+
+Los grafos son una herramienta matemática fundamental utilizada en diversos campos, incluyendo la biología. En biología, los grafos modelan y analizan sistemas biológicos complejos como redes genómicas, redes de interacción proteína-proteína y redes de regulación génica.
+
+Un estudio publicado en 2014 en la revista Nature, titulado "The Network of Cancer Genes", utilizó la teoría de grafos para analizar la red de genes del cáncer. Este estudio mostró que los genes del cáncer están altamente interconectados y forman comunidades en la red, permitiendo identificar genes clave, predecir nuevas dianas terapéuticas y comprender mejor los mecanismos moleculares del cáncer.
+
+Este trabajo ha tenido un impacto significativo en la investigación del cáncer y ha sentado las bases para futuras investigaciones sobre la red de genes del cáncer y su papel en la progresión y tratamiento del cáncer.
+
+A continuación, se analizará el impacto de los grafos en el estudio de las redes genómicas en general, con ayuda de un análisis FODA.
+\vspace{-0.5cm}
+\subsection{Redes Genómicas}
+
+Las redes genómicas son un tipo especial de grafo que se utiliza para representar las interacciones entre los componentes de un sistema biológico, como los genes, las proteínas y los metabolitos.
+
+\textbf{Análisis FODA:}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|l|l|}
+  \hline
+  \rowcolor[HTML]{C0C0C0} 
+  \textbf{Fortalezas} & \textbf{Debilidades} \\ \hline
+  \begin{tabular}[c]{@{}l@{}}- Permite modelar y analizar sistemas\\ biológicos complejos de manera eficiente.\\ - Facilita la visualización de interacciones\\ y relaciones entre genes y proteínas.\\ - Ayuda a comprender los procesos biológicos\\ a nivel molecular, revelando conexiones\\ que no serían evidentes de otra forma.\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Requiere de un alto nivel de capacitación\\ en biología y matemáticas para su\\ interpretación y análisis.\\ - La interpretación de los grafos puede ser\\ compleja y difícil para los no expertos.\\ - Dependencia de recursos computacionales\\ avanzados y software especializado.\end{tabular} \\ \hline
+  \rowcolor[HTML]{C0C0C0} 
+  \textbf{Oportunidades} & \textbf{Riesgos} \\ \hline
+  \begin{tabular}[c]{@{}l@{}}- Identificación de genes clave en la red\\ genómica, que podrían tener un papel\\ crucial en enfermedades.\\ - Potencial para predecir nuevas dianas\\ terapéuticas para tratamientos médicos.\\ - Comprender mejor los mecanismos\\ moleculares subyacentes a enfermedades\\ complejas como el cáncer y las\\ enfermedades neurodegenerativas.\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Posible sobreinterpretación de los resultados\\ si no se validan experimentalmente.\\ - Riesgo de identificar falsos positivos\\ en las interacciones genómicas, lo que\\ podría llevar a conclusiones erróneas.\\ - Falta de validación experimental de los\\ resultados obtenidos de los modelos de grafos,\\ lo que puede comprometer la precisión.\end{tabular} \\ \hline
+  \end{tabular}
+  \caption{Análisis FODA de la Aplicación de Grafos en Redes Genómicas}
+  \label{tab:foda-redes-genomicas}
+\end{table}
+
+
+\textbf{Análisis de la tabla:}
+
+\begin{itemize}
+  \item \textbf{Fortalezas:} Las redes genómicas permiten modelar y analizar sistemas biológicos complejos de manera eficiente, facilitando la visualización de interacciones y relaciones entre genes y proteínas. Además, ayudan a comprender los procesos biológicos a nivel molecular, revelando conexiones que no serían evidentes de otra forma.
+  \item \textbf{Debilidades:} Estas redes requieren de un alto nivel de capacitación en biología y matemáticas para su interpretación y análisis, lo que puede dificultar su comprensión para los no expertos. Además, la interpretación de los grafos puede ser compleja y difícil, y dependen de recursos computacionales avanzados y software especializado.
+  \item \textbf{Oportunidades:} Las redes genómicas permiten identificar genes clave en la red, predecir nuevas dianas terapéuticas y comprender mejor los mecanismos moleculares subyacentes a enfermedades complejas como el cáncer y las enfermedades neurodegenerativas, lo que puede tener un impacto significativo en la investigación y tratamiento de enfermedades.
+  \item \textbf{Riesgos:} Existe el riesgo de sobreinterpretar los resultados de las redes genómicas si no se validan experimentalmente, de identificar falsos positivos en las interacciones genómicas y de no validar experimentalmente los resultados obtenidos de los modelos de grafos, lo que puede comprometer la precisión y la reproducibilidad de los resultados.
+\end{itemize}
+
+\newpage
+\subsection{Redes de Interacción Proteína-Proteína}
+
+Las redes de interacción proteína-proteína son un tipo de grafo que se utiliza para representar las interacciones entre las proteínas en un sistema biológico. Estas redes modelan las interacciones físicas y funcionales entre las proteínas, y permiten identificar complejos proteicos, vías metabólicas y funciones biológicas específicas.
+
+\textbf{Análisis FODA:}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|l|l|}
+  \hline
+  \rowcolor[HTML]{C0C0C0} 
+  \textbf{Fortalezas} & \textbf{Debilidades} \\ \hline
+  \begin{tabular}[c]{@{}l@{}}- Permite identificar complejos\\ proteicos y vías metabólicas clave.\\ - Facilita la comprensión de las funciones\\ biológicas de las proteínas al modelar\\ sus interacciones.\\ - Ayuda a identificar relaciones entre\\ proteínas dentro de un sistema biológico\\ o red de interacción.\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Requiere un alto nivel de capacitación\\ en biología molecular, bioinformática\\ y matemáticas para su análisis.\\ - La interpretación de los grafos puede ser\\ compleja para los no expertos.\\ - Depende de grandes recursos\\ computacionales y software especializado\\ para procesar grandes volúmenes de datos.\end{tabular} \\ \hline
+  \rowcolor[HTML]{C0C0C0} 
+  \textbf{Oportunidades} & \textbf{Riesgos} \\ \hline
+  \begin{tabular}[c]{@{}l@{}}- Identificación de nuevas funciones\\ biológicas de las proteínas y de\\ nuevas interacciones clave en el\\ funcionamiento celular.\\ - Mejora la comprensión de las\\ interacciones proteína-proteína, lo que\\ es fundamental para entender procesos\\ biológicos y patológicos.\\ - Puede ayudar a identificar\\ dianas terapéuticas en enfermedades\\ complejas como el cáncer.\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Riesgo de sobreinterpretación de\\ los resultados si no se validan experimentalmente.\\ - Posibilidad de obtener falsos positivos\\ en las interacciones proteína-proteína\\ debido a limitaciones en los datos.\\ - Falta de validación experimental en muchas\\ interacciones identificadas a través de grafos,\\ lo que podría comprometer la confiabilidad.\end{tabular} \\ \hline
+  \end{tabular}
+  \caption{Análisis FODA de la Aplicación de Grafos en Redes de Interacción Proteína-Proteína}
+  \label{tab:foda-redes-proteina}
+\end{table}
+
+\textbf{Análisis de la tabla:}
+
+\begin{itemize}
+  \item \textbf{Fortalezas:} Las redes de interacción proteína-proteína permiten descubrir complejos proteicos y rutas metabólicas fundamentales, ofrecen una mejor comprensión de las funciones biológicas de las proteínas a través de sus interacciones y facilitan la identificación de relaciones entre proteínas dentro de un sistema biológico o red interactiva.
+  \item \textbf{Debilidades:} El análisis de estas redes exige un nivel avanzado de conocimiento en biología molecular, bioinformática y matemáticas, lo que puede dificultar su interpretación para quienes no son especialistas. Asimismo, la interpretación de los grafos puede resultar compleja, y su estudio requiere de potentes recursos computacionales y software especializado para manejar grandes volúmenes de información.
+  \item \textbf{Oportunidades:} Las redes de interacción proteína-proteína brindan la posibilidad de descubrir funciones biológicas desconocidas de las proteínas, identificar nuevas interacciones esenciales para los procesos celulares y mejorar la comprensión de las interacciones proteína-proteína, además de ser útiles para encontrar posibles dianas terapéuticas en enfermedades complejas como el cáncer.
+  \item \textbf{Riesgos:} Un posible riesgo es la sobreinterpretación de los resultados obtenidos de las redes de interacción proteína-proteína si no se validan experimentalmente. También existe la posibilidad de encontrar falsos positivos en las interacciones, debido a la falta de datos completos, y el hecho de que muchas interacciones identificadas mediante grafos no se validan experimentalmente puede afectar la fiabilidad y reproducibilidad de los hallazgos.
+\end{itemize}
+
+\section{Conslusiones}
+
+% A continuación se redactan 4 conclusiones muy relacionadas a las aplicaciones descritas anteriormente.
+
+Hemos podido comprender como los grafos son una herramienta matemática fundamental que se utiliza en una amplia variedad de campos, incluyendo la biología. En biología, los grafos modelan y analizan sistemas biológicos complejos como redes genómicas, redes de interacción proteína-proteína y redes de regulación génica.
+
+A continuación se presentan 4 conclusiones relacionadas con las aplicaciones de grafos en redes genómicas y redes de interacción proteína-proteína:
+
+\begin{enumerate}
+  \item Los grafos son una herramienta matemática fundamental que se utiliza en una amplia variedad de campos, incluyendo la biología. En biología, los grafos modelan y analizan sistemas biológicos complejos como redes genómicas, redes de interacción proteína-proteína y redes de regulación génica.
+  
+  \item Las redes genómicas y las redes de interacción proteína-proteína son un tipo especial de grafo que se utiliza para representar las interacciones entre los componentes de un sistema biológico, como los genes, las proteínas y los metabolitos. Estas redes permiten identificar complejos proteicos, vías metabólicas y funciones biológicas específicas, y ayudan a comprender los procesos biológicos a nivel molecular.
+  
+  \item El análisis FODA de las aplicaciones de grafos en redes genómicas y redes de interacción proteína-proteína revela una serie de fortalezas, debilidades, oportunidades y riesgos asociados con su uso en la investigación biológica. Estas aplicaciones ofrecen la posibilidad de identificar genes clave, predecir nuevas dianas terapéuticas y comprender mejor los mecanismos moleculares subyacentes a enfermedades complejas como el cáncer y las enfermedades neurodegenerativas.
+  
+  \item Sin embargo, el análisis FODA también destaca la necesidad de validar experimentalmente los resultados obtenidos de las redes genómicas y de interacción proteína-proteína, para evitar la sobreinterpretación de los datos y garantizar la fiabilidad y reproducibilidad de los hallazgos. Además, se requiere un alto nivel de capacitación en biología, bioinformática y matemáticas para interpretar y analizar los grafos, lo que puede dificultar su comprensión para los no expertos.
+\end{enumerate}
+% Etiqueta que hace que la referencia aparezca en el índice:
+\bibliography{referencias} % Nombre del archivo .bib (sin la extensión)
+\addcontentsline{toc}{section}{Referencias}
 \end{document}
