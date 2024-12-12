@@ -1,25 +1,61 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
-\contentsline {section}{\numberline {2}Marco teórico}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Marketing Mix, las 4 P's}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Gestión de Ventas}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Gestión del servicio}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Gestión del personal}{5}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Objetivo general}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Objetivos específicos}{6}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Gestión del marketing}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Producto}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Precio}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Plaza}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Promoción}{8}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Gestión de Ventas}{9}{section.5}%
-\contentsline {section}{\numberline {6}Gestión del Servicio}{10}{section.6}%
-\contentsline {section}{\numberline {7}Gestión del Personal}{11}{section.7}%
-\contentsline {section}{\numberline {8}Selección y Retención del Personal}{12}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Sobre la selección del personal}{12}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Cultura de Trabajo Positiva:}{12}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Desarrollo y Crecimiento Profesional:}{12}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Reconocimiento y Recompensas:}{13}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Liderazgo:}{13}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Onboarding:}{13}{subsection.8.6}%
-\contentsline {section}{\numberline {9}Conclusiones}{13}{section.9}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Marco teórico}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Bussines Model Canvas}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Balance General de una empresa}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Gestión operativa en una empresa}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Marketing Mix, las 4 P's}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Gestión de Ventas}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Gestión del servicio}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Gestión del personal}{7}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Objetivo general}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivos específicos}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Descripción de la empresa: Nvidia}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Visión:}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Misión:}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Valores:}{9}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Análisis estratégico: Externo}{10}{section.5}%
+\contentsline {section}{\numberline {6}5 Fuerzas de Porter: Microentorno}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Rivalidad entre competidores}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Poder de negociación de los proveedores}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Poder de negociación de los clientes}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Amenaza de nuevos entrantes}{11}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Amenaza de productos sustitutos}{11}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Análisis interno}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Cadena de valor de Nvidia}{12}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Matriz FODA}{12}{section.8}%
+\contentsline {section}{\numberline {9}Bussines Model Canvas}{13}{section.9}%
+\contentsline {section}{\numberline {10}Reflecciones sonre el análisis interno y externo}{14}{section.10}%
+\contentsline {section}{\numberline {11}Contabilidad financiera de NVIDIA}{14}{section.11}%
+\contentsline {section}{\numberline {12}Estado de resultados:}{16}{section.12}%
+\contentsline {section}{\numberline {13}Indicadores de la gestion financiera}{16}{section.13}%
+\contentsline {section}{\numberline {14}Cadena de valor de McKinsey}{17}{section.14}%
+\contentsline {section}{\numberline {15}Planificación de la gestión operativa}{18}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Plan operativo anual (POA)}{18}{subsection.15.1}%
+\contentsline {section}{\numberline {16}Monitorio de la gestión operativa}{19}{section.16}%
+\contentsline {section}{\numberline {17}Gestión del marketing}{20}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Producto}{20}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Precio}{20}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Plaza}{21}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Promoción}{21}{subsection.17.4}%
+\contentsline {section}{\numberline {18}Gestión de Ventas}{22}{section.18}%
+\contentsline {section}{\numberline {19}Gestión del Servicio}{23}{section.19}%
+\contentsline {section}{\numberline {20}Gestión del Personal}{24}{section.20}%
+\contentsline {section}{\numberline {21}Selección del Personal}{24}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Sobre la selección del personal}{24}{subsection.21.1}%
+\contentsline {section}{\numberline {22}Retención del Personal}{25}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Cultura de Trabajo Positiva}{25}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Desarrollo y Crecimiento Profesional}{25}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Reconocimiento y Recompensas}{25}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}Liderazgo}{26}{subsection.22.4}%
+\contentsline {subsection}{\numberline {22.5}Onboarding}{26}{subsection.22.5}%
+\contentsline {section}{\numberline {23}Iniciativas de TI para optimizar la eficiencia en NVIDIA}{27}{section.23}%
+\contentsline {section}{\numberline {24}Gestión de Investigación y Desarrollo (I + D)}{28}{section.24}%
+\contentsline {section}{\numberline {25}Gobierno corporativo}{29}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Ética Empresarial}{30}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Control Interno y Gestión de Riesgos}{30}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Responsabilidad Social Empresarial (RSE)}{30}{subsection.25.3}%
+\contentsline {subsection}{\numberline {25.4}Prácticas Fundamentales para el Buen Funcionamiento de la Empresa}{30}{subsection.25.4}%
+\contentsline {section}{\numberline {26}Conclusiones y recomendaciones}{31}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Conclusiones}{31}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Recomendaciones}{31}{subsection.26.2}%

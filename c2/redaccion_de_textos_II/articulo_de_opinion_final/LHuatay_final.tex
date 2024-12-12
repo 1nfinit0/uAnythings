@@ -1,0 +1,220 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel} 
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textit{Comprensión y Redacción de Textos II}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+\pagenumbering{gobble}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Machu Picchu: Turismo Sostenible vs. Deterioro Ambiental-Cultural} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Compresión y Redacción de Textos II.}
+}
+
+\author{
+  \begin{tabular}{ll}
+    Huatay Salcedo, Luis Elías & U24218809 \\
+  \end{tabular} \\\\
+  \texttt{Sección 12934}
+}
+
+% % ENVIROMENTS
+
+% \newenvironment{indexPre}{}{}
+% \newenvironment{introduccion}{}{}
+% \newenvironment{marcoTeorico}{}{}
+% \newenvironment{problematica}{}{}
+% \newenvironment{objetivoGeneral}{}{}
+% \newenvironment{terminosEstadisticos}{}{}
+% \newenvironment{recoleccionDeInformacion}{}{}
+% \newenvironment{metodologia}{}{}
+% \newenvironment{analisisDescriptivo}{}{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+  Docente. Mg. Pablo Orlando Rabines Pumayalla
+\end{center}
+
+\restoregeometry
+
+\pagenumbering{arabic} % Numeración arábiga para el resto del documento
+\setcounter{page}{2}   % Iniciar numeración en la página 2
+
+\newpage
+
+% Fuentes:
+
+% Fuente 1:
+
+% Desarrollo sostenible en turismo: una propuesta para Machu Picchu
+
+% A pesar de su vasta geografía y de la enorme variedad de prácticas turísticas que puede
+% acoger en su territorio, el Perú sigue posicionado como un destino turístico unipolar. Los
+% visitantes se concentran en la ciudad del Cusco y en el llamado «circuito sur», cuya principal
+% atracción es el Santuario Histórico de Machu Picchu (SHM). De allí la importancia de la
+% preservación, conservación y planificación del desarrollo de este patrimonio cultural y
+% natural de la humanidad. No obstante, las condiciones actuales en las que se desenvuelve
+% la actividad turística en el SHM no son las mejores; estudios recientes han puesto sobre el
+% tapete los riesgos que corren las ruinas y sus alrededores. Esta situación refleja la
+% importancia del papel de los gobiernos respecto del desarrollo turístico. Por un lado, las
+% políticas adecuadas pueden aportar grandes ventajas y beneficios en los ámbitos
+% económico, educativo y sociocultural; pero, por otro lado, las políticas desacertadas pueden
+% contribuir a la degradación ambiental del sitio turístico y a la pérdida de identidad de la
+% población local, entre otros efectos negativos.
+
+% 1. Cifras del turismo en el Perú
+% Diversos estudios coinciden en que el Perú es percibido como un destino turístico histórico,
+% arqueológico y cultural. La Comisión de Promoción del Perú (PromPerú) indica que la ciudad
+% del Cusco, el SHM y/o el «circuito sur>> son visitados por el 50% de los turistas que ingresan
+% al país, mientras el informe de Monitor Company, más preciso, señaló que entre el 70% y el
+% 75% de los turistas que llegan al Perú visitan la ciudad del Cusco y el SHM. La definición de
+% los conceptos de «turista» y «visitante» es clave para la comprensión de estas cifras. Sin
+% embargo, lo evidente es el posicionamiento que tiene nuestro país como destino turístico
+% unipolar, pues, según el modelo turístico de Leiper, la ciudad de Lima constituye una zona
+% de tránsito. Las diversas fuentes señalan la gran variación en los registros de visitantes,
+% incluso en el caso de la información proporcionada por los organismos oficiales. La Dirección
+% General de Migraciones y Naturalización (Digemin) indica que en el año 2005 llegaron al
+% Perú 1 486 005 visitantes internacionales. El Instituto Nacional de Cultura (INC) señala que
+% de los 679 951 turistas que visitaron el SHM durante ese mismo año, 204 636 (30%) fueron
+% nacionales y 475 315 (70%) extranjeros.
+% Según PromPerú, si bien los turistas visitaron Lima, la mayoría de ellos tuvo como destino
+% principal la ciudad del Cusco, el SHM y el Valle Sagrado (ubicado a 60 km del Cusco), y luego
+% viajaron a otros destinos de la región sur, como Puno, Arequipa, Ica y Tacna. Estas cifras bastan para comprender el papel que cumple el SHM como principal destino turístico del
+% Perú y el correspondiente interés en su cuidado y preservación.
+
+% Problemática identificada en el Santuario Histórico de Machu Picchu
+% Problemas
+% Causas
+% • No se comprende el concepto de «gestión de capacidad de carga», por lo que este aún no es incorporado en los procesos de planificación.
+% Efectos
+% • Sobrecarga de visitantes durante los recorridos en la ciudad inca y en la red de caminos inca, especialmente en temporada alta, genera grandes deterioros.
+% • Crecimiento no planificado de los turistas (gran afluencia estacional de visitantes).
+% Conflictos
+% generados por
+% actividades
+% turísticas
+% • Gran demanda de servicios turísticos (transporte, alojamiento, alimentación, entre otros).
+% • Crecimiento urbano desordenado en los puntos de acceso al SHM y en puntos intermedios al interior del área natural (Aguas Calientes).
+% • Invasión de terrenos, en donde se desarrolla infraestructura precaria de servicios.
+% • Falta de adecuados sistemas de gestión de residuos sólidos y de aguas negras.
+% • Servicios turísticos de muy baja calidad.
+% • Desarrollo de infraestructura hotelera.
+% • Crecimiento urbano.
+% • Desarrollo de servicios públicos de transporte (ferrocarril, helicópteros y ómnibus).
+% • Demanda de animales de carga (caballos, mulas y burros).
+% • No se realizan adecuados procesos de planificación estratégica ni operativa (plan maestro, planes de sitio, planes anuales) para los diversos atractivos.
+% • Sobreposición de jurisdicciones y responsabilidades institucionales.
+% • Desorganización y caos institucional al momento de implementar los planes operativos individuales.
+% • Uso irracional de la tierra y falta de su discriminación por sectores (necesidad de una microzonificación).
+
+% El presente gráfico del ítem seis que forma parte de la variable de
+% estudio: Actividad Turística, se obtiene que el 1.4% de los encuestados refiere que están en
+% desacuerdo con que se ven beneficiado con el turismo; mientras que el 2.9% se muestra
+% indiferente; por su parte el 8.6% manifiestan que están de acuerdo con que el turismo les
+% beneficia tanto en su economía, desarrollo personal; y, finalmente, el 87.1% de los
+% colaboradores refieren que son beneficiados por el sitio turístico de Machu Picchu.
+
+%El presente gráfico del ítem siete que forma parte de la variable de
+% estudio: Actividad Turística, se obtiene que el 1.4% de los encuestados refiere que están en
+% desacuerdo con que cuenten con las oportunidades de trabajo mediante el turismo de
+% Machu Picchu; mientras que el 2.9% se muestra indiferente; por su parte el 52.8%
+% manifiestan que están de acuerdo con que el turismo les genera oportunidades de trabajo
+% en los pobladores de Machu Picchu; y, finalmente, el 42.9% de los colaboradores refieren
+% que están totalmente de acuerdo con que el sitio turístico de Machu Picchu les genera
+% oportunidades de trabajo.
+
+% Fuente 3:
+% Machu Picchu en riesgo por excesiva carga de visitantes
+% Ampliación de aforo a 5044 turistas al día abre el camino para que sea considerado
+% patrimonio mundial en peligro. Machu Picchu está en riesgo por el deterioro que ocasiona
+% la carga de visitas. Y es que, después de la pandemia, el aforo casi se duplicó de 3.044 a
+% 5044 por día, lo cual viola las normas internacionales.
+% Un reciente informe del Ministerio de Cultura señala que las piedras incas de la ciudadela
+% tienen un desgaste de más de 5 milímetros en algunas zonas como las fuentes de agua.
+% El primer escaneo en 3D fue realizado en el 2016. Desde entonces, el desgaste se acumula
+% en casi un milímetro por año debido a las condiciones climáticas y el tránsito de las
+% personas. Y en una década, el daño ascendería a un centímetro.
+% Pese a ello, el saliente ministro de Cultura, Alejandro Salas, contradictoriamente, en menos
+% de un mes, avaló la ampliación de la capacidad de admisión. En octubre del año pasado era
+% de 3.044 por día, pero el 17 de julio se modificó a 4044 visitantes diarios y una semana
+% después se pasó a recibir mil más.
+% Frente a ello, el excanciller Manuel Rodríguez Cuadros advirtió que la sobrecarga abre
+% camino para que Unesco ubique a Machu Picchu en la lista de patrimonios en peligro. "La
+% ampliación a 5.000 por día del número de turistas que visitan Machu Picchu viola las normas
+% internacionales que obligan al Perú a preservarlo y no destruirlo. Abre el camino para que
+% la Unesco lo declare patrimonio mundial en peligro. Hay que salvar al santuario". Asimismo,
+% el exministro de Cultura Luis Jaime Castillo recordó que en el 2017 se tuvo esa advertencia
+% y por eso se dio una serie de recomendaciones. "El Perú ha asumido una serie de
+% compromisos con una misión de la Unesco que vino al Perú para hacer una revisión.
+% Básicamente, el mensaje fue que si el Estado no podía resolver el asunto, iba a incluir a
+% Machu Picchu en la lista de peligro. Son tres puntos, uno de ellos, el aforo".
+% Largas colas en Aguas Calientes
+% Miles de turistas forman largas colas en Aguas Calientes, donde se compran los boletos para
+% Machu Picchu. Primero se registran en un cuaderno y al día siguiente les entregan el ticket.
+% I 2015, una consultora bajo la dirección de Douglas Comer hizo el estudio de capacidad de
+% carga de Machu Picchu. El 2020 se definió el aforo máximo de 2.244 por día.
+
+% Fuente 4:
+
+% El turismo comunitario como instrumento de erradicación de la pobreza: potencialidades para su desarrollo en Cuzco (Perú)
+
+% El concepto turismo comunitario aparece por primera vez en la obra de Murphy (1985) donde se analizan aspectos relacionados con el turismo y las áreas rurales de los países menos adelantados y posteriormente en otros trabajos de investigación del mismo autor (Murphy y Murphy, 2004) y en los de Richards y Hall (2000), en el que plantea el turismo como herramienta para reducir la pobreza. Existen varios proyectos de turismo comunitario en América Latina. Concretamente en Bolivia (Palomo, 1997, 1997a), en las comunidades indígenas de la baja California (Bringas e Israel, 2004), Ecuador (Ruiz et al, 2008), Brasil (Guerreiro, 2007), México (Juárez y Ramírez, 2007), Nicaragua (López-Guzmány Sánchez Cañizares, 2009a), El Salvador (López-Guzmán y Sánchez Cañizares, 2009) y Costa Rica (Trejos y Matarrita-Cascante, 2010). Destacar también los trabajos de Palomo (1997, 1997a y 2003), Gascón (2009) y los de Navarro y Nel-lo Andreu (2010) centrados en la cooperación internacional aplicada al desarrollo turístico de los países en vías de desarrollo y su contribución al alivio de la pobreza. Este tipo de turismo está basado en la comunidad local que pretende reducir el impacto negativo y reforzar los impactos positivos del turismo en la naturaleza. Permite generar riqueza en las áreas rurales de los países en vía de desarrollo, a través de la participación de la comunidad local en la gestión turística, de forma que los beneficios repercutan en la propia comunidad. Un turismo inadecuado puede degradar el hábitat y los paisajes, y agotar los recursos naturales, mientras que el turismo sostenible y responsable puede ayudar a la conservación del medio rural y la cultura local. Este modelo de gestión y desarrollo turístico se ha convertido en una modalidad turística que ha aparecido como alternativa a los viajes tradicionales. Hoy en día los turistas han modificado sus pautas de comportamiento a la hora de hacer turismo, buscan experimentar una diversidad cultural en sus viajes. Cobra cada vez más importancia la cultura local de la zona, sus costumbres, su gastronomía y su propia historia. En realidad, más que una modalidad turística el turismo comunitario es una forma diferente de creación de productos turísticos bajo el principio de participación comunitaria en el que se respeta una serie de principios en el mercado turístico (Palomo, 2003). El objetivo del turismo comunitario es preservar la identidad étnica, la valoración y la transmisión del patrimonio cultural en todas sus formas, ya que las culturas autóctonas son portadoras de valores, historia e identidad (Maldonado, 2005). Un elemento esencial para el éxito del turismo comunitario es el papel que debe adoptar la comunidad local en la planificación y gestión de la actividad turística, ya que sirve para adaptarse a los cambios, abre su mentalidad y son parte esencial del producto turístico (López- Guzmán, y Sánchez Cañizares, 2009). Además, el turismo ofrece mayores posibilidades de desarrollo humano que otras intervenciones sectoriales (Palomo, 2003). El turismo comunitario aporta importantes beneficios en las áreas rurales de estos países, ya que, en primer lugar, tiene un impacto directo en las familias de la población local, en el desarrollo socioeconómico de la región y en el estilo de vida (Manyara y Jones, 2007); en segundo lugar, estimula un turismo responsable que mejora, además de la calidad de vida de las áreas rurales, los recursos naturales y culturales de los lugares de destino (WWF Internacional, 2001) y, por último, es una forma de erradicar la pobreza.
+
+%Contextualización:
+
+% El turismo es una de las actividades económicas más importantes en el Perú, ¡fuimos bendecidos!, siendo el turismo cultural uno de los más atractivos para los visitantes. En este sentido, el Santuario Histórico de Machu Picchu (SHM) es uno de los destinos turísticos más visitados en el país, lo que ha generado una serie de problemas relacionados con la conservación y preservación del patrimonio cultural y natural de la humanidad. En este contexto, es importante analizar la situación actual del turismo en el SHM y proponer alternativas para un turismo sostenible que permita el desarrollo económico y social de la región, sin afectar el medio ambiente y la cultura local.
+
+El turismo es una de las actividades económicas más importantes en el Perú, ¡fuimos bendecidos! Entre sus variantes, el turismo cultural destaca como uno de los más atractivos para los visitantes, una ventaja significativa que debemos aprovechar. En este sentido, el Santuario Histórico de Machu Picchu (SHM) se posiciona como uno de los destinos turísticos más visitados del país. No es para menos, pues este lugar está lleno de historia y cultura. No fue casualidad que los incas lo eligieran como hogar, y no deja de inspirar el deseo de haber presenciado su esplendor en su época dorada. Sin embargo, el turismo en el SHM ha generado una serie de problemas relacionados con la conservación ambiental y la preservación de su invaluable patrimonio cultural y natural. Estas problemáticas envuelven las actividades en una incertidumbre constante sobre si las medidas actuales son suficientes para proteger este tesoro. En este contexto, surge naturalmente una pregunta clave: ¿Crees que el turismo en lugares como Machu Picchu está beneficiando adecuadamente a las comunidades locales, o crees que está contribuyendo a problemas medioambientales y culturales? Mi postura es clara: el turismo en Machu Picchu puede ser sostenible si se implementan las medidas adecuadas para proteger el medio ambiente y preservar la cultura local. A continuación, presentaré, con espíritu de guerrero inca, las razones por las cuales considero que esto es posible.
+
+\textcolor{red}{\textbf{En primer lugar}, considero que el turismo en Machu Picchu puede ser sostenible ya que, si se implementan medidas adecuadas, es posible proteger el medio ambiente y la cultura local.} \textcolor{blue}{En Bolivia el turismo no hace más que traer beneficios.} Allí existe algo llamado turismo comunitario, un nombre genial para una práctica bastante simple pero beneficiosa, que hace que las comunidades locales se involucren en la gestión turística, permitiendo que los beneficios repercutan directamente en ellas. Este modelo fomenta un espíritu trabajador en beneficio del servicio a les turistas y es una carta bajo la manga para el turismo en Machu Picchu. ¡Es ganar o ganar! Además, otro regalazo de este enfoque es que reduce la pobreza en las comunidades locales, contribuyendo al desarrollo socioeconómico de la región. Y, ¿qué hay del medio ambiente? Bueno, también tenemos \textcolor{blue}{el caso de Costa Rica y su fuerte conservación y empoderamiento comunitario.} La conservación medioambiental en Costa Rica es de otro mundo; su plan de conservación de la biodiversidad es un ejemplo a seguir. En este país, el turismo sostenible ha permitido preservar recursos naturales y culturales, generando desarrollo económico y social. Como si fuera poco, el empoderamiento comunitario ha permitido que las comunidades locales se beneficien directamente del turismo, reduciendo significativamente la pobreza gracias a su excelente ejecución por parte del Estado.
+
+\textcolor{red}{\textbf{En segundo lugar}, considero que el turismo en Machu Picchu puede ser sostenible ya que es una actividad que respeta el medio ambiente y la cultura local.} \textcolor{blue}{Para fundamentar esto como Dios manda, puedo definir al turismo como una actividad que se basa en el respeto por la naturaleza y la cultura local, acercando así a un público interesado en conocerlos.} Según esta definición, no sería descabellado pensar que el turismo en Machu Picchu puede ser sostenible si se implementan medidas adecuadas para proteger ambos elementos. De forma más concreta, \textcolor{blue}{el desarrollo económico y el bienestar social para las comunidades locales es un completo golazo.} El turismo sostenible no solo beneficia directamente a las comunidades, sino que también salvaguarda el medio ambiente y la cultura local. Además, \textcolor{blue}{la reducción de impactos negativos en el entorno} es un beneficio clave del turismo sostenible, logrado mediante medidas que han demostrado mejorar el impacto negativo en la cobertura natural y el uso del suelo. Por ello, el turismo es un motor económico que, de la mano de la conservación natural, puede ser un aliado para Machu Picchu.
+
+En síntesis, reafirmo mi opinión señalando que el turismo en Machu Picchu puede ser sostenible si se implementan medidas adecuadas para proteger el medio ambiente y la cultura local. Además que por definición es una actividad respetuosa con estos elementos, el turismo sostenible beneficia directamente a las comunidades locales, contribuyendo al desarrollo económico y social de la región. En el Perú debemos felicitar e incentivar el turismo sostenible como la luz de esperanza para muchas comunidades locales que ven en esta actividad una oportunidad de desarrollo. Hago un llamado a las autoridades competentes para que implementen medidas adecuadas que garanticen la sostenibilidad del turismo en Machu Picchu y beneficien a las comunidades locales. ¡Viva el turismo sostenible en Machu Picchu!
+
+
+
+  
+\end{document}
