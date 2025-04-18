@@ -1,0 +1,341 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\definecolor{headerblue}{RGB}{50,90,140}
+\definecolor{responsegray}{RGB}{80,80,80}
+
+
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textbf{Diseño de Productos y Servicios}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Entrevistando Usuarios para Mejorar un Servicio Universitario, Caso SAE.} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Diseño de Productos y Servicios.}
+}
+\author{
+  \textbf{Luis Huatay Salcedo.} \\
+  \textbf{Garcia Chumpitaz Cindel Roxell.} \\
+  \textbf{Díaz Benítez, Fernando Raúl.} \\
+  \textbf{Quispe Fernandez, Bryan Alexander.}
+}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+  Sección 44698
+\end{center}
+\thispagestyle{empty}
+\begin{center}
+  Mg. Marcos Teodoro Yerren H uima  
+\end{center}
+\restoregeometry
+
+% \newpage
+
+% \begin{center}
+%   \textbf{\Large Índice}
+% \end{center}
+% \vspace{0.5cm} % Espacio entre título y contenido
+
+% \begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
+%   \noindent
+%   \begin{enumerate}
+%     \item Introducción
+%   %   \item Problemática
+%   %   \item Objetivo general
+%   %   \begin{enumerate}
+%   %     \item Objetivos específicos
+%   %   \end{enumerate}
+%   %   \item Términos estadísticos
+%   %   \item Recolección de información
+%     \end{enumerate}
+% \end{spacing}
+
+\newpage
+\section*{Descripción de la actividad}
+
+Los estudiantes, organizados en equipos de 3 a 5 personas, realizarán una simulación de investigación de usuarios para mejorar un servicio universitario (puede ser cafetería, biblioteca, transporte interno, app académica, etc.).
+
+\textbf{Servicio al estudiante.} El SAE es un servicio que brinda la universidad a sus estudiantes, permitiéndoles acceder a información académica y administrativa de manera rápida y eficiente. Sin embargo, se ha observado que muchos estudiantes no utilizan el SAE debido a la falta de conocimiento sobre su funcionamiento y beneficios.
+
+\section*{Preguntas de entrevista (Cualitativas)}
+\begin{enumerate}
+  \item ¿Cómo describirías tu experiencia general con el SAE de la UTP? \\
+  (Explorar percepciones globales: facilidad de acceso, resolución de problemas, trato recibido, etc.)
+
+  \item ¿Qué servicios del SAE has utilizado y cuál ha sido el más útil para ti? \\
+  (Identificar servicios destacados y su impacto en la experiencia estudiantil.)
+
+  \item ¿Qué dificultades o barreras has encontrado al interactuar con el SAE? \\
+  (Detectar problemas comunes: tiempos de espera, falta de claridad en procesos, atención impersonal, etc.)
+
+  \item ¿Qué cambios o mejoras propondrías para el SAE? \\
+  (Recoger sugerencias concretas: canales de comunicación, capacitación del personal, nuevos servicios, etc.)
+
+  \item ¿Cómo crees que el SAE podría contribuir mejor a tu éxito académico o bienestar estudiantil? \\
+  (Descubrir necesidades no cubiertas y expectativas de los estudiantes.)
+\end{enumerate}
+
+\section*{Preguntas de encuesta (Cuantitativa)}
+
+\begin{enumerate}
+  \item \textbf{¿Cuál es tu nivel de satisfacción con la atención recibida en el SAE?} \\
+  \hspace*{5mm} \begin{tabular}{@{}ll@{}}
+      $\square$ a) Muy satisfecho & $\square$ b) Satisfecho \\
+      $\square$ c) Insatisfecho & $\square$ d) Muy insatisfecho
+  \end{tabular}
+  
+  \item \textbf{¿Cuántas veces has buscado ayuda del SAE?} \\
+  \hspace*{5mm} \begin{tabular}{@{}ll@{}}
+      $\square$ a) 1 vez & $\square$ b) 2 - 3 veces \\
+      $\square$ c) 4 - 5 veces & $\square$ d) Más de 6 veces
+  \end{tabular}
+  
+  \item \textbf{¿Cuánto tardas en recibir atención del SAE?} \\
+  \hspace*{5mm} \begin{tabular}{@{}ll@{}}
+      $\square$ a) Menos de 10 minutos & $\square$ b) Entre 10 a 30 minutos \\
+      $\square$ c) Entre 30 a 60 minutos & $\square$ d) Más de 60 minutos
+  \end{tabular}
+  
+  \item \textbf{¿La atención que recibiste en el SAE resolvió tu problema o inquietud?} \\
+  \hspace*{5mm} \begin{tabular}{@{}ll@{}}
+      $\square$ a) Sí & $\square$ b) No
+  \end{tabular}
+  
+  \item \textbf{¿Cómo calificas la atención del personal del SAE?} \\
+  \hspace*{5mm} \begin{tabular}{@{}ll@{}}
+      $\square$ a) Muy buena & $\square$ b) Buena \\
+      $\square$ c) Mala & $\square$ d) Muy mala
+  \end{tabular}
+\end{enumerate}
+
+\section*{Entrevista simulada}
+
+Entrevistas semiestructuradas realizadas a usuarios del Servicio de Atención al Estudiante (SAE) de la UTP, con preguntas abiertas y sección de cierre con items de evaluación cuantitativa.
+\vspace{-0.5cm}
+\section*{Entrevista 1}
+\begin{tabular}{ll}
+\textbf{Entrevistador:} & Bryan \\
+\textbf{Usuario:} & Juan \\
+\textbf{Observador:} & Fernando \\
+\end{tabular}
+\vspace{-0.5cm}
+\begin{enumerate}[leftmargin=*, label=\textbf{\arabic*.}]
+    \item \textbf{¿Cómo describirías tu experiencia general con el SAE de la UTP?} \\
+    \textcolor{responsegray}{\textit{Juan:} Mi experiencia ha sido buena en general. Siempre que he necesitado ayuda me han atendido, aunque a veces demoran un poco en responder.}
+    
+    \item \textbf{¿Qué servicios del SAE has utilizado y cuál ha sido el más útil para ti?} \\
+    \textcolor{responsegray}{\textit{Juan:} He usado orientación psicológica y tutorías académicas. Lo más útil fue la ayuda psicológica cuando pasaba por un momento complicado.}
+    
+    \item \textbf{¿Qué dificultades o barreras has encontrado al interactuar con el SAE?} \\
+    \textcolor{responsegray}{\textit{Juan:} A veces es difícil agendar una cita. La plataforma puede ser confusa y no siempre queda claro con quién debo hablar.}
+    
+    \item \textbf{¿Qué cambios o mejoras propondrías para el SAE?} \\
+    \textcolor{responsegray}{\textit{Juan:} Mejorar los tiempos de respuesta y hacer más claro el proceso para agendar citas. También podrían capacitar más al personal en atención al cliente.}
+    
+    \item \textbf{¿Cómo crees que el SAE podría contribuir mejor a tu éxito académico o bienestar estudiantil?} \\
+    \textcolor{responsegray}{\textit{Juan:} Ofreciendo más talleres de manejo del estrés o apoyo emocional durante exámenes. Eso ayudaría mucho.}
+\end{enumerate}
+
+\subsection*{Cierre con preguntas cerradas:}
+\begin{itemize}
+    \item Nivel de satisfacción: \textbf{a) Muy satisfecho}
+    \item Veces que ha buscado ayuda: \textbf{b) 2-3 veces}
+    \item Tiempo de espera: \textbf{b) Entre 10 a 30 minutos}
+    \item Resolución del problema: \textbf{a) Sí}
+    \item Calificación del personal: \textbf{b) Buena}
+\end{itemize}
+\newpage
+\section*{Entrevista 2}
+\begin{tabular}{ll}
+\textbf{Entrevistador:} & Fernando \\
+\textbf{Usuario:} & Rodrigo \\
+\textbf{Observador:} & Bryan \\
+\end{tabular}
+
+\begin{enumerate}[leftmargin=*, label=\textbf{\arabic*.}]
+    \item \textbf{¿Cómo describirías tu experiencia general con el SAE de la UTP?} \\
+    \textcolor{responsegray}{\textit{Rodrigo:} Ha sido regular. Me ayudaron, pero el trato fue un poco impersonal.}
+    
+    \item \textbf{¿Qué servicios del SAE has utilizado y cuál ha sido el más útil para ti?} \\
+    \textcolor{responsegray}{\textit{Rodrigo:} Solo usé orientación académica. Me ayudaron a reorganizar mi malla curricular.}
+    
+    \item \textbf{¿Qué dificultades o barreras has encontrado al interactuar con el SAE?} \\
+    \textcolor{responsegray}{\textit{Rodrigo:} Los horarios son muy reducidos y solo atienden en ciertos momentos, lo que no siempre coincide con mis clases.}
+    
+    \item \textbf{¿Qué cambios o mejoras propondrías para el SAE?} \\
+    \textcolor{responsegray}{\textit{Rodrigo:} Ampliar el horario de atención y permitir contacto por WhatsApp o redes sociales.}
+    
+    \item \textbf{¿Cómo crees que el SAE podría contribuir mejor a tu éxito académico o bienestar estudiantil?} \\
+    \textcolor{responsegray}{\textit{Rodrigo:} Ofreciendo seguimiento personalizado a los estudiantes que tienen bajo rendimiento.}
+\end{enumerate}
+
+\subsection*{Cierre con preguntas cerradas:}
+\begin{itemize}
+    \item Nivel de satisfacción: \textbf{b) Satisfecho}
+    \item Veces que ha buscado ayuda: \textbf{a) 1 vez}
+    \item Tiempo de espera: \textbf{a) Menos de 10 minutos}
+    \item Resolución del problema: \textbf{a) Sí}
+    \item Calificación del personal: \textbf{c) Mal}
+\end{itemize}
+
+\section*{Entrevista 3}
+\begin{tabular}{ll}
+\textbf{Entrevistador:} & Roxel \\
+\textbf{Usuario:} & Camila \\
+\textbf{Observador:} & Luis \\
+\end{tabular}
+\vspace{-0.5cm}
+\begin{enumerate}[leftmargin=*, label=\textbf{\arabic*.}]
+    \item \textbf{¿Cómo describirías tu experiencia general con el SAE de la UTP?} \\
+    \textcolor{responsegray}{\textit{Camila:} Muy buena, siempre me han atendido con amabilidad y rapidez.}
+    
+    \item \textbf{¿Qué servicios del SAE has utilizado y cuál ha sido el más útil para ti?} \\
+    \textcolor{responsegray}{\textit{Camila:} He usado asesoría vocacional y talleres de empleabilidad. Los talleres fueron muy útiles para mejorar mi CV.}
+    
+    \item \textbf{¿Qué dificultades o barreras has encontrado al interactuar con el SAE?} \\
+    \textcolor{responsegray}{\textit{Camila:} Ninguna hasta ahora. Todo ha sido claro y bien organizado.}
+    
+    \item \textbf{¿Qué cambios o mejoras propondrías para el SAE?} \\
+    \textcolor{responsegray}{\textit{Camila:} Quizás más difusión de los servicios, porque varios compañeros ni saben que existen.}
+    
+    \item \textbf{¿Cómo crees que el SAE podría contribuir mejor a tu éxito académico o bienestar estudiantil?} \\
+    \textcolor{responsegray}{\textit{Camila:} Acompañando más en los primeros ciclos, cuando uno está más perdido.}
+\end{enumerate}
+
+\subsection*{Cierre con preguntas cerradas:}
+\begin{itemize}
+    \item Nivel de satisfacción: \textbf{a) Muy satisfecho}
+    \item Veces que ha buscado ayuda: \textbf{b) 2-3 veces}
+    \item Tiempo de espera: \textbf{b) Entre 10 a 30 minutos}
+    \item Resolución del problema: \textbf{a) Sí}
+    \item Calificación del personal: \textbf{a) Muy buena}
+\end{itemize}
+
+\section*{Entrevista 4}
+\begin{tabular}{ll}
+\textbf{Entrevistador:} & Luis \\
+\textbf{Usuario:} & Mónica \\
+\textbf{Observador:} & Roxel \\
+\end{tabular}
+\vspace{-0.5cm}
+\begin{enumerate}[leftmargin=*, label=\textbf{\arabic*.}]
+    \item \textbf{¿Cómo describirías tu experiencia general con el SAE de la UTP?} \\
+    \textcolor{responsegray}{\textit{Mónica:} Un poco decepcionante. Pedí ayuda una vez y no me dieron solución rápida.}
+    
+    \item \textbf{¿Qué servicios del SAE has utilizado y cuál ha sido el más útil para ti?} \\
+    \textcolor{responsegray}{\textit{Mónica:} Solo usé orientación académica, pero no me sentí bien guiada.}
+    
+    \item \textbf{¿Qué dificultades o barreras has encontrado al interactuar con el SAE?} \\
+    \textcolor{responsegray}{\textit{Mónica:} Sentí que no tenían mucho conocimiento de mi situación. Faltó empatía.}
+    
+    \item \textbf{¿Qué cambios o mejoras propondrías para el SAE?} \\
+    \textcolor{responsegray}{\textit{Mónica:} Mayor capacitación del personal y más seguimiento a los casos.}
+    
+    \item \textbf{¿Cómo crees que el SAE podría contribuir mejor a tu éxito académico o bienestar estudiantil?} \\
+    \textcolor{responsegray}{\textit{Mónica:} Asignando tutores fijos que te acompañen durante el ciclo.}
+\end{enumerate}
+
+\subsection*{Cierre con preguntas cerradas:}
+\begin{itemize}
+    \item Nivel de satisfacción: \textbf{d) Muy insatisfecho}
+    \item Veces que ha buscado ayuda: \textbf{b) 2-3 veces}
+    \item Tiempo de espera: \textbf{c) Entre 30 a 60 minutos}
+    \item Resolución del problema: \textbf{b) No}
+    \item Calificación del personal: \textbf{d) Muy mala}
+\end{itemize}
+
+\newpage
+
+\section*{Mapa de Empatía}
+
+\textbf{¿Qué piensa y siente?}
+\begin{itemize}[leftmargin=*]
+    \item Percepción general del servicio SAE como \textbf{lento y confuso}
+    \item Necesidad de un \textbf{trato más humano y personalizado}
+    \item Expectativa de \textbf{apoyo efectivo} en momentos clave académicos
+\end{itemize}
+
+
+\textbf{¿Qué ve?}
+\begin{itemize}[leftmargin=*]
+    \item Plataforma con \textbf{falencias de claridad} en procesos
+    \item \textbf{Atención impersonal} y horarios limitados
+    \item \textbf{Falta de difusión} sobre servicios disponibles
+\end{itemize}
+
+\textbf{¿Qué escucha?}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Experiencias mixtas} con tendencia a comentarios negativos
+    \item Quejas frecuentes sobre \textbf{tiempos de espera} prolongados
+    \item Sugerencias para extender servicio a \textbf{redes sociales}
+\end{itemize}
+
+\textbf{¿Qué dice y hace?}
+\begin{itemize}[leftmargin=*]
+    \item Reconoce \textbf{servicios valiosos} (apoyo psicológico, empleabilidad)
+    \item Critica \textbf{soluciones incompletas} y trato impersonal
+    \item Solicita \textbf{acompañamiento en primeros ciclos}
+\end{itemize}
+
+\textbf{¿Cuáles son sus esfuerzos?}
+\begin{itemize}[leftmargin=*]
+    \item Enfrenta \textbf{horarios restrictivos} y procesos poco claros
+    \item Dificultad por \textbf{falta de comunicación} efectiva
+    \item Problemas con \textbf{plataforma confusa} para encontrar servicios
+\end{itemize}
+
+\textbf{¿Qué resultados espera?}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Atención empática} y personalizada
+    \item \textbf{Mayor rapidez} en respuestas y más canales de contacto
+    \item \textbf{Acompañamiento continuo} desde inicio de carrera y en periodos de evaluación
+\end{itemize}
+
+
+\end{document}
