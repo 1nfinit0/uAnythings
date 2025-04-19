@@ -1,0 +1,190 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\definecolor{headerblue}{RGB}{50,90,140}
+\definecolor{responsegray}{RGB}{80,80,80}
+
+
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textbf{Diseño de Productos y Servicios}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Avance de Proyecto 1: Sistema de Reservas de Salas de Estudio.} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Diseño de Productos y Servicios.} \\
+  \large \textbf{Ing. Software y Sistemas.}
+}
+\author{
+  \textbf{Luis Huatay Salcedo.} \\
+  \textbf{Garcia Chumpitaz Cindel Roxell.} \\
+  \textbf{Díaz Benítez, Fernando Raúl.} \\
+  \textbf{Quispe Fernandez, Bryan Alexander.}
+}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+  Sección 44698
+\end{center}
+\thispagestyle{empty}
+\begin{center}
+  Mg. Marcos Teodoro Yerren Huima  
+\end{center}
+\restoregeometry
+
+\newpage
+
+\tableofcontents
+\newpage
+
+\vspace*{\fill}
+\section{Introducción}
+La Universidad Tecnológica del Perú (UTP) es una institución educativa que ofrece una amplia gama de programas académicos y servicios a sus estudiantes. Uno de los aspectos fundamentales para el éxito académico es la disponibilidad de espacios adecuados para el estudio y la colaboración. En este contexto, el presente informe se centra en la creación de un sistema de reservas de salas de estudio, diseñado específicamente para satisfacer las necesidades de los estudiantes y mejorar su experiencia educativa.
+
+El sistema de reservas de salas de estudio tiene como objetivo facilitar la gestión y el uso eficiente de los espacios de estudio disponibles en la UTP. A través de este sistema, los estudiantes podrán reservar salas de estudio de manera rápida y sencilla, asegurando así un entorno propicio para el aprendizaje y la colaboración.
+\vspace*{\fill}
+
+\newpage
+
+\section{Definición del problema}
+
+Muchos estudiantes tienen dificultades para reservar salas de estudio en la biblioteca 
+debido a la falta de un sistema digital eficiente. Esto genera desorganización, pérdida de tiempo y conflictos por el uso de espacios.
+
+La UTP cuenta con una biblioteca que ofrece diversas salas de estudio, pero la gestión de reservas que se realiza por su aplicación se hace de manera que una sala está completamente ocupada por el tiempo que se reserva y no por el tiempo que se ocupa, lo que puede llevar a confusiones y malentendidos entre los estudiantes. Además, la falta de un sistema centralizado dificulta la planificación y el uso óptimo de estos espacios.
+
+La situación actual presenta varios problemas, entre ellos:
+\begin{itemize}
+    \item Falta de un sistema digital eficiente para la gestión de reservas.
+    \item Desorganización en la utilización de los espacios de estudio.
+    \item Conflictos entre estudiantes por el uso de las salas.
+    \item Dificultad para encontrar y reservar salas de estudio disponibles.
+    \item Pérdida de tiempo al buscar espacios adecuados para estudiar.
+    \item Falta de información sobre la disponibilidad de salas en tiempo real.
+\end{itemize}
+
+\subsection{¿Qué problema o necesidad busca solucionar su proyecto?}
+
+El proyecto busca implementar una plataforma web o app que permita a los estudiantes 
+reservar salas de forma rápida, ordenada y sobre todo, que estas se mantengan disponibles a penas se desocupan. Esto no solo mejorará la experiencia de los estudiantes, sino que también optimizará el uso de los espacios de estudio en la UTP.
+
+\newpage
+
+\section{Investigación de usuarios}
+
+La investigación de usuarios es un proceso fundamental para comprender las necesidades y expectativas de los estudiantes en relación con el sistema de reservas de salas de estudio. A través de encuestas y entrevistas, se recopilará información valiosa que guiará el diseño y desarrollo del sistema.
+
+\subsection{Preguntas de entrevista}
+
+Las preguntas de entrevista se caracterizan por ser abiertas y permitir a los usuarios expresar sus opiniones y experiencias de manera detallada. A continuación, se presentan algunas preguntas que se utilizarán en las entrevistas:
+
+\begin{enumerate}
+  \item ¿Cuánto tiempo sueles usar una sala de estudio por sesión?
+  \item ¿Qué dificultades tienes al acceder a las salas de estudio? ¿Por qué?
+  \item ¿Qué funciones te parecerían más útiles en un sistema de reservas para las salas de estudio?
+  \item ¿Qué tan fácil te resulta usar el sistema de reservas y qué cambiarías para mejorarlo?
+  \item ¿Crees que un sistema de reservas eficiente influye en tus actividades académicas? ¿Por qué?
+\end{enumerate}
+
+\subsection{Preguntas de encuesta}
+
+Esta por otro lado, se caracteriza por ser cerrada y permite obtener datos cuantitativos. A continuación, se presentan algunas preguntas que se utilizarán en la encuesta:
+
+\begin{multicols}{2}
+  \begin{enumerate}
+    \item ¿Tu universidad cuenta con un sistema de reservas para las salas de estudio? 
+    \begin{itemize}
+      \item $\square$ a) Sí
+      \item $\square$ b) No
+    \end{itemize}
+  
+    \item ¿Con qué frecuencia utilizas las salas de estudio en la universidad? 
+    \begin{itemize}
+      \item $\square$ a) Nunca
+      \item $\square$ b) A veces
+      \item $\square$ c) Frecuentemente
+      \item $\square$ d) Siempre
+    \end{itemize}
+  
+    \item ¿Sueles utilizar la sala de estudio de manera individual o en grupo? 
+    \begin{itemize}
+      \item $\square$ a) Individual
+      \item $\square$ b) En grupo
+      \item $\square$ c) Ambos
+    \end{itemize}
+  
+    \item ¿En qué horarios puedes usar las salas de estudio? 
+    \begin{itemize}
+      \item $\square$ a) Mañana
+      \item $\square$ b) Tarde
+      \item $\square$ c) Noche
+    \end{itemize}
+  
+    \item ¿Has tenido dificultades para encontrar una sala de estudio disponible? 
+    \begin{itemize}
+      \item $\square$ a) Sí
+      \item $\square$ b) No
+    \end{itemize}
+  
+    \item ¿Te gustaría contar con una aplicación o plataforma digital para reservar salas de estudio? 
+    \begin{itemize}
+      \item $\square$ a) Sí, definitivamente
+      \item $\square$ b) Tal vez
+      \item $\square$ c) No
+    \end{itemize}
+  \end{enumerate}  
+\end{multicols}
+
+\newpage
+
+\section{Mapa de empatía}
+
+Esta sección pretende resumir la información obtenida de los usuarios a través de las entrevistas y encuestas. El mapa de empatía es una herramienta visual que ayuda a comprender mejor a los usuarios y sus necesidades. A continuación, se presenta un ejemplo de un mapa de empatía para el sistema de reservas de salas de estudio:
+
+alsdjhoashd
+
+\end{document}
