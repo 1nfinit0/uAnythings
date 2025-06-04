@@ -1,0 +1,68 @@
+% Página de título personalizada (en lugar de \maketitle)
+\thispagestyle{fancy} % Aplicar cabecera fancy a esta página
+
+\vspace*{-1.5cm} % Eleva el título general para que esté más cerca del borde superior
+
+\begin{center}
+  {\LARGE\bfseries
+    Diseño y producción de un generador físico de números aleatorios aprovechando la entropía de un sistema eólico.\\
+    }
+
+    \vspace{0.5em}
+
+    \begin{tabular}{ll}
+    $\text{Luis Huatay S.}^{(1)}$ & $\text{Cristian Cristóbal B.}^{(2)}$
+    \end{tabular} \\
+    $^{(1)}$ Estudiante de 3° ciclo de la carrera de ING. Software, UTP \\
+    $^{(2)}$ Estudiante de 3° ciclo de la carrera de ING. Sistemas, UTP
+\end{center}
+\vspace{-1cm}
+\vspace{1.5em}
+\begin{center}
+  {\large\bfseries Resumen}
+\end{center}
+\vspace{-0.7cm}
+
+En este proyecto se realiza el diseño y producción de un mecanismo \textit{Theo Jansen} generador de números aleatorios que emplea la energía cinética de un sistema eólico para aprovechar la entropía del mismo. El objetivo es crear un generador físico de números aleatorios utilizando conceptos básicos de mecánica clásica. Los resultados obtenidos pretenden demostrar la viabilidad de este enfoque y su aplicación en la generación de números aleatorios con diferentes usos en ingeniería y más específicamente, seguridad informática. El proyecto se desarrolla en el contexto de la asignatura Mecánica Clásica, con el fin de aplicar los conocimientos adquiridos en clase a un caso práctico.
+
+\begin{center}
+  Palabras clave: {\textbf{\textit{Strandbeest - Theo Jansen - Entropía - Aleatoriedad - Seguridad - Mecánica Clásica}}}
+\end{center}
+
+\section{Introducción}
+La generación de números aleatorios es un aspecto fundamental en diversas áreas de la ingeniería y la informática, especialmente en la en la ciberseguridad, estos números ayudan a poder crear claves seguras para cifrado, autenticación y otros procesos críticos. Sin embargo, la generación de números aleatorios a menudo se basa en algoritmos que pueden ser predecibles o insuficientemente aleatorios, lo que plantea riesgos de seguridad. Según \textit{Herrero y Escartín (2017)} Si hay un campo en el que sea necesaria la creación y uso de números aleatorios ese es, sin duda, la computación. Aparte de las aplicaciones que, por su naturaleza, requieren el uso de este tipo de números, como pueden ser los casinos online, gran parte de la criptografía moderna se apoya en los números aleatorios para garantizar su seguridad. \cite{herrero2017fisica}
+
+Es en ese sentido que el presente proyecto busca explorar una alternativa innovadora para la generación de números aleatorios, aprovechando la entropía de un sistema que usa el viento como energía para el movimiento. La idea es diseñar y construir un mecanismo inspirado en las obras del artista e ingeniero Theo Jansen, conocido por sus estructuras cinéticas que caminan utilizando el viento como fuente de energía. \cite{Nansai2013} que pueda aprovechar la energía cinética generada por el viento para crear un sistema que produzca números aleatorios cada que el mecanismo se mueva y deje de hacerlo, utilizando de esta forma la entropía del sistema para garantizar la aleatoriedad de los números generados. \cite{PachecoHernndez2021}
+
+\subsection{Descripción}
+
+La generación de números aleatorios es un problema complejo que ha sido abordado de diversas maneras a lo largo de la historia. En el contexto de la informática, los números aleatorios se han formado mediante algoritmos que, aunque eficientes, pueden carecer de la verdadera aleatoriedad necesaria para aplicaciones críticas. Históricamente, según \textit{Herrera (2000)} Antes del advenimiento de las computadoras, los números aleatorios eran generados por dispositivos físicos. En 1939, Kendall y Babington-Smith publicaron 100.000 dígitos aleatorios obtenidos con un disco giratorio iluminado con una lámpara relámpago. En 1955, la Rand Corporation publicó un millón de dígitos producidos controlando una fuente de pulsos de frecuencia aleatoria (mecanismo electrónico); éstos se encuentran disponibles en cintas magnéticas de la Rand. \cite{herrera2000numeros}
+
+Actualemte, la generación de números aleatorios se basa en algoritmos que utilizan procesos deterministas para producir secuencias de números que parecen aleatorios, estos números son llamados también \textit{números pseudoaleatorios}.
+
+Sobre el impacto socioeconómico de la generación de números aleatorios, es importante destacar que la seguridad informática es un aspecto crítico en la sociedad actual. La protección de datos personales, transacciones financieras y comunicaciones confidenciales depende en gran medida de la calidad de los números aleatorios utilizados en los sistemas de cifrado. Un generador de números aleatorios confiable puede mejorar significativamente la seguridad de estos sistemas, reduciendo el riesgo de ataques cibernéticos y garantizando la privacidad de los usuarios.
+
+\subsection{Objetivos}
+
+El objetivo principal de este proyecto es diseñar y construir un mecanismo \textit{Theo Jansen} que aproveche la energía cinética del viento para generar números aleatorios. Esta se considera una idea innovadora que combina principios de mecánica clásica con la generación de números aleatorios y que a nivel personal de los autores es un reto emocionante que implica aplicar los conocimientos adquiridos durante el curso del cual se desarrolla este proyecto.
+
+Por otro lado, se busca demostrar la viabilidad teórica de este enfoque y su aplicación en la generación de números aleatorios con diferentes y generales usos. Para lograr esto, se llevará a cabo un diseño cuidadoso del mecanismo, seguido de la construcción, prueba del mismo y de los números generados. 
+
+\subsection{Alcances y limitaciones}
+
+Los mecanismos \textit{Theo Jansen} son estructuras que en principio están diseñadas para caminar utilizando el viento como fuente de energía. No pretenden ocupar mucho espacio ni ser inncesariamente complejos, sino que buscan ser eficientes y funcionales. En este proyecto. En lo que respecta a lo económico, se busca utilizar materiales accesibles y de bajo costo para la construcción del mecanismo, lo que permitirá que el proyecto sea replicable. En ese sentido se pueden considerar algunos alcances y limitaciones para el presente proyecto:
+\begin{itemize}
+  \item \textbf{Alcances:}
+  \begin{itemize}
+    \item Diseño y construcción de un mecanismo \textit{Theo Jansen} que aproveche la energía cinética del viento.
+    \item Generación de números aleatorios utilizando la entropía del sistema eólico.
+    \item Aplicación de principios de mecánica clásica en el diseño y funcionamiento del mecanismo.
+  \end{itemize}
+  \item \textbf{Limitaciones:}
+  \begin{itemize}
+    \item Dependencia de las condiciones climáticas para el funcionamiento del mecanismo.
+    \item Posible variabilidad en la calidad de los números aleatorios generados debido a factores externos.
+    \item Dificultades en la calibración y ajuste del mecanismo para garantizar un funcionamiento óptimo.
+    \item Limitaciones en la precisión y repetibilidad de los números generados por el mecanismo.
+  \end{itemize}
+\end{itemize}

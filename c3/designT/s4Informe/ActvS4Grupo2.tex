@@ -1,0 +1,174 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\definecolor{headerblue}{RGB}{50,90,140}
+\definecolor{responsegray}{RGB}{80,80,80}
+
+
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textbf{Diseño de Productos y Servicios}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Entrevistando a un usuarios extremo} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Diseño de Productos y Servicios.}
+}
+\author{
+  \textbf{Luis Huatay Salcedo.} \\
+  \textbf{Garcia Chumpitaz Cindel Roxell.} \\
+  \textbf{Díaz Benítez, Fernando Raúl.} \\
+  \textbf{Quispe Fernandez, Bryan Alexander.}
+}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+  Sección 44698
+\end{center}
+\thispagestyle{empty}
+\begin{center}
+  Mg. Marcos Teodoro Yerren Huima  
+\end{center}
+\restoregeometry
+
+% \newpage
+
+% \begin{center}
+%   \textbf{\Large Índice}
+% \end{center}
+% \vspace{0.5cm} % Espacio entre título y contenido
+
+% \begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
+%   \noindent
+%   \begin{enumerate}
+%     \item Introducción
+%   %   \item Problemática
+%   %   \item Objetivo general
+%   %   \begin{enumerate}
+%   %     \item Objetivos específicos
+%   %   \end{enumerate}
+%   %   \item Términos estadísticos
+%   %   \item Recolección de información
+%     \end{enumerate}
+% \end{spacing}
+
+\newpage
+
+
+%-------------------------------------------------
+% Perfil del usuario
+%-------------------------------------------------
+\section*{Perfil del usuario entrevistado}
+\begin{center}
+  \begin{tabular}{p{0.3\linewidth} p{0.65\linewidth}}
+    \textbf{Nombre y edad:}   & Sofía Ángeles V. Rasputín, 68 años \\
+    \textbf{Condición:}       & Persona mayor, visión reducida, baja alfabetización digital \\
+    \textbf{Producto:}        & WhatsApp (mensajería) \\
+  \end{tabular}
+\end{center}
+
+% ----------------------------------------
+% ENTREVISTA INFORMAL – USUARIO EXTREMO
+% ----------------------------------------
+\section*{Entrevista informal – Usuario extremo}
+
+\subsection*{Preguntas y respuestas}
+\begin{enumerate}
+  \item \textbf{¿Qué producto o aplicación digital ha usado recientemente?}\\
+    He usado WhatsApp para comunicarme con mis hijos y nietos.
+  
+  \item \textbf{¿Qué dificultades encontró al usarlo?}\\
+    Las letras son muy pequeñas. A veces me mandan audios y no sé cómo responder. También me confundo cuando hay muchos mensajes en un grupo familiar.
+  
+  \item \textbf{¿Qué esperaba lograr con esa aplicación?}\\
+    Solo quiero hablar con mi familia, mandar mensajes sencillos y fotos, pero me cuesta saber dónde está cada cosa ya que no estoy acostumbrada.
+  
+  \item \textbf{¿Qué le gustaría que fuera diferente para que le sea más fácil de usar?}\\
+    Me gustaría que tuviera letras grandes, explicaciones más claras, y que no tenga tantas funciones juntas. A veces solo quiero enviar un mensaje, pero toco otra cosa sin querer.
+\end{enumerate}
+
+% ----------------------------------------
+% DESCRIPCIÓN DE HALLAZGOS
+% ----------------------------------------
+\section*{Descripción de hallazgos}
+
+\begin{itemize}
+  \item \textbf{¿Qué dificultades encontró?}\\
+        Sofía experimenta problemas de legibilidad debido al tamaño reducido de las letras, se siente desorientada en grupos con muchos mensajes y no sabe cómo reproducir ni responder a los audios que recibe.
+        
+  \item \textbf{¿Qué necesidades o expectativas tiene?}\\
+        Espera una interfaz más clara y simple que le permita enviar mensajes y fotos sin confusiones, así como una forma intuitiva de gestionar y contestar audios. Necesita textos de mayor tamaño y explicaciones paso a paso de las funciones básicas.
+        
+  \item \textbf{¿Qué mejora propondrías para facilitarle la experiencia?}\\
+        Un “Modo Simplificado” con tipografía XXL y alto contraste, solo tres botones principales (mensaje, audio y foto) etiquetados con texto descriptivo, y un asistente inicial que la guíe de forma interactiva por cada acción.
+\end{itemize}
+
+%-------------------------------------------------
+% Resumen de lo aprendido
+%-------------------------------------------------
+\section*{Resumen de lo aprendido}
+\begin{itemize}
+  \item \textbf{Texto pequeño:} Le cuesta leer mensajes con el tamaño de letra actual.
+  \item \textbf{Interfaz sobrecargada:} Confusión al haber muchas funciones en pantalla.
+  \item \textbf{Audios:} No sabe cómo reproducir ni responder grabaciones.
+  \item \textbf{Falta de guía:} Necesita explicaciones claras y un tutorial paso a paso.
+  \item \textbf{Errores involuntarios:} Presiona opciones erróneas al intentar enviar mensajes simples.
+\end{itemize}
+
+%-------------------------------------------------
+% Idea de mejora
+%-------------------------------------------------
+\section*{Idea inicial de mejora}
+\begin{itemize}
+  \item \textbf{Modo Simplificado:} Interfaz reducida a tres acciones: enviar mensaje, enviar audio y enviar foto.
+  \item \textbf{Tipografía XXL:} Letras de gran tamaño con alto contraste.
+  \item \textbf{Iconos con etiqueta:} Cada botón con ícono y texto descriptivo (“Enviar mensaje”).
+  \item \textbf{Tutorial interactivo:} Asistente paso a paso la primera vez que abra la app.
+  \item \textbf{Opción de retorno:} Botón para volver al modo completo cuando lo desee.
+\end{itemize}
+
+\end{document}

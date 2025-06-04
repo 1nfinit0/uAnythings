@@ -1,0 +1,116 @@
+\documentclass{article}
+
+%===============================
+%
+%          📦 Paquetes
+%
+%===============================
+
+% === Configuración del documento y tipografía ===
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext} % Times New Roman-like font
+%\usepackage{newtxmath} % Matching math font
+
+% === Gráficos y representaciones visuales ===
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+
+% === Estilo y personalización ===
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{caption}
+
+% === Matemáticas y símbolos ===
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cancel}
+
+% === Estructura y disposición del contenido ===
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+
+% === Hipervínculos y referencias ===
+\usepackage{tocbibind}
+\usepackage{hyperref}
+
+%===============================
+%
+%          ⬆️⬇️ Cabeceras
+%
+%===============================
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo.png}}
+\fancyhead[R]{\textit{Mecánica Clásica - 44280}}
+\fancyfoot[R]{\thepage}
+\setlength{\headheight}{22.9188pt}
+\addtolength{\topmargin}{-5.64944pt}
+
+%======================================
+%
+%          📑 Espaciado de Párrafos
+%
+%======================================
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+\titlespacing*{\section}
+  {0pt}{1.5ex plus 1ex minus .2ex}{0.1ex plus .1ex}
+
+\titlespacing*{\subsection}
+  {0pt}{1.2ex plus 0.8ex minus .2ex}{0.2ex plus .1ex}
+
+\titlespacing*{\subsubsection}
+  {0pt}{1ex plus 0.5ex minus .2ex}{0.1ex plus .1ex}
+
+
+
+%======================================
+%
+%          📕 Estrucura del título
+%
+%======================================
+
+% \title{
+%   \textbf{Relación entre la capacitación continua de los trabajadores y su productividad en una empresa de tecnología en Perú durante el año 2025}
+% }
+% \author{
+%   \begin{tabular}{ll}
+%     \textbf{Huatay Salcedo, Luis} & \texttt{U24218809}
+%   \end{tabular}
+% }
+
+\begin{document}
+
+%======================================
+%
+%          📚 Inicio del documento
+%
+%======================================
+
+% Introducción
+\include{components/introduccion/introduccion}
+
+% Fundamentos Físicos
+\include{components/fundamentosFisicos/fundamentosFisicos}
+
+% Diseño del mecanismo
+\include{components/metodologia/metodologia}
+
+%Referencias
+\include{components/referencias/referencias}
+
+\end{document}

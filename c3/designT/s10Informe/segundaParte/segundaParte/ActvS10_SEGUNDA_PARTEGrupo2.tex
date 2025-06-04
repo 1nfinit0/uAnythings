@@ -1,0 +1,130 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\definecolor{headerblue}{RGB}{50,90,140}
+\definecolor{responsegray}{RGB}{80,80,80}
+
+
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textbf{Diseño de Productos y Servicios}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Informe de mejora contínua} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Diseño de Productos y Servicios.}
+}
+\author{
+  \textbf{Luis Huatay Salcedo.} \\
+  \textbf{Garcia Chumpitaz Cindel Roxell.} \\
+  \textbf{Díaz Benítez, Fernando Raúl.} \\
+  \textbf{Quispe Fernandez, Bryan Alexander.}
+}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+  Sección 44698
+\end{center}
+\thispagestyle{empty}
+\begin{center}
+  Mg. Marcos Teodoro Yerren Huima  
+\end{center}
+\restoregeometry
+
+% \newpage
+
+% \begin{center}
+%   \textbf{\Large Índice}
+% \end{center}
+% \vspace{0.5cm} % Espacio entre título y contenido
+
+% \begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
+%   \noindent
+%   \begin{enumerate}
+%     \item Introducción
+%   %   \item Problemática
+%   %   \item Objetivo general
+%   %   \begin{enumerate}
+%   %     \item Objetivos específicos
+%   %   \end{enumerate}
+%   %   \item Términos estadísticos
+%   %   \item Recolección de información
+%     \end{enumerate}
+% \end{spacing}
+
+\newpage
+
+
+%-------------------------------------------------
+% Perfil del usuario
+%-------------------------------------------------
+\section{Sobre la mejora contínua de la plataforma UTP}
+
+Los cambios realizados en la plataforma UTP tienen como objetivo mejorar la experiencia del usuario, facilitando el acceso a la información académica y administrativa. A continuación, se presenta un análisis detallado de los aspectos positivos, las áreas de mejora y las acciones concretas que se han implementado.
+
+\subsection*{Aspectos de soluciones que pueden seguir mejorando:}
+
+Con respecto a las soluciones propuestas, estas pretenden ser un punto de partida para una mejora continua de la plataforma. Aunque se han implementado cambios significativos, es importante seguir evaluando y ajustando las funcionalidades para adaptarse a las necesidades cambiantes de los usuarios. La retroalimentación constante de los estudiantes y el personal académico es crucial para identificar nuevas áreas de mejora y garantizar que la plataforma siga siendo una herramienta efectiva y eficiente.
+
+\subsection*{Dos ideas concretas de mejora:}
+
+Para mejorar la plataforma UTP, se proponen dos ideas concretas:
+\begin{itemize}
+  \item \textbf{Implementación de un sistema de navegación intuitivo:} Rediseñar la estructura de navegación para que los usuarios puedan encontrar fácilmente la información que necesitan. Esto podría incluir una barra de navegación más clara y accesible, así como una organización más lógica de las secciones.
+  \item \textbf{Optimización del rendimiento:} Mejorar la velocidad de carga de las páginas y la estabilidad técnica de la plataforma. Esto podría implicar la optimización de bases de datos, servidores y el uso de tecnologías más eficientes para garantizar una experiencia fluida y sin interrupciones.
+\end{itemize}
+
+\subsection*{¿Por qué se considera que estas mejoras beneficiarán a los usuarios?}
+Estas mejoras se consideran beneficiosas para los usuarios porque:
+\begin{itemize}
+  \item \textbf{Facilitan el acceso a la información:} Un sistema de navegación intuitivo permitirá a los usuarios encontrar rápidamente lo que necesitan, reduciendo la frustración y el tiempo perdido en la búsqueda de información.
+  \item \textbf{Mejoran la experiencia general:} La optimización del rendimiento hará que la plataforma sea más ágil y receptiva, lo que contribuirá a una experiencia más satisfactoria y eficiente para todos los usuarios.
+  \item \textbf{Aumentan la satisfacción del usuario:} Al abordar las preocupaciones actuales sobre la usabilidad y el rendimiento, se espera que los usuarios se sientan más satisfechos con la plataforma, lo que puede llevar a un mayor uso y aceptación de las herramientas digitales ofrecidas por la UTP.
+  \item \textbf{Fomentan la adopción de la plataforma:} Al mejorar la usabilidad y el rendimiento, se espera que más estudiantes y personal académico utilicen la plataforma de manera regular, lo que puede llevar a una mayor eficiencia en la gestión académica y administrativa.
+\end{itemize}
+\end{document}

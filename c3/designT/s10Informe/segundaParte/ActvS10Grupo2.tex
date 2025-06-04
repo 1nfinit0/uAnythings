@@ -1,0 +1,179 @@
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\pgfplotsset{compat=1.18}
+\usepackage{titlesec} % Para personalizar títulos
+\usepackage{tocloft}  % Para mejorar el índice
+\usepackage{setspace} % Para controlar el espaciado
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\definecolor{headerblue}{RGB}{50,90,140}
+\definecolor{responsegray}{RGB}{80,80,80}
+
+
+
+% Configuración de Fancyhdr para encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
+\fancyhead[R]{\textbf{Diseño de Productos y Servicios}}
+
+\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
+
+% Ajustes de espaciado entre párrafos y márgenes superiores
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{17.26935pt} % Altura del encabezado
+\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
+\setlength{\textheight}{23cm}  % Ajusta el alto del texto
+
+% Definición de comandos personalizados
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+% Título del documento con mejor control de espaciado
+\title{
+  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
+  \vspace{1cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{2cm}
+  \textbf{Iterar para mejorar} \\
+  \vspace{1cm}
+  \large \textbf{Para el curso de Diseño de Productos y Servicios.}
+}
+\author{
+  \textbf{Luis Huatay Salcedo.} \\
+  \textbf{Garcia Chumpitaz Cindel Roxell.} \\
+  \textbf{Díaz Benítez, Fernando Raúl.} \\
+  \textbf{Quispe Fernandez, Bryan Alexander.}
+}
+
+
+\begin{document}
+\maketitle
+\begin{center}
+  Sección 44698
+\end{center}
+\thispagestyle{empty}
+\begin{center}
+  Mg. Marcos Teodoro Yerren Huima  
+\end{center}
+\restoregeometry
+
+% \newpage
+
+% \begin{center}
+%   \textbf{\Large Índice}
+% \end{center}
+% \vspace{0.5cm} % Espacio entre título y contenido
+
+% \begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
+%   \noindent
+%   \begin{enumerate}
+%     \item Introducción
+%   %   \item Problemática
+%   %   \item Objetivo general
+%   %   \begin{enumerate}
+%   %     \item Objetivos específicos
+%   %   \end{enumerate}
+%   %   \item Términos estadísticos
+%   %   \item Recolección de información
+%     \end{enumerate}
+% \end{spacing}
+
+\newpage
+
+
+%-------------------------------------------------
+% Perfil del usuario
+%-------------------------------------------------
+\section{Análisis sobre la plataforma UTP}
+
+La plataforma UTP es una herramienta integral diseñada para facilitar la gestión académica y administrativa de los estudiantes. Permite a los usuarios acceder a información relevante sobre sus cursos, calificaciones, horarios y más, todo en un entorno digital accesible.
+
+\subsection*{Producto:}
+\textit{\textbf{Aplicativo UTP}} - Plataforma de gestión académica y administrativa.
+
+\subsection{¿Qué funciona bien?}
+
+\begin{itemize}
+  \item \textbf{Accesibilidad:} La plataforma es accesible desde cualquier dispositivo con conexión a internet, lo que permite a los estudiantes acceder a su información en cualquier momento y lugar.
+  \item \textbf{Interfaz amigable:} La interfaz es intuitiva y fácil de navegar, lo que facilita la búsqueda de información y la realización de trámites académicos.
+  \item \textbf{Actualización constante:} La plataforma se actualiza regularmente para mejorar la experiencia del usuario y añadir nuevas funcionalidades.
+  \item \textbf{Soporte técnico:} Existe un equipo de soporte técnico disponible para resolver dudas y problemas técnicos, lo que mejora la experiencia del usuario.
+  \item \textbf{Integración de servicios:} La plataforma integra diversos servicios académicos y administrativos, lo que permite a los estudiantes gestionar su vida académica de manera centralizada.
+  \item \textbf{Notificaciones:} La plataforma envía notificaciones sobre fechas importantes, como plazos de inscripción y resultados de exámenes, lo que ayuda a los estudiantes a mantenerse informados.
+  \item \textbf{Seguridad:} La plataforma cuenta con medidas de seguridad para proteger la información personal y académica de los usuarios.
+\end{itemize}
+
+\subsection{¿Qué es confuso o poco intuitivo?}
+\begin{itemize}
+  \item \textbf{Navegación compleja:} Algunos usuarios encuentran que la navegación entre diferentes secciones puede ser confusa, especialmente para aquellos que no están familiarizados con la plataforma.
+  \item \textbf{Carga de información:} En ocasiones, la carga de información puede ser lenta, lo que genera frustración al intentar acceder a datos importantes.
+  \item \textbf{Falta de tutoriales:} La ausencia de tutoriales o guías claras sobre cómo utilizar ciertas funcionalidades puede dificultar el uso efectivo de la plataforma.
+  \item \textbf{Problemas técnicos:} Algunos usuarios han reportado problemas técnicos ocasionales, como errores al cargar páginas o dificultades para realizar trámites específicos.
+  \item \textbf{Diseño visual:} Aunque la interfaz es funcional, algunos usuarios consideran que el diseño visual podría mejorarse para hacerlo más atractivo y moderno.
+  \item \textbf{Falta de personalización:} La plataforma no permite una personalización significativa, lo que puede hacer que la experiencia sea menos adaptada a las necesidades individuales de los usuarios.
+  \item \textbf{Dificultad en la búsqueda:} La función de búsqueda no siempre proporciona resultados precisos, lo que puede dificultar la localización de información específica.
+\end{itemize}
+
+\subsection{¿Qué se podría mejorar?}
+
+\begin{itemize}
+  \item \textbf{Mejorar la navegación:} Simplificar la estructura de navegación para que los usuarios puedan encontrar fácilmente la información que necesitan.
+  \item \textbf{Optimizar la velocidad de carga:} Implementar mejoras técnicas para reducir el tiempo de carga de las páginas y hacer que la plataforma sea más ágil.
+  \item \textbf{Incluir tutoriales interactivos:} Añadir tutoriales o guías interactivas que expliquen cómo utilizar las diferentes funcionalidades de la plataforma.
+  \item \textbf{Actualizar el diseño visual:} Modernizar el diseño visual de la plataforma para hacerlo más atractivo y alineado con las tendencias actuales.
+  \item \textbf{Permitir personalización:} Ofrecer opciones de personalización para que los usuarios puedan adaptar la plataforma a sus preferencias individuales.
+  \item \textbf{Mejorar la función de búsqueda:} Optimizar el motor de búsqueda para proporcionar resultados más precisos y relevantes.
+  \item \textbf{Aumentar la estabilidad técnica:} Trabajar en la estabilidad técnica de la plataforma para minimizar errores y problemas técnicos.
+  \item \textbf{Implementar un sistema de feedback:} Crear un sistema donde los usuarios puedan enviar comentarios y sugerencias para mejorar continuamente la plataforma.
+\end{itemize}
+
+\newpage
+
+\section{Comentarios y mejora concreta de la plataforma UTP}
+
+Sobre la plataforma, esta es una herramienta integral que permite a los estudiantes gestionar su vida académica de manera eficiente. Sin embargo, existen áreas que pueden mejorarse para optimizar la experiencia del usuario. Sin embargo, es importante destacar que la plataforma ha evolucionado significativamente en los últimos años, lo que demuestra un compromiso con la mejora continua.
+
+Según los comentarios de los usuarios, la plataforma es generalmente bien recibida, pero hay aspectos que podrían optimizarse. Por ejemplo, algunos usuarios han señalado que la navegación entre diferentes secciones puede ser confusa, especialmente para aquellos que no están familiarizados con la plataforma. Además, la carga de información puede ser lenta en ocasiones, lo que genera frustración al intentar acceder a datos importantes.
+\subsection*{Mejora concreta:}
+Para abordar estos problemas, proponemos una mejora concreta: la implementación de un sistema de navegación más intuitivo y una optimización del rendimiento de la plataforma. Esto incluiría:
+\begin{itemize}
+  \item \textbf{Rediseño de la interfaz:} Simplificar la estructura de navegación para que los usuarios puedan encontrar fácilmente la información que necesitan. Esto podría incluir una barra de navegación más clara y accesible.
+  \item \textbf{Optimización del rendimiento:} Implementar mejoras técnicas para reducir el tiempo de carga de las páginas y hacer que la plataforma sea más ágil. Esto podría incluir la optimización de bases de datos y servidores.
+  \item \textbf{Tutoriales interactivos:} Añadir tutoriales o guías interactivas que expliquen cómo utilizar las diferentes funcionalidades de la plataforma, lo que facilitaría a los nuevos usuarios adaptarse rápidamente.
+  \item \textbf{Actualización del diseño visual:} Modernizar el diseño visual de la plataforma para hacerlo más atractivo y alineado con las tendencias actuales, mejorando así la experiencia del usuario.
+  \end{itemize}
+  
+\newpage
+
+\section{Cambios que se aplicaron}
+
+Sobre los cambios que se aplicaron, se realizaron mejoras significativas en la plataforma UTP para abordar las preocupaciones de los usuarios y optimizar la experiencia general
+
+\subsection*{El porqué se aplicaron:}
+
+Los cambios se implementaron en respuesta a los comentarios de los usuarios, quienes señalaron que la navegación entre diferentes secciones podía ser confusa y que la carga de información era lenta en ocasiones. Además, se buscaba mejorar la accesibilidad y la usabilidad de la plataforma para todos los estudiantes.
+
+\subsection*{¿Cómo mejoró la experiencia del usuario?}
+
+Los cambios implementados han mejorado significativamente la experiencia del usuario al hacer que la plataforma sea más intuitiva y rápida. La navegación simplificada permite a los usuarios encontrar fácilmente la información que necesitan, mientras que la optimización del rendimiento reduce el tiempo de espera al cargar páginas. Además, los tutoriales interactivos facilitan la adaptación de nuevos usuarios, lo que contribuye a una experiencia más fluida y satisfactoria.
+
+\end{document}

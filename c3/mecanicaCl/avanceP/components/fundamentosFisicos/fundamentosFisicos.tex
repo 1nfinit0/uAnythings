@@ -1,0 +1,136 @@
+\section{Fundamentos Físicos}
+
+Los fundamentos físicos del proyecto se centran los que intervienen en el diseño y funcionamiento del mecanismo \textit{Theo Jansen}, estos fundamentos incluyen principios de mecánica clásica como cinemática y dinámica, que son esenciales para comprender cómo el mecanismo puede aprovechar la energía cinética del viento para moverse y con esto, generar números aleatorios. A continuación, se describen los conceptos clave que sustentan el proyecto:
+\begin{itemize}
+  \item \textbf{Cinemática:} La cinemática es la rama de la mecánica que estudia el movimiento de los cuerpos sin considerar las fuerzas que lo producen. En el caso del mecanismo \textit{Theo Jansen}, la cinemática se aplica para analizar el movimiento rotacional que se traduce en traslacional. Se utilizan conceptos como posición, velocidad y aceleración para describir el movimiento del mecanismo en función del tiempo.
+
+  Algunas de las expresiones matemáticas utilizadas en la cinemática incluyen:
+
+\textbf{Ecuación de la posición:}
+\begin{equation}
+x(t) = x_0 + v_0 t + \frac{1}{2} a t^2
+\end{equation}
+Donde: 
+
+\begin{tabular}{@{}ll}
+  \(x(t)\): & Posición en el tiempo \(t\) \\
+  \(x_0\):  & Posición inicial \\
+  \(v_0\):  & Velocidad inicial \\
+  \(a\):    & Aceleración \\
+\end{tabular}
+
+\textbf{Razón de cambio de la posición o velocidad:}
+\begin{equation}
+v(t) = v_0 + a t
+\end{equation}
+Donde:
+
+\begin{tabular}{@{}ll}
+  \(v(t)\): & Velocidad en el tiempo \(t\) \\
+  \(v_0\):  & Velocidad inicial \\
+  \(a\):    & Aceleración \\
+\end{tabular}
+
+\textbf{Razón de cambio de la velocidad o aceleración:}
+\begin{equation}
+a(t) = \frac{dv}{dt}
+\end{equation}
+
+Donde:
+
+\begin{tabular}{@{}ll}
+  \(a(t)\): & Aceleración en el tiempo \(t\) \\
+\end{tabular}
+
+
+  \item \textbf{Dinámica:} La dinámica es la rama de la mecánica que estudia las fuerzas y sus efectos sobre el movimiento de los cuerpos. En este proyecto, la dinámica se aplica para comprender cómo las fuerzas del viento afectan el movimiento del mecanismo y cómo estas fuerzas pueden ser aprovechadas para generar números aleatorios. Se utilizan conceptos como fuerza, masa y aceleración para analizar el comportamiento del mecanismo bajo la influencia del viento.
+  
+  La expresión fundamental de la dinámica es la segunda ley de Newton, que establece la relación entre la fuerza neta aplicada a un cuerpo, su masa y su aceleración:
+
+\textbf{Segunda ley de Newton:}
+\begin{equation}
+\vec{F} = m\dfrac{\Delta \vec{V}}{\Delta t} = m\vec{a}
+\end{equation}
+Donde:
+
+\begin{tabular}{@{}ll}
+  \(\vec{F}\): & Fuerza neta aplicada al cuerpo \\
+  \(m\):      & Masa del cuerpo \\
+  \(\Delta \vec{V}\): & Cambio en la velocidad del cuerpo \\
+  \(\Delta t\): & Intervalo de tiempo durante el cual se aplica la fuerza \\
+  \(\vec{a}\): & Aceleración del cuerpo \\
+\end{tabular}
+
+
+  \item \textbf{Energía cinética:} La energía cinética es la energía asociada al movimiento de un cuerpo. En el mecanismo \textit{Theo Jansen}, la energía cinética del viento se convierte en movimiento mecánico, lo que permite que el mecanismo se desplace y genere números aleatorios. La energía cinética se calcula utilizando la fórmula:
+  
+\textbf{Energía cinética:}
+\begin{equation}
+E_k = \frac{1}{2} m v^2
+\end{equation}
+Donde:
+
+\begin{tabular}{@{}ll}
+  \(E_k\): & Energía cinética del cuerpo \\
+  \(m\):   & Masa del cuerpo \\
+  \(v\):   & Velocidad del cuerpo \\
+\end{tabular}
+
+  \item \textbf{Entropía:} La entropía es una medida del desorden o aleatoriedad en un sistema. En el contexto de este proyecto, la entropía se refiere a la variabilidad en el movimiento del mecanismo lo que causará intervalos de movimiento y detención, lo que a su vez generará números aleatorios. La entropía se relaciona con la cantidad de información que se puede obtener de un sistema y es fundamental para garantizar la aleatoriedad de los números generados.
+  
+\textbf{Entropía:}
+\begin{equation}
+S = -\sum_{i=1}^{n} p_i \log(p_i)
+\end{equation}
+Donde:  
+
+\begin{tabular}{@{}ll}
+  \(S\): & Entropía del sistema \\
+  \(p_i\): & Probabilidad de ocurrencia del evento \(i\) \\
+  \(n\): & Número total de eventos posibles \\
+\end{tabular}
+
+  \item \textbf{Movimiento circular uniforme:} El movimiento circular uniforme es un tipo de movimiento en el que un objeto se desplaza a lo largo de una trayectoria circular con una velocidad constante. En el caso del mecanismo \textit{Theo Jansen}, el movimiento circular uniforme se utiliza para generar el movimiento rotacional necesario para el funcionamiento del mecanismo. Este tipo de movimiento se caracteriza por una velocidad angular constante y una aceleración centrípeta que mantiene al objeto en su trayectoria circular.
+  
+  Así mismo, para nuestro mecamismo, este utilizará una ruleta de números aleatorios que se detendrá en un número al azar cada vez que el mecanismo se detenga. La ruleta estará dividida en segmentos numerados, y la probabilidad de que el mecanismo se detenga en un número específico dependerá de la distribución de los segmentos y de la entropía del viento.
+
+  Algunas de las expresiones matemáticas utilizadas en el movimiento circular uniforme incluyen:
+
+  \begin{itemize}
+    \item \textbf{Velocidad angular:}
+  \begin{equation}
+  \omega = \frac{\Delta \theta}{\Delta t}
+  \end{equation}
+  Donde:
+  
+  \begin{tabular}{@{}ll}
+    \(\omega\): & Velocidad angular del objeto \\
+    \(\Delta \theta\): & Cambio en el ángulo de posición del objeto \\
+    \(\Delta t\): & Intervalo de tiempo durante el cual ocurre el cambio \\
+  \end{tabular}
+
+    \item \textbf{Velocidad tangencial:}
+  \begin{equation}
+  v = r \omega
+  \end{equation}
+  Donde:
+
+  \begin{tabular}{@{}ll}
+    \(v\): & Velocidad tangencial del objeto \\
+    \(r\): & Radio de la trayectoria circular \\
+    \(\omega\): & Velocidad angular del objeto \\
+  \end{tabular}
+
+    \item \textbf{Frecuencia:}
+  \begin{equation}
+  f = \frac{1}{T}
+  \end{equation}
+  Donde:
+
+  \begin{tabular}{@{}ll}
+    \(f\): & Frecuencia del movimiento circular \\
+    \(T\): & Período del movimiento circular (tiempo para completar una vuelta) \\
+  \end{tabular}
+  
+  \end{itemize}
+\end{itemize}
