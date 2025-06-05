@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 JUN 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 JUN 2025 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,7 +914,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 32.
 
 
-<assets/logo.png, id=51, 1288.815pt x 437.635pt>
+<assets/logo.png, id=55, 1288.815pt x 437.635pt>
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 48.
@@ -970,32 +970,32 @@ File: assets/logo.png Graphic file (type png)
 Package pdftex.def Info: assets/logo.png  used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
 [6]
-<./assets/sorbete.jpeg, id=110, 1505.625pt x 1505.625pt>
+<./assets/sorbete.jpeg, id=114, 1505.625pt x 1505.625pt>
 File: ./assets/sorbete.jpeg Graphic file (type jpg)
 <use ./assets/sorbete.jpeg>
 Package pdftex.def Info: ./assets/sorbete.jpeg  used on input line 155.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/hilo.jpeg, id=111, 1505.625pt x 1505.625pt>
+<./assets/hilo.jpeg, id=115, 1505.625pt x 1505.625pt>
 File: ./assets/hilo.jpeg Graphic file (type jpg)
 <use ./assets/hilo.jpeg>
 Package pdftex.def Info: ./assets/hilo.jpeg  used on input line 156.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/palillos.jpeg, id=112, 1505.625pt x 1505.625pt>
+<./assets/palillos.jpeg, id=116, 1505.625pt x 1505.625pt>
 File: ./assets/palillos.jpeg Graphic file (type jpg)
 <use ./assets/palillos.jpeg>
 Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 157.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/fosforos.jpeg, id=113, 1505.625pt x 1505.625pt>
+<./assets/fosforos.jpeg, id=117, 1505.625pt x 1505.625pt>
 File: ./assets/fosforos.jpeg Graphic file (type jpg)
 <use ./assets/fosforos.jpeg>
 Package pdftex.def Info: ./assets/fosforos.jpeg  used on input line 159.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/aluminio.jpeg, id=114, 1505.625pt x 1505.625pt>
+<./assets/aluminio.jpeg, id=118, 1505.625pt x 1505.625pt>
 File: ./assets/aluminio.jpeg Graphic file (type jpg)
 <use ./assets/aluminio.jpeg>
 Package pdftex.def Info: ./assets/aluminio.jpeg  used on input line 160.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/silicona.jpeg, id=115, 1505.625pt x 1505.625pt>
+<./assets/silicona.jpeg, id=119, 1505.625pt x 1505.625pt>
 File: ./assets/silicona.jpeg Graphic file (type jpg)
 <use ./assets/silicona.jpeg>
 Package pdftex.def Info: ./assets/silicona.jpeg  used on input line 161.
@@ -1009,15 +1009,35 @@ Package pdftex.def Info: assets/logo.png  used on input line 168.
 [7 <./assets/sorbete.jpeg> <./assets/hilo.jpeg> <./assets/palillos.jpeg> <./assets/fosforos.jpeg> <./assets/aluminio.jpeg> <./assets/silicona.jpeg>]
 File: ./assets/palillos.jpeg Graphic file (type jpg)
 <use ./assets/palillos.jpeg>
-Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 179.
-(pdftex.def)             Requested size: 227.62206pt x 227.603pt.
+Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 177.
+(pdftex.def)             Requested size: 159.33821pt x 159.32439pt.
+<./assets/mak1.jpeg, id=127, 1204.5pt x 1606.0pt>
+File: ./assets/mak1.jpeg Graphic file (type jpg)
+<use ./assets/mak1.jpeg>
+Package pdftex.def Info: ./assets/mak1.jpeg  used on input line 191.
+(pdftex.def)             Requested size: 91.04742pt x 121.376pt.
+<./assets/mak2.jpeg, id=128, 1204.5pt x 1606.0pt>
+File: ./assets/mak2.jpeg Graphic file (type jpg)
+<use ./assets/mak2.jpeg>
+Package pdftex.def Info: ./assets/mak2.jpeg  used on input line 192.
+(pdftex.def)             Requested size: 91.04742pt x 121.376pt.
+<./assets/mak3.jpeg, id=129, 1606.0pt x 1204.5pt>
+File: ./assets/mak3.jpeg Graphic file (type jpg)
+<use ./assets/mak3.jpeg>
+Package pdftex.def Info: ./assets/mak3.jpeg  used on input line 194.
+(pdftex.def)             Requested size: 91.04742pt x 68.2786pt.
+<./assets/mak4.jpeg, id=130, 1606.0pt x 1204.5pt>
+File: ./assets/mak4.jpeg Graphic file (type jpg)
+<use ./assets/mak4.jpeg>
+Package pdftex.def Info: ./assets/mak4.jpeg  used on input line 195.
+(pdftex.def)             Requested size: 91.04742pt x 68.2786pt.
 )
 
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 111.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[8]
+[8 <./assets/mak1.jpeg> <./assets/mak2.jpeg> <./assets/mak3.jpeg> <./assets/mak4.jpeg>]
 \openout2 = `components/referencias/referencias.aux'.
 
  (./components/referencias/referencias.tex
@@ -1027,81 +1047,6 @@ File: ot1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 26.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\OT1/ntxtlf/m/it/10 ple\OT1/ntxtlf/m/n/10 . Re-cu-pe-ra-do de []$\OT1/ntxtt/m/n/10 https : / / books . google . com . pe / books ? hl = es & lr = &id = pr5TEQAAQBAJ & oi =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\OT1/ntxtt/m/n/10 fnd & pg = PR2 & dq = Ejercicios + resueltos + de + inferencia + estad % C3 % ADstica + y + del + modelo +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\OT1/ntxtt/m/n/10 lineal + simple & ots = T42RpsBjJu & sig = jAkyfuPBzL1v0o3tHDlm0S5LbGI & redir _ esc = y # v = onepage &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-\OT1/ntxtt/m/n/10 q = Ejercicios % 20resueltos % 20de % 20inferencia % 20estad % C3 % ADstica % 20y % 20del % 20modelo %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\OT1/ntxtt/m/n/10 dq = Estad % C3 % ADstica + inferencial + aplicada + +Autor : +D % C3 % ADaz + Rodr % C3 % ADguez ,[] +Mart % C3 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\OT1/ntxtt/m/n/10 ADn + -[] + Autor & ots = Sf8Tno6kLg & sig = u1xdyAJline4t90FJ5YAAxxWKng & redir _ esc = y # v = onepage &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\OT1/ntxtt/m/n/10 q = Estad % C3 % ADstica % 20inferencial % 20aplicada % 20 % 20Autor % 3A % 20D % C3 % ADaz % 20Rodr % C3 %
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 42--43
-[]\OT1/ntxtlf/m/n/10 Llin[]as So-lano, Hum-ber-to. \OT1/ntxtlf/m/it/10 Es-tad[]^^Psti-ca in-fe-ren-cial\OT1/ntxtlf/m/n/10 . Re-cu-pe-ra-do de []$\OT1/ntxtt/m/n/10 https : / / books . google . com .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/ntxtt/m/n/10 pe / books ? hl = es & lr = &id = KZYQEAAAQBAJ & oi = fnd & pg = PA1 & dq = Estad % C3 % ADstica + Inferencial +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/ntxtt/m/n/10 +Autor : +Llin % C3 % A1s + Solano ,[] +Humberto & ots = Xpi0wWw3lo & sig = DWM-[]pZnBeIOjGyyL5sBk _ s _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/ntxtt/m/n/10 LWBQ & redir _ esc = y # v = onepage & q = Estad % C3 % ADstica % 20Inferencial % 20 % 20Autor % 3A % 20Llin %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-[]\OT1/ntxtlf/m/n/10 G[]omez Vi-lle-gas, Mi-guel []Angel. \OT1/ntxtlf/m/it/10 In-fe-ren-cia es-tad[]^^Psti-ca\OT1/ntxtlf/m/n/10 . Re-cu-pe-ra-do de []$\OT1/ntxtt/m/n/10 https : / / books .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\OT1/ntxtt/m/n/10 google . com . pe / books ? hl = es & lr = &id = YOuODwAAQBAJ & oi = fnd & pg = PR9 & dq = Miguel + %C3 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\OT1/ntxtt/m/n/10 81ngel + G % C3 % B3mez + Villegas + ESTAD % C3 % 8DSITICA + INFERENCIAL & ots = KG2bqmMDNd & sig =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\OT1/ntxtt/m/n/10 xguJOxmXHDguzSQsmn17Gy-[]SlNA & redir _ esc = y # v = onepage & q = Miguel % 20 % C3 % 81ngel % 20G % C3 %
- []
-
 )
 
 File: assets/logo.png Graphic file (type png)
@@ -1121,21 +1066,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `HLuis_MCAvn.out' has not changed.
-(rerunfilecheck)             Checksum: 9A52DF75E195CF23DBA0B1AB8501BBA8;1217.
+(rerunfilecheck)             Checksum: 16D4CEE24724D2CAA0DB02621A47CEFD;1520.
  ) 
 Here is how much of TeX's memory you used:
- 36749 strings out of 475109
- 826936 string characters out of 5765325
- 1321458 words of memory out of 5000000
- 59076 multiletter control sequences out of 15000+600000
+ 36774 strings out of 475109
+ 827590 string characters out of 5765325
+ 1321357 words of memory out of 5000000
+ 59104 multiletter control sequences out of 15000+600000
  579587 words of font info for 75 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,16n,131p,1026b,742s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on HLuis_MCAvn.pdf (9 pages, 1510874 bytes).
+Output written on HLuis_MCAvn.pdf (9 pages, 2027282 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
