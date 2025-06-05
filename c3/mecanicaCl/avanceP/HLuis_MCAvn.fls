@@ -469,6 +469,10 @@ INPUT ./assets/logo.png
 INPUT /usr/share/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
+INPUT ./assets/logo.png
+INPUT ./assets/logo.png
+INPUT ./assets/logo.png
+INPUT ./assets/logo.png
 INPUT ./components/referencias/referencias.tex
 INPUT ./components/referencias/referencias.tex
 OUTPUT components/referencias/referencias.aux

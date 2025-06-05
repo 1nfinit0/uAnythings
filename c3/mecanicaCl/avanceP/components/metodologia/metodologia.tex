@@ -14,7 +14,7 @@ El diseño del mecanismo \textit{Theo Jansen} se basa en los principios de la me
   \item \textbf{Articulaciones:} Se refiere a las conexiones entre las diferentes partes del mecanismo que permiten el movimiento relativo entre ellas. Estas articulaciones son cruciales para garantizar que el mecanismo funcione de manera fluida y eficiente.
 \end{itemize}
 
-Una de las partes fundamentales, luego de entender estos componentes, son las patas del mecanismo, que permiten que el mecanismo se mueva y camine de manera eficiente y fluida, según el creador del mecanismo, Theo Jansen. Este mecanismo simula el movimiento de la pata de un animal y ha sido perfeccionado durante los últimos 10 años mediante un algoritmo evolutivo. Según \textit{Bustamante T. (2016)}, el criterio principal para el desarrollo de estas patas es el rendimiento de los elementos en la tarea encomendada, utilizando los errores y mejoras de las evoluciones para optimizar el diseño en cada iteración. \cite{tellez2016diseno}
+Una de las partes fundamentales, luego de diseñar estos componentes, son las patas del mecanismo, que permiten que se mueva y camine de manera eficiente y fluida, según el creador del mecanismo, Theo Jansen. Este simula el movimiento de la pata de un animal y ha sido perfeccionado durante los últimos 10 años mediante un algoritmo evolutivo. Según \textit{Bustamante T. (2016)}, el criterio principal para el desarrollo de estas patas es el rendimiento de los elementos en la tarea encomendada, utilizando los errores y mejoras de las evoluciones para optimizar el diseño en cada iteración. \cite{tellez2016diseno}
 
 Este algoritmo evolutivo entrega al final de sus múltiples iteraciones las medidas de las patas del mecanismo, lo que su creador denomina \textbf{\textit{Los números sagrados}}
 
@@ -36,13 +36,61 @@ Este algoritmo evolutivo entrega al final de sus múltiples iteraciones las medi
   \end{tabular}
 \end{table}
 
-Estos valores hacen posible un movimiento fluido y áltamente eficiente del mecanismo, permitiendo que se mueva con la energía cinética del viento. Una vez encontrados estos se indican de la siguiente manera:
-\newpage
-\begin{figure}[ht]
+Estos valores hacen posible un movimiento fluido y áltamente eficiente del mecanismo, permitiendo que se mueva con la energía cinética del viento.
+
+De acuerdo a esta lista es necesario poder escalar las medidas de las patas del mecanismo para que se ajusten a las dimensiones del proyecto. Para ello, se establece un factor de escala que es la relación entre las dimensiones del mecanismo y las dimensiones reales de las patas.
+
+Como medida base se toma la longitud más grande \textbf{h} que pretende ser de 65.7 cm pero se escalará a 21.5 cm de acuerdo a la siguiente expresión:
+\begin{equation}
+  \text{Factor de escala} = \frac{\text{Longitud deseada}}{\text{Longitud original}} = \frac{21.5}{65.7} \approx 0.33
+\end{equation}
+
+Es entonces de acuerdo a este factor de escala que se multiplicarán las medidas de las patas del mecanismo para obtener las dimensiones reales de las patas del mecanismo obteniendo así las longitudes entre ejes de rotación de las articulaciones que se usarán para el proyecto. A continuación se muestran las medidas escaladas de las patas del mecanismo \textit{Theo Jansen} y al costado el margen de medio centímetro en cada extremo que asegura espacio para las uniones de las patas con los ejes de rotación:
+
+\begin{multicols}{2}
+  \begin{table}[H]
+    \centering
+    \caption{Longitud entre ejes de rotación}
+    \begin{tabular}{cc|cc}
+      \toprule
+      \textbf{Letra} & \textbf{Valor} & \textbf{Letra} & \textbf{Valor} \\
+      \midrule
+      a & 12.5 & g & 12.1 \\
+      b & 13.7 & h & 21.7 \\
+      c & 13.0 & i & 16.2 \\
+      d & 13.2 & j & 16.5 \\
+      e & 18.4 & k & 20.4 \\
+      f & 13.0 & l & 2.6 \\
+      \multicolumn{4}{c}{\textbf{m = 5}} \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+  
+  \begin{table}[H]
+    \centering
+    \caption{Longitud completa con margen}
+    \begin{tabular}{cc|cc}
+      \toprule
+      \textbf{Letra} & \textbf{Valor} & \textbf{Letra} & \textbf{Valor} \\
+      \midrule
+      a & 13.5 & g & 13.1 \\
+      b & 14.7 & h & 22.7 \\
+      c & 14.0 & i & 17.2 \\
+      d & 14.2 & j & 17.5 \\
+      e & 19.4 & k & 21.4 \\
+      f & 14.0 & l & 3.6 \\
+      \multicolumn{4}{c}{\textbf{m = 6}} \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{multicols}
+
+Una vez encontradas estas medidas se pretenden ensamblar de la siguiente manera:
+\begin{figure}[H]
   \centering
   \caption{Diagrama de las patas del mecanismo \textit{Theo Jansen} con los números sagrados} 
   \label{fig:diagrama_barras}
-  \begin{tikzpicture}[scale=0.12, thick, every node/.style={scale=1.2}]
+  \begin{tikzpicture}[scale=0.1, thick, every node/.style={scale=1}]
 
   \coordinate (P1) at (22,30);
   \coordinate (P2) at (55,30);
@@ -68,17 +116,31 @@ Estos valores hacen posible un movimiento fluido y áltamente eficiente del meca
   \draw (P9) -- (P8) node[midway,left] {\small i};
   \draw (P8) -- (P4) node[midway,left] {\small k};
   
-  \foreach \p/\n in {P1/1, P2/2, P3/3, P4/4, P5/5, P6/6, P7/7, P8/8, P9/9}
-  \filldraw (\p) circle (23pt) node[above right] {\small \n};  
+  \filldraw (P1) circle (23pt) node[above right] {\small 1};
+  \filldraw (P2) circle (23pt) node[above right] {\small 2};
+  \filldraw (P3) circle (23pt) node[above right] {\small 3};
+  \filldraw (P4) circle (23pt) node[above right] {\small 4};
+  \filldraw (P5) circle (23pt) node[above right] {\small 5};
+  \filldraw (P6) circle (23pt) node[above left] {\small 6};
+  \filldraw (P7) circle (23pt) node[above right] {\small 7};
+  \filldraw (P8) circle (23pt) node[above right] {\small 8};
+  \filldraw (P9) circle (23pt) node[above right] {\small 9};
   \end{tikzpicture}
-  \end{figure}
+\end{figure}
 
-  Estos números sagrados son la base del diseño de las patas del mecanismo y se utilizan para calcular las longitudes y ángulos necesarios para que el mecanismo funcione correctamente.
 
-  De acuerdo a estos se establece el factor de escala del mecanismo, que es la relación entre las dimensiones del mecanismo y las dimensiones reales de las patas. Este factor de escala se utiliza para ajustar el tamaño del mecanismo a las necesidades específicas del proyecto y garantizar que funcione correctamente.
+\subsection{Materiales}
 
-  Como medida base se toma la longitud \textbf{a} que pretende ser de 38 cm pero se escalará a 20 cm de acuerdo a la siguiente expresión:
-  \begin{equation}
-    \text{Factor de escala} = \frac{\text{Longitud deseada}}{\text{Longitud original}} = \frac{20}{38} \approx 0.5263
-  \end{equation}
+Dentro del marco del proyecto, se emplean diversos materiales para la construcción del mecanismo \textit{Theo Jansen}. Estos materiales son seleccionados fueron esocgidos por su durabilidad, flexibilidad y ligeresa, lo que permite que el mecanismo funcione de manera eficiente y efectiva. Los materiales utilizados incluyen:
+
+\begin{itemize}
+  \item \textbf{Sorbetes de plástico:} Estos sorbetes son utilizados para las patas del mecanismo, ya que son ligeros y flexibles, lo que permite que el mecanismo se mueva de manera eficiente. Además, los sorbetes son fáciles de conseguir y económicos, lo que los convierte en una opción ideal. Además de ser increíblemente resistentes ante la presión y torsión.
+  
+  \item \textbf{Hilo de coser o pavilo:} Este hilo se utiliza para unir las diferentes partes de la pata, hacen posible rotar a la articulación de manera que no es afectada por la fricción.
+  
+  \item \textbf{Palillos de manera:} Es importante fijar las patas a un eje central, para lo cual se utilizan palillos de madera. Estos palillos son resistentes y permiten unir las patas mediante el cigüeñal del mecanismo que convertirá el movimiento rotacional en movimiento lineal.1
+  
+\end{itemize}
+
+
 

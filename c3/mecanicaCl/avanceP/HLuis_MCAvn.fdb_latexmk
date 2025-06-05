@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1749018224.03207 "/home/tobi/Desktop/repos/uAnythings/c3/mecanicaCl/avanceP/HLuis_MCAvn.tex" "HLuis_MCAvn.pdf" "HLuis_MCAvn" 1749018226.72867 0
+["pdflatex"] 1749138770.57201 "/home/tobi/Desktop/repos/uAnythings/c3/mecanicaCl/avanceP/HLuis_MCAvn.tex" "HLuis_MCAvn.pdf" "HLuis_MCAvn" 1749138772.19518 0
   "/home/tobi/Desktop/repos/uAnythings/c3/mecanicaCl/avanceP/HLuis_MCAvn.tex" 1749015049.61913 2699 db87e61cf0f8eb011a4c0ce7ffbe5975 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1742685315 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1742685315 3124 3813fd4c981d99822890a2861b0d274c ""
@@ -242,17 +242,17 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742786841 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742786721 2030635 e762393b97c7338b3864e3bfa4d393a3 ""
-  "HLuis_MCAvn.aux" 1749018226.29248 570 cc9e49ddebedddd6cf3ebf68bb332f94 "pdflatex"
-  "HLuis_MCAvn.out" 1749018226.30848 1012 f9e742c1d4537efe9ef04956a17b9e62 "pdflatex"
+  "HLuis_MCAvn.aux" 1749138772.03287 570 de93e117484bdab1164dd4120bb0c8e0 "pdflatex"
+  "HLuis_MCAvn.out" 1749138772.03787 1122 8e54ed2f067f3512aaa305ee9fdd4077 "pdflatex"
   "HLuis_MCAvn.tex" 1749015049.61913 2699 db87e61cf0f8eb011a4c0ce7ffbe5975 ""
   "assets/logo.png" 1748899777.26 26986 343ad3109c0570b55393768f1e84885e ""
-  "components/fundamentosFisicos/fundamentosFisicos.aux" 1749018226.04648 953 7031128521c8ad017c8a1774d1b5b808 "pdflatex"
+  "components/fundamentosFisicos/fundamentosFisicos.aux" 1749138771.84187 953 7031128521c8ad017c8a1774d1b5b808 "pdflatex"
   "components/fundamentosFisicos/fundamentosFisicos.tex" 1748925097.71141 6221 de8958c54ab48ae23d6d756f89df00a5 ""
-  "components/introduccion/introduccion.aux" 1749018225.99448 1411 c28836a05ec35daa15794626ab59688d "pdflatex"
+  "components/introduccion/introduccion.aux" 1749138771.81187 1411 c28836a05ec35daa15794626ab59688d "pdflatex"
   "components/introduccion/introduccion.tex" 1748920851.39187 7294 d4d3192d4333e0d0556c113f15eb7d45 ""
-  "components/metodologia/metodologia.aux" 1749018226.24548 1646 3b8040cdb2fac83587c7a011db67901d "pdflatex"
-  "components/metodologia/metodologia.tex" 1749018220.51842 5283 b2c0f57036df3cae5a268caf3c3fc69a ""
-  "components/referencias/referencias.aux" 1749018226.28948 1244 93f49c1ef13cf7a8be085e72ceed694c "pdflatex"
+  "components/metodologia/metodologia.aux" 1749138772.00487 2057 59ae7afc9fe5fc595246f6ae568cb01e "pdflatex"
+  "components/metodologia/metodologia.tex" 1749138770.20582 8218 ebb50c65ef9ec2e0f48d5ac32a1325ce ""
+  "components/referencias/referencias.aux" 1749138772.03187 1247 a359a482d95c5fdaeb07ccb708025ec9 "pdflatex"
   "components/referencias/referencias.tex" 1749014581.81414 3390 9ed87e68865e8499631b84a9d5fe2f5e ""
   (generated)
   "HLuis_MCAvn.aux"
