@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 JUN 2025 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  5 JUN 2025 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,7 +914,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 32.
 
 
-<assets/logo.png, id=46, 1288.815pt x 437.635pt>
+<assets/logo.png, id=51, 1288.815pt x 437.635pt>
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 48.
@@ -969,13 +969,55 @@ File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[6])
+[6]
+<./assets/sorbete.jpeg, id=110, 1505.625pt x 1505.625pt>
+File: ./assets/sorbete.jpeg Graphic file (type jpg)
+<use ./assets/sorbete.jpeg>
+Package pdftex.def Info: ./assets/sorbete.jpeg  used on input line 155.
+(pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
+<./assets/hilo.jpeg, id=111, 1505.625pt x 1505.625pt>
+File: ./assets/hilo.jpeg Graphic file (type jpg)
+<use ./assets/hilo.jpeg>
+Package pdftex.def Info: ./assets/hilo.jpeg  used on input line 156.
+(pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
+<./assets/palillos.jpeg, id=112, 1505.625pt x 1505.625pt>
+File: ./assets/palillos.jpeg Graphic file (type jpg)
+<use ./assets/palillos.jpeg>
+Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 157.
+(pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
+<./assets/fosforos.jpeg, id=113, 1505.625pt x 1505.625pt>
+File: ./assets/fosforos.jpeg Graphic file (type jpg)
+<use ./assets/fosforos.jpeg>
+Package pdftex.def Info: ./assets/fosforos.jpeg  used on input line 159.
+(pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
+<./assets/aluminio.jpeg, id=114, 1505.625pt x 1505.625pt>
+File: ./assets/aluminio.jpeg Graphic file (type jpg)
+<use ./assets/aluminio.jpeg>
+Package pdftex.def Info: ./assets/aluminio.jpeg  used on input line 160.
+(pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
+<./assets/silicona.jpeg, id=115, 1505.625pt x 1505.625pt>
+File: ./assets/silicona.jpeg Graphic file (type jpg)
+<use ./assets/silicona.jpeg>
+Package pdftex.def Info: ./assets/silicona.jpeg  used on input line 161.
+(pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
+
+
+File: assets/logo.png Graphic file (type png)
+<use assets/logo.png>
+Package pdftex.def Info: assets/logo.png  used on input line 168.
+(pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
+[7 <./assets/sorbete.jpeg> <./assets/hilo.jpeg> <./assets/palillos.jpeg> <./assets/fosforos.jpeg> <./assets/aluminio.jpeg> <./assets/silicona.jpeg>]
+File: ./assets/palillos.jpeg Graphic file (type jpg)
+<use ./assets/palillos.jpeg>
+Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 179.
+(pdftex.def)             Requested size: 227.62206pt x 227.603pt.
+)
 
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 111.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[7]
+[8]
 \openout2 = `components/referencias/referencias.aux'.
 
  (./components/referencias/referencias.tex
@@ -1066,7 +1108,7 @@ File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 114.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[8
+[9
 
 
 
@@ -1079,21 +1121,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `HLuis_MCAvn.out' has not changed.
-(rerunfilecheck)             Checksum: 8E54ED2F067F3512AAA305EE9FDD4077;1122.
+(rerunfilecheck)             Checksum: 9A52DF75E195CF23DBA0B1AB8501BBA8;1217.
  ) 
 Here is how much of TeX's memory you used:
- 36698 strings out of 475109
- 825620 string characters out of 5765325
- 1321316 words of memory out of 5000000
- 59029 multiletter control sequences out of 15000+600000
+ 36749 strings out of 475109
+ 826936 string characters out of 5765325
+ 1321458 words of memory out of 5000000
+ 59076 multiletter control sequences out of 15000+600000
  579587 words of font info for 75 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,16n,131p,1026b,742s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on HLuis_MCAvn.pdf (8 pages, 268788 bytes).
+Output written on HLuis_MCAvn.pdf (9 pages, 1510874 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
