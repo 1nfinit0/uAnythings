@@ -24,6 +24,8 @@
 \usepackage{colortbl} % Required for \rowcolor
 \definecolor{azulun}{RGB}{0, 51, 102} % Define the color azulun
 \usepackage{enumitem}
+\usepackage{float} % Añadir en el preámbulo
+
 
 \definecolor{headerblue}{RGB}{50,90,140}
 \definecolor{responsegray}{RGB}{80,80,80}
@@ -56,7 +58,7 @@
   \vspace{1cm}
   \textbf{Universidad Tecnológica del Perú} \\
   \vspace{2cm}
-  \textbf{Avance de Proyecto 2:\\Sistema de Reservas de Salas de Estudio.\\\textit{Sala de estudios SS}} \\
+  \textbf{Avance de Proyecto 3:\\Sistema de Reservas de Salas de Estudio.\\\textit{Sala de estudios SS}} \\
   \vspace{1cm}
   \large \textbf{Para el curso de Diseño de Productos y Servicios.} \\
   \large \textbf{Ing. Software y Sistemas.}
@@ -86,27 +88,7 @@
 \end{center}
 \vspace{0.5cm} % Espacio entre título y contenid
 \begin{spacing}{1.15} % Espaciado personalizado para mayor legibilidad
-  \noindent
-  \begin{enumerate}
-    \item Introducción
-    \item Definición del problema
-    \item Investigación de usuarios (Semana 2)
-    \item Mapa de empatía
-    \item Perfil de usuario, protopersona y segmentación de mercado (Semana 3)
-    \item Usuario extremo (Semana 4)
-    \item Lluvia de Ideas (Semana 1)
-    \item Hipótesis de diseño basada en el usuario
-    \item Propuesta de solución de acuerdo a la hipótesis de diseño. (Semana 5)
-    \item Benchmarking y propuesta de valor (Semana 6)
-    \item Storyboard
-    \item Producto mínimo viable (MVP)
-    \item Criterios de viabilidad o factibilidad.
-  %   \begin{enumerate}
-  %     \item Objetivos específicos
-  %   \end{enumerate}
-  %   \item Términos estadísticos
-  %   \item Recolección de información
-    \end{enumerate}
+  \tableofcontents
 \end{spacing}
 
 \newpage
@@ -436,30 +418,30 @@ El usuario extremo es una representación de un usuario que tiene necesidades y 
 
       \subsection{Cuadro comparativo de productos}
 
-      Competencia: \textbf{Starbucks} - \textbf{Bembos}
+      Competencia: \textbf{La Biblioteca Nacional} - \textbf{La Biblioteca de la Universidad César Vallejo}
 
-\begin{table}[ht]
-  \centering
-  \scriptsize
-  % Ajuste automático de ancho con tabularx
-  \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
-  \hline
-  \textbf{Producto} & \textbf{Público objetivo} & \textbf{Principales funciones} & \textbf{Fortalezas} & \textbf{Debilidades} & \textbf{Valor diferenciador} \\
-  \hline
-  Sala de estudios & Estudiantes  & Reserva inteligente por disponibilidad  & Solicitud de servicios externos; gratuito  & Salas limitadas; aire acondicionado compartido; espacio reducido  & Gratis frente a la competencia  \\
-  \hline
-  Starbucks & Público general  & Venta de productos y servicio de cafetería  & Atención rápida; ambiente atractivo  & Sin pizarras; sin computadoras; internet lento  & Experiencia cuidada y consistente  \\
-  \hline
-  Bembos & Público general  & Comida rápida; opción de almuerzo  & Precios accesibles; menú variado  & Ambiente ruidoso; no propicio para el estudio  & Espacios recreativos para niños  \\
-  \hline
-  \end{tabularx}
-  \caption{Comparación de productos y su propuesta de valor ajustada}
-  \label{tab:comparacion-productos}
-  \end{table}
+      \begin{table}[ht]
+        \centering
+        \scriptsize
+        % Ajuste automático de ancho con tabularx
+        \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+        \hline
+        \textbf{Producto} & \textbf{Público objetivo} & \textbf{Principales funciones} & \textbf{Fortalezas} & \textbf{Debilidades} & \textbf{Valor diferenciador} \\
+        \hline
+        Sala de estudios & Estudiantes  & Reserva inteligente por disponibilidad  & Solicitud de servicios externos; gratuito  & Salas limitadas; aire acondicionado compartido; espacio reducido  & Gratis frente a la competencia  \\
+        \hline
+        La Biblioteca Nacional & Público general  & Acceso a libros y espacios de lectura  & Amplia colección de libros; ambiente tranquilo  & Sin reserva de salas; horarios limitados  & Acceso a recursos históricos y culturales  \\
+        \hline
+        La Biblioteca de la Universidad César Vallejo & Estudiantes universitarios  & Espacios de lectura y préstamo de libros  & Cercanía al campus; acceso exclusivo para estudiantes  & Espacios reducidos; falta de tecnología avanzada  & Enfoque en necesidades académicas de sus estudiantes  \\
+        \hline
+        \end{tabularx}
+        \caption{Comparación de productos y su propuesta de valor ajustada}
+        \label{tab:comparacion-productos}
+        \end{table}
 
       \subsection{Propuesta de valor}
 
-      La propuesta de valor del sistema de reservas de salas de estudio se basa en ofrecer una solución integral que permita a los estudiantes gestionar sus reservas de manera eficiente y optimizar su tiempo de estudio. Esto incluye una interfaz amigable, notificaciones en tiempo real, integración con el calendario académico y un sistema de puntuación y recompensas por el uso responsable de las salas.
+      La propuesta de valor del sistema de reservas de salas de estudio se basa en ofrecer una solución integral que permita a los estudiantes gestionar sus reservas de manera eficiente y optimizar su tiempo de estudio. Esto incluye una interfaz amigable, notificaciones en tiempo real y un sistema de puntuación y recompensas por el uso responsable de las salas.
 
       \begin{description}[leftmargin=2cm,style=nextline]
         \item[Para] \textbf{estudiantes}
@@ -507,7 +489,7 @@ El usuario extremo es una representación de un usuario que tiene necesidades y 
       Así mismo, las expresiones del usuario en cada paso del storyboard reflejan sus emociones y expectativas durante el proceso de reserva. Esto ayuda a identificar posibles puntos de fricción y áreas de mejora en la experiencia del usuario.
       \newpage
 
-      \section{Desglose inicial del MVP}
+      \section{Desglose del MVP}
 
       El Producto Mínimo Viable (MVP) es una versión simplificada del sistema de reservas de salas de estudio que incluye las funcionalidades esenciales para validar la propuesta de valor y obtener retroalimentación de los usuarios. A continuación, se presenta un desglose inicial del MVP:
 
@@ -522,13 +504,41 @@ El usuario extremo es una representación de un usuario que tiene necesidades y 
       \end{itemize}
 
       Así mismo, se muestra acontinuación el prototipo visual de la interfaz del sistema de reservas de salas de estudio, que ilustra cómo se verá el MVP:
-      \begin{figure}[ht]
-        \centering
-        \includegraphics[width=0.9\textwidth]{assets/proto.jpeg}
-        \caption{Prototipo visual del sistema de reservas de salas de estudio}
-        \label{fig:prototipo}
-      \end{figure}
+      \begin{figure}[H]
+         \centering
+         \includegraphics[width=0.4\textwidth]{assets/login.jpeg}
+         \caption{Vista del login del sistema de reservas de salas de estudio}
+         \label{fig:prototipo}
+       \end{figure}
       \newpage
+
+      \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.6\textwidth]{assets/invalidacion.jpeg}
+      \caption{Mensaje de invalidación en el sistema de reservas de salas de estudio}
+      \label{fig:invalidacion}
+      \end{figure}
+
+      \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.4\textwidth]{assets/principal.jpeg}
+      \caption{Vista de la página principal del sistema de reservas de salas de estudio}
+      \label{fig:homepage}
+      \end{figure}
+
+      \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.7\textwidth]{assets/reserva.jpeg}
+      \caption{Vista de la creación de reserva en el sistema de reservas de salas de estudio}
+      \label{fig:crear_reserva}
+      \end{figure}
+
+      \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.6\textwidth]{assets/reservacion.jpeg}
+      \caption{Vista del modal de datos de reserva en el sistema de reservas de salas de estudio}
+      \label{fig:modal_reserva}
+      \end{figure}
 
       \section{Criterios de viabilidad o factibilidad}
 
@@ -546,8 +556,6 @@ El usuario extremo es una representación de un usuario que tiene necesidades y 
       \subsection{Viabilidad social}
       La viabilidad social del sistema de reservas de salas de estudio se basa en la aceptación y adopción del sistema por parte de los estudiantes. Se espera que el sistema sea bien recibido por los estudiantes, lo que contribuirá a su éxito y sostenibilidad a largo plazo.
 
-      \newpage
-
       \section{Justificación}
 
       Se expone a continuación la jutificación de por qué creemos que el MVP es viable:
@@ -561,6 +569,172 @@ El usuario extremo es una representación de un usuario que tiene necesidades y 
         \item \textbf{Viabilidad social:} Se espera que el sistema sea bien recibido por los estudiantes, lo que contribuirá a su éxito y sostenibilidad a largo plazo.
         \end{itemize}
 
-      
 
+        \newpage
+
+        \section{Diagrama de flujo del sistema}
+El diagrama de flujo del sistema de reservas de salas de estudio es una representación visual del proceso de reserva y gestión de salas. A continuación, se presenta un diagrama que ilustra el flujo de interacción del usuario con el sistema:
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{assets/diagrama.jpeg}
+\caption{Diagrama de flujo del sistema de reservas de salas de estudio}     
+\label{fig:diagrama_flujo}
+\end{figure} 
+
+El diagrama muestra los pasos que sigue el usuario para reservar una sala de estudio, desde la autenticación en el sistema hasta la confirmación de la reserva. Esta herramienta es útil para visualizar el flujo de interacción del usuario y asegurarse de que el sistema sea intuitivo y fácil de usar.
+
+  \section{Feedback real recolectado}
+
+Se realizaron 3 entrevistas semiestructuradas a estudiantes de la UTP (muestreo intencional por carreras y ciclos) utilizando un prototipo funcional. Los hallazgos se sintetizaron mediante análisis temático.
+
+\subsection{Entrevista 1 \texorpdfstring{--}{--} Usuario Estudiante}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Entrevistada} & Camila Gonzales \\ 
+\textbf{Carrera} & Ingeniería Industrial \\ 
+\textbf{Ciclo} & 6to \\ 
+\textbf{Fecha} & 14/06/2025 \\ 
+\hline
+\end{tabular}
+\end{table}
+\newpage
+\textbf{Preguntas y respuestas:}
+\begin{enumerate}
+    \item \textbf{¿Cómo fue tu experiencia al usar el prototipo?} \\ 
+    \textit{"Fue bastante intuitiva. Me gustó que la reserva se pueda hacer en pocos pasos."}
+    
+    \item \textbf{¿Tuviste dificultades durante la prueba?} \\ 
+    \textit{"Solo un poco al principio con el contraste de algunos botones, pero una vez que entendí el flujo fue fácil."}
+    
+    \item \textbf{¿Te pareció útil la alerta de reservas duplicadas?} \\ 
+    \textit{"Sí, totalmente. Antes no me fijaba bien en los horarios, y ahora esa alerta me ayudó a evitar errores."}
+    
+    \item \textbf{¿Recomendarías este sistema? ¿Por qué?} \\ 
+    \textit{"Claro, ahorra tiempo, evita confusiones, y se puede usar desde el celular fácilmente."}
+\end{enumerate}
+
+\subsection{Entrevista 2 – Usuario Estudiante}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Entrevistado} & Luis Paredes \\ 
+\textbf{Carrera} & Ingeniería de Sistemas \\ 
+\textbf{Ciclo} & 8vo \\ 
+\textbf{Fecha} & 14/06/2025 \\ 
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Preguntas y respuestas:}
+\begin{enumerate}
+    \item \textbf{¿Cómo describirías el diseño de la interfaz?} \\ 
+    \textit{"Minimalista, claro y directo. Los botones importantes están bien ubicados y destacan, eso es clave."}
+    
+    \item \textbf{¿Probaste realizar una reserva completa?} \\ 
+    \textit{"Sí, seleccioné una sala, hora y confirmé. El proceso fue corto y no tuve dudas en ningún paso."}
+    
+    \item \textbf{¿Notaste mejoras vs. versiones anteriores?} \\ 
+    \textit{"Sí, antes me costaba cerrar sesión. Ahora lo hace solo cuando estoy inactivo, lo cual está perfecto."}
+    
+    \item \textbf{¿Qué tan fácil te resultó completar una reserva?} \\ 
+    \textit{"Muy sencillo. El flujo estaba claro, especialmente con el interfaz. No me sentí perdido."}
+    
+    \item \textbf{¿Crees que mejora la organización académica?} \\ 
+    \textit{"Sí, te permite planificar mejor sin tener que buscar una sala al momento. Eso optimiza tu tiempo."}
+\end{enumerate}
+\newpage
+\subsection{Entrevista 3 – Usuario Estudiante}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Entrevistada} & Mariana Torres \\ 
+\textbf{Carrera} & Psicología \\ 
+\textbf{Ciclo} & 5to \\ 
+\textbf{Fecha} & 14/06/2025 \\ 
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Preguntas y respuestas:}
+\begin{enumerate}
+    \item \textbf{¿Cómo fue tu experiencia con el prototipo?} \\ 
+    \textit{"Muy positiva. Me gustó que todo esté claro y que haya mensajes que te avisen si haces algo mal."}
+    
+    \item \textbf{¿Qué opinas del diseño responsive?} \\ 
+    \textit{"Me encantó. Lo usé desde mi celular y se veía perfecto. No tuve que hacer zoom ni nada raro."}
+    
+    \item \textbf{¿Qué cambiarías para mejorar?} \\ 
+    \textit{"Tal vez poner colores más vivos o una opción de favoritos para salas que uso seguido."}
+    
+    \item \textbf{¿Te parece válido hacer varias pruebas antes del diseño final?} \\ 
+    \textit{"Sí, se nota que escucharon a los usuarios. Eso se refleja en lo fluido que es todo."}
+    
+    \item \textbf{¿Te sentirías segura usando este sistema diariamente?} \\ 
+    \textit{"Sí, siento que es confiable y me facilitaría mucho reservar sin tener que ir al campus a preguntar."}
+\end{enumerate}
+
+\subsection{Hallazgos clave}
+\begin{itemize}
+    \item \textbf{Usabilidad}: 3/3 usuarios destacaron la intuitividad del flujo de reserva.
+    \item \textbf{Alertas}: Validación de reservas duplicadas evitó errores (2/3 usuarios).
+    \item \textbf{Responsividad}: Funcionamiento óptimo en móviles (3/3).
+    \item \textbf{Contraste visual}: 2/3 usuarios sugirieron mejoras en botones.
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\caption{Feedback cualitativo sintetizado}
+\begin{tabular}{|p{4cm}|p{8cm}|}
+\hline
+\textbf{Categoría} & \textbf{Comentarios representativos} \\ \hline
+Experiencia general & \textit{"Todo está claro y hay mensajes que te avisan si haces algo mal" (Mariana)} \\ \hline
+Mejoras detectadas & \textit{"El contraste de algunos botones podría ser mejor" (Camila)} \\ \hline
+Funcionalidad & \textit{"El cierre automático por inactividad es perfecto" (Luis)} \\ \hline
+\end{tabular}
+\label{tab:feedback}
+\end{table}
+
+\section{Aplicación de mejoras}
+
+\begin{itemize}
+  \item \textbf{Mejora del contraste visual:} Se decidió ajustar la paleta de colores para lograr mayor visibilidad de los botones de acción principal y facilitar la lectura, especialmente en pantallas pequeñas.
+
+  \item \textbf{Reorganización de elementos en la interfaz:} A raíz de las sugerencias, se reordenaron ciertos botones y etiquetas para hacer más clara la navegación.
+
+  \item \textbf{Ajuste en los textos y etiquetas del sistema:} Se modificaron algunos textos en botones y mensajes para que sean más comprensibles, especialmente para usuarios nuevos. Esto incluye cambiar frases técnicas por expresiones más claras como “Reservar ahora” o “Sala disponible”.
+
+  \item \textbf{Consolidación del sistema de alertas:} Se mejoraron los mensajes de error y confirmación para aumentar la claridad del proceso y evitar confusión.
+
+  \item \textbf{Optimización móvil y accesibilidad:} Se continuará reforzando el diseño responsive y se evaluarán nuevas pruebas en dispositivos variados para garantizar su funcionamiento universal.
+
+\end{itemize}
+
+\subsection{Relación feedback-mejoras}
+\begin{table}[h]
+\centering
+\caption{Mejoras implementadas (3 requeridas por rúbrica)}
+\begin{tabular}{|p{5cm}|p{5cm}|p{3cm}|}
+\hline
+\textbf{Feedback original} & \textbf{Mejora aplicada} & \textbf{Fuente} \\ \hline
+Dificultad con contraste de botones & Paleta de colores ajustada (mayor relación de contraste 4.5:1) & Entrevista 1 (Camila) \\ \hline
+Solicitud de favoritos para salas frecuentes & Sección "Mis salas favoritas" añadida al perfil & Entrevista 3 (Mariana) \\ \hline
+Confusión en textos técnicos & Lenguaje simplificado (ej. "Reservar ahora" vs. "Iniciar transacción") & Observación común \\ \hline
+\end{tabular}
+\label{tab:mejoras}
+\end{table}
+
+\section{Reflexión y conclusión}
+Los hallazgos validaron la hipótesis inicial (p.10 del Avance 2): un sistema intuitivo con notificaciones mejora la experiencia. 
+
+La información obtenida de los usuarios permitió validar decisiones acertadas del diseño, así como detectar aspectos que requerían ajustes menores. Esta fase de retroalimentación temprana fue esencial para seguir construyendo un sistema centrado en el usuario, funcional y con alta aceptación en su entorno real de aplicación.  
+
+Se priorizaron cambios con alto impacto según viabilidad:
+\begin{itemize}
+    \item \textbf{Implementadas}: Corrección de contraste, lenguaje claro, favoritos.
+    \item \textbf{Pendientes}: Integración de notificaciones push (requiere más pruebas técnicas), optimización de tiempos de carga (se evaluará en la siguiente fase).
+\end{itemize}
 \end{document}

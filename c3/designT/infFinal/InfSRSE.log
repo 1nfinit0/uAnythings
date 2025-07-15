@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  17 MAY 2025 02:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  14 JUN 2025 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,34 +676,41 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box115
 \enit@count@id=\count343
 \enitdp@description=\count344
+) (/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count345
+\float@exts=\toks52
+\float@box=\box116
+\@float@everytoks=\toks53
+\@floatcapt=\box117
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count345
-\l__pdf_internal_box=\box116
+\l__color_backend_stack_int=\count346
+\l__pdf_internal_box=\box118
 ) (./InfSRSE.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `InfSRSE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -739,21 +746,21 @@ LaTeX Font Info:    ... okay on input line 72.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 72.
-LaTeX Info: Redefining \% on input line 72.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
+\scratchcounter=\count347
 \scratchdimen=\dimen308
-\scratchbox=\box117
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count349
+\scratchbox=\box119
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count350
 \MPscratchDim=\dimen309
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks53
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -762,144 +769,290 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 74.
 <./assets/logo-utp.png, id=7, 2055.68pt x 493.845pt>
 File: ./assets/logo-utp.png Graphic file (type png)
 <use ./assets/logo-utp.png>
-Package pdftex.def Info: ./assets/logo-utp.png  used on input line 74.
+Package pdftex.def Info: ./assets/logo-utp.png  used on input line 76.
 (pdftex.def)             Requested size: 142.26378pt x 34.1733pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/logo-utp.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/logo-utp.png>] (./InfSRSE.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
-<assets/logo-utp.png, id=19, 2055.68pt x 493.845pt>
-File: assets/logo-utp.png Graphic file (type png)
-<use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 112.
-(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+
 [2
 
- <./assets/logo-utp.png>]
+])
+\tf@toc=\write4
+\openout4 = `InfSRSE.toc'.
 
+
+
+<assets/logo-utp.png, id=101, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 120.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 94.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[3]
+[3 <./assets/logo-utp.png>]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 149.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 102.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [4]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 131.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[5]
 Overfull \vbox (0.1102pt too high) has occurred while \output is active []
 
 
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 218.
-(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[5]
-
-File: assets/logo-utp.png Graphic file (type png)
-<use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 267.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 200.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [6]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 295.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 249.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [7]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 340.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 277.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [8]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 380.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 322.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [9]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 407.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 362.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[10]
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.362     \newpage
+                  ]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 436.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 389.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [11]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 473.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 418.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
 [12]
-<assets/lean.png, id=127, 903.375pt x 687.56876pt>
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 455.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.455       \newpage
+                    ]
+<assets/lean.png, id=183, 903.375pt x 687.56876pt>
 File: assets/lean.png Graphic file (type png)
 <use assets/lean.png>
-Package pdftex.def Info: assets/lean.png  used on input line 483.
+Package pdftex.def Info: assets/lean.png  used on input line 465.
 (pdftex.def)             Requested size: 409.71692pt x 311.84758pt.
 
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 491.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 473.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[13 <./assets/lean.png>]
-<assets/storyboard.png, id=135, 1541.76pt x 1027.84pt>
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.473       \newpage
+                     <./assets/lean.png>]
+<assets/storyboard.png, id=190, 1541.76pt x 1027.84pt>
 File: assets/storyboard.png Graphic file (type png)
 <use assets/storyboard.png>
-Package pdftex.def Info: assets/storyboard.png  used on input line 499.
+Package pdftex.def Info: assets/storyboard.png  used on input line 481.
 (pdftex.def)             Requested size: 409.71692pt x 273.14479pt.
 
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 508.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 490.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[14 <./assets/storyboard.png (PNG copy)>]
-<assets/proto.jpeg, id=143, 855.94781pt x 643.6547pt>
-File: assets/proto.jpeg Graphic file (type jpg)
-<use assets/proto.jpeg>
-Package pdftex.def Info: assets/proto.jpeg  used on input line 527.
-(pdftex.def)             Requested size: 409.71692pt x 308.09628pt.
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.490       \newpage
+                     <./assets/storyboard.png (PNG copy)>]
+<assets/login.jpeg, id=196, 428.35031pt x 644.4075pt>
+File: assets/login.jpeg Graphic file (type jpg)
+<use assets/login.jpeg>
+Package pdftex.def Info: assets/login.jpeg  used on input line 509.
+(pdftex.def)             Requested size: 182.09486pt x 273.94331pt.
 
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 531.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 513.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[15 <./assets/proto.jpeg>]
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.513       \newpage
+                     <./assets/login.jpeg>]
+<assets/invalidacion.jpeg, id=202, 395.97937pt x 131.74219pt>
+File: assets/invalidacion.jpeg Graphic file (type jpg)
+<use assets/invalidacion.jpeg>
+Package pdftex.def Info: assets/invalidacion.jpeg  used on input line 517.
+(pdftex.def)             Requested size: 273.14923pt x 90.87807pt.
+<assets/principal.jpeg, id=203, 420.06938pt x 500.62032pt>
+File: assets/principal.jpeg Graphic file (type jpg)
+<use assets/principal.jpeg>
+Package pdftex.def Info: assets/principal.jpeg  used on input line 524.
+(pdftex.def)             Requested size: 182.09486pt x 217.01183pt.
+<assets/reserva.jpeg, id=204, 851.43094pt x 529.98pt>
+File: assets/reserva.jpeg Graphic file (type jpg)
+<use assets/reserva.jpeg>
+Package pdftex.def Info: assets/reserva.jpeg  used on input line 531.
+(pdftex.def)             Requested size: 318.66948pt x 198.36192pt.
+<assets/reservacion.jpeg, id=205, 418.56375pt x 416.30531pt>
+File: assets/reservacion.jpeg Graphic file (type jpg)
+<use assets/reservacion.jpeg>
+Package pdftex.def Info: assets/reservacion.jpeg  used on input line 538.
+(pdftex.def)             Requested size: 273.14923pt x 271.67513pt.
+
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 549.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 542.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[16]
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.542 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.542 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.542 
+       <./assets/invalidacion.jpeg> <./assets/principal.jpeg> <./assets/reserva.jpeg>]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 566.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 554.
 (pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
-[17] (./InfSRSE.aux
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.554       \subsection{Viabilidad temporal}
+                                             <./assets/reservacion.jpeg>]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 573.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[19]
+<assets/diagrama.jpeg, id=223, 817.55438pt x 514.17094pt>
+File: assets/diagrama.jpeg Graphic file (type jpg)
+<use assets/diagrama.jpeg>
+Package pdftex.def Info: assets/diagrama.jpeg  used on input line 579.
+(pdftex.def)             Requested size: 364.19667pt x 229.05249pt.
+
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 602.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.602 \newpage
+               <./assets/diagrama.jpeg>]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 648.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[21]
+Underfull \hbox (badness 1253) in paragraph at lines 695--695
+[]|\OT1/cmr/m/it/10 .[] con-tras-te de al-gu-nos bo-to-nes podr^^S^^Pa ser me-
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 696--696
+[]|\OT1/cmr/m/it/10 .[] cie-rre au-tom^^Sati-co por inac-ti-vi-dad es per-fec-
+ []
+
+
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 709.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.709 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+[]|\OT1/cmr/m/n/10 Secci^^Son "Mis sa-las
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 725--725
+\OT1/cmr/m/n/10 var aho-ra"vs. []Ini-ciar tran-sac-
+ []
+
+
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 740.
+(pdftex.def)             Requested size: 56.9055pt x 13.66931pt.
+[23
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.740 \end{document}
+                    ] (./InfSRSE.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -909,18 +1062,18 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 34190 strings out of 475109
- 773761 string characters out of 5765325
- 1276793 words of memory out of 5000000
- 56584 multiletter control sequences out of 15000+600000
- 568022 words of font info for 71 fonts, out of 8000000 for 9000
+ 34357 strings out of 475109
+ 776489 string characters out of 5765325
+ 1279805 words of memory out of 5000000
+ 56720 multiletter control sequences out of 15000+600000
+ 568371 words of font info for 72 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 102i,15n,107p,850b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on InfSRSE.pdf (17 pages, 3090232 bytes).
+ 102i,15n,107p,850b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on InfSRSE.pdf (23 pages, 3336474 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 399 compressed objects within 4 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 415 words of extra memory for PDF output out of 10000 (max. 10000000)
 

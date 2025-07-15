@@ -1,0 +1,45 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Definición del problema}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}¿Qué problema o necesidad busca solucionar su proyecto?}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}¿Nos es posible resolver el problema?}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Investigación de usuarios}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Preguntas de entrevista}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Preguntas de encuesta}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Mapa de empatía}{7}{section.4}%
+\contentsline {section}{\numberline {5}Perfil de usuario, protopersona y segmentación de mercado}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Perfil de Usuario}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Proto-persona}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Segmentación de mercado}{8}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Usuario extremo}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Preguntas y respuestas del usuario extremo:}{9}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Descripción de los hallazgos}{9}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Lluvia de ideas}{10}{section.7}%
+\contentsline {section}{\numberline {8}Hipótesis de diseño basada en el usuario.}{11}{section.8}%
+\contentsline {section}{\numberline {9}Propuesta de solución de acuerdo a la hipótesis de diseño.}{11}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Características del sistema:}{11}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Beneficios esperados:}{12}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Solución bajo el punto de vista del usuario: \textbf {Job To Be Done}}{12}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Benchmarking y propuesta de valor}{12}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Análisis de la competencia}{12}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Cuadro comparativo de productos}{13}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Propuesta de valor}{13}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Storyboard}{15}{section.11}%
+\contentsline {section}{\numberline {12}Desglose del MVP}{16}{section.12}%
+\contentsline {section}{\numberline {13}Criterios de viabilidad o factibilidad}{18}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Viabilidad técnica}{18}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Viabilidad económica}{18}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Viabilidad operativa}{18}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Viabilidad legal}{19}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Viabilidad temporal}{19}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}Viabilidad social}{19}{subsection.13.6}%
+\contentsline {section}{\numberline {14}Justificación}{19}{section.14}%
+\contentsline {section}{\numberline {15}Diagrama de flujo del sistema}{20}{section.15}%
+\contentsline {section}{\numberline {16}Feedback real recolectado}{20}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Entrevista 1 -- Usuario Estudiante}{20}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Entrevista 2 – Usuario Estudiante}{21}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Entrevista 3 – Usuario Estudiante}{22}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Hallazgos clave}{22}{subsection.16.4}%
+\contentsline {section}{\numberline {17}Aplicación de mejoras}{22}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Relación feedback-mejoras}{23}{subsection.17.1}%
+\contentsline {section}{\numberline {18}Reflexión y conclusión}{23}{section.18}%
