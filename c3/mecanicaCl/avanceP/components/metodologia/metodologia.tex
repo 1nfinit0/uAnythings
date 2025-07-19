@@ -310,15 +310,100 @@ Finalmente, se espera que el mecanismo \textit{Theo Jansen} esté completamente 
 
 Se realizan las pruebas físicas del mecanísmo que se puedan tomar hasta el momento y se documentan los resultados obtenidos. Estas pruebas son importantes para evaluar el rendimiento del mecanismo y determinar los ajustes necesarios para mejorar su funcionamiento.
 
-\subsection{Nota para la dispositiva}
+\begin{multicols}{2}
+  \subsection{Movimiento Circular Uniforme}
+
+El mecanismo \textit{Theo Jansen} se basa en el principio del movimiento circular uniforme, donde el cigüeñal gira a una velocidad constante y las patas se mueven de manera coordinada. Para evaluar este principio se toman datos a partir de nuestras aspas de molino que en teoría girarían a una velocidad constante, se mide la velocidad angular del cigüeñal y se relaciona con la velocidad de las patas.
+
 \begin{itemize}
-  \item Dispositiva que indique el torque
-  \item Relación entre el torque y la distancia que recorre cada pata
-  \item Relación entre el torque y la velocidad del mecanismo
-  \item La dinámica del mecanismo al proyectar el torque en una fuerza que genera una Aceleración
-  \item Movimiento circular uniforme del mecanismo
-  \item Relación entre la velocidad tangencial del eje de rotación y la velocidad de las patas.
-\end{itemize}
+  \item \textbf{Periodo de rotación:} Se mide el tiempo que tarda el cigüeñal en completar una vuelta completa. Este periodo se relaciona con la velocidad angular del cigüeñal.
+  
+
+  En condiciones ideales, el periodo de rotación del cigüeñal es constante y se puede visualizar que el lapso que tarda en completar una vuelta es de aproximadamente 2 segundos.
+  \begin{equation}
+  T = 2s
+  \end{equation}
+  \item \textbf{Velocidad angular:} Teniendo en cuenta que una vuelta se corresponde a \(2\pi\) radianes, la velocidad angular del cigüeñal se calcula como:
+  \begin{equation}
+  \vec{\omega} = \frac{2\pi}{T} = \frac{2\pi}{2} = \pi \text{ rad/s}
+  \end{equation}
+  \item \textbf{Cálculo de la longitud de arco}: La longitud de arco, o distancia recorrida en los extremos de las aspas pueden calcularse obteniendo en primer lugar, el radio:
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{./assets/radio.jpeg}
+    \caption{Medición del radio de las aspas del cigüeñal}
+    \label{fig:radio_aspas}
+  \end{figure}
+  \begin{equation}
+  r = 8.2 \text{ cm}
+  \end{equation}
+  Luego, convirtiendo a metros:
+  \begin{equation}
+  r = 8.2 * 0.01 = 0.082 \text{ m}
+  \end{equation}
+  Finalmente:
+  \begin{equation}
+  L = r \cdot \theta = 0.082 \cdot 2\pi = 0.164\pi \text{ m}
+  \end{equation}
+  \item \textbf{Velocidad tangencial:} La velocidad tangencial de las puntas de las aspas se calcula como:
+  \begin{equation}
+  v = r \cdot \vec{\omega} = 0.082 \cdot \pi = 0.082\pi \text{ m/s}
+  \end{equation}
+  Aproximando:
+  \begin{equation}
+  v \approx 0.257 \text{ m/s}
+  \end{equation}
+  \end{itemize}
+  \subsection{Movimiento de las patas}
+  El movimiento de las patas se puede analizar de manera similar al del cigüeñal, considerando la cinemática de un sistema de bielas y manivelas. Cada pata está conectada a un mecanismo que convierte el movimiento rotacional del cigüeñal en movimiento lineal.
+  \begin{itemize}
+    \item \textbf{Longitud de las patas y apertura de las articulaciones:} Se procede a obtener los resultado de las medidas con el objetivo de poder relacionar la longitud de las patas con el movimiento del mecanismo que genera el cigüeñal.
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.6\linewidth]{./assets/minima.jpeg}
+      \caption{Medición de la apertura mínima de las patas del mecanismo \textit{Theo Jansen}}
+      \label{fig:apertura_minima_patas}
+    \end{figure}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.6\linewidth]{./assets/maxima.jpeg}
+      \caption{Medición de la apertura máxima de las patas del mecanismo \textit{Theo Jansen}}
+      \label{fig:apertura_maxima_patas}
+    \end{figure}
+    Se obtienen los siguientes resultados:
+    \begin{itemize}
+      \item Apertura mínima: \(0 \text{ cm}\)
+      \item Apertura máxima: \(18 \text{ cm}\)
+      \end{itemize}
+
+      Luego, convirtiendo a metros:
+      \begin{itemize}
+      \item Apertura mínima: \(0 \text{ m}\)
+      \item Apertura máxima: \(0.18 \text{ m}\)
+      \end{itemize}
+
+    Considerando que la apertura de las patas va de su máximo a su mínimo en lo que respecta a media vuelta del cigüeñal, se puede calcular la velocidad lineal de las patas en función de la velocidad angular del cigüeñal:
+    \begin{equation}
+    v_p = \frac{L}{T} = \frac{0.18}{2} = 0.09 \text{ m/s}
+    \end{equation}
+    \item \textbf{Movimiento de las patas:} El movimiento de las patas se puede modelar como un movimiento oscilatorio, donde las patas se levantan y bajan a medida que el cigüeñal gira. La frecuencia de este movimiento se relaciona con la velocidad angular del cigüeñal y la longitud de las patas.
+    \begin{equation}
+    f = \frac{1}{T} = \frac{1}{2} = 0.5 \text{ Hz}
+    \end{equation}
+    \item \textbf{Velocidad de las patas:} La velocidad de las patas se puede calcular como:
+    \begin{equation}
+    v_p = r \cdot \vec{\omega} = 0.082 \cdot \pi = 0.082\pi \text{ m/s}
+    \end{equation}
+    Aproximando:
+    \begin{equation}
+    v_p \approx 0.257 \text{ m/s}
+    \end{equation}
+  \end{itemize}
+\end{multicols}
+
+
+
+
 
 \newpage
 

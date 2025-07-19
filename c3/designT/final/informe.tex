@@ -1,190 +1,175 @@
-\documentclass{article}
-\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry} % Ajuste de márgenes
-\usepackage[spanish]{babel}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{tikz}
-\usepackage{titling}
-\usepackage{graphicx}
-\usepackage{fancyhdr}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{multicol}
-\usepackage{cancel}
-\usepackage{pgfplots}
-\usepackage{hyperref}
-\usepackage{bookmark}
-\pgfplotsset{compat=1.18}
-\usepackage{titlesec} % Para personalizar títulos
-\usepackage{tocloft}  % Para mejorar el índice
-\usepackage{setspace} % Para controlar el espaciado
+\usetikzlibrary{positioning, shapes}
+\usepackage{geometry}
+\geometry{margin=1.5cm}
 
-\usepackage{xcolor}
-\usepackage{enumitem}
-
-\definecolor{headerblue}{RGB}{50,90,140}
-\definecolor{responsegray}{RGB}{80,80,80}
-
-
-
-% Configuración de Fancyhdr para encabezados y pies de página
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\includegraphics[width=2cm]{assets/logo-utp.png}}
-\fancyhead[R]{\textbf{Diseño de Productos y Servicios}}
-
-\fancyfoot[R]{\thepage} % Número de página alineado a la derecha
-
-% Ajustes de espaciado entre párrafos y márgenes superiores
-\setlength{\parskip}{1.5em}
-\setlength{\parindent}{0pt}
-\setlength{\headheight}{17.26935pt} % Altura del encabezado
-\addtolength{\topmargin}{-2.26935pt} % Compensar el aumento de la altura del encabezado
-\setlength{\textheight}{23cm}  % Ajusta el alto del texto
-
-% Definición de comandos personalizados
-\newcommand{\SubItem}[1]{
-    {\setlength\itemindent{15pt} \item[-] #1}
-}
-
-% Título del documento con mejor control de espaciado
-\title{
-  \includegraphics[width=5cm]{./assets/logo-utp.png} \\
-  \vspace{1cm}
-  \textbf{Universidad Tecnológica del Perú} \\
-  \vspace{2cm}
-  \textbf{Avance de Proyecto 1: Sistema de Reservas de Salas de Estudio.} \\
-  \vspace{1cm}
-  \large \textbf{Para el curso de Diseño de Productos y Servicios.} \\
-  \large \textbf{Ing. Software y Sistemas.}
-}
-\author{
-  \textbf{Luis Huatay Salcedo.} \\
-  \textbf{Garcia Chumpitaz Cindel Roxell.} \\
-  \textbf{Díaz Benítez, Fernando Raúl.} \\
-  \textbf{Quispe Fernandez, Bryan Alexander.}
-}
-
+\title{Diseño y Presentación de Modelos de Negocio Innovadores}
+\author{Trabajo Práctico}
+\date{\today}
 
 \begin{document}
 \maketitle
-\begin{center}
-  Sección 44698
-\end{center}
-\thispagestyle{empty}
-\begin{center}
-  Mg. Marcos Teodoro Yerren Huima  
-\end{center}
-\restoregeometry
 
-\newpage
+\section*{Ejercicio 1: Creación de un Modelo de Negocio con Business Model Canvas}
 
-\tableofcontents
-\newpage
+\textbf{Descripción:} Cada equipo debe diseñar un modelo de negocio innovador utilizando el Business Model Canvas.
 
-\vspace*{\fill}
-\section{Introducción}
-La Universidad Tecnológica del Perú (UTP) es una institución educativa que ofrece una amplia gama de programas académicos y servicios a sus estudiantes. Uno de los aspectos fundamentales para el éxito académico es la disponibilidad de espacios adecuados para el estudio y la colaboración. En este contexto, el presente informe se centra en la creación de un sistema de reservas de salas de estudio, diseñado específicamente para satisfacer las necesidades de los estudiantes y mejorar su experiencia educativa.
-
-El sistema de reservas de salas de estudio tiene como objetivo facilitar la gestión y el uso eficiente de los espacios de estudio disponibles en la UTP. A través de este sistema, los estudiantes podrán reservar salas de estudio de manera rápida y sencilla, asegurando así un entorno propicio para el aprendizaje y la colaboración.
-\vspace*{\fill}
-
-\newpage
-
-\section{Definición del problema}
-
-Muchos estudiantes tienen dificultades para reservar salas de estudio en la biblioteca 
-debido a la falta de un sistema digital eficiente. Esto genera desorganización, pérdida de tiempo y conflictos por el uso de espacios.
-
-La UTP cuenta con una biblioteca que ofrece diversas salas de estudio, pero la gestión de reservas que se realiza por su aplicación se hace de manera que una sala está completamente ocupada por el tiempo que se reserva y no por el tiempo que se ocupa, lo que puede llevar a confusiones y malentendidos entre los estudiantes. Además, la falta de un sistema centralizado dificulta la planificación y el uso óptimo de estos espacios.
-
-La situación actual presenta varios problemas, entre ellos:
-\begin{itemize}
-    \item Falta de un sistema digital eficiente para la gestión de reservas.
-    \item Desorganización en la utilización de los espacios de estudio.
-    \item Conflictos entre estudiantes por el uso de las salas.
-    \item Dificultad para encontrar y reservar salas de estudio disponibles.
-    \item Pérdida de tiempo al buscar espacios adecuados para estudiar.
-    \item Falta de información sobre la disponibilidad de salas en tiempo real.
-\end{itemize}
-
-\subsection{¿Qué problema o necesidad busca solucionar su proyecto?}
-
-El proyecto busca implementar una plataforma web o app que permita a los estudiantes 
-reservar salas de forma rápida, ordenada y sobre todo, que estas se mantengan disponibles a penas se desocupan. Esto no solo mejorará la experiencia de los estudiantes, sino que también optimizará el uso de los espacios de estudio en la UTP.
-
-\newpage
-
-\section{Investigación de usuarios}
-
-La investigación de usuarios es un proceso fundamental para comprender las necesidades y expectativas de los estudiantes en relación con el sistema de reservas de salas de estudio. A través de encuestas y entrevistas, se recopilará información valiosa que guiará el diseño y desarrollo del sistema.
-
-\subsection{Preguntas de entrevista}
-
-Las preguntas de entrevista se caracterizan por ser abiertas y permitir a los usuarios expresar sus opiniones y experiencias de manera detallada. A continuación, se presentan algunas preguntas que se utilizarán en las entrevistas:
-
+\textbf{Instrucciones:}
 \begin{enumerate}
-  \item ¿Cuánto tiempo sueles usar una sala de estudio por sesión?
-  \item ¿Qué dificultades tienes al acceder a las salas de estudio? ¿Por qué?
-  \item ¿Qué funciones te parecerían más útiles en un sistema de reservas para las salas de estudio?
-  \item ¿Qué tan fácil te resulta usar el sistema de reservas y qué cambiarías para mejorarlo?
-  \item ¿Crees que un sistema de reservas eficiente influye en tus actividades académicas? ¿Por qué?
+    \item Seleccionar una idea de negocio innovadora o tomar una empresa existente y rediseñar su modelo de negocio.
+    \item Completar el Business Model Canvas detallando los 9 bloques: Segmentos de clientes, Propuesta de valor, Canales, Relaciones con clientes, Fuentes de ingresos, Recursos clave, Actividades clave, Socios clave, Estructura de costos.
+    \item Crear un lienzo visual en herramientas como Miro, Canvanizer o Figma.
+    \item Presentar el modelo de negocio en 3 minutos.
 \end{enumerate}
 
-\subsection{Preguntas de encuesta}
+\vspace{0.5cm}
 
-Esta por otro lado, se caracteriza por ser cerrada y permite obtener datos cuantitativos. A continuación, se presentan algunas preguntas que se utilizarán en la encuesta:
+\subsection{Empresa:}
+\textbf{Descripción:} Una empresa de entrega de alimentos saludables a domicilio que utiliza tecnología para personalizar las opciones según las preferencias del cliente.
 
-\begin{multicols}{2}
-  \begin{enumerate}
-    \item ¿Tu universidad cuenta con un sistema de reservas para las salas de estudio? 
-    \begin{itemize}
-      \item $\square$ a) Sí
-      \item $\square$ b) No
-    \end{itemize}
-  
-    \item ¿Con qué frecuencia utilizas las salas de estudio en la universidad? 
-    \begin{itemize}
-      \item $\square$ a) Nunca
-      \item $\square$ b) A veces
-      \item $\square$ c) Frecuentemente
-      \item $\square$ d) Siempre
-    \end{itemize}
-  
-    \item ¿Sueles utilizar la sala de estudio de manera individual o en grupo? 
-    \begin{itemize}
-      \item $\square$ a) Individual
-      \item $\square$ b) En grupo
-      \item $\square$ c) Ambos
-    \end{itemize}
-  
-    \item ¿En qué horarios puedes usar las salas de estudio? 
-    \begin{itemize}
-      \item $\square$ a) Mañana
-      \item $\square$ b) Tarde
-      \item $\square$ c) Noche
-    \end{itemize}
-  
-    \item ¿Has tenido dificultades para encontrar una sala de estudio disponible? 
-    \begin{itemize}
-      \item $\square$ a) Sí
-      \item $\square$ b) No
-    \end{itemize}
-  
-    \item ¿Te gustaría contar con una aplicación o plataforma digital para reservar salas de estudio? 
-    \begin{itemize}
-      \item $\square$ a) Sí, definitivamente
-      \item $\square$ b) Tal vez
-      \item $\square$ c) No
-    \end{itemize}
-  \end{enumerate}  
-\end{multicols}
+\begin{center}
+\textbf{Business Model Canvas (Vista Compacta)}
+\end{center}
 
+\begin{center}
+  \begin{tikzpicture}[scale=0.85, every node/.style={font=\footnotesize, align=center}]
+  % Definir tamaño (aumentar altura)
+  \def\w{2.5}
+  \def\h{2.2} % altura aumentada
+
+  % Socios Clave (ajustado)
+  \draw (0,0) rectangle (\w,\h*2.5);
+  \node[align=center, text width=2.8cm] at (0.5*\w,1.1*\h) {\textbf{Socios Clave}\\
+    \footnotesize{
+    • Proveedores de alimentos\\
+    • Empresas logísticas\\
+    • Desarrolladores tecnológicos\\
+    • Nutricionistas\\
+    • Aliados comerciales}};
+
+  % Actividades Clave (optimizado)
+  \draw (\w,0) rectangle (2.2*\w,\h*2.5);
+  \node[align=center, text width=2.8cm] at (1.6*\w,1.1*\h) {\textbf{Actividades Clave}\\
+    \footnotesize{
+    • Selección de ingredientes\\
+    • Preparación de comidas\\
+    • Desarrollo de plataforma\\
+    • Personalización\\
+    • Logística\\
+    • Atención al cliente}};
+
+  % Propuesta de Valor (más compacto)
+  \draw (2.2*\w,0) rectangle (4.6*\w,\h*2.5);
+  \node[align=center, text width=5.5cm] at (3.4*\w,1.1*\h) {\textbf{Propuesta de Valor}\\
+    \footnotesize{
+    • Comidas saludables personalizadas\\
+    • Entregas a domicilio\\
+    • Adaptación nutricional\\
+    • Tecnología integrada\\
+    • Conveniencia y ahorro}};
+
+  % Relación con Clientes (más ajustado)
+  \draw (4.6*\w,0) rectangle (6*\w,\h*2.5);
+  \node[align=center, text width=2.8cm] at (5.3*\w,1.1*\h) {\textbf{Relación con Clientes}\\
+    \footnotesize{
+    • Atención personalizada\\
+    • Soporte digital\\
+    • Recomendaciones\\
+    • Programas de fidelidad}};
+
+  % Segmentos de Clientes (optimizado)
+  \draw (6*\w,0) rectangle (8.5*\w,\h*2.5);
+  \node[align=center, text width=5cm] at (7.25*\w,1.1*\h) {\textbf{Segmentos de Clientes}\\
+    \footnotesize{
+    • Personas saludables\\
+    • Profesionales ocupados\\
+    • Deportistas\\
+    • Dietas especiales\\
+    • Familias urbanas}};
+
+  % Estructura de Costos (más compacto)
+  \draw (0,-\h) rectangle (4.25*\w,0);
+  \node[align=center, text width=9cm] at (2.125*\w,-0.5*\h) {\textbf{Estructura de Costos}\\
+    \footnotesize{
+    • Ingredientes • Salarios • Plataforma • Logística • Marketing • Soporte}};
+
+  % Fuentes de Ingresos (optimizado)
+  \draw (4.25*\w,-\h) rectangle (8.5*\w,0);
+  \node[align=center, text width=9cm] at (6.375*\w,-0.5*\h) {\textbf{Fuentes de Ingresos}\\
+    \footnotesize{
+    • Ventas directas • Suscripciones • Entregas • Alianzas • Servicios premium}};
+  \end{tikzpicture}
+\end{center}
+
+\subsection{Validación}
+Para validar el modelo de negocio, se pueden realizar encuestas a 50 clientes potenciales. Los posibles resultados mostrarían que el 90\% de los encuestados está interesado en recibir comidas saludables personalizadas a domicilio.
 \newpage
+\section*{Ejercicio 2: Creación de un Lean Canvas para una Startup}
+\textbf{Descripción:} Cada equipo debe diseñar un Lean Canvas para una startup, identificando problemas clave, soluciones y modelo de ingresos.
 
-\section{Mapa de empatía}
+\textbf{Instrucciones:}
+\begin{enumerate}
+    \item Elegir una idea de negocio disruptiva enfocada en una necesidad no resuelta.
+    \item Completar el Lean Canvas con los siguientes elementos: Problema, Segmentos de clientes, Propuesta de valor única, Solución, Canales, Estructura de costos, Fuentes de ingresos, Métricas clave, Ventaja injusta.
+    \item Validar el problema y la solución mediante encuestas o entrevistas a clientes potenciales.
+    \item Presentar en clase el Lean Canvas en un pitch de 3 minutos.
+\end{enumerate}
 
-Esta sección pretende resumir la información obtenida de los usuarios a través de las entrevistas y encuestas. El mapa de empatía es una herramienta visual que ayuda a comprender mejor a los usuarios y sus necesidades. A continuación, se presenta un ejemplo de un mapa de empatía para el sistema de reservas de salas de estudio:
+\vspace{0.5cm}
 
-alsdjhoashd
+\subsection{Startup}
+
+\textbf{Descripción:} Una plataforma de aprendizaje online personalizada que utiliza IA para adaptar el contenido a las necesidades del usuario.
+
+\begin{center}
+\textbf{Lean Canvas (Vista Compacta)}
+\end{center}
+\begin{center}
+\begin{tikzpicture}[scale=1.1, every node/.style={font=\small, align=center}]
+  % Definir tamaño más grande
+    \def\w{4.2}
+    \def\h{2.3}
+
+    % Fila superior (3 bloques)
+    \draw (0,0) rectangle (\w,\h);
+    \node[text width=3.8cm] at (2.1,1.15) {\textbf{Problema}\\Dificultad para encontrar contenido educativo personalizado; baja motivación y abandono en cursos online.};
+
+    \draw (\w,0) rectangle (\w*2,\h);
+    \node[text width=3.8cm] at (\w*1.5,1.15) {\textbf{Segmentos de Clientes}\\Estudiantes universitarios, profesionales en formación continua, empresas que capacitan empleados.};
+
+    \draw (\w*2,0) rectangle (\w*3,\h);
+    \node[text width=3.8cm] at (\w*2.5,1.15) {\textbf{Propuesta de Valor Única}\\Plataforma que adapta el contenido y ritmo de aprendizaje usando IA, mejorando resultados y motivación.};
+
+    % Fila media (3 bloques)
+    \draw (0,\h) rectangle (\w,\h*2);
+    \node[text width=3.8cm] at (2.1,\h+1.15) {\textbf{Solución}\\Recomendaciones personalizadas, rutas de aprendizaje dinámicas, feedback automático y tutor virtual.};
+
+    \draw (\w,\h) rectangle (\w*2,\h*2);
+    \node[text width=3.8cm] at (\w*1.5,\h+1.15) {\textbf{Canales}\\Web, app móvil, alianzas con universidades y empresas.};
+
+    \draw (\w*2,\h) rectangle (\w*3,\h*2);
+    \node[text width=3.8cm] at (\w*2.5,\h+1.15) {\textbf{Métricas Clave}\\Tasa de finalización de cursos, usuarios activos, satisfacción del usuario, retención mensual.};
+
+    % Fila inferior (3 bloques)
+    \draw (0,\h*2) rectangle (\w,\h*3);
+    \node[text width=3.8cm] at (2.1,\h*2+1.15) {\textbf{Estructura de Costos}\\Desarrollo y mantenimiento de la plataforma, licencias de IA, marketing, soporte técnico.};
+
+    \draw (\w,\h*2) rectangle (\w*2,\h*3);
+    \node[text width=3.8cm] at (\w*1.5,\h*2+1.15) {\textbf{Fuentes de Ingresos}\\Suscripciones mensuales, licencias B2B, cursos premium, anuncios.};
+
+    \draw (\w*2,\h*2) rectangle (\w*3,\h*3);
+    \node[text width=3.8cm] at (\w*2.5,\h*2+1.15) {\textbf{Ventaja Injusta}\\Algoritmo propio de personalización, base de datos de aprendizaje, alianzas estratégicas con instituciones.};
+\end{tikzpicture}
+\end{center}
+
+\subsection{Validación}
+
+Para validar el problema y la solución, se pueden realizar entrevistas y encuestas a estudiantes universitarios y profesionales para conocer sus necesidades y percepciones sobre la personalización del aprendizaje. También es posible desarrollar un prototipo mínimo de la plataforma y probarlo con un grupo reducido de usuarios, recolectando su retroalimentación sobre la utilidad y la experiencia de personalización mediante IA. Adicionalmente, se pueden analizar métricas como la tasa de interés, la intención de uso y la satisfacción de los usuarios durante las pruebas iniciales.
+\section*{Conclusiones}
+El uso de herramientas como el Business Model Canvas y el Lean Canvas permite a los equipos estructurar
+y visualizar sus ideas de negocio de manera efectiva. Estos modelos no solo facilitan la identificación de los elementos clave del negocio, sino que también ayudan a validar hipótesis y ajustar estrategias basadas en la retroalimentación del mercado. La innovación en modelos de negocio es esencial para adaptarse a un entorno empresarial en constante cambio y para satisfacer las necesidades emergentes de los clientes.
 
 \end{document}

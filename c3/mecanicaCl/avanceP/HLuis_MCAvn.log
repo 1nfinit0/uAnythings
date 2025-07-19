@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  15 JUL 2025 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  19 JUL 2025 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,35 +889,35 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 14.
+(Font)              scaled to size 7.0pt on input line 13.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 14.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 16.
+(Font)              scaled to size 5.0pt on input line 13.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 14.
  (/usr/share/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 16.
+(Font)              scaled to size 10.0pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 21.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 21.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 26.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 29.
+(Font)              scaled to size 10.0pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.0pt on input line 29.
+(Font)              scaled to size 10.0pt on input line 28.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 31.
 
 
-<assets/logo.png, id=86, 1288.815pt x 437.635pt>
+<assets/logo.png, id=90, 1288.815pt x 437.635pt>
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
-Package pdftex.def Info: assets/logo.png  used on input line 48.
+Package pdftex.def Info: assets/logo.png  used on input line 47.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}
 
@@ -970,32 +970,32 @@ File: assets/logo.png Graphic file (type png)
 Package pdftex.def Info: assets/logo.png  used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
 [6]
-<./assets/sorbete.jpeg, id=145, 1505.625pt x 1505.625pt>
+<./assets/sorbete.jpeg, id=149, 1505.625pt x 1505.625pt>
 File: ./assets/sorbete.jpeg Graphic file (type jpg)
 <use ./assets/sorbete.jpeg>
 Package pdftex.def Info: ./assets/sorbete.jpeg  used on input line 155.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/hilo.jpeg, id=146, 1505.625pt x 1505.625pt>
+<./assets/hilo.jpeg, id=150, 1505.625pt x 1505.625pt>
 File: ./assets/hilo.jpeg Graphic file (type jpg)
 <use ./assets/hilo.jpeg>
 Package pdftex.def Info: ./assets/hilo.jpeg  used on input line 156.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/palillos.jpeg, id=147, 1505.625pt x 1505.625pt>
+<./assets/palillos.jpeg, id=151, 1505.625pt x 1505.625pt>
 File: ./assets/palillos.jpeg Graphic file (type jpg)
 <use ./assets/palillos.jpeg>
 Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 157.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/fosforos.jpeg, id=148, 1505.625pt x 1505.625pt>
+<./assets/fosforos.jpeg, id=152, 1505.625pt x 1505.625pt>
 File: ./assets/fosforos.jpeg Graphic file (type jpg)
 <use ./assets/fosforos.jpeg>
 Package pdftex.def Info: ./assets/fosforos.jpeg  used on input line 159.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/aluminio.jpeg, id=149, 1505.625pt x 1505.625pt>
+<./assets/aluminio.jpeg, id=153, 1505.625pt x 1505.625pt>
 File: ./assets/aluminio.jpeg Graphic file (type jpg)
 <use ./assets/aluminio.jpeg>
 Package pdftex.def Info: ./assets/aluminio.jpeg  used on input line 160.
 (pdftex.def)             Requested size: 113.81102pt x 113.79001pt.
-<./assets/silicona.jpeg, id=150, 1505.625pt x 1505.625pt>
+<./assets/silicona.jpeg, id=154, 1505.625pt x 1505.625pt>
 File: ./assets/silicona.jpeg Graphic file (type jpg)
 <use ./assets/silicona.jpeg>
 Package pdftex.def Info: ./assets/silicona.jpeg  used on input line 161.
@@ -1011,22 +1011,22 @@ File: ./assets/palillos.jpeg Graphic file (type jpg)
 <use ./assets/palillos.jpeg>
 Package pdftex.def Info: ./assets/palillos.jpeg  used on input line 177.
 (pdftex.def)             Requested size: 159.33821pt x 159.32439pt.
-<./assets/mak1.jpeg, id=158, 1204.5pt x 1606.0pt>
+<./assets/mak1.jpeg, id=162, 1204.5pt x 1606.0pt>
 File: ./assets/mak1.jpeg Graphic file (type jpg)
 <use ./assets/mak1.jpeg>
 Package pdftex.def Info: ./assets/mak1.jpeg  used on input line 191.
 (pdftex.def)             Requested size: 91.04742pt x 121.376pt.
-<./assets/mak2.jpeg, id=159, 1204.5pt x 1606.0pt>
+<./assets/mak2.jpeg, id=163, 1204.5pt x 1606.0pt>
 File: ./assets/mak2.jpeg Graphic file (type jpg)
 <use ./assets/mak2.jpeg>
 Package pdftex.def Info: ./assets/mak2.jpeg  used on input line 192.
 (pdftex.def)             Requested size: 91.04742pt x 121.376pt.
-<./assets/mak3.jpeg, id=160, 1606.0pt x 1204.5pt>
+<./assets/mak3.jpeg, id=164, 1606.0pt x 1204.5pt>
 File: ./assets/mak3.jpeg Graphic file (type jpg)
 <use ./assets/mak3.jpeg>
 Package pdftex.def Info: ./assets/mak3.jpeg  used on input line 194.
 (pdftex.def)             Requested size: 91.04742pt x 68.2786pt.
-<./assets/mak4.jpeg, id=161, 1606.0pt x 1204.5pt>
+<./assets/mak4.jpeg, id=165, 1606.0pt x 1204.5pt>
 File: ./assets/mak4.jpeg Graphic file (type jpg)
 <use ./assets/mak4.jpeg>
 Package pdftex.def Info: ./assets/mak4.jpeg  used on input line 195.
@@ -1038,22 +1038,22 @@ File: assets/logo.png Graphic file (type png)
 Package pdftex.def Info: assets/logo.png  used on input line 204.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
 [8 <./assets/mak1.jpeg> <./assets/mak2.jpeg> <./assets/mak3.jpeg> <./assets/mak4.jpeg>]
-<./assets/eje.jpeg, id=169, 1505.625pt x 1505.625pt>
+<./assets/eje.jpeg, id=174, 1505.625pt x 1505.625pt>
 File: ./assets/eje.jpeg Graphic file (type jpg)
 <use ./assets/eje.jpeg>
 Package pdftex.def Info: ./assets/eje.jpeg  used on input line 215.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/cresta.jpeg, id=170, 1505.625pt x 1505.625pt>
+<./assets/cresta.jpeg, id=175, 1505.625pt x 1505.625pt>
 File: ./assets/cresta.jpeg Graphic file (type jpg)
 <use ./assets/cresta.jpeg>
 Package pdftex.def Info: ./assets/cresta.jpeg  used on input line 226.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/placas.jpeg, id=171, 1505.625pt x 1505.625pt>
+<./assets/placas.jpeg, id=176, 1505.625pt x 1505.625pt>
 File: ./assets/placas.jpeg Graphic file (type jpg)
 <use ./assets/placas.jpeg>
 Package pdftex.def Info: ./assets/placas.jpeg  used on input line 236.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/cigueal.jpeg, id=172, 1505.625pt x 1505.625pt>
+<./assets/cigueal.jpeg, id=177, 1505.625pt x 1505.625pt>
 File: ./assets/cigueal.jpeg Graphic file (type jpg)
 <use ./assets/cigueal.jpeg>
 Package pdftex.def Info: ./assets/cigueal.jpeg  used on input line 248.
@@ -1063,27 +1063,27 @@ File: assets/logo.png Graphic file (type png)
 Package pdftex.def Info: assets/logo.png  used on input line 258.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
  [9 <./assets/eje.jpeg> <./assets/cresta.jpeg> <./assets/placas.jpeg> <./assets/cigueal.jpeg>]
-<./assets/cigueal2.jpeg, id=182, 1505.625pt x 1505.625pt>
+<./assets/cigueal2.jpeg, id=186, 1505.625pt x 1505.625pt>
 File: ./assets/cigueal2.jpeg Graphic file (type jpg)
 <use ./assets/cigueal2.jpeg>
 Package pdftex.def Info: ./assets/cigueal2.jpeg  used on input line 263.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/plano.jpeg, id=183, 1505.625pt x 1505.625pt>
+<./assets/plano.jpeg, id=187, 1505.625pt x 1505.625pt>
 File: ./assets/plano.jpeg Graphic file (type jpg)
 <use ./assets/plano.jpeg>
 Package pdftex.def Info: ./assets/plano.jpeg  used on input line 273.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/articulacion.jpeg, id=184, 1505.625pt x 1505.625pt>
+<./assets/articulacion.jpeg, id=188, 1505.625pt x 1505.625pt>
 File: ./assets/articulacion.jpeg Graphic file (type jpg)
 <use ./assets/articulacion.jpeg>
 Package pdftex.def Info: ./assets/articulacion.jpeg  used on input line 281.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/patas.jpeg, id=185, 1505.625pt x 1505.625pt>
+<./assets/patas.jpeg, id=189, 1505.625pt x 1505.625pt>
 File: ./assets/patas.jpeg Graphic file (type jpg)
 <use ./assets/patas.jpeg>
 Package pdftex.def Info: ./assets/patas.jpeg  used on input line 290.
 (pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
-<./assets/patas2.jpeg, id=186, 1505.625pt x 1505.625pt>
+<./assets/patas2.jpeg, id=190, 1505.625pt x 1505.625pt>
 File: ./assets/patas2.jpeg Graphic file (type jpg)
 <use ./assets/patas2.jpeg>
 Package pdftex.def Info: ./assets/patas2.jpeg  used on input line 296.
@@ -1095,18 +1095,39 @@ File: assets/logo.png Graphic file (type png)
 Package pdftex.def Info: assets/logo.png  used on input line 300.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
 [10 <./assets/cigueal2.jpeg> <./assets/plano.jpeg> <./assets/articulacion.jpeg> <./assets/patas.jpeg> <./assets/patas2.jpeg>]
+<./assets/radio.jpeg, id=200, 1505.625pt x 1505.625pt>
+File: ./assets/radio.jpeg Graphic file (type jpg)
+<use ./assets/radio.jpeg>
+Package pdftex.def Info: ./assets/radio.jpeg  used on input line 333.
+(pdftex.def)             Requested size: 111.31102pt x 111.30882pt.
+File: assets/logo.png Graphic file (type png)
+<use assets/logo.png>
+Package pdftex.def Info: assets/logo.png  used on input line 359.
+(pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
+ [11 <./assets/radio.jpeg>]
+<./assets/minima.jpeg, id=213, 1505.625pt x 1505.625pt>
+File: ./assets/minima.jpeg Graphic file (type jpg)
+<use ./assets/minima.jpeg>
+Package pdftex.def Info: ./assets/minima.jpeg  used on input line 363.
+(pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
+<./assets/maxima.jpeg, id=214, 1505.625pt x 1505.625pt>
+File: ./assets/maxima.jpeg Graphic file (type jpg)
+<use ./assets/maxima.jpeg>
+Package pdftex.def Info: ./assets/maxima.jpeg  used on input line 369.
+(pdftex.def)             Requested size: 133.57458pt x 133.57059pt.
+
 
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
-Package pdftex.def Info: assets/logo.png  used on input line 323.
+Package pdftex.def Info: assets/logo.png  used on input line 408.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[11])
+[12 <./assets/minima.jpeg> <./assets/maxima.jpeg>])
 
 File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 112.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[12]
+[13]
 \openout2 = `components/referencias/referencias.aux'.
 
  (./components/referencias/referencias.tex
@@ -1122,7 +1143,7 @@ File: assets/logo.png Graphic file (type png)
 <use assets/logo.png>
 Package pdftex.def Info: assets/logo.png  used on input line 118.
 (pdftex.def)             Requested size: 56.9055pt x 19.31876pt.
-[13
+[14
 
 
 
@@ -1135,21 +1156,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `HLuis_MCAvn.out' has not changed.
-(rerunfilecheck)             Checksum: CFBA8212FAA3D872196AD6E6510C2537;2851.
+(rerunfilecheck)             Checksum: AF913D6C234621AFC27C1A30DA40E1B2;3050.
  ) 
 Here is how much of TeX's memory you used:
- 36874 strings out of 475109
- 829906 string characters out of 5765325
- 1322368 words of memory out of 5000000
- 59183 multiletter control sequences out of 15000+600000
+ 36915 strings out of 475109
+ 830743 string characters out of 5765325
+ 1322664 words of memory out of 5000000
+ 59208 multiletter control sequences out of 15000+600000
  579587 words of font info for 75 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,16n,131p,1026b,742s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on HLuis_MCAvn.pdf (13 pages, 3216429 bytes).
+Output written on HLuis_MCAvn.pdf (14 pages, 3709467 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
