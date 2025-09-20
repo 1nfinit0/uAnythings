@@ -1,0 +1,124 @@
+\documentclass{article}
+
+%===============================
+%
+%          📦 Paquetes
+%
+%===============================
+
+% === Configuración del documento y tipografía ===
+\usepackage[a4paper, top=3cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eulervm}
+
+
+
+% === Gráficos y representaciones visuales ===
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% === Estilo y personalización ===
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{tocloft} 
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{caption}
+
+% === Matemáticas y símbolos ===
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cancel}
+
+% === Estructura y disposición del contenido ===
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{indentfirst}
+
+% === Hipervínculos y referencias ===
+\usepackage{tocbibind}
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+
+%===============================
+%
+%          ⬆️⬇️ Cabeceras
+%
+%===============================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=3cm,clip,trim=1cm 1cm 1cm 1cm]{assets/logo-utp.png}}
+\vspace{1mm}\fancyhead[R]{\textit{Huatay Salcedo, Luis Elías}\vspace{1mm}}
+\fancyfoot[R]{\thepage}
+\setlength{\headheight}{88.95137pt}
+\addtolength{\topmargin}{-66.03258pt}
+
+%======================================
+%
+%          📑 Espaciado de Párrafos
+%
+%======================================
+
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+
+%======================================
+%
+%          📕 Estrucura del título
+%
+\title{
+  \pagenumbering{gobble}
+  \vspace{1cm}
+  % \includegraphics[width=5cm,clip,trim=6cm 6cm 6cm 6cm]{./assets/isotipo.jpg} \\
+  \includegraphics[width=5cm,clip,trim=0cm 2.9cm 0cm 0cm]{./assets/isotipo-utp.png} \\
+  \vspace{0.5cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{0.5cm}
+  \text{Negociación y Narrativa} \\
+  \vspace{1cm}
+    {\huge \textbf{PITCH}} \\
+  \vspace{1cm}
+  % \large \textbf{Para acceder al título de...} \\
+}
+\author{
+  \begin{tabular}{ll}
+    \textbf{Huatay Salcedo, Luis Elías, \texttt{U24218809}}\\
+  \end{tabular} \\
+  % \texttt{Ingeniería}\\
+}
+\begin{document}
+% \date{14 de agosto de 2024}
+\maketitle
+\begin{center}
+  Docente: \textbf{Nicolás, Nureña}
+\end{center}
+
+%======================================
+%
+%          📚 Inicio del documento
+%
+%======================================
+
+% \newpage
+
+% \begin{center}
+% \Large\bfseries Índice
+% \end{center}
+% \begingroup
+% \let\clearpage\relax
+% \renewcommand{\contentsname}{}
+% \tableofcontents
+% \endgroup
+
+
+\newpage
+% Inicio de la numeración de páginas (desde aquí)
+\pagenumbering{arabic}
+\setcounter{page}{1}  
+\include{components/introduccion/introduccion}
+\end{document}
