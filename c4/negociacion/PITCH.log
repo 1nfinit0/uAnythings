@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  14 SEP 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  7 OCT 2025 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,24 +703,24 @@ LaTeX Info: Redefining \% on input line 11.
  (./components/introduccion/introduccion.aux))
 \openout1 = `PITCH.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -756,8 +756,8 @@ LaTeX Font Info:    ... okay on input line 94.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count346
@@ -783,31 +783,28 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 94.
+Package hyperref Info: Link coloring ON on input line 96.
 (./PITCH.out) (./PITCH.out)
 \@outlinefile=\write4
 \openout4 = `PITCH.out'.
 
-<./assets/isotipo-utp.png, id=15, 194.6472pt x 276.5532pt>
+<./assets/isotipo-utp.png, id=63, 194.6472pt x 276.5532pt>
 File: ./assets/isotipo-utp.png Graphic file (type png)
 <use ./assets/isotipo-utp.png>
-Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 97.
+Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 99.
 (pdftex.def)             Requested size: 142.26378pt x 141.823pt.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 97.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 99.
  (/usr/share/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 97.
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 99.
  (/usr/share/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 97.
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 99.
  (/usr/share/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 97.
-
 
 [1
 
@@ -816,10 +813,10 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
  (./components/introduccion/introduccion.tex
 
-<assets/logo-utp.png, id=33, 2055.68pt x 493.845pt>
+<assets/logo-utp.png, id=81, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 10.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 18.65468pt.
 [1
 
@@ -827,13 +824,13 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 10.
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 38.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 52.
 (pdftex.def)             Requested size: 85.35826pt x 18.65468pt.
 [2])
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 123.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 125.
 (pdftex.def)             Requested size: 85.35826pt x 18.65468pt.
 [3] (./PITCH.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -844,21 +841,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PITCH.out' has not changed.
-(rerunfilecheck)             Checksum: 16A40F50AD7D0D8D4F6852037F718AB8;383.
+(rerunfilecheck)             Checksum: 0239658855A670DF8B13FFF4AAAA07E7;2367.
  ) 
 Here is how much of TeX's memory you used:
- 35171 strings out of 475109
- 794025 string characters out of 5765325
- 1279219 words of memory out of 5000000
- 57613 multiletter control sequences out of 15000+600000
+ 35198 strings out of 475109
+ 794441 string characters out of 5765325
+ 1282487 words of memory out of 5000000
+ 57628 multiletter control sequences out of 15000+600000
  578656 words of font info for 82 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 102i,16n,107p,915b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on PITCH.pdf (4 pages, 236832 bytes).
+ 102i,16n,107p,777b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on PITCH.pdf (4 pages, 247124 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,24 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{}{}{section*.1}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Descripción de la empresa y Área afectada por el proyecto a implementar}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Nombre de la empresa y/o Área}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Misión y Visión de la empresa}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Objetivos Estratégicos de la empresa y/o Área}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Alineamiento del proyecto con los objetivos de la empresa}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Proceso de Iniciación}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivos del Proyecto}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Alcance Inicial del Proyecto}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Registro de Interesados}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Acta de Constitución del Proyecto}{7}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Planificación}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Gestión de la Integración del Proyecto}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Gestión del Alcance del Proyecto}{9}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Gestión del Cronograma del Proyecto}{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Gestión de los Costes del Proyecto}{11}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Gestión de la Calidad del Proyecto}{12}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Gestión de los Recursos del Proyecto}{14}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Gestión de las Comunicaciones del Proyecto}{15}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Gestión de los Riesgos del Proyecto}{16}{subsubsection.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.7}Gestión de las Adquisiciones del Proyecto}{17}{subsubsection.4.2.7}%
+\contentsline {section}{\numberline {5}Conclusiones}{18}{section.5}%

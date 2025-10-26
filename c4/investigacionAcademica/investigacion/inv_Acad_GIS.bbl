@@ -1,0 +1,1219 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Brown2025}{article}{}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=acb7db9eafcc176ec96f01757ce85aa9}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc62cb379f3bfac7c7e9f9648937081}{%
+           family={Kazmierski},
+           familyi={K\bibinitperiod},
+           given={Michal\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b30977a7d1781aa2e03d507e983fdcf8}{%
+           family={Pasquarella},
+           familyi={P\bibinitperiod},
+           given={Valerie\bibnamedelima J},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408a97ab46775869b71f0e722577ddc9}{%
+           family={Rucklidge},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9d5d1acb039a1978c8928bfcc0e66a}{%
+           family={Samsikova},
+           familyi={S\bibinitperiod},
+           given={Masha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e7af32bed41a2494221263166fbe46}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chenhui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ce499f8943cac7cba0a73388d289a2e}{%
+           family={Shelhamer},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77599571464311244efa10e6f1469309}{%
+           family={Lahera},
+           familyi={L\bibinitperiod},
+           given={Estefania},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae47e9ef8cec05d24a2c86d7821ff291}{%
+           family={Wiles},
+           familyi={W\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c4ad5f57526bc5e2860286041301be5}{%
+           family={Ilyushchenko},
+           familyi={I\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecdf9b747a50a0392d63cfcb19bab980}{%
+           family={Gorelick},
+           familyi={G\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60457ead86ce78ddcb37c450c236fee9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lihui\bibnamedelima Lydia},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013f87467ad0eff7375fbafe8d7c1903}{%
+           family={Alj},
+           familyi={A\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97e746aedc4dc0dc4a91eaa6e21f2f6c}{%
+           family={Schechter},
+           familyi={S\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cafe40ce85ab0a30724f1e6a2c1923}{%
+           family={Askay},
+           familyi={A\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9016c8fc7f005701d7a2df9189695525}{%
+           family={Guinan},
+           familyi={G\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=438ba6e4e04af2429f76e57a1dfe5974}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a17745d853f84ee3c6eacebf25b89da9}{%
+           family={Boukouvalas},
+           familyi={B\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Pushmeet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91d19aad57b3ee3fbdb4f526ed36d64b}{%
+           family={contributions},
+           familyi={c\bibinitperiod},
+           given={Equal},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daaaa5529255581e955ef8f6b6e334ea}{%
+           family={DeepMind},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{fullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{fullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{bibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authorbibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authornamehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{authorfullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{authorfullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Unprecedented volumes of Earth observation data are continually collected around the world, but high-quality labels remain scarce given the effort required to make physical measurements and observations. This has led to considerable investment in bespoke modeling efforts translating sparse labels into maps. Here we introduce AlphaEarth Foundations, an embedding field model yielding a highly general, geospatial representation that assimilates spatial, temporal, and measurement contexts across multiple sources, enabling accurate and efficient production of maps and monitoring systems from local to global scales. The embeddings generated by AlphaEarth Foundations are the only to consistently outperform a suite of other well-known/widely accepted featurization approaches tested on a diverse set of mapping evaluations without retraining. We have released a dataset of global, annual, analysis-ready embedding field layers from 2017 through 2024.}
+      \field{title}{AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \keyw{cs.CV,cs.LG}
+    \endentry
+    \entry{En2009}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=98789fcd3d90140029912128d71d20d0}{%
+           family={En},
+           familyi={E\bibinitperiod},
+           given={Ejecución},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc3fb179966f8f2345ed622e3855ddc}{%
+           family={Marcelo},
+           familyi={M\bibinitperiod},
+           given={Geomensura},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d2576e10c652bb22e3116be3cf30015}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16536673da25460835a9df42225fcdfb}{%
+           family={Jorge},
+           familyi={J\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9eccec18d35cc75c7919e950da92d6}{%
+           family={Araneda},
+           familyi={A\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Concepción}%
+      }
+      \strng{namehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{fullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{fullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{bibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorbibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authornamehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{authorfullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorfullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principios de teledetección y sus aplicaciones.}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \verb{url}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \keyw{Percepción Remota}
+    \endentry
+    \entry{Lillesand2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1fec01d2c81402aaff721ff9ca183972}{%
+           family={Lillesand},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcb2742bd2f6b25553d4e199d4767b09}{%
+           family={Kiefer},
+           familyi={K\bibinitperiod},
+           given={Ralph\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee6125d29d5b290302cdd07a7afa299c}{%
+           family={Chipman},
+           familyi={C\bibinitperiod},
+           given={Jonathan\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{720f1220ad536ad5a3d95105ffb158af}
+      \strng{fullhash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{fullhashraw}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{bibnamehash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{authorbibnamehash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{authornamehash}{720f1220ad536ad5a3d95105ffb158af}
+      \strng{authorfullhash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{authorfullhashraw}{07087e1eb7f6cbd621944cca4267d671}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-118-34328-9}
+      \field{journaltitle}{Remote sensing and Image interpretation}
+      \field{title}{NOAA POES SATELLITES}
+      \field{year}{2015}
+      \field{pages}{360\bibrangedash 363}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.wiley.com/en-us/Remote+Sensing+and+Image+Interpretation%2C+7th+Edition-p-9781118343289
+      \endverb
+      \verb{url}
+      \verb https://www.wiley.com/en-us/Remote+Sensing+and+Image+Interpretation%2C+7th+Edition-p-9781118343289
+      \endverb
+    \endentry
+    \entry{Ram2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc704f4e134ac6717629938ae313fde8}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Billy\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffae8d004cf39f9500a1f7e7d000210b}{%
+           family={Oduor},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eeef291d4cc4ee2b1cc18989c0539f}{%
+           family={Igathinathane},
+           familyi={I\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=327244e9470f9443705ba82cdd7ca50c}{%
+           family={Howatt},
+           familyi={H\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c54a0c99fb2cc8beeaeaed5a3349c8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{346dcffd8dae2778c0f67d0c813ca54d}
+      \strng{fullhash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{fullhashraw}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{bibnamehash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{authorbibnamehash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{authornamehash}{346dcffd8dae2778c0f67d0c813ca54d}
+      \strng{authorfullhash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{authorfullhashraw}{f59ae6705d99f8fd33473e2a25f5f609}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hyperspectral sensor adaptability in precision agriculture to digital images is still at its nascent stage. Hyperspectral imaging (HSI) is data rich in solving agricultural problems like disease detection, weed detection, stress detection, crop monitoring, nutrient application, soil mineralogy, yield estimation, and sorting applications. With modern precision agriculture, the challenge now is to bring these applications to the field for real-time solutions, where machines are enabled to conduct analyses without expert supervision and communicate the results to users for better management of farmlands; a necessary step to gain complete autonomy in agricultural farmlands. Significant advancements in HSI technology for precision agriculture are required to fully realize its potential. As a wide-ranging collection of the status of HSI and analysis in precision agriculture is lacking, this review endeavors to provide a comprehensive overview of the recent advancements and trends of HSI in precision agriculture for real-time applications. In this study, a systematic review of 163 scientific articles published over the past twenty years (2003–2023) was conducted. Of these, 97 were selected for further analysis based on their relevance to the topic at hand. Topics include conventional data preprocessing techniques, hyperspectral data acquisition, data compression methods, and segmentation methods. The hardware implementation of field-programmable gate arrays (FPGAs) and graphics processing units (GPUs) for high-speed data processing and application of machine learning and deep learning technologies were explored. This review highlights the potential of HSI as a powerful tool for precision agriculture, particularly in real-time applications, discusses limitations, and provides insights into future research directions.}
+      \field{issn}{0168-1699}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{month}{7}
+      \field{title}{A systematic review of hyperspectral imaging in precision agriculture: Analysis of its current state and future prospects}
+      \field{volume}{222}
+      \field{year}{2024}
+      \field{pages}{109037}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.COMPAG.2024.109037
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168169924004289?utm_source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168169924004289?utm_source=chatgpt.com
+      \endverb
+      \keyw{Data analysis,Hyperspectral,Image analysis,Precision agriculture,Real-time}
+    \endentry
+    \entry{Superficie2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=30992397081855f4361ea14a0b22d1b1}{%
+           family={Superficie},
+           familyi={S\bibinitperiod},
+           given={Plasmones\bibnamedelima DE},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4fb85442910db924921f93525ca237a}{%
+           family={Tiburcio},
+           familyi={T\bibinitperiod},
+           given={Orna},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85baa7bce9cbd63a4b4725081d339a30}{%
+           family={Asesor},
+           familyi={A\bibinitperiod},
+           given={Diego\bibnamedelima André},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0763a2887565922997cd267634483b62}{%
+           family={Mercado},
+           familyi={M\bibinitperiod},
+           given={Bruna},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=771f5bbfe2f7cfb88b13bdd40e89a157}{%
+           family={Calcina},
+           familyi={C\bibinitperiod},
+           given={Guzmán},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5375f3bebad02a4bf654f7129fafe6e1}{%
+           family={Melgarejo},
+           familyi={M\bibinitperiod},
+           given={Carmen\bibnamedelimb Sandra\bibnamedelima Lostaunau},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=482aa1d87d706a37c2968e112d4ba76e}{%
+           family={Cordero},
+           familyi={C\bibinitperiod},
+           given={Marco\bibnamedelimb Jacinto\bibnamedelima Mejía},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40c139c7beed307eb5c15a6d92d50e54}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={Bernabé},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional Federico Villarreal}%
+      }
+      \strng{namehash}{69b2d1e1b9e41ab461dec3b139ca0771}
+      \strng{fullhash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{fullhashraw}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{bibnamehash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{authorbibnamehash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{authornamehash}{69b2d1e1b9e41ab461dec3b139ca0771}
+      \strng{authorfullhash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{authorfullhashraw}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Universidad Nacional Federico Villarreal}
+      \field{title}{Simulación de la función de reflectancia para la resonancia de plasmones de superficie}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://repositorio.unfv.edu.pe/handle/20.500.13084/9880
+      \endverb
+      \verb{url}
+      \verb https://repositorio.unfv.edu.pe/handle/20.500.13084/9880
+      \endverb
+      \keyw{Absorción de luz,Física nuclear y ambiental,Interrogación angular,Kretschmann,Modelo}
+    \endentry
+    \entry{Prasad2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38ba02c334308637f73c01d6413f5fba}{%
+           family={Thenkabail},
+           familyi={T\bibinitperiod},
+           given={Prasad\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{fullhash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{fullhashraw}{38ba02c334308637f73c01d6413f5fba}
+      \strng{bibnamehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authorbibnamehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authornamehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authorfullhash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authorfullhashraw}{38ba02c334308637f73c01d6413f5fba}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Remote Sensing Handbook, Volume III: Agriculture, Food Security, Rang}
+      \verb{urlraw}
+      \verb https://www.routledge.com/Remote-Sensing-Handbook--Volume-III-Agriculture-Food-Security-Rangelands-Vegetation-Phenology-and-Soils/Thenkabail/p/book/9781032891019?srsltid=AfmBOorCvB0BBGEuWlFwMJl1JwtfQgzrvdxRbCWGBck_ocSwrZ9dLpRL
+      \endverb
+      \verb{url}
+      \verb https://www.routledge.com/Remote-Sensing-Handbook--Volume-III-Agriculture-Food-Security-Rangelands-Vegetation-Phenology-and-Soils/Thenkabail/p/book/9781032891019?srsltid=AfmBOorCvB0BBGEuWlFwMJl1JwtfQgzrvdxRbCWGBck_ocSwrZ9dLpRL
+      \endverb
+    \endentry
+    \entry{Vullaganti2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=03a9a4e785cf7674dbfdaa7ae345104b}{%
+           family={Vullaganti},
+           familyi={V\bibinitperiod},
+           given={Niharika},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc704f4e134ac6717629938ae313fde8}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Billy\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c54a0c99fb2cc8beeaeaed5a3349c8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{900380a7151e48afced580678c32ca8a}
+      \strng{fullhash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{fullhashraw}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{bibnamehash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{authorbibnamehash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{authornamehash}{900380a7151e48afced580678c32ca8a}
+      \strng{authorfullhash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{authorfullhashraw}{b6331dd25603417a2c4eb66443139c1d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Amidst the growing food demands of an increasing population, agricultural intensification frequently depends on excessive chemical and fertilizer applications. While this approach initially boosts crop yields, it effects long-term sustainability through soil degradation and compromised food quality. Thus, prioritizing soil health while enhancing crop production is essential for sustainable food production. Site-Specific Nutrient Management (SSNM) emerges as a critical strategy to increase crop production, maintain soil health, and reduce environmental pollution. Despite its potential, the application of SSNM technologies remain limited in farmers' fields due to existing research gaps. This review critically analyzes and presents research conducted in SSNM in the past 11 years (2013–2024), identifying gaps and future research directions. A comprehensive study of 97 relevant research publications reveals several key findings: a) Electrochemical sensing and spectroscopy are the two widely explored areas in SSNM research, b) Despite numerous technologies in SSNM, each has its own limitation, preventing any single technology from being ideal, c) The selection of models and preprocessing techniques significantly impacts nutrient prediction accuracy, d) No single sensor or sensor combination can predict all soil properties, as suitability is highly attribute-specific. This review provides researchers, and technical personnel in precision agriculture, and farmers with detailed insights into SSNM research, its implementation, limitations, challenges, and future research directions.}
+      \field{issn}{2589-7217}
+      \field{issue}{2}
+      \field{journaltitle}{Artificial Intelligence in Agriculture}
+      \field{month}{6}
+      \field{title}{Precision agriculture technologies for soil site-specific nutrient management: A comprehensive review}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{147\bibrangedash 161}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/J.AIIA.2025.02.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2589721725000200?utm_source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2589721725000200?utm_source=chatgpt.com
+      \endverb
+      \keyw{Modeling,On-the go sensing,Site-specific nutrient management,Soil nutrients,Spectroscopy}
+    \endentry
+    \entry{Xia2023}{article}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d7abadc5cb4b3d12386d19915afdb2c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wenxi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eee63dfe2eca438a649f989ca90e5909}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Jingwu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce516d5ec863e253dbad4b40dd926d40}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jinghao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2818e977076e13c66a9577ffef15e3fb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wenbo},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97e06ffb2efc09329af070928d3be298}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79bc7ec1ff97c7cfa449afcfb6f3386a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bf1d564eeadf2485f7a12641db27ca1}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{72d6a394ac5fd19b9d7789e8e09135bd}
+      \strng{fullhash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{fullhashraw}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{bibnamehash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{authorbibnamehash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{authornamehash}{72d6a394ac5fd19b9d7789e8e09135bd}
+      \strng{authorfullhash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{authorfullhashraw}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Agriculture is the primary source of human survival, which provides the most basic living and survival conditions for human beings. As living standards continue to improve, people are also paying more attention to the quality and safety of agricultural products. Therefore, the detection of agricultural product quality is very necessary. In the past decades, the spectroscopy technique has been widely used because of its excellent results in agricultural quality detection. However, traditional spectral inspection methods cannot accurately describe the internal information of agricultural products. With the continuous research and development of optical properties, it has been found that the internal quality of an object can be better reflected by separating the properties of light, such as its absorption and scattering properties. In recent years, spatially resolved spectroscopy has been increasingly used in the field of agricultural product inspection due to its simple compositional structure, low-value cost, ease of operation, efficient detection speed, and outstanding ability to obtain information about agricultural products at different depths. It can also separate optical properties based on the transmission equation of optics, which allows for more accurate detection of the internal quality of agricultural products. This review focuses on the principles of spatially resolved spectroscopy, detection equipment, analytical methods, and specific applications in agricultural quality detection. Additionally, the optical properties methods and direct analysis methods of spatially resolved spectroscopy analysis methods are also reported in this paper.}
+      \field{issn}{1664462X}
+      \field{journaltitle}{Frontiers in Plant Science}
+      \field{month}{1}
+      \field{title}{Principles, developments, and applications of spatially resolved spectroscopy in agriculture: a review}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{1324881}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/FPLS.2023.1324881/FULL
+      \endverb
+      \keyw{agriculture,hyperspectral imaging,optical properties,quality inspection,spatially resolved spectroscopy}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Brown2025}{article}{}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=acb7db9eafcc176ec96f01757ce85aa9}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc62cb379f3bfac7c7e9f9648937081}{%
+           family={Kazmierski},
+           familyi={K\bibinitperiod},
+           given={Michal\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b30977a7d1781aa2e03d507e983fdcf8}{%
+           family={Pasquarella},
+           familyi={P\bibinitperiod},
+           given={Valerie\bibnamedelima J},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408a97ab46775869b71f0e722577ddc9}{%
+           family={Rucklidge},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9d5d1acb039a1978c8928bfcc0e66a}{%
+           family={Samsikova},
+           familyi={S\bibinitperiod},
+           given={Masha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e7af32bed41a2494221263166fbe46}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chenhui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ce499f8943cac7cba0a73388d289a2e}{%
+           family={Shelhamer},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77599571464311244efa10e6f1469309}{%
+           family={Lahera},
+           familyi={L\bibinitperiod},
+           given={Estefania},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae47e9ef8cec05d24a2c86d7821ff291}{%
+           family={Wiles},
+           familyi={W\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c4ad5f57526bc5e2860286041301be5}{%
+           family={Ilyushchenko},
+           familyi={I\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecdf9b747a50a0392d63cfcb19bab980}{%
+           family={Gorelick},
+           familyi={G\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60457ead86ce78ddcb37c450c236fee9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lihui\bibnamedelima Lydia},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013f87467ad0eff7375fbafe8d7c1903}{%
+           family={Alj},
+           familyi={A\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97e746aedc4dc0dc4a91eaa6e21f2f6c}{%
+           family={Schechter},
+           familyi={S\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cafe40ce85ab0a30724f1e6a2c1923}{%
+           family={Askay},
+           familyi={A\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9016c8fc7f005701d7a2df9189695525}{%
+           family={Guinan},
+           familyi={G\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=438ba6e4e04af2429f76e57a1dfe5974}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a17745d853f84ee3c6eacebf25b89da9}{%
+           family={Boukouvalas},
+           familyi={B\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Pushmeet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91d19aad57b3ee3fbdb4f526ed36d64b}{%
+           family={contributions},
+           familyi={c\bibinitperiod},
+           given={Equal},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daaaa5529255581e955ef8f6b6e334ea}{%
+           family={DeepMind},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{fullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{fullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{bibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authorbibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authornamehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{authorfullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{authorfullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Unprecedented volumes of Earth observation data are continually collected around the world, but high-quality labels remain scarce given the effort required to make physical measurements and observations. This has led to considerable investment in bespoke modeling efforts translating sparse labels into maps. Here we introduce AlphaEarth Foundations, an embedding field model yielding a highly general, geospatial representation that assimilates spatial, temporal, and measurement contexts across multiple sources, enabling accurate and efficient production of maps and monitoring systems from local to global scales. The embeddings generated by AlphaEarth Foundations are the only to consistently outperform a suite of other well-known/widely accepted featurization approaches tested on a diverse set of mapping evaluations without retraining. We have released a dataset of global, annual, analysis-ready embedding field layers from 2017 through 2024.}
+      \field{title}{AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \keyw{cs.CV,cs.LG}
+    \endentry
+    \entry{En2009}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=98789fcd3d90140029912128d71d20d0}{%
+           family={En},
+           familyi={E\bibinitperiod},
+           given={Ejecución},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc3fb179966f8f2345ed622e3855ddc}{%
+           family={Marcelo},
+           familyi={M\bibinitperiod},
+           given={Geomensura},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d2576e10c652bb22e3116be3cf30015}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16536673da25460835a9df42225fcdfb}{%
+           family={Jorge},
+           familyi={J\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9eccec18d35cc75c7919e950da92d6}{%
+           family={Araneda},
+           familyi={A\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Concepción}%
+      }
+      \strng{namehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{fullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{fullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{bibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorbibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authornamehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{authorfullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorfullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principios de teledetección y sus aplicaciones.}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \verb{url}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \keyw{Percepción Remota}
+    \endentry
+    \entry{Lillesand2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1fec01d2c81402aaff721ff9ca183972}{%
+           family={Lillesand},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcb2742bd2f6b25553d4e199d4767b09}{%
+           family={Kiefer},
+           familyi={K\bibinitperiod},
+           given={Ralph\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee6125d29d5b290302cdd07a7afa299c}{%
+           family={Chipman},
+           familyi={C\bibinitperiod},
+           given={Jonathan\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{720f1220ad536ad5a3d95105ffb158af}
+      \strng{fullhash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{fullhashraw}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{bibnamehash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{authorbibnamehash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{authornamehash}{720f1220ad536ad5a3d95105ffb158af}
+      \strng{authorfullhash}{07087e1eb7f6cbd621944cca4267d671}
+      \strng{authorfullhashraw}{07087e1eb7f6cbd621944cca4267d671}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-118-34328-9}
+      \field{journaltitle}{Remote sensing and Image interpretation}
+      \field{title}{NOAA POES SATELLITES}
+      \field{year}{2015}
+      \field{pages}{360\bibrangedash 363}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.wiley.com/en-us/Remote+Sensing+and+Image+Interpretation%2C+7th+Edition-p-9781118343289
+      \endverb
+      \verb{url}
+      \verb https://www.wiley.com/en-us/Remote+Sensing+and+Image+Interpretation%2C+7th+Edition-p-9781118343289
+      \endverb
+    \endentry
+    \entry{Ram2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc704f4e134ac6717629938ae313fde8}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Billy\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffae8d004cf39f9500a1f7e7d000210b}{%
+           family={Oduor},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eeef291d4cc4ee2b1cc18989c0539f}{%
+           family={Igathinathane},
+           familyi={I\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=327244e9470f9443705ba82cdd7ca50c}{%
+           family={Howatt},
+           familyi={H\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c54a0c99fb2cc8beeaeaed5a3349c8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{346dcffd8dae2778c0f67d0c813ca54d}
+      \strng{fullhash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{fullhashraw}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{bibnamehash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{authorbibnamehash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{authornamehash}{346dcffd8dae2778c0f67d0c813ca54d}
+      \strng{authorfullhash}{f59ae6705d99f8fd33473e2a25f5f609}
+      \strng{authorfullhashraw}{f59ae6705d99f8fd33473e2a25f5f609}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hyperspectral sensor adaptability in precision agriculture to digital images is still at its nascent stage. Hyperspectral imaging (HSI) is data rich in solving agricultural problems like disease detection, weed detection, stress detection, crop monitoring, nutrient application, soil mineralogy, yield estimation, and sorting applications. With modern precision agriculture, the challenge now is to bring these applications to the field for real-time solutions, where machines are enabled to conduct analyses without expert supervision and communicate the results to users for better management of farmlands; a necessary step to gain complete autonomy in agricultural farmlands. Significant advancements in HSI technology for precision agriculture are required to fully realize its potential. As a wide-ranging collection of the status of HSI and analysis in precision agriculture is lacking, this review endeavors to provide a comprehensive overview of the recent advancements and trends of HSI in precision agriculture for real-time applications. In this study, a systematic review of 163 scientific articles published over the past twenty years (2003–2023) was conducted. Of these, 97 were selected for further analysis based on their relevance to the topic at hand. Topics include conventional data preprocessing techniques, hyperspectral data acquisition, data compression methods, and segmentation methods. The hardware implementation of field-programmable gate arrays (FPGAs) and graphics processing units (GPUs) for high-speed data processing and application of machine learning and deep learning technologies were explored. This review highlights the potential of HSI as a powerful tool for precision agriculture, particularly in real-time applications, discusses limitations, and provides insights into future research directions.}
+      \field{issn}{0168-1699}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{month}{7}
+      \field{title}{A systematic review of hyperspectral imaging in precision agriculture: Analysis of its current state and future prospects}
+      \field{volume}{222}
+      \field{year}{2024}
+      \field{pages}{109037}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.COMPAG.2024.109037
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168169924004289?utm_source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168169924004289?utm_source=chatgpt.com
+      \endverb
+      \keyw{Data analysis,Hyperspectral,Image analysis,Precision agriculture,Real-time}
+    \endentry
+    \entry{Superficie2024}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=30992397081855f4361ea14a0b22d1b1}{%
+           family={Superficie},
+           familyi={S\bibinitperiod},
+           given={Plasmones\bibnamedelima DE},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4fb85442910db924921f93525ca237a}{%
+           family={Tiburcio},
+           familyi={T\bibinitperiod},
+           given={Orna},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85baa7bce9cbd63a4b4725081d339a30}{%
+           family={Asesor},
+           familyi={A\bibinitperiod},
+           given={Diego\bibnamedelima André},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0763a2887565922997cd267634483b62}{%
+           family={Mercado},
+           familyi={M\bibinitperiod},
+           given={Bruna},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=771f5bbfe2f7cfb88b13bdd40e89a157}{%
+           family={Calcina},
+           familyi={C\bibinitperiod},
+           given={Guzmán},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5375f3bebad02a4bf654f7129fafe6e1}{%
+           family={Melgarejo},
+           familyi={M\bibinitperiod},
+           given={Carmen\bibnamedelimb Sandra\bibnamedelima Lostaunau},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=482aa1d87d706a37c2968e112d4ba76e}{%
+           family={Cordero},
+           familyi={C\bibinitperiod},
+           given={Marco\bibnamedelimb Jacinto\bibnamedelima Mejía},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40c139c7beed307eb5c15a6d92d50e54}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={Bernabé},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional Federico Villarreal}%
+      }
+      \strng{namehash}{69b2d1e1b9e41ab461dec3b139ca0771}
+      \strng{fullhash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{fullhashraw}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{bibnamehash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{authorbibnamehash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{authornamehash}{69b2d1e1b9e41ab461dec3b139ca0771}
+      \strng{authorfullhash}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \strng{authorfullhashraw}{a97aa78ef5fac100efbdb0ce4d66613b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Universidad Nacional Federico Villarreal}
+      \field{title}{Simulación de la función de reflectancia para la resonancia de plasmones de superficie}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://repositorio.unfv.edu.pe/handle/20.500.13084/9880
+      \endverb
+      \verb{url}
+      \verb https://repositorio.unfv.edu.pe/handle/20.500.13084/9880
+      \endverb
+      \keyw{Absorción de luz,Física nuclear y ambiental,Interrogación angular,Kretschmann,Modelo}
+    \endentry
+    \entry{Prasad2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38ba02c334308637f73c01d6413f5fba}{%
+           family={Thenkabail},
+           familyi={T\bibinitperiod},
+           given={Prasad\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{fullhash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{fullhashraw}{38ba02c334308637f73c01d6413f5fba}
+      \strng{bibnamehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authorbibnamehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authornamehash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authorfullhash}{38ba02c334308637f73c01d6413f5fba}
+      \strng{authorfullhashraw}{38ba02c334308637f73c01d6413f5fba}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Remote Sensing Handbook, Volume III: Agriculture, Food Security, Rang}
+      \verb{urlraw}
+      \verb https://www.routledge.com/Remote-Sensing-Handbook--Volume-III-Agriculture-Food-Security-Rangelands-Vegetation-Phenology-and-Soils/Thenkabail/p/book/9781032891019?srsltid=AfmBOorCvB0BBGEuWlFwMJl1JwtfQgzrvdxRbCWGBck_ocSwrZ9dLpRL
+      \endverb
+      \verb{url}
+      \verb https://www.routledge.com/Remote-Sensing-Handbook--Volume-III-Agriculture-Food-Security-Rangelands-Vegetation-Phenology-and-Soils/Thenkabail/p/book/9781032891019?srsltid=AfmBOorCvB0BBGEuWlFwMJl1JwtfQgzrvdxRbCWGBck_ocSwrZ9dLpRL
+      \endverb
+    \endentry
+    \entry{Vullaganti2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=03a9a4e785cf7674dbfdaa7ae345104b}{%
+           family={Vullaganti},
+           familyi={V\bibinitperiod},
+           given={Niharika},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc704f4e134ac6717629938ae313fde8}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Billy\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c54a0c99fb2cc8beeaeaed5a3349c8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{900380a7151e48afced580678c32ca8a}
+      \strng{fullhash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{fullhashraw}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{bibnamehash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{authorbibnamehash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{authornamehash}{900380a7151e48afced580678c32ca8a}
+      \strng{authorfullhash}{b6331dd25603417a2c4eb66443139c1d}
+      \strng{authorfullhashraw}{b6331dd25603417a2c4eb66443139c1d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Amidst the growing food demands of an increasing population, agricultural intensification frequently depends on excessive chemical and fertilizer applications. While this approach initially boosts crop yields, it effects long-term sustainability through soil degradation and compromised food quality. Thus, prioritizing soil health while enhancing crop production is essential for sustainable food production. Site-Specific Nutrient Management (SSNM) emerges as a critical strategy to increase crop production, maintain soil health, and reduce environmental pollution. Despite its potential, the application of SSNM technologies remain limited in farmers' fields due to existing research gaps. This review critically analyzes and presents research conducted in SSNM in the past 11 years (2013–2024), identifying gaps and future research directions. A comprehensive study of 97 relevant research publications reveals several key findings: a) Electrochemical sensing and spectroscopy are the two widely explored areas in SSNM research, b) Despite numerous technologies in SSNM, each has its own limitation, preventing any single technology from being ideal, c) The selection of models and preprocessing techniques significantly impacts nutrient prediction accuracy, d) No single sensor or sensor combination can predict all soil properties, as suitability is highly attribute-specific. This review provides researchers, and technical personnel in precision agriculture, and farmers with detailed insights into SSNM research, its implementation, limitations, challenges, and future research directions.}
+      \field{issn}{2589-7217}
+      \field{issue}{2}
+      \field{journaltitle}{Artificial Intelligence in Agriculture}
+      \field{month}{6}
+      \field{title}{Precision agriculture technologies for soil site-specific nutrient management: A comprehensive review}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{147\bibrangedash 161}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/J.AIIA.2025.02.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2589721725000200?utm_source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2589721725000200?utm_source=chatgpt.com
+      \endverb
+      \keyw{Modeling,On-the go sensing,Site-specific nutrient management,Soil nutrients,Spectroscopy}
+    \endentry
+    \entry{Xia2023}{article}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=7ce14dd2056c98f62a33a36e085905db}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d7abadc5cb4b3d12386d19915afdb2c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wenxi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eee63dfe2eca438a649f989ca90e5909}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Jingwu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce516d5ec863e253dbad4b40dd926d40}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jinghao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2818e977076e13c66a9577ffef15e3fb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wenbo},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97e06ffb2efc09329af070928d3be298}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79bc7ec1ff97c7cfa449afcfb6f3386a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bf1d564eeadf2485f7a12641db27ca1}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{72d6a394ac5fd19b9d7789e8e09135bd}
+      \strng{fullhash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{fullhashraw}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{bibnamehash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{authorbibnamehash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{authornamehash}{72d6a394ac5fd19b9d7789e8e09135bd}
+      \strng{authorfullhash}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \strng{authorfullhashraw}{b272bfa9bc48d7ada2e864fdbd3c8f28}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Agriculture is the primary source of human survival, which provides the most basic living and survival conditions for human beings. As living standards continue to improve, people are also paying more attention to the quality and safety of agricultural products. Therefore, the detection of agricultural product quality is very necessary. In the past decades, the spectroscopy technique has been widely used because of its excellent results in agricultural quality detection. However, traditional spectral inspection methods cannot accurately describe the internal information of agricultural products. With the continuous research and development of optical properties, it has been found that the internal quality of an object can be better reflected by separating the properties of light, such as its absorption and scattering properties. In recent years, spatially resolved spectroscopy has been increasingly used in the field of agricultural product inspection due to its simple compositional structure, low-value cost, ease of operation, efficient detection speed, and outstanding ability to obtain information about agricultural products at different depths. It can also separate optical properties based on the transmission equation of optics, which allows for more accurate detection of the internal quality of agricultural products. This review focuses on the principles of spatially resolved spectroscopy, detection equipment, analytical methods, and specific applications in agricultural quality detection. Additionally, the optical properties methods and direct analysis methods of spatially resolved spectroscopy analysis methods are also reported in this paper.}
+      \field{issn}{1664462X}
+      \field{journaltitle}{Frontiers in Plant Science}
+      \field{month}{1}
+      \field{title}{Principles, developments, and applications of spatially resolved spectroscopy in agriculture: a review}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{1324881}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/FPLS.2023.1324881/FULL
+      \endverb
+      \keyw{agriculture,hyperspectral imaging,optical properties,quality inspection,spatially resolved spectroscopy}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

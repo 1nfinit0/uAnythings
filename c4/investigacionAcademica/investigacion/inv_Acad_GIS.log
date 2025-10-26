@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  18 SEP 2025 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  21 SEP 2025 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -69,8 +69,6 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks21
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/eulervm/eulervm.sty
-Package: eulervm 2005/01/11 v4.0 (WaS)
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen151
@@ -745,34 +743,309 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip120
 \RaggedRightParindent=\skip121
 \JustifyingParindent=\skip122
-) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count350
+\csq@gtype=\count351
+\csq@glevel=\count352
+\csq@qlevel=\count353
+\csq@maxlvl=\count354
+\csq@tshold=\count355
+\csq@ltx@everypar=\toks52
+ (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count356
+ (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count357
+\c@listtotal=\count358
+\c@listcount=\count359
+\c@liststart=\count360
+\c@liststop=\count361
+\c@citecount=\count362
+\c@citetotal=\count363
+\c@multicitecount=\count364
+\c@multicitetotal=\count365
+\c@instcount=\count366
+\c@maxnames=\count367
+\c@minnames=\count368
+\c@maxitems=\count369
+\c@minitems=\count370
+\c@citecounter=\count371
+\c@maxcitecounter=\count372
+\c@savedcitecounter=\count373
+\c@uniquelist=\count374
+\c@uniquename=\count375
+\c@refsection=\count376
+\c@refsegment=\count377
+\c@maxextratitle=\count378
+\c@maxextratitleyear=\count379
+\c@maxextraname=\count380
+\c@maxextradate=\count381
+\c@maxextraalpha=\count382
+\c@abbrvpenalty=\count383
+\c@highnamepenalty=\count384
+\c@lownamepenalty=\count385
+\c@maxparens=\count386
+\c@parenlevel=\count387
+\blx@tempcnta=\count388
+\blx@tempcntb=\count389
+\blx@tempcntc=\count390
+\c@blx@maxsection=\count391
+\blx@maxsegment@0=\count392
+\blx@notetype=\count393
+\blx@parenlevel@text=\count394
+\blx@parenlevel@foot=\count395
+\blx@sectionciteorder@0=\count396
+\blx@sectionciteorderinternal@0=\count397
+\blx@entrysetcounter=\count398
+\blx@biblioinstance=\count399
+\labelnumberwidth=\skip123
+\labelalphawidth=\skip124
+\biblabelsep=\skip125
+\bibitemsep=\skip126
+\bibnamesep=\skip127
+\bibinitsep=\skip128
+\bibparsep=\skip129
+\bibhang=\skip130
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language7
+\c@mincomprange=\count400
+\c@maxcomprange=\count401
+\c@mincompwidth=\count402
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count403
+\c@savedafterword=\count404
+\c@annotator=\count405
+\c@savedannotator=\count406
+\c@author=\count407
+
+
+LaTeX Warning: Command `\theauthor' already defined -- not changed on input line 7528.
+
+\c@savedauthor=\count408
+\c@bookauthor=\count409
+\c@savedbookauthor=\count410
+\c@commentator=\count411
+\c@savedcommentator=\count412
+\c@editor=\count413
+\c@savededitor=\count414
+\c@editora=\count415
+\c@savededitora=\count416
+\c@editorb=\count417
+\c@savededitorb=\count418
+\c@editorc=\count419
+\c@savededitorc=\count420
+\c@foreword=\count421
+\c@savedforeword=\count422
+\c@holder=\count423
+\c@savedholder=\count424
+\c@introduction=\count425
+\c@savedintroduction=\count426
+\c@namea=\count427
+\c@savednamea=\count428
+\c@nameb=\count429
+\c@savednameb=\count430
+\c@namec=\count431
+\c@savednamec=\count432
+\c@translator=\count433
+\c@savedtranslator=\count434
+\c@shortauthor=\count435
+\c@savedshortauthor=\count436
+\c@shorteditor=\count437
+\c@savedshorteditor=\count438
+\c@narrator=\count439
+\c@savednarrator=\count440
+\c@execproducer=\count441
+\c@savedexecproducer=\count442
+\c@execdirector=\count443
+\c@savedexecdirector=\count444
+\c@with=\count445
+\c@savedwith=\count446
+\c@labelname=\count447
+\c@savedlabelname=\count448
+\c@institution=\count449
+\c@savedinstitution=\count450
+\c@lista=\count451
+\c@savedlista=\count452
+\c@listb=\count453
+\c@savedlistb=\count454
+\c@listc=\count455
+\c@savedlistc=\count456
+\c@listd=\count457
+\c@savedlistd=\count458
+\c@liste=\count459
+\c@savedliste=\count460
+\c@listf=\count461
+\c@savedlistf=\count462
+\c@location=\count463
+\c@savedlocation=\count464
+\c@organization=\count465
+\c@savedorganization=\count466
+\c@origlocation=\count467
+\c@savedoriglocation=\count468
+\c@origpublisher=\count469
+\c@savedorigpublisher=\count470
+\c@publisher=\count471
+\c@savedpublisher=\count472
+\c@language=\count473
+\c@savedlanguage=\count474
+\c@origlanguage=\count475
+\c@savedoriglanguage=\count476
+\c@citation=\count477
+\c@savedcitation=\count478
+\c@pageref=\count479
+\c@savedpageref=\count480
+\shorthandwidth=\skip131
+\shortjournalwidth=\skip132
+\shortserieswidth=\skip133
+\shorttitlewidth=\skip134
+\shortauthorwidth=\skip135
+\shorteditorwidth=\skip136
+\locallabelnumberwidth=\skip137
+\locallabelalphawidth=\skip138
+\localshorthandwidth=\skip139
+\localshortjournalwidth=\skip140
+\localshortserieswidth=\skip141
+\localshorttitlewidth=\skip142
+\localshortauthorwidth=\skip143
+\localshorteditorwidth=\skip144
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count481
+\c@textcitetotal=\count482
+\c@textcitemaxnames=\count483
+\c@biburlbigbreakpenalty=\count484
+\c@biburlbreakpenalty=\count485
+\c@biburlnumpenalty=\count486
+\c@biburlucpenalty=\count487
+\c@biburllcpenalty=\count488
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count489
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count490
+\c@bbx:relatedtotal=\count491
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count350
+\l__color_backend_stack_int=\count492
 \l__pdf_internal_box=\box117
-) (./inv_Acad_GIS.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+ (./inv_Acad_GIS.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
  (./components/introduccion/introduccion.aux) (./components/justificacion/justificacion.aux))
 \openout1 = `inv_Acad_GIS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -808,21 +1081,21 @@ LaTeX Font Info:    ... okay on input line 100.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
+\scratchcounter=\count493
 \scratchdimen=\dimen328
 \scratchbox=\box118
-\nofMPsegments=\count352
-\nofMParguments=\count353
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count354
+\nofMPsegments=\count494
+\nofMParguments=\count495
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count496
 \MPscratchDim=\dimen329
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
-\everyMPtoPDFconversion=\toks53
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
+\everyMPtoPDFconversion=\toks54
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -835,27 +1108,47 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 111.
 (./inv_Acad_GIS.out) (./inv_Acad_GIS.out)
-\@outlinefile=\write4
-\openout4 = `inv_Acad_GIS.out'.
+\@outlinefile=\write5
+\openout5 = `inv_Acad_GIS.out'.
 
-<./assets/isotipo-utp.png, id=23, 194.6472pt x 276.5532pt>
+Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
+Package biblatex Info: ... file 'spanish-apa.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
+File: spanish-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `inv_Acad_GIS.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'inv_Acad_GIS.bbl' found.
+ (./inv_Acad_GIS.bbl)
+Package biblatex Info: Reference section=0 on input line 111.
+Package biblatex Info: Reference segment=0 on input line 111.
+<./assets/isotipo-utp.png, id=39, 194.6472pt x 276.5532pt>
 File: ./assets/isotipo-utp.png Graphic file (type png)
 <use ./assets/isotipo-utp.png>
-Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 103.
+Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 114.
 (pdftex.def)             Requested size: 142.26378pt x 141.823pt.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 103.
- (/usr/share/texmf-dist/tex/latex/eulervm/uzeur.fd
-File: uzeur.fd 2005/01/11 v4.0 (WaS)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 103.
- (/usr/share/texmf-dist/tex/latex/eulervm/uzeus.fd
-File: uzeus.fd 2005/01/11 v4.0 (WaS)
-)
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 103.
- (/usr/share/texmf-dist/tex/latex/eulervm/uzeuex.fd
-File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
@@ -865,50 +1158,92 @@ File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 
  (./components/introduccion/introduccion.tex)
 
-<assets/logo-utp.png, id=41, 2055.68pt x 493.845pt>
+<assets/logo-utp.png, id=56, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 130.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 141.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
 [1
 
  <./assets/logo-utp.png>]
 \openout2 = `components/justificacion/justificacion.aux'.
 
- (./components/justificacion/justificacion.tex)
+ (./components/justificacion/justificacion.tex
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 132.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 36.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
 [2
 
 
 
+]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 74.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 107.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[4]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 143.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[5])
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 143.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[6]
+Overfull \hbox (160.42891pt too wide) in paragraph at lines 146--146
+\T1/cmr/m/n/10 Vegetation -[] Phenology -[] and -[] Soils / Thenkabail / p / book / 9781032891019 ? srsltid = AfmBOorCvB0BBGEuWlFwMJl1JwtfQgzrvdxRbCWGBck _
+ []
+
+
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 147.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[7
+
+
 ] (./inv_Acad_GIS.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \sptext on input line 12.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
  (./components/introduccion/introduccion.aux) (./components/justificacion/justificacion.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `inv_Acad_GIS.out' has not changed.
-(rerunfilecheck)             Checksum: DB3A001E17A2A324DC76E8ED3B8FA1BB;1040.
+(rerunfilecheck)             Checksum: 23E9F3D4D8CF961E0312179AEFD2EFC2;1635.
+Package logreq Info: Writing requests to 'inv_Acad_GIS.run.xml'.
+\openout1 = `inv_Acad_GIS.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 35495 strings out of 475109
- 801604 string characters out of 5765325
- 1285804 words of memory out of 5000000
- 57906 multiletter control sequences out of 15000+600000
- 578656 words of font info for 82 fonts, out of 8000000 for 9000
+ 43884 strings out of 475109
+ 970649 string characters out of 5765325
+ 1969700 words of memory out of 5000000
+ 66214 multiletter control sequences out of 15000+600000
+ 574237 words of font info for 75 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 102i,16n,107p,809b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on inv_Acad_GIS.pdf (3 pages, 241490 bytes).
+ 102i,16n,107p,2035b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on inv_Acad_GIS.pdf (8 pages, 272935 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,136 @@
+\section{Requerimientos del Proyecto}
+\textit{Guía del PMBOK®}
+\begin{itemize}
+  \item \textbf{Requerimientos de negocio.}
+  \begin{itemize}
+    \item El proyecto debe contribuir a la transformación digital de los clientes a través de soluciones GIS.
+    \item Debe permitir a las organizaciones optimizar procesos y mejorar la toma de decisiones mediante el análisis geoespacial.
+    \item La consultoría debe generar valor estratégico en sectores empresarial, industrial y estatal.
+    \item Posicionar a la empresa consultora como referente en el mercado de soluciones GIS.
+  \end{itemize}
+
+  \item \textbf{Requerimientos de los interesados.}
+  \begin{itemize}
+    \item Los clientes requieren reportes ejecutivos claros y comprensibles para la toma de decisiones.
+    \item Los usuarios finales deben recibir capacitaciones básicas en el uso de la solución GIS.
+    \item Los directivos esperan indicadores de desempeño e impacto que muestren beneficios tangibles.
+    \item Los equipos de TI de los clientes necesitan que la solución sea compatible con la infraestructura existente.
+  \end{itemize}
+
+  \item \textbf{Requerimientos de la solución.}
+  \begin{itemize}
+    \item La solución debe integrar plataformas GIS licenciadas y/o de código abierto.
+    \item Debe permitir la visualización, análisis y generación de mapas temáticos.
+    \item La solución debe incluir módulos de carga, procesamiento y consulta de datos espaciales.
+    \item Debe incorporar funcionalidades de interoperabilidad con sistemas existentes (ERP, BI, bases de datos).
+    \item Documentación técnica completa y manuales de usuario.
+  \end{itemize}
+
+  \item \textbf{Requerimientos de transición.}
+  \begin{itemize}
+    \item Migración de datos espaciales desde fuentes externas o sistemas legados a la nueva plataforma GIS.
+    \item Soporte técnico durante los primeros 3 meses posteriores a la implementación.
+  \end{itemize}
+
+  \item \textbf{Requerimientos del proyecto.}
+  \begin{itemize}
+    \item El proyecto debe ejecutarse en un plazo máximo de 8 semanas por cliente.
+    \item El equipo de consultoría debe estar conformado por especialistas en GIS, programación y gestión de proyectos.
+    \item Se debe elaborar un plan de gestión de riesgos y un plan de comunicaciones.
+  \end{itemize}
+
+  \item \textbf{Requerimientos de calidad.}
+  \begin{itemize}
+    \item La solución GIS debe garantizar una disponibilidad mínima del 95\% durante el primer año de uso.
+    \item Los entregables deben cumplir con estándares internacionales de geoinformación (ej. ISO 19115, OGC).
+    \item El nivel de satisfacción del cliente medido en encuestas de cierre debe superar el 90\%.
+  \end{itemize}
+\end{itemize}
+
+\newpage
+
+\subsection*{Necesidad}
+Implementar una PMO
+
+\subsection*{Requisitos de Negocio}
+\begin{tabular}{|c|p{12cm}|}
+\hline
+\textbf{ID} & \textbf{Descripción} \\
+\hline
+RN1 & Gestionar los Proyectos de desarrollo de Software de modo Rentable \\
+\hline
+RN2 & Satisfacer las Necesidades de los clientes de Proyectos de desarrollo de software Exitosos y visibles \\
+\hline
+RN3 & Cumplimiento de Estandares y regulación respecto de proyectos de desarrollo de Software \\
+\hline
+\end{tabular}
+
+\subsection*{Requisitos de Interesado}
+\begin{tabular}{|c|p{7.5cm}|c|c|}
+\hline
+\textbf{ID} & \textbf{Descripción} & \textbf{Propietario} & \textbf{Relación} \\
+\hline
+RI1 & Contar con registro de Costos (facturación) por proyecto para asegurar rentabilidad & PMO & RN1,RN2 \\
+\hline
+RI2 & Visibilidad para cliente de sus proyectos y su portafolio por cliente y tipo de servicio en todo momento & Clientes & RN1,RN2 \\
+\hline
+RI3 & Registro de horas dedicadas de miembros del equipo (jira) & PMO & RN1,RN2 \\
+\hline
+RI4 & Poder auditar las aprobaciones de propuesta de desarrollo de parte del cliente & Auditoría & RN3 \\
+\hline
+RI5 & Registro de documentos que permanezcan si cambia personal de Tecnología & PMO & RN1 \\
+\hline
+RI6 & Registro de Caso de Negocio & PMO & RN1 \\
+\hline
+RI7 & Seguimiento de Proyectos Predictivos, Ágiles e Híbridos & PMO & RN1 \\
+\hline
+RI8 & Registro de encuesta de Satisfacción del Cliente por proyecto & PMO & RN2 \\
+\hline
+RI9 & Solución de software en Castellano & PMO & RN2 \\
+\hline
+\end{tabular}
+
+\subsection*{Requisitos de Solución}
+
+\subsubsection*{Requisitos Funcionales}
+\begin{tabular}{|c|p{7.5cm}|c|c|}
+\hline
+\textbf{ID} & \textbf{Descripción} & \textbf{Propietario} & \textbf{Relación} \\
+\hline
+RSF1 & Registro de Costos (facturación) y visualización en todo momento de sus proyectos y su portafolio por cliente y tipo de servicio (Desarrollo, Infraestructura, Contabilidad) y del PM. & Clientes, PMO & RI1,RI2 \\
+\hline
+RSF2 & Cálculo automático de ROI e indicadores de avance & Clientes, PMO & RI2 \\
+\hline
+RSF3 & Registro, visualización y cálculo con horas de dedicación ingresadas por equipo & Clientes, PMO & RI3 \\
+\hline
+RSF4 & Visualización de proceso de aprobación de proyecto & Auditoría & RI4 \\
+\hline
+RSF5 & Definición y visualización de workflow de aprobación de proyectos & Clientes, PMO & RI5 \\
+\hline
+RSF6 & Registro y visualización de Caso de Negocio & Clientes, PMO & RI6 \\
+\hline
+RSF7 & Gestión y visualización de Proyectos Predictivos, Ágiles e Híbridos & Clientes, PMO & RI7 \\
+\hline
+RSF8 & Registro de encuesta de Satisfacción del Cliente por proyecto & Clientes, PMO & RI8 \\
+\hline
+RSF9 & Solución en Castellano & Clientes, PMO & RI9 \\
+\hline
+\end{tabular}
+
+\subsubsection*{Requisitos No Funcionales}
+\begin{tabular}{|c|p{9cm}|c|c|}
+\hline
+\textbf{ID} & \textbf{Descripción} & \textbf{Propietario} & \textbf{Relación} \\
+\hline
+RSNF1 & Seguridad para que acceso de clientes solo a su portafolio y PM solo a proyectos suyos & Clientes, PMO & RN3 \\
+\hline
+\end{tabular}
+
+\subsection*{Requisitos de Transición}
+\begin{tabular}{|c|p{9cm}|c|c|}
+\hline
+\textbf{ID} & \textbf{Descripción} & \textbf{Propietario} & \textbf{Relación} \\
+\hline
+RT1 & Mostrar Procesos y uso de formatos & PMO & RN1 \\
+\hline
+\end{tabular}

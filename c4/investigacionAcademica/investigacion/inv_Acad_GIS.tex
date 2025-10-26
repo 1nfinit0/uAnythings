@@ -11,7 +11,6 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{eulervm}
 
 
 
@@ -57,7 +56,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\includegraphics[width=2.5cm,clip,trim=0cm 1cm 24cm 1cm]{assets/logo-utp.png}}
-\vspace{0.5mm}\fancyhead[R]{\textit{Curso en cuestión}\vspace{0.5mm}}
+\vspace{0.5mm}\fancyhead[R]{\textit{Investigación Académica}\vspace{0.5mm}}
 \fancyfoot[R]{\thepage}
 \setlength{\headheight}{26.23502pt}
 \addtolength{\topmargin}{-5.64944pt}
@@ -84,7 +83,7 @@
   \vspace{0.5cm}
   \textbf{Universidad Tecnológica del Perú} \\
   \vspace{0.5cm}
-  \text{Investigación Académica} \\
+  \textbf{Investigación Académica} \\
   \vspace{1cm}
     {\huge \textbf{AC-S06 Avance del Proyecto Final I}} \\
   \vspace{1cm}
@@ -97,11 +96,23 @@
   \end{tabular} \\
   % \texttt{Ingeniería}\\
 }
+
+% ===============================
+%
+%          📚 Bibliografía
+%
+% ===============================
+
+\usepackage{csquotes}
+% \usepackage[backend=biber,style=apa]{biblatex}
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{bibliografia.bib}
+
 \begin{document}
 % \date{14 de agosto de 2024}
 \maketitle
 \begin{center}
-  Docente: \textbf{Luis, Huatay Salcedo} \\
+  Docente: \textbf{Silva Cueva, Jonathan} \\
 \end{center}
 
 %======================================
@@ -130,5 +141,7 @@
 \include{components/introduccion/introduccion}
 
 \include{components/justificacion/justificacion}
+
+\printbibliography
 
 \end{document}
