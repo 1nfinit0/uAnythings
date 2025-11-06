@@ -1,0 +1,359 @@
+\newcolumntype{M}[1]{>{\hspace{0cm}\justifying\arraybackslash}m{#1}<{\hspace{0cm}}}
+\newcolumntype{J}[1]{>{\hspace{0cm}\justifying\arraybackslash}m{#1}<{\hspace{0cm}}} % Columna justificada
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{4cm}|J{12cm}|}
+    \hline
+    \rowcolor{introColor}
+    \multicolumn{2}{|>{\centering\arraybackslash}m{16.5cm}|}{\textbf{\textcolor{white}{INTRODUCCIÓN}}} \\
+    \hline
+    \textbf{Tema} & Aplicación del modelo AlphaEarth Foundations para la clasificación de cultivos en el sector agrícola del Perú entre los años 2020 y 2024. \\
+    \hline
+    \textbf{Pregunta} & ¿Cómo el uso del modelo AlphaEarth Foundations puede mejorar la clasificación de cultivos agrícolas en el Perú entre los años 2020 y 2024? \\
+    \hline
+    \textbf{Hipótesis} & El modelo AlphaEarth Foundations mejora la clasificación de cultivos en el sector agrícola del Perú entre los años 2020 y 2024 gracias a su capacidad para integrar datos geoespaciales y de sensores remotos en embeddings espaciales. \\
+    \hline
+    \textbf{Definición Básica} & \textbf{Concepto: Teledetección.}\newline Título de la ficha: \textit{Teledetección y Agricultura de Precisión.}\\
+    \hline
+    \textbf{Contexto} & \textbf{Uso de la información satelital en la agricultura de precisión.}\newline Título de la ficha: \textit{Agricultura de precisión.}\\
+    \hline
+    \textbf{Justificación} & Esta investigación contribuye al campo de la inteligencia artificial aplicada a la agricultura, evaluando la efectividad de modelos avanzados como AlphaEarth Foundations para la clasificación precisa de cultivos. Su relevancia académica radica en la validación de nuevas metodologías de procesamiento de datos geoespaciales y en el establecimiento de marcos de referencia para futuros estudios en el contexto peruano. \\
+    \hline
+    \textbf{Presentación de los argumentos} & A continuación se presentan los argumentos que sustentan la hipótesis planteada.\\
+    \hline
+    \rowcolor{introColor}
+    \multicolumn{2}{|>{\centering\arraybackslash}m{16.5cm}|}{\textbf{\textcolor{white}{CUERPO}}} \\
+    \hline
+    \rowcolor{arg1}
+    \textbf{Argumento 1} & \textbf{La Espectroscopía como herramienta para la clasificación de cultivos}\newline \underline{Título de las fichas:}\newline 
+      - Antecedentes históricos de la espectroscopía.\newline
+      - Principios Físicos. \newline
+      - Aplicaciones en la clasificación de cultivos. \\
+    \hline
+    \rowcolor{arg2}
+    \textbf{Argumento 2} & \textbf{Sensoramiento remoto y teledetección satelital}\newline \underline{Título de las fichas:}\newline 
+      - Sensores: fundamentos y tipos.\newline
+      - Teledetección satelital.\newline
+      - Satélites aplicados a la agricultura de precisión. \\
+    \hline
+    \rowcolor{arg3}
+    \textbf{Argumento 3} & \textbf{Estructura de datos en el análisis espacial}\newline \underline{Título de las fichas:}\newline 
+      - Proceso de toma de información.\newline
+      - Matrices y su aplicación en el análisis espacial.\newline
+      - Índices espectrales. \\
+    \hline
+    \rowcolor{arg4}
+    \textbf{Argumento 4} & \textbf{Modelo de clasificación de cultivos}\newline \underline{Título de las fichas:}\newline 
+      - AlphaEarth Foundations.\newline
+      - Google Earth Engine.\newline
+      - Random Forest. \\
+    \hline
+    \rowcolor{introColor}
+    \multicolumn{2}{|>{\centering\arraybackslash}m{16.5cm}|}{\textbf{\textcolor{white}{Conclusión}}} \\
+    \hline
+  \end{tabular}
+  \caption{Esquema de redacción.}
+  \label{tab:esquema_redaccion_introduccion}
+\end{table}
+
+\newpage
+
+\section{Fichas}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{definicion}
+    Teledetección y Agricultura de Precisión \\
+    \hline
+    \rowcolor{definicion}
+    La teledetección como ciencia agrupa técnicas para obtener y procesar información del territorio sin contacto directo, usando sensores satelitales, aéreos o UAV. En agrimensura se emplea para generar ortofotos, modelos digitales de elevación, nubes de puntos y mapas temáticos que apoyan levantamientos y la actualización catastral. Utiliza sensores ópticos (multiespectral/hiperespectral) para índices como NDVI, SAR para detección y LiDAR para detalle geométrico. El procesamiento incluye correcciones radiométricas y geométricas, clasificación, fusión de sensores y validación con puntos GNSS. Seleccionar la combinación sensor, resolución temporal adecuada y documentar metadatos es clave para asegurar la validez técnica y legal de los productos. \begin{quote}
+      [...] expone los fundamentos teóricos y aplicativos de la Percepción Remota con énfasis en sus potenciales aplicaciones al área de la Geomensura
+    \end{quote} \\
+    \hline
+    \rowcolor{definicion}
+    En: \cite{En2009} \\
+    \hline
+  \end{tabular}
+  \label{tab:Fichas}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{contexto}
+    Agricultura de Precisión \\
+    \hline
+    \rowcolor{contexto}
+    El problema de la gestión precisa de cultivos surgió con el crecimiento de la agricultura industrial y la necesidad de optimizar recursos en grandes extensiones. La información satelital emergió como solución al proporcionar observaciones sistemáticas y de amplia cobertura espacial y temporal, permitiendo monitorizar la salud de los cultivos, la variabilidad del vigor, la disponibilidad de agua y la detección temprana de estrés por plagas o enfermedades. Este desafío se originó principalmente por la complejidad de gestionar cultivos a gran escala y la dificultad de obtener datos confiables y oportunos. En agricultura de precisión, estas observaciones se transforman en indicadores operativos como NDVI, EVI y otros índices espectrales, generando mapas de zonificación de manejo y alimentando modelos de rendimiento. La combinación de series temporales satelitales con datos locales (muestreos de campo, sensores in‑situ y meteorología) y plataformas de procesamiento en la nube facilita el escalado, la validación y la entrega de productos accionables para productores y gestores. Los efectos de esta problemática se evidencian en la necesidad de mejorar la eficiencia en el uso de recursos y la toma de decisiones agrícolas. \begin{quote}
+      La gestión de los suministros globales de alimentos comienza con mapas que anclan geográficamente preguntas clave, como la ubicación de los cultivos. El inicio de la era del monitoreo espacial (spaceborne monitoring) se marcó con el lanzamiento del primer satélite Landsat en 1972, el cual proporcionó insights críticos sobre el planeta cambiante para la formulación de políticas ambientales globales [...]
+      \end{quote} \\
+    \hline
+    \rowcolor{contexto}
+    En: \cite{Brown2025} \\
+    \hline
+  \end{tabular}
+  \label{tab:Contexto}
+\end{table}
+
+\newpage
+
+{\large\textbf{La Espectroscopía como herramienta para la clasificación de cultivos}}
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg1}
+    Antecedentes históricos de la espectroscopía \\
+    \hline
+    \rowcolor{arg1}
+    Sus orígenes datan de Isaac Newton (siglo XVII) al dispersar la luz con prismas; en el siglo XIX Fraunhofer, Kirchhoff y Bunsen establecieron la relación entre líneas espectrales y composición química. 
+    A lo largo del siglo XX se diversificaron técnicas (infrarroja, UV‑VIS, Raman y espectrometría de masas), consolidando su uso en análisis de materiales y agricultura. 
+    Hoy la espectroscopía es herramienta clave para identificar y caracterizar cultivos mediante firmas espectrales.
+    \begin{quote}
+    La espectroscopía analiza los espectros producidos cuando los materiales interactúan con la luz o la radiación electromagnética.
+    \end{quote}
+    \\
+    \hline
+    \rowcolor{arg1}
+    En: \cite{Vullaganti2025} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento1}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg1}
+    Principios Físicos \\
+    \hline
+    \rowcolor{arg1}
+    Los fundamentos físicos de la espectroscopía describen cómo la radiación electromagnética interactúa con la materia mediante absorción, emisión y dispersión. Estas interacciones dependen de la composición química y de la estructura geométrica de hojas y suelos, produciendo firmas espectrales distintas según la longitud de onda. La reflectancia, transmisión y emisión observadas informan sobre pigmentos, contenido de agua y textura superficial, y varían con la iluminación y el ángulo de observación. La interpretación requiere corregir efectos instrumentales y atmosféricos y comparar con firmas conocidas para identificar y cuantificar constituyentes.
+    \begin{quote}
+    La espectroscopía utiliza esta radiación reflejada, incidente o dispersada para determinar las propiedades de un material
+    \end{quote} \\
+    \hline
+    \rowcolor{arg1}
+    En: \cite{Vullaganti2025} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento1b}
+\end{table}
+
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg1}
+    Aplicaciones en la clasificación de cultivos \\
+    \hline
+    \rowcolor{arg1}
+    La espectroscopía permite clasificar cultivos mediante el análisis de firmas espectrales únicas asociadas a diferentes especies vegetales. Al capturar reflectancia en múltiples longitudes de onda, se pueden identificar patrones distintivos relacionados con pigmentos, estructura foliar y contenido de agua. Técnicas como espectroscopía multiespectral e hiperespectral, combinadas con algoritmos de aprendizaje automático, facilitan la diferenciación precisa entre cultivos incluso en condiciones variables. Esta capacidad es crucial para monitorear la salud, estimar rendimientos y optimizar prácticas agrícolas.
+    \begin{quote}
+    La espectroscopía se utiliza ampliamente en agricultura para monitorear la salud de los cultivos, detectar plagas y enfermedades, y optimizar el uso de insumos agrícolas.
+    \end{quote} \\
+    \hline
+    \rowcolor{arg1}
+    En: \cite{Brown2025} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento1c}
+\end{table}
+\newpage
+{\large\textbf{Sensoramiento remoto y teledetección satelital}}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg2}
+    Sensores: fundamentos y tipos \\
+    \hline
+    \rowcolor{arg2}
+    Los sensores remotos son dispositivos que capturan información sobre la superficie terrestre sin contacto directo, utilizando diversas tecnologías para detectar y medir la radiación electromagnética. Se clasifican en sensores pasivos (que dependen de fuentes naturales como la luz solar) como RGB, multiespectrales, hiperespectrales y térmicos; y sensores activos (que emiten su propia energía) como radar y LiDAR. Las técnicas hiperespectrales (HSI) permiten la cuantificación no destructiva de parámetros de la planta y son cruciales para el monitoreo en tiempo real. La detección infrarroja térmica (TIR) es especialmente útil como indicador del estrés hídrico. La sinergia entre sensores, combinando los dominios espectrales Visible (VIS), Infrarrojo Cercano (NIR) e Infrarrojo Térmico (TIR), permite una caracterización más completa del estado de los cultivos.
+    \\
+    \hline
+    \rowcolor{arg2}
+    En: \cite{Prasad2025} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento2}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg2}
+    Teledetección satelital \\
+    \hline
+    \rowcolor{arg2}
+    La teledetección satelital revolucionó el monitoreo espacial proporcionando perspectivas cruciales para políticas ambientales globales. Los datos de Observación de la Tierra (EO) son generados por instrumentos a bordo de satélites que operan desde plataformas geoestacionarias y de órbita cuasi-polar. Esta información permite monitorear la salud de cultivos, detectar cambios y evaluar rendimientos agrícolas. Un desafío significativo es el manejo de los petabytes de datos geoespaciales generados, complicando la derivación de conocimientos a escala planetaria.
+    \\
+    \hline
+    \rowcolor{arg2}
+    En: \cite{En2009} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento2b}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg2}
+    Satélites aplicados a la agricultura de precisión \\
+    \hline
+    \rowcolor{arg2}
+    Satélites como Landsat, Sentinel-2 y MODIS son fundamentales en la agricultura de precisión, proporcionando datos multiespectrales e hiperespectrales esenciales para monitorear la salud de los cultivos. Landsat ofrece imágenes con resolución espacial de 30 metros y una frecuencia de revisita de 16 días, ideales para análisis detallados. Sentinel-2, con una resolución espacial de hasta 10 metros y una frecuencia de revisita de 5 días, permite un monitoreo más frecuente. MODIS, aunque con menor resolución espacial (250-1000 metros), proporciona datos diarios útiles para grandes extensiones agrícolas. Estos satélites facilitan la generación de índices vegetativos como NDVI y EVI, cruciales para evaluar el vigor y la productividad de los cultivos.
+    \\
+    \hline
+    \rowcolor{arg2}
+    En: \cite{Xia2023} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento2c}
+\end{table}
+
+\newpage
+
+{\large\textbf{Estructura de datos en el análisis espacial}}
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg3}
+    Proceso de toma de información \\
+    \hline
+    \rowcolor{arg3}
+    La adquisición de datos geoespaciales implica la recopilación sistemática de información sobre la superficie terrestre mediante tecnologías como sensores remotos, GPS y estaciones meteorológicas. Este proceso incluye la planificación de la recolección, selección de sensores adecuados, calibración y validación de datos. La integración de múltiples fuentes, como imágenes satelitales, datos LiDAR y mediciones in situ, es crucial para obtener una representación precisa del entorno. La calidad y precisión de los datos recopilados son fundamentales para análisis posteriores en aplicaciones como agricultura de precisión, gestión ambiental y planificación urbana.
+    \\
+    \hline
+    \rowcolor{arg3}
+    En: \cite{Ram2024} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento3}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg3}
+    Matrices y su aplicación en el análisis espacial \\
+    \hline
+    \rowcolor{arg3}
+    Las matrices son estructuras de datos fundamentales en el análisis espacial, utilizadas para representar y manipular información geoespacial en forma de grillas o imágenes raster. Cada celda de una matriz puede contener valores que representan atributos específicos, como elevación, temperatura o reflectancia espectral. Estas estructuras permiten realizar operaciones matemáticas y estadísticas, facilitando el procesamiento de grandes volúmenes de datos geoespaciales. En aplicaciones como la clasificación de cultivos, las matrices permiten analizar patrones espaciales y temporales, integrando múltiples capas de información para mejorar la precisión y eficiencia del análisis.
+    \begin{quote}
+      Las matrices son estructuras de datos bidimensionales que almacenan valores en filas y columnas, facilitando el análisis espacial mediante operaciones matemáticas y estadísticas.
+    \end{quote}
+    \\
+    \hline
+    \rowcolor{arg3}
+    En: \cite{Ram2024} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento3b}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg3}
+    Índices espectrales \\
+    \hline
+    \rowcolor{arg3}
+    Los índices espectrales son combinaciones matemáticas de bandas espectrales utilizadas para resaltar características específicas de la vegetación y el suelo en imágenes satelitales. Estos índices, como el NDVI (Índice de Vegetación de Diferencia Normalizada) y el EVI (Índice de Vegetación Mejorado), permiten evaluar la salud y el vigor de los cultivos al analizar la reflectancia en diferentes longitudes de onda. Los índices espectrales facilitan la detección de estrés hídrico, enfermedades y variabilidad espacial en los cultivos, proporcionando información valiosa para la toma de decisiones en agricultura de precisión.
+    \begin{quote}
+      Los índices espectrales son herramientas clave en teledetección para monitorear la salud de la vegetación y optimizar prácticas agrícolas.
+    \end{quote}
+    \\
+    \hline
+    \rowcolor{arg3}
+    En: \cite{Ram2024} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento3c}
+\end{table}
+
+\newpage
+
+{\large\textbf{Modelo de clasificación de cultivos}}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg4}
+    AlphaEarth Foundations \\
+    \hline
+    \rowcolor{arg4}
+    AlphaEarth Foundations es un modelo avanzado de inteligencia artificial diseñado para integrar datos geoespaciales y de sensores remotos en embeddings espaciales. Utiliza técnicas de aprendizaje profundo para procesar grandes volúmenes de datos satelitales, permitiendo la clasificación precisa de cultivos agrícolas. Su capacidad para manejar múltiples fuentes de datos y extraer características relevantes lo convierte en una herramienta poderosa para mejorar la precisión en la identificación y monitoreo de cultivos, facilitando la toma de decisiones informadas en el sector agrícola.
+    \\
+    \hline
+    \rowcolor{arg4}
+    En: \cite{Brown2025} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento4}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg4}
+    Google Earth Engine \\
+    \hline
+    \rowcolor{arg4}
+    Google Earth Engine (GEE) es una plataforma de computación en la nube que permite el análisis y visualización de grandes conjuntos de datos geoespaciales. Proporciona acceso a una vasta colección de imágenes satelitales y datos geográficos, facilitando el procesamiento y análisis a escala global. GEE es ampliamente utilizado en aplicaciones de teledetección, monitoreo ambiental y agricultura de precisión, permitiendo a los usuarios desarrollar algoritmos personalizados para extraer información valiosa de los datos geoespaciales.
+    \\
+    \hline
+    \rowcolor{arg4}
+    En: \cite{Gorelick2017} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento4b}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \renewcommand{\arraystretch}{2} % Más espacio vertical
+  \begin{tabular}{|M{16cm}|}
+    \hline
+    \rowcolor{arg4}
+    Random Forest \\
+    \hline
+    \rowcolor{arg4}
+    Random Forest es un algoritmo de aprendizaje automático basado en árboles de decisión que se utiliza para clasificación y regresión. Funciona creando múltiples árboles de decisión durante el entrenamiento y combinando sus resultados para mejorar la precisión y reducir el sobreajuste. En el contexto de la clasificación de cultivos, Random Forest es eficaz para manejar grandes conjuntos de datos geoespaciales, permitiendo identificar patrones complejos y relaciones entre variables espectrales y tipos de cultivos. Su capacidad para gestionar datos heterogéneos lo convierte en una herramienta valiosa en agricultura de precisión.
+    \\
+    \hline
+    \rowcolor{arg4}
+    En: \cite{Breiman2001} \\
+    \hline
+  \end{tabular}
+  \label{tab:argumento4c}
+\end{table}

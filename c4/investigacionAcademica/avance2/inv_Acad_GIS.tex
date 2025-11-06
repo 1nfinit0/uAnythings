@@ -1,0 +1,156 @@
+\documentclass{article}
+
+%===============================
+%
+%          📦 Paquetes
+%
+%===============================
+
+% === Configuración del documento y tipografía ===
+\usepackage[a4paper, top=2.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+
+% === Gráficos y representaciones visuales ===
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% === Estilo y personalización ===
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{tocloft} 
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{caption}
+
+% === Matemáticas y símbolos ===
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cancel}
+
+% === Estructura y disposición del contenido ===
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage[table]{xcolor} 
+\definecolor{introColor}{HTML}{134F5C}
+\definecolor{arg1}{HTML}{D7E3BC}
+\definecolor{arg2}{HTML}{FFDD7D}
+\definecolor{arg3}{HTML}{93CDDC}
+\definecolor{arg4}{HTML}{D99594}
+\definecolor{definicion}{HTML}{E5DFEC}
+\definecolor{contexto}{HTML}{DBEEF3}
+
+
+
+
+% === Hipervínculos y referencias ===
+\usepackage{tocbibind}
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+
+%===============================
+%
+%          ⬆️⬇️ Cabeceras
+%
+%===============================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=2.5cm,clip,trim=0cm 1cm 24cm 1cm]{assets/logo-utp.png}}
+\vspace{0.5mm}\fancyhead[R]{\textit{Investigación Académica}\vspace{0.5mm}}
+\fancyfoot[R]{\thepage}
+\setlength{\headheight}{26.23502pt}
+\addtolength{\topmargin}{-5.64944pt}
+
+%======================================
+%
+%          📑 Espaciado de Párrafos
+%
+%======================================
+
+\setlength{\parskip}{1.5em}
+\setlength{\parindent}{0pt}
+\usepackage{ragged2e} 
+
+%======================================
+%
+%          📕 Estrucura del título
+%
+\title{
+  \pagenumbering{gobble}
+  \vspace{1cm}
+  % \includegraphics[width=5cm,clip,trim=6cm 6cm 6cm 6cm]{./assets/isotipo.jpg} \\
+  \includegraphics[width=5cm,clip,trim=0cm 2.9cm 0cm 0cm]{./assets/isotipo-utp.png} \\
+  \vspace{0.5cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{0.5cm}
+  \textbf{Investigación Académica} \\
+  \vspace{1cm}
+    {\huge \textbf{AC-S06 Avance del Proyecto Final 2}} \\
+  \vspace{1cm}
+  % \large \textbf{Para acceder al título de...} \\
+}
+\author{
+  \begin{tabular}{l r}
+    \textbf{Huatay Salcedo, Luis Elías} & \texttt{u24218809} \\
+    \textbf{García Cevallos, Carolina Lisbeth} & \texttt{u23219248} \\
+  \end{tabular} \\
+  % \texttt{Ingeniería}\\
+}
+
+% ===============================
+%
+%          📚 Bibliografía
+%
+% ===============================
+
+\usepackage{csquotes}
+% \usepackage[backend=biber,style=apa]{biblatex}
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\begin{document}
+% \date{14 de agosto de 2024}
+\maketitle
+\begin{center}
+  Docente: \textbf{Silva Cueva, Jonathan} \\
+\end{center}
+
+%======================================
+%
+%          📚 Inicio del documento
+%
+%======================================
+
+\newpage
+
+% \begin{center}
+% \Large\bfseries Índice
+% \end{center}
+% \begingroup
+% \let\clearpage\relax
+% \renewcommand{\contentsname}{}
+% \tableofcontents
+% \endgroup
+
+
+\newpage
+% Inicio de la numeración de páginas (desde aquí)
+\pagenumbering{arabic}
+\setcounter{page}{1}  
+
+\include{components/introduccion/introduccion}
+
+\printbibliography
+
+\end{document}
