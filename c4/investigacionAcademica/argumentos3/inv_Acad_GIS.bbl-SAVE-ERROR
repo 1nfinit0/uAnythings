@@ -1,0 +1,459 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Brown2025}{article}{}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=acb7db9eafcc176ec96f01757ce85aa9}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc62cb379f3bfac7c7e9f9648937081}{%
+           family={Kazmierski},
+           familyi={K\bibinitperiod},
+           given={Michal\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b30977a7d1781aa2e03d507e983fdcf8}{%
+           family={Pasquarella},
+           familyi={P\bibinitperiod},
+           given={Valerie\bibnamedelima J},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408a97ab46775869b71f0e722577ddc9}{%
+           family={Rucklidge},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9d5d1acb039a1978c8928bfcc0e66a}{%
+           family={Samsikova},
+           familyi={S\bibinitperiod},
+           given={Masha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e7af32bed41a2494221263166fbe46}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chenhui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ce499f8943cac7cba0a73388d289a2e}{%
+           family={Shelhamer},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77599571464311244efa10e6f1469309}{%
+           family={Lahera},
+           familyi={L\bibinitperiod},
+           given={Estefania},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae47e9ef8cec05d24a2c86d7821ff291}{%
+           family={Wiles},
+           familyi={W\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c4ad5f57526bc5e2860286041301be5}{%
+           family={Ilyushchenko},
+           familyi={I\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecdf9b747a50a0392d63cfcb19bab980}{%
+           family={Gorelick},
+           familyi={G\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60457ead86ce78ddcb37c450c236fee9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lihui\bibnamedelima Lydia},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013f87467ad0eff7375fbafe8d7c1903}{%
+           family={Alj},
+           familyi={A\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97e746aedc4dc0dc4a91eaa6e21f2f6c}{%
+           family={Schechter},
+           familyi={S\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cafe40ce85ab0a30724f1e6a2c1923}{%
+           family={Askay},
+           familyi={A\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9016c8fc7f005701d7a2df9189695525}{%
+           family={Guinan},
+           familyi={G\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=438ba6e4e04af2429f76e57a1dfe5974}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a17745d853f84ee3c6eacebf25b89da9}{%
+           family={Boukouvalas},
+           familyi={B\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Pushmeet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91d19aad57b3ee3fbdb4f526ed36d64b}{%
+           family={contributions},
+           familyi={c\bibinitperiod},
+           given={Equal},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daaaa5529255581e955ef8f6b6e334ea}{%
+           family={DeepMind},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{fullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{fullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{bibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authorbibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authornamehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{authorfullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{authorfullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Unprecedented volumes of Earth observation data are continually collected around the world, but high-quality labels remain scarce given the effort required to make physical measurements and observations. This has led to considerable investment in bespoke modeling efforts translating sparse labels into maps. Here we introduce AlphaEarth Foundations, an embedding field model yielding a highly general, geospatial representation that assimilates spatial, temporal, and measurement contexts across multiple sources, enabling accurate and efficient production of maps and monitoring systems from local to global scales. The embeddings generated by AlphaEarth Foundations are the only to consistently outperform a suite of other well-known/widely accepted featurization approaches tested on a diverse set of mapping evaluations without retraining. We have released a dataset of global, annual, analysis-ready embedding field layers from 2017 through 2024.}
+      \field{title}{AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \keyw{cs.CV,cs.LG}
+    \endentry
+    \entry{En2009}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=98789fcd3d90140029912128d71d20d0}{%
+           family={En},
+           familyi={E\bibinitperiod},
+           given={Ejecución},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc3fb179966f8f2345ed622e3855ddc}{%
+           family={Marcelo},
+           familyi={M\bibinitperiod},
+           given={Geomensura},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d2576e10c652bb22e3116be3cf30015}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16536673da25460835a9df42225fcdfb}{%
+           family={Jorge},
+           familyi={J\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9eccec18d35cc75c7919e950da92d6}{%
+           family={Araneda},
+           familyi={A\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Concepción}%
+      }
+      \strng{namehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{fullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{fullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{bibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorbibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authornamehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{authorfullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorfullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principios de teledetección y sus aplicaciones.}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \verb{url}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \keyw{Percepción Remota}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Brown2025}{article}{}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=acb7db9eafcc176ec96f01757ce85aa9}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc62cb379f3bfac7c7e9f9648937081}{%
+           family={Kazmierski},
+           familyi={K\bibinitperiod},
+           given={Michal\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b30977a7d1781aa2e03d507e983fdcf8}{%
+           family={Pasquarella},
+           familyi={P\bibinitperiod},
+           given={Valerie\bibnamedelima J},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408a97ab46775869b71f0e722577ddc9}{%
+           family={Rucklidge},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9d5d1acb039a1978c8928bfcc0e66a}{%
+           family={Samsikova},
+           familyi={S\bibinitperiod},
+           given={Masha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e7af32bed41a2494221263166fbe46}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chenhui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ce499f8943cac7cba0a73388d289a2e}{%
+           family={Shelhamer},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77599571464311244efa10e6f1469309}{%
+           family={Lahera},
+           familyi={L\bibinitperiod},
+           given={Estefania},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae47e9ef8cec05d24a2c86d7821ff291}{%
+           family={Wiles},
+           familyi={W\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c4ad5f57526bc5e2860286041301be5}{%
+           family={Ilyushchenko},
+           familyi={I\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecdf9b747a50a0392d63cfcb19bab980}{%
+           family={Gorelick},
+           familyi={G\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60457ead86ce78ddcb37c450c236fee9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lihui\bibnamedelima Lydia},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013f87467ad0eff7375fbafe8d7c1903}{%
+           family={Alj},
+           familyi={A\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97e746aedc4dc0dc4a91eaa6e21f2f6c}{%
+           family={Schechter},
+           familyi={S\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cafe40ce85ab0a30724f1e6a2c1923}{%
+           family={Askay},
+           familyi={A\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9016c8fc7f005701d7a2df9189695525}{%
+           family={Guinan},
+           familyi={G\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=438ba6e4e04af2429f76e57a1dfe5974}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a17745d853f84ee3c6eacebf25b89da9}{%
+           family={Boukouvalas},
+           familyi={B\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
+           family={Kohli},
+           familyi={K\bibinitperiod},
+           given={Pushmeet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91d19aad57b3ee3fbdb4f526ed36d64b}{%
+           family={contributions},
+           familyi={c\bibinitperiod},
+           given={Equal},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daaaa5529255581e955ef8f6b6e334ea}{%
+           family={DeepMind},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{fullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{fullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{bibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authorbibnamehash}{04a8e39ad350af1bcca21aa0f4e371ef}
+      \strng{authornamehash}{fdf03014bf6174d6c023539c9ef702f8}
+      \strng{authorfullhash}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \strng{authorfullhashraw}{c53ef92f42f7e324d9f134c3a6a01fca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Unprecedented volumes of Earth observation data are continually collected around the world, but high-quality labels remain scarce given the effort required to make physical measurements and observations. This has led to considerable investment in bespoke modeling efforts translating sparse labels into maps. Here we introduce AlphaEarth Foundations, an embedding field model yielding a highly general, geospatial representation that assimilates spatial, temporal, and measurement contexts across multiple sources, enabling accurate and efficient production of maps and monitoring systems from local to global scales. The embeddings generated by AlphaEarth Foundations are the only to consistently outperform a suite of other well-known/widely accepted featurization approaches tested on a diverse set of mapping evaluations without retraining. We have released a dataset of global, annual, analysis-ready embedding field layers from 2017 through 2024.}
+      \field{title}{AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2507.22291
+      \endverb
+      \keyw{cs.CV,cs.LG}
+    \endentry
+    \entry{En2009}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=98789fcd3d90140029912128d71d20d0}{%
+           family={En},
+           familyi={E\bibinitperiod},
+           given={Ejecución},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc3fb179966f8f2345ed622e3855ddc}{%
+           family={Marcelo},
+           familyi={M\bibinitperiod},
+           given={Geomensura},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d2576e10c652bb22e3116be3cf30015}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16536673da25460835a9df42225fcdfb}{%
+           family={Jorge},
+           familyi={J\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9eccec18d35cc75c7919e950da92d6}{%
+           family={Araneda},
+           familyi={A\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Concepción}%
+      }
+      \strng{namehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{fullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{fullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{bibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorbibnamehash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authornamehash}{4453d91ee57be7be36849b7f152beccc}
+      \strng{authorfullhash}{22ddc4224362dbd58716ce5011f74dd5}
+      \strng{authorfullhashraw}{22ddc4224362dbd58716ce5011f74dd5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principios de teledetección y sus aplicaciones.}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \verb{url}
+      \verb https://repositorio.udec.cl/handle/11594/9357
+      \endverb
+      \keyw{Percepción Remota}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

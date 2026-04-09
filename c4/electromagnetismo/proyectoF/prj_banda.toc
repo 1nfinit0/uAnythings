@@ -1,14 +1,22 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{}{}{section*.1}%
-\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
-\contentsline {section}{\numberline {2}Descripción General}{2}{section.2}%
-\contentsline {section}{\numberline {3}Objetivos Específicos}{2}{section.3}%
-\contentsline {section}{\numberline {4}Alcance del Proyecto}{2}{section.4}%
-\contentsline {section}{\numberline {5}Limitaciones}{2}{section.5}%
-\contentsline {section}{\numberline {6}Estructura del Proyecto}{3}{section.6}%
-\contentsline {section}{\numberline {7}Materiales y Componentes}{4}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Materiales de Soporte y Estructura}{4}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Herramientas Utilizadas}{5}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Prototipo}{6}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Materiales:}{7}{subsection.8.1}%
-\contentsline {section}{Referencias}{8}{subsection.8.1}%
+\contentsline {section}{\numberline {1}Resumen}{1}{section.1}%
+\contentsline {section}{\numberline {2}Abstract}{1}{section.2}%
+\contentsline {section}{\numberline {3}Introducción}{2}{section.3}%
+\contentsline {section}{\numberline {4}Descripción General}{3}{section.4}%
+\contentsline {section}{\numberline {5}Objetivos Específicos}{3}{section.5}%
+\contentsline {section}{\numberline {6}Alcance del Proyecto}{3}{section.6}%
+\contentsline {section}{\numberline {7}Limitaciones}{3}{section.7}%
+\contentsline {section}{\numberline {8}Estructura del Proyecto}{4}{section.8}%
+\contentsline {section}{\numberline {9}Materiales y Métodos}{5}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Materiales de Soporte y Estructura}{5}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Herramientas Utilizadas}{6}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Prototipo}{7}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Materiales:}{8}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Construcción del prototipo}{8}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Pruebas}{8}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Producto}{9}{section.11}%
+\contentsline {section}{\numberline {12}Resultados}{11}{section.12}%
+\contentsline {section}{\numberline {13}Discusión}{11}{section.13}%
+\contentsline {section}{\numberline {14}Conclusiones}{12}{section.14}%
+\contentsline {section}{Referencias}{13}{section.14}%

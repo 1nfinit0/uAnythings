@@ -11,14 +11,25 @@
 \contentsline {subsection}{\numberline {3.2}Alcance Inicial del Proyecto}{4}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Registro de Interesados}{5}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Acta de Constitución del Proyecto}{7}{subsubsection.3.2.2}%
-\contentsline {section}{\numberline {4}Planificación}{8}{section.4}%
+\contentsline {section}{\numberline {4}Proceso de Planificación}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Gestión de la Integración del Proyecto}{8}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Gestión del Alcance del Proyecto}{9}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Gestión del Cronograma del Proyecto}{11}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Gestión de los Costes del Proyecto}{11}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Gestión de la Calidad del Proyecto}{12}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Gestión de los Recursos del Proyecto}{14}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}Gestión de las Comunicaciones del Proyecto}{15}{subsubsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.6}Gestión de los Riesgos del Proyecto}{16}{subsubsection.4.2.6}%
-\contentsline {subsubsection}{\numberline {4.2.7}Gestión de las Adquisiciones del Proyecto}{17}{subsubsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.3}Gestión del Cronograma del Proyecto}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Gestión de los Costes del Proyecto}{11}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Gestión de la Calidad del Proyecto}{12}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Gestión de los Recursos del Proyecto}{14}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Gestión de las Comunicaciones del Proyecto}{15}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Gestión de los Riesgos del Proyecto}{16}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Gestión de las Adquisiciones del Proyecto}{17}{subsection.4.9}%
 \contentsline {section}{\numberline {5}Conclusiones}{18}{section.5}%
+\contentsline {section}{\numberline {6}Proceso de Seguimiento y Control}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Gestión de la Integración}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Gestión del Alcance}{23}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Gestión del Cronograma}{26}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Gestión de la calidad}{26}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Gestión de los Recursos}{29}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Gestión de las Comunicaciones}{29}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Gestión de los Riesgos}{29}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Gestión de las Adquisiciones}{29}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Gestión de las Adquisiciones}{30}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Conclusiones:}{33}{section.7}%

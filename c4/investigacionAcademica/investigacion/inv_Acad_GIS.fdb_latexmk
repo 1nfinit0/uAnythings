@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber inv_Acad_GIS"] 1758476567.34592 "inv_Acad_GIS.bcf" "inv_Acad_GIS.bbl" "inv_Acad_GIS" 1758477001.73261 0
-  "bibliografia.bib" 1758476138.59573 10478 9a61701a680523c76d215dd48dffda47 ""
+["biber inv_Acad_GIS"] 1763942659.30149 "inv_Acad_GIS.bcf" "inv_Acad_GIS.bbl" "inv_Acad_GIS" 1763942661.10067 0
+  "bibliografia.bib" 1763942658.96863 10478 9a61701a680523c76d215dd48dffda47 ""
   "inv_Acad_GIS.bcf" 1758477001.4711 134239 7e4e55711712be1e50cd8acd8642c278 "pdflatex"
   (generated)
   "inv_Acad_GIS.bbl"
   "inv_Acad_GIS.blg"
   (rewritten before read)
-["pdflatex"] 1758476999.38067 "/home/tobi/Desktop/repos/uAnythings/c4/investigacionAcademica/investigacion/inv_Acad_GIS.tex" "inv_Acad_GIS.pdf" "inv_Acad_GIS" 1758477001.73324 0
+["pdflatex"] 1758476999.38067 "/home/tobi/Desktop/repos/uAnythings/c4/investigacionAcademica/investigacion/inv_Acad_GIS.tex" "inv_Acad_GIS.pdf" "inv_Acad_GIS" 1763942661.10074 0
   "/home/tobi/Desktop/repos/uAnythings/c4/investigacionAcademica/investigacion/inv_Acad_GIS.tex" 1758476999.09203 3414 c4eb198e7ca27e4a985996f7d5eb8bd2 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1755987285 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1755987285 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -268,7 +268,7 @@
   "components/justificacion/justificacion.aux" 1758477001.3431 5282 b2f90152c92b684391c0b6a3005bf736 "pdflatex"
   "components/justificacion/justificacion.tex" 1758476046.19658 13171 a0bc26c062757ac282346f02f6b3522e ""
   "inv_Acad_GIS.aux" 1758477001.46266 2475 65016981bb2e9ba24d076c5e9359357c "pdflatex"
-  "inv_Acad_GIS.bbl" 1758476568.93481 62518 94ccc70003b69b8894e496bef03656ee "biber inv_Acad_GIS"
+  "inv_Acad_GIS.bbl" 1763942661.03891 62518 94ccc70003b69b8894e496bef03656ee "biber inv_Acad_GIS"
   "inv_Acad_GIS.out" 1758477001.4681 1635 23e9f3d4d8cf961e0312179aefd2efc2 "pdflatex"
   "inv_Acad_GIS.run.xml" 1758477001.4731 2417 6cf3e10af212f55de6e22861ff7b2155 "pdflatex"
   "inv_Acad_GIS.tex" 1758476999.09203 3414 c4eb198e7ca27e4a985996f7d5eb8bd2 ""

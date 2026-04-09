@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757881097.44963 "/home/tobi/Desktop/repos/uAnythings/c4/calculoII/sesionIntegradoraI/sesionIntegradora.tex" "sesionIntegradora.pdf" "sesionIntegradora" 1757881101.85925 0
+["pdflatex"] 1766561505.07923 "/home/tobi/Desktop/repos/uAnythings/c4/calculoII/sesionIntegradoraI/sesionIntegradora.tex" "sesionIntegradora.pdf" "sesionIntegradora" 1766561508.09954 0
   "/home/tobi/Desktop/repos/uAnythings/c4/calculoII/sesionIntegradoraI/sesionIntegradora.tex" 1757881097.05113 3216 895de5b1bdf4056c7e10aebf5d5be008 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1755987285 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -235,14 +235,14 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1755987285 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1755987285 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1757611199 5311557 9da84c45f5b388655502706482323571 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757611195 2030633 8e8fd94d77a2186b95bbc7c5d7240da3 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765040845 5311557 9da84c45f5b388655502706482323571 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1765040755 2030633 2027e5759820580d0db6cb6bf290fbcf ""
   "assets/isotipo-utp.png" 1757762345.91189 42025 b235fb02436278912a1a0ca2a59410e3 ""
   "assets/logo-utp.png" 1757761776.58413 39230 c03999ec05698581c28121eaba34d47b ""
-  "components/introduccion/introduccion.aux" 1757881101.56924 1690 41216e90ef3ac244dc5a9789470889c9 "pdflatex"
-  "components/introduccion/introduccion.tex" 1757880584.32865 21109 84b9205aeb337ff19b034bb5bff26f8f ""
-  "sesionIntegradora.aux" 1757881101.57124 412 f324e1815f7e5107baa193c46528d3d8 "pdflatex"
-  "sesionIntegradora.out" 1757881101.58424 2237 7847b79080ed27416eb40cfcf749e3fb "pdflatex"
+  "components/introduccion/introduccion.aux" 1766561507.91275 1690 41216e90ef3ac244dc5a9789470889c9 "pdflatex"
+  "components/introduccion/introduccion.tex" 1766561503.01911 21109 84b9205aeb337ff19b034bb5bff26f8f ""
+  "sesionIntegradora.aux" 1766561507.91375 412 f324e1815f7e5107baa193c46528d3d8 "pdflatex"
+  "sesionIntegradora.out" 1766561507.91775 2237 7847b79080ed27416eb40cfcf749e3fb "pdflatex"
   "sesionIntegradora.tex" 1757881097.05113 3216 895de5b1bdf4056c7e10aebf5d5be008 ""
   (generated)
   "components/introduccion/introduccion.aux"

@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{}{}{section*.1}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}I. Descripción de la empresa y/o Área afectada por el proyecto a implementar}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Nombre de la empresa y/o Área}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Misión, Visión de la empresa}{1}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Objetivos Estratégicos de la empresa y/o Área}{1}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Objetivos del proyecto}{2}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Alineamiento del proyecto con los objetivos de la empresa}{2}{subsubsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.2}II. Aplicación: Proyecto}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Descripción del alcance del proyecto}{2}{subsubsection.1.2.1}%
+\contentsline {paragraph}{(i) Alcance general del Proyecto a Implementar}{2}{paragraph*.2}%
+\contentsline {paragraph}{(ii) Historias de usuario del proyecto}{3}{paragraph*.3}%
+\contentsline {paragraph}{(iii) Roles Scrum}{3}{paragraph*.4}%
+\contentsline {subsubsection}{\numberline {1.2.2}Artefactos Scrum}{3}{subsubsection.1.2.2}%
+\contentsline {paragraph}{(i) Product Backlog}{3}{paragraph*.5}%
+\contentsline {paragraph}{(ii) Sprint Backlog}{3}{paragraph*.6}%
+\contentsline {paragraph}{(iii) Increment}{4}{paragraph*.7}%
+\contentsline {subsubsection}{\numberline {1.2.3}Descripción de eventos Scrum}{4}{subsubsection.1.2.3}%
+\contentsline {paragraph}{(i) Sprint Planning}{4}{paragraph*.8}%
+\contentsline {paragraph}{(ii) Daily (detalle de un Daily)}{4}{paragraph*.9}%
+\contentsline {paragraph}{(iii) Review (cómo se llevará a cabo)}{4}{paragraph*.10}%
+\contentsline {paragraph}{(iv) Retrospective (de uno de los Sprint)}{4}{paragraph*.11}%
+\contentsline {paragraph}{(v) Product Backlog Refinement}{4}{paragraph*.12}%
+\contentsline {subsubsection}{\numberline {1.2.4}Tablero Kanban del proyecto: Indicar todas las tareas y sus estados}{5}{subsubsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}III. Conclusiones}{5}{subsection.1.3}%

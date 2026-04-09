@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{}{}{section*.1}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Sobre los prototipos}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}¿Qué es el prototipo de un producto?}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}¿Cuál es la utilidad del prototipo de un producto?}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}¿Qué objetivos se tienen al realizar el prototipo de un producto?}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}¿Qué materiales se utilizan para la elaboración de prototipos?}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Prototipo 1: Sólido en el primer octante.}{4}{section.3}%
+\contentsline {section}{\numberline {4}Prototipo 2: Centro de masa de una lámmina.}{6}{section.4}%
+\contentsline {section}{\numberline {5}Prototipo 3: Región entre dos curvas.}{7}{section.5}%
+\contentsline {section}{\numberline {6}Conclusión general}{8}{section.6}%

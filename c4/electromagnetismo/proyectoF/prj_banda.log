@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  2 OCT 2025 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.11)  29 NOV 2025 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -69,8 +69,6 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks21
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/eulervm/eulervm.sty
-Package: eulervm 2005/01/11 v4.0 (WaS)
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen151
@@ -703,24 +701,24 @@ LaTeX Info: Redefining \% on input line 12.
  (./components/introduccion/introduccion.aux) (./components/estructura/estructura.aux))
 \openout1 = `prj_banda.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -756,8 +754,8 @@ LaTeX Font Info:    ... okay on input line 104.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count346
@@ -783,27 +781,23 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 104.
+Package hyperref Info: Link coloring ON on input line 103.
 (./prj_banda.out) (./prj_banda.out)
 \@outlinefile=\write4
 \openout4 = `prj_banda.out'.
 
-<./assets/isotipo-utp.png, id=58, 194.6472pt x 276.5532pt>
+<./assets/isotipo-utp.png, id=90, 194.6472pt x 276.5532pt>
 File: ./assets/isotipo-utp.png Graphic file (type png)
 <use ./assets/isotipo-utp.png>
-Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 107.
+Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 106.
 (pdftex.def)             Requested size: 142.26378pt x 141.823pt.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 107.
- (/usr/share/texmf-dist/tex/latex/eulervm/uzeur.fd
-File: uzeur.fd 2005/01/11 v4.0 (WaS)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 107.
- (/usr/share/texmf-dist/tex/latex/eulervm/uzeus.fd
-File: uzeus.fd 2005/01/11 v4.0 (WaS)
-)
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 107.
- (/usr/share/texmf-dist/tex/latex/eulervm/uzeuex.fd
-File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
@@ -821,20 +815,26 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \newpage
+l.128 \newpage
                [2]
 \openout2 = `components/introduccion/introduccion.aux'.
 
- (./components/introduccion/introduccion.tex)
+ (./components/introduccion/introduccion.tex
 
-<assets/logo-utp.png, id=94, 2055.68pt x 493.845pt>
+<assets/logo-utp.png, id=133, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 133.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 24.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
 [1
 
- <./assets/logo-utp.png>]
+ <./assets/logo-utp.png>])
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 132.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[2]
 \openout2 = `components/estructura/estructura.aux'.
 
  (./components/estructura/estructura.tex
@@ -843,12 +843,12 @@ File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 29.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[2
+[3
 
 
 
 ]
-<./assets/mandarinas.jpeg, id=115, 271.0125pt x 271.0125pt>
+<./assets/mandarinas.jpeg, id=161, 271.0125pt x 271.0125pt>
 File: ./assets/mandarinas.jpeg Graphic file (type jpg)
 <use ./assets/mandarinas.jpeg>
 Package pdftex.def Info: ./assets/mandarinas.jpeg  used on input line 45.
@@ -859,7 +859,7 @@ File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 50.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[3 <./assets/mandarinas.jpeg>]
+[4 <./assets/mandarinas.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\T1/cmr/m/n/10 Banda trans-por-ta-do-ra (go-
  []
@@ -875,42 +875,78 @@ File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 110.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[4]
+[5]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 186.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 189.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[5{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<./assets/prototipo.png, id=160, 319.94531pt x 164.11313pt>
+[6{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<./assets/prototipo.png, id=207, 319.94531pt x 164.11313pt>
 File: ./assets/prototipo.png Graphic file (type png)
 <use ./assets/prototipo.png>
-Package pdftex.def Info: ./assets/prototipo.png  used on input line 194.
+Package pdftex.def Info: ./assets/prototipo.png  used on input line 199.
 (pdftex.def)             Requested size: 364.19667pt x 186.81543pt.
-<./assets/maqueta.png, id=161, 316.18124pt x 191.21437pt>
+<./assets/maqueta.png, id=208, 316.18124pt x 191.21437pt>
 File: ./assets/maqueta.png Graphic file (type png)
 <use ./assets/maqueta.png>
-Package pdftex.def Info: ./assets/maqueta.png  used on input line 203.
+Package pdftex.def Info: ./assets/maqueta.png  used on input line 208.
 (pdftex.def)             Requested size: 318.66948pt x 192.7311pt.
 
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 219.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 215.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[6 <./assets/prototipo.png (PNG copy)> <./assets/maqueta.png (PNG copy)>])
+[7 <./assets/prototipo.png (PNG copy)> <./assets/maqueta.png (PNG copy)>]
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 134.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 250.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[7] (./prj_banda.bbl)
+[8]
+<./assets/banda.jpeg, id=227, 1604.99625pt x 902.37125pt>
+File: ./assets/banda.jpeg Graphic file (type jpg)
+<use ./assets/banda.jpeg>
+Package pdftex.def Info: ./assets/banda.jpeg  used on input line 258.
+(pdftex.def)             Requested size: 318.66948pt x 179.163pt.
+
 
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
-Package pdftex.def Info: assets/logo-utp.png  used on input line 137.
+Package pdftex.def Info: assets/logo-utp.png  used on input line 269.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
-[8
+[9 <./assets/banda.jpeg>]
+<./assets/banda1.jpeg, id=235, 1606.0pt x 1204.5pt>
+File: ./assets/banda1.jpeg Graphic file (type jpg)
+<use ./assets/banda1.jpeg>
+Package pdftex.def Info: ./assets/banda1.jpeg  used on input line 275.
+(pdftex.def)             Requested size: 318.66948pt x 239.00267pt.
+
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 288.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[10 <./assets/banda1.jpeg>]
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 314.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[11])
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 133.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[12] (./prj_banda.bbl)
+
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 136.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+[13
 
 
 ] (./prj_banda.aux
@@ -922,21 +958,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `prj_banda.out' has not changed.
-(rerunfilecheck)             Checksum: 2EA691CE3891BAF49E57BAE9D4113530;1746.
+(rerunfilecheck)             Checksum: 657542139EB76520E3F888498D3D62C8;2563.
  ) 
 Here is how much of TeX's memory you used:
- 35329 strings out of 475109
- 797463 string characters out of 5765325
- 1289783 words of memory out of 5000000
- 57706 multiletter control sequences out of 15000+600000
- 581903 words of font info for 94 fonts, out of 8000000 for 9000
+ 35285 strings out of 475109
+ 796768 string characters out of 5765325
+ 1288829 words of memory out of 5000000
+ 57660 multiletter control sequences out of 15000+600000
+ 576444 words of font info for 79 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 102i,17n,107p,797b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on prj_banda.pdf (10 pages, 489571 bytes).
+ 102i,17n,107p,1374b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on prj_banda.pdf (15 pages, 730936 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

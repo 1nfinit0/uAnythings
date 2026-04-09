@@ -1,0 +1,200 @@
+\documentclass{article}
+
+%===============================
+%
+%          📦 Paquetes
+%
+%===============================
+
+% === Configuración del documento y tipografía ===
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eulervm}
+
+
+
+% === Gráficos y representaciones visuales ===
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usetikzlibrary{mindmap,trees}
+
+% === Estilo y personalización ===
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{tocloft} 
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{caption}
+
+% === Matemáticas y símbolos ===
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cancel}
+
+% === Estructura y disposición del contenido ===
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{indentfirst}
+
+% === Hipervínculos y referencias ===
+\usepackage{tocbibind}
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+
+%===============================
+%
+%          ⬆️⬇️ Cabeceras
+%
+%===============================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[width=3cm,clip,trim=1cm 1cm 1cm 1cm]{assets/logo-utp.png}}
+\vspace{1mm}\fancyhead[R]{\textit{Huatay Salcedo, Luis Elías}\vspace{1mm}}
+\fancyfoot[R]{\thepage}
+\setlength{\headheight}{22.9188pt}
+\addtolength{\topmargin}{-5.64944pt}
+
+%======================================
+%
+%          📑 Espaciado de Párrafos
+%
+%======================================
+
+\setlength{\parskip}{0.5em}
+
+
+%======================================
+%
+%          📕 Estrucura del título
+%
+\title{
+  \pagenumbering{gobble}
+  \vspace{1cm}
+  % \includegraphics[width=5cm,clip,trim=6cm 6cm 6cm 6cm]{./assets/isotipo.jpg} \\
+  \includegraphics[width=5cm,clip,trim=0cm 2.9cm 0cm 0cm]{./assets/isotipo-utp.png} \\
+  \vspace{0.5cm}
+  \textbf{Universidad Tecnológica del Perú} \\
+  \vspace{0.5cm}
+  \text{Gestión de Proyectos} \\
+  \vspace{1cm}
+    {\huge \textbf{(AC-S14) Semana 14 - Tema 03: Tarea - Propuesta de proyecto (PA3)}} \\
+  \vspace{1cm}
+  % \large \textbf{Para acceder al título de...} \\
+}
+\author{
+  \begin{tabular}{ll}
+    \textbf{Huatay Salcedo, Luis Elías, \texttt{U71809640}}\\
+  \end{tabular} \\
+  % \texttt{Ingeniería}\\
+}
+\begin{document}
+% \date{14 de agosto de 2024}
+\maketitle
+\begin{center}
+  Docente: \textbf{Rogelio Chambi Oscco}
+\end{center}
+
+%======================================
+%
+%          📚 Inicio del documento
+%
+%======================================
+\newpage
+\section{Introducción}
+El presente documento describe la propuesta de proyecto desarrollada por el equipo utilizando el marco de trabajo Scrum. Se detalla la empresa seleccionada, la propuesta de innovación, los objetivos del negocio, el rol del usuario final durante el proceso, el feedback recibido y la planificación y ejecución de los tres sprints propuestos.
+
+
+\section{Conformación del Equipo}
+El equipo Scrum se conforma por personajes inventados, esto porque el proyecto lo estoy desarrollando individualmente. A continuación, se presentan los roles asignados:
+
+
+\begin{itemize}
+\item \textbf{Product Owner:} Luis
+\item \textbf{Scrum Master:} Elías
+\item \textbf{Development Team:} José
+\end{itemize}
+
+
+\section{Descripción de la Empresa}
+La empresa seleccionada para el desarrollo del proyecto es una organización que busca innovar en sus procesos y mejorar su competitividad en el mercado. A continuación, se presenta información relevante:
+
+
+\begin{itemize}
+\item \textbf{Nombre de la empresa:} The Coca-Cola Company (Coca‑Cola), multinacional estadounidense líder en bebidas no alcohólicas.
+\item \textbf{Sector económico:} Industria de bebidas y consumo masivo (Beverages / Fast Moving Consumer Goods).
+\item \textbf{Servicios o productos actuales:} Amplio portafolio de bebidas: refrescos carbonatados (Coca‑Cola, Fanta, Sprite), aguas embotelladas, jugos, bebidas energéticas y deportivas, tés y cafés listos para beber, además de soluciones de distribución y vending.
+\item \textbf{Problema u oportunidad identificada:} Tendencia hacia consumidores más saludables y regulaciones sobre azúcares; oportunidad para ampliar líneas bajas o sin azúcar, innovar en bebidas funcionales y sostenibles, optimizar envases reciclables y fortalecer presencia en mercados emergentes y canales digitales.
+\end{itemize}
+
+
+\section{Propuesta de Innovación}
+El equipo propone el desarrollo de un producto o servicio innovador orientado a resolver una necesidad clave de la empresa. La propuesta considera los principios iterativos e incrementales del marco Scrum.
+
+
+\subsection{Descripción de la propuesta}
+Se propone desarrollar una línea de bebidas funcionales y saludables bajo la marca Coca‑Cola, enfocada en ingredientes naturales, bajo contenido calórico y beneficios específicos para la salud, como vitaminas, minerales y probióticos. Esta línea atenderá la creciente demanda de consumidores conscientes de su bienestar, ofreciendo opciones que complementen estilos de vida activos y saludables.
+
+
+\subsection{Objetivos del negocio}
+La propuesta está alineada con los siguientes objetivos del negocio:
+
+
+\begin{itemize}
+\item \textbf{Incrementar la cuota de mercado:} Captar nuevos segmentos de consumidores interesados en productos saludables.
+\item \textbf{Mejorar la imagen de marca:} Posicionar a Coca‑Cola como una empresa innovadora y comprometida con la salud y el bienestar.
+\item \textbf{Diversificar el portafolio de productos:} Ampliar la oferta con bebidas funcionales que respondan a las tendencias del mercado.
+\item \textbf{Fomentar la sostenibilidad:} Desarrollar envases ecológicos y promover prácticas responsables en la producción y distribución.
+\end{itemize}
+
+
+\section{Usuario Final y Feedback}
+Para asegurar una evolución continua del producto, se identificó a un usuario o cliente final que participa activamente proporcionando retroalimentación durante el desarrollo.
+
+
+\subsection{Perfil del usuario final}
+El usuario final es un consumidor consciente de la salud, entre 25 y 45 años, que busca opciones de bebidas que no solo sean refrescantes, sino que también aporten beneficios nutricionales. Este perfil incluye personas activas, interesadas en el bienestar y la sostenibilidad, que valoran la transparencia en los ingredientes y la responsabilidad social de las marcas que consumen.
+
+
+\subsection{Feedback del usuario final}
+Se espera recibir retroalimentación continua del usuario final en las siguientes áreas:
+
+
+\begin{itemize}
+\item \textbf{Ventajas:} Comentarios positivos sobre la propuesta.
+\item \textbf{Oportunidades de mejora:} Aspectos a mejorar identificados.
+\item \textbf{Desventajas:} Limitaciones o posibles problemas del producto.
+\item \textbf{Impedimentos:} Factores que dificultan el avance o desarrollo.
+\end{itemize}
+
+
+\section{Desarrollo de Sprints}
+El equipo desarrolló tres sprints con un enfoque iterativo e incremental. Cada sprint muestra un avance tangible del producto y una mejora en el rendimiento del equipo.
+
+
+\subsection{Sprint 1}
+\begin{itemize}
+\item \textbf{Objetivo del sprint:} Definir la propuesta de valor y los ingredientes clave de la nueva línea de bebidas.
+\item \textbf{Backlog seleccionado:} Investigación de mercado, análisis de tendencias, selección de ingredientes.
+\item \textbf{Incremento obtenido:} Propuesta de valor clara y lista de ingredientes seleccionados.
+\item \textbf{Evolución del equipo:} Mejora en la colaboración y comunicación entre los miembros del equipo.
+\end{itemize}
+
+
+\subsection{Sprint 2}
+\begin{itemize}
+\item \textbf{Objetivo del sprint:} Desarrollar prototipos de productos y realizar pruebas de concepto.
+\item \textbf{Backlog seleccionado:} Diseño de envases, desarrollo de recetas, pruebas de sabor.
+\end{itemize}
+
+
+\subsection{Sprint 3}
+\begin{itemize}
+\item \textbf{Objetivo del sprint:} Validar los prototipos con usuarios finales y ajustar la propuesta según el feedback recibido.
+\item \textbf{Backlog seleccionado:} Pruebas de usuario, análisis de resultados, ajustes en la formulación y el diseño.
+\end{itemize}
+\end{document}
