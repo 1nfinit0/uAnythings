@@ -1,0 +1,41 @@
+nav a {
+    text-decoration: none;
+    font-size: 0.8cm;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+nav a:hover {
+    background-image: url(../fondos/medusa_1920x1080_xtrafondos.com.jpg);
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+header h1 {
+    background-color: azure;
+    font-size: 1.2cm;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 0.5cm;
+}
+
+.f1 {
+    background-image: url(../fondos/fondo1.svg);
+}
+
+.f2 {
+    background-image: url(../fondos/personaje-de-minecraft-bajo-el-agua_5120x2869_xtrafondos.com.jpg);
+}
+
+#a1 {
+    background: #a07da1;
+}
+
+#a2 {
+    background: #c5bf59;
+}

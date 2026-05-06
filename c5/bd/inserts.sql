@@ -1,0 +1,35 @@
+-- INSERT INTO autor (
+--   nombreautor, edadautor, nacionalidadautor
+-- ) VALUES
+-- ('Gabriel G. Márquez', 87, 'Colombiano'),
+-- ('Isabel Allende', 79, 'Chilena'),
+-- ('Mario V. Llosa', 85, 'Peruano'),
+-- ('Jorge Luis Borges', 86, 'Argentino'),
+-- ('Octavio Paz', 84, 'Mexicano');
+
+-- INSERT INTO usuario (
+--   nombreusuario, correo, telefono
+-- ) VALUES 
+-- ('Juan Pérez', 'juan.perez@example.com', '123456789'),
+-- ('María Gómez', 'maria.gomez@example.com', '987654321'),
+-- ('Carlos Rodríguez', 'carlos.rodriguez@example.com', '555555555'),
+-- ('Ana Martínez', 'ana.martinez@example.com', '111111111'),
+-- ('Luis Fernández', 'luis.fernandez@example.com', '222222222');
+
+-- INSERT INTO libro (
+--   titulo, genero, idautor, idusuario, datepublicacion
+-- ) VALUES 
+-- ('Cien años de soledad', 'Realismo mágico', 1, 1, '1967-06-05'),
+-- ('La casa de los espíritus', 'Realismo mágico', 2, 2, '1982-01-01'),
+-- ('La ciudad y los perros', 'Novela', 3, 3, '1963-11-01'),
+-- ('Ficciones', 'Ficción', 4, 4, '1944-01-01'),
+-- ('El laberinto de la soledad', 'Ensayo', 5, 5, '1950-10-22');
+
+-- INSERT INTO ejemplar (
+--   idusuario, idlibro
+-- ) VALUES 
+-- (1, 6),
+-- (2, 7),
+-- (3, 8),
+-- (4, 9),
+-- (5, 10);
