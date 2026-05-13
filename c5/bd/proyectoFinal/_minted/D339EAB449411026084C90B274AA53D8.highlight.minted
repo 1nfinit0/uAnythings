@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{INSERT}\PYG{+w}{ }\PYG{k}{INTO}\PYG{+w}{ }\PYG{n}{turno}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{nombre\PYGZus{}turno}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{hora\PYGZus{}inicio}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{hora\PYGZus{}fin}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{VALUES}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Mañana\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}08:00:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}16:00:00\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Tarde\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}12:00:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}20:00:00\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Noche\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}16:00:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}00:00:00\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Cierre/Madrugada\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}20:00:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}04:00:00\PYGZsq{}}\PYG{p}{);}
+\end{MintedVerbatim}

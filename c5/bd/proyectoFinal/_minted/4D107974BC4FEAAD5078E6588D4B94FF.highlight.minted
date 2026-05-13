@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{INSERT}\PYG{+w}{ }\PYG{k}{INTO}\PYG{+w}{ }\PYG{n}{cliente}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{nombre\PYGZus{}cliente}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{dni\PYGZus{}ruc\PYGZus{}cliente}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{telefono\PYGZus{}cliente}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{VALUES}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Carlos Mendoza\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}70214589\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}987456123\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Maria Feijoo\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}45871236\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}954123654\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Roberto Ruiz\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}10457896\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}963258741\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Ana Paula\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}74125896\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}951487263\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Pedro Castillo\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}45217896\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}958741236\PYGZsq{}}\PYG{p}{);}
+\end{MintedVerbatim}

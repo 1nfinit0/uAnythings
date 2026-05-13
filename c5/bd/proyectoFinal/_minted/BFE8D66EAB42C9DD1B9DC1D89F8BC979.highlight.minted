@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{CREATE}\PYG{+w}{ }\PYG{k}{TABLE}\PYG{+w}{ }\PYG{k}{public}\PYG{p}{.}\PYG{n}{cliente}\PYG{+w}{ }\PYG{p}{(}
+\PYG{+w}{          }\PYG{n}{id\PYGZus{}cliente}\PYG{+w}{ }\PYG{n}{serial4}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{nombre\PYGZus{}cliente}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{dni\PYGZus{}ruc\PYGZus{}cliente}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{11}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{telefono\PYGZus{}cliente}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{k}{CONSTRAINT}\PYG{+w}{ }\PYG{n}{cliente\PYGZus{}dni\PYGZus{}ruc\PYGZus{}cliente\PYGZus{}key}\PYG{+w}{ }\PYG{k}{UNIQUE}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{dni\PYGZus{}ruc\PYGZus{}cliente}\PYG{p}{),}
+\PYG{+w}{          }\PYG{k}{CONSTRAINT}\PYG{+w}{ }\PYG{n}{cliente\PYGZus{}pkey}\PYG{+w}{ }\PYG{k}{PRIMARY}\PYG{+w}{ }\PYG{k}{KEY}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{id\PYGZus{}cliente}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{);}
+\end{MintedVerbatim}

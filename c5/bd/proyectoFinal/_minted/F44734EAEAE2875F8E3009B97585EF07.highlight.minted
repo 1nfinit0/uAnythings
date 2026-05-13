@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{CREATE}\PYG{+w}{ }\PYG{k}{TABLE}\PYG{+w}{ }\PYG{k}{public}\PYG{p}{.}\PYG{n}{mesa}\PYG{+w}{ }\PYG{p}{(}
+\PYG{+w}{          }\PYG{n}{id\PYGZus{}mesa}\PYG{+w}{ }\PYG{n}{serial4}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{numero\PYGZus{}mesa}\PYG{+w}{ }\PYG{n}{int4}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{capacidad\PYGZus{}mesa}\PYG{+w}{ }\PYG{n}{int4}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{estado\PYGZus{}mesa}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{DEFAULT}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Libre\PYGZsq{}}\PYG{p}{::}\PYG{n+nb}{character}\PYG{+w}{ }\PYG{n+nb}{varying}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{k}{CONSTRAINT}\PYG{+w}{ }\PYG{n}{mesa\PYGZus{}pkey}\PYG{+w}{ }\PYG{k}{PRIMARY}\PYG{+w}{ }\PYG{k}{KEY}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{id\PYGZus{}mesa}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{);}
+\end{MintedVerbatim}

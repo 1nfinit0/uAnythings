@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{INSERT}\PYG{+w}{ }\PYG{k}{INTO}\PYG{+w}{ }\PYG{n}{proveedor}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{ruc\PYGZus{}proveedor}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{nombre\PYGZus{}empresa\PYGZus{}proveedor}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{telefono\PYGZus{}proveedor}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{VALUES}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}20100132456\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Distribuidora San Jose\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}014258796\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}20556677889\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Carnes y Cortes del Sur\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}987456321\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}20443322110\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Frutas y Verduras Central\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}954123654\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}20123456789\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Avicola El Pollon\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}963258741\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}20998877665\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Pesquera Mar Azul\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}951487263\PYGZsq{}}\PYG{p}{);}
+\end{MintedVerbatim}

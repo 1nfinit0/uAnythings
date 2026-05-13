@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{INSERT}\PYG{+w}{ }\PYG{k}{INTO}\PYG{+w}{ }\PYG{n}{comprobante}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{tipo\PYGZus{}comprobante}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{fecha\PYGZus{}emision}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{id\PYGZus{}pedido}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{id\PYGZus{}cliente}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{VALUES}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Boleta\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2026\PYGZhy{}05\PYGZhy{}10 18:00:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{12}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{12}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Boleta\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2026\PYGZhy{}05\PYGZhy{}10 10:35:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Boleta\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2026\PYGZhy{}05\PYGZhy{}10 11:59:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Factura\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2026\PYGZhy{}05\PYGZhy{}10 13:30:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Boleta\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}2026\PYGZhy{}05\PYGZhy{}10 13:50:00\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{6}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{6}\PYG{p}{);}
+\end{MintedVerbatim}

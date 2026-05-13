@@ -14,4 +14,5 @@
 \contentsline {subsection}{\numberline {4.3}Modelo de Caso de Uso}{9}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Diagramas de Flujo}{10}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}Gestión de Pagos}{10}{subsubsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.5}Creación y Población de la Base de Datos}{11}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}Creación de la Base de Datos y Tablas}{11}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Registro de datos en la base de datos}{16}{subsection.4.6}%

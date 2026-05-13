@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{CREATE}\PYG{+w}{ }\PYG{k}{TABLE}\PYG{+w}{ }\PYG{k}{public}\PYG{p}{.}\PYG{n}{empleado}\PYG{+w}{ }\PYG{p}{(}
+\PYG{+w}{          }\PYG{n}{id\PYGZus{}empleado}\PYG{+w}{ }\PYG{n}{serial4}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{nombre\PYGZus{}empleado}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{50}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{apellido\PYGZus{}empleado}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{50}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NOT}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{cargo}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{30}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{sueldo}\PYG{+w}{ }\PYG{n+nb}{numeric}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{celular\PYGZus{}empleado}\PYG{+w}{ }\PYG{n+nb}{varchar}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n}{id\PYGZus{}turno}\PYG{+w}{ }\PYG{n}{int4}\PYG{+w}{ }\PYG{k}{NULL}\PYG{p}{,}
+\PYG{+w}{          }\PYG{k}{CONSTRAINT}\PYG{+w}{ }\PYG{n}{empleado\PYGZus{}pkey}\PYG{+w}{ }\PYG{k}{PRIMARY}\PYG{+w}{ }\PYG{k}{KEY}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{id\PYGZus{}empleado}\PYG{p}{),}
+\PYG{+w}{          }\PYG{k}{CONSTRAINT}\PYG{+w}{ }\PYG{n}{fk\PYGZus{}empleado\PYGZus{}turno}\PYG{+w}{ }\PYG{k}{FOREIGN}\PYG{+w}{ }\PYG{k}{KEY}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{id\PYGZus{}turno}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{REFERENCES}\PYG{+w}{ }\PYG{k}{public}\PYG{p}{.}\PYG{n}{turno}\PYG{p}{(}\PYG{n}{id\PYGZus{}turno}\PYG{p}{)}
+\PYG{+w}{        }\PYG{p}{);}
+\end{MintedVerbatim}

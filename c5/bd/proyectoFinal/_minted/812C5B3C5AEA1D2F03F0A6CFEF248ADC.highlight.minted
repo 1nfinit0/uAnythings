@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k}{INSERT}\PYG{+w}{ }\PYG{k}{INTO}\PYG{+w}{ }\PYG{n}{mesa}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{numero\PYGZus{}mesa}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{capacidad\PYGZus{}mesa}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{estado\PYGZus{}mesa}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{VALUES}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Ocupada\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Libre\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Ocupada\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Libre\PYGZsq{}}\PYG{p}{),}
+\PYG{+w}{        }\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{6}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Libre\PYGZsq{}}\PYG{p}{);}
+\end{MintedVerbatim}
