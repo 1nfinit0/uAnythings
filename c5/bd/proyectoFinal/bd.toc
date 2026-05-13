@@ -9,3 +9,9 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Frontend}{4}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Backend}{5}{subsubsection.3.1.2}%
 \contentsline {section}{\numberline {4}Base de Datos}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Modelo Entidad Relación Físico}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Modelo Entidad Relación Lógico}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Modelo de Caso de Uso}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Diagramas de Flujo}{10}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Gestión de Pagos}{10}{subsubsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.5}Creación y Población de la Base de Datos}{11}{subsection.4.5}%

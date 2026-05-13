@@ -1,3 +1,65 @@
 \section{Base de Datos}
 
-  
+Utilizando PostgreSQL como gestor de bases de datos, se diseña sobre este la base de datos \texttt{\textbf{"BaseDePatos"}} que servirá para almacenar y gestionar la información de productos y servicios. Sin embargo, previo a la generación del sistema es importante definir aspectos fundamnetales como el los modelos de caso de uso, la definición estructural de las tablas, etc. Algunos de estos aspectos se detallan a continuación:
+
+\subsection{Modelo Entidad Relación Físico}
+
+Es el modelo que representa la estructura física de la base de datos, incluyendo las tablas, sus atributos, tipos de datos, claves primarias y foráneas, así como las relaciones entre ellas. Este modelo se basa en el modelo lógico y se ajusta a las características específicas del sistema de gestión de productos y servicios.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{./assets/MER-fisico.png}
+  \caption{Modelo Entidad Relación Físico}
+\end{figure}
+
+\subsection{Modelo Entidad Relación Lógico}
+
+Es el modelo que representa la estructura lógica de la base de datos, incluyendo las entidades, sus atributos, claves primarias y foráneas, así como las relaciones entre ellas. Este modelo se basa en el modelo conceptual y se ajusta a las necesidades del sistema de gestión de productos y servicios.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{./assets/der_logico.png}
+  \caption{Modelo Entidad Relación Lógico}
+\end{figure}
+
+Este modelo lógico se ha diseñado para reflejar las necesidades del sistema de gestión de productos y servicios, permitiendo una estructura clara y eficiente para almacenar y gestionar la información relacionada con los productos, servicios, clientes, pedidos, etc.
+
+Es importante destacar que el modelo lógico es una representación abstracta de la base de datos, y su diseño se basa en los requisitos del sistema y las mejores prácticas de modelado de datos. Así mismo, el modelo físico se ajusta a las características específicas del sistema y del gestor de bases de datos utilizado mientras que el lógico se centra en la estructura lógica de los datos y las relaciones entre ellos, sin preocuparse por los detalles de implementación específicos del gestor de bases de datos.
+
+\newpage
+
+\subsection{Modelo de Caso de Uso}
+
+Son representaciones gráficas que describen las interacciones entre los usuarios (actores) y los procesos del sistema. Estos modelos ayudan a identificar los requisitos funcionales del sistema y a diseñar la base de datos de manera que soporte adecuadamente las funcionalidades requeridas.
+
+A continuación se presenta el modelo de caso de uso general:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{./assets/modelo_caso_de_uso.png}
+  \caption{Modelo de Caso de Uso General}
+\end{figure}
+
+En este modelo de caso de uso general, se identifican los actores principales que interactúan con el sistema, como el cliente, el administrador y el sistema de gestión de productos y servicios. Cada actor tiene diferentes casos de uso asociados, que representan las funcionalidades específicas que pueden realizar dentro del sistema.
+
+\newpage
+
+\subsection{Diagramas de Flujo}
+
+Los diagramas de flujo representan visualmente el flujo que cada proceso presente dentro del diagrama de caso de uso general, permitiendo entender cómo se llevan a cabo las diferentes tareas y cómo interactúan entre sí. A continuación se presentan algunos diagramas de flujo para procesos específicos:
+
+\subsubsection{Gestión de Pagos}
+
+Este diagrama de flujo representa el proceso de gestión de pagos dentro del sistema, mostrando las diferentes etapas que se llevan a cabo para procesar un pago, desde la selección del método de pago hasta la confirmación del pago y la actualización del estado del pedido.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{./assets/flujo_gestionar_pagos.png}
+  \caption{Diagrama de Flujo para el Proceso de Gestión de Pagos}
+\end{figure}
+
+
+\subsection{Creación y Población de la Base de Datos}
+
+A continuación se presentan las evidencias de la creación y población de la base de datos utilizando PostgreSQL:
+
