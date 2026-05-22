@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.5.11)  12 MAY 2026 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.5.11)  13 MAY 2026 22:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -805,7 +805,7 @@ LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
- (./components/introduccion/introduccion.aux) (./components/introduccion/empresa.aux) (./components/desarrollo/tecnico.aux) (./components/desarrollo/bd.aux))
+ (./components/introduccion/introduccion.aux) (./components/introduccion/empresa.aux) (./components/desarrollo/tecnico.aux) (./components/desarrollo/bd.aux) (./components/desarrollo/interfaz.aux))
 \openout1 = `bd.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -896,7 +896,7 @@ Package hyperref Info: Link coloring ON on input line 100.
 \@outlinefile=\write5
 \openout5 = `bd.out'.
 
-<./assets/isotipo-utp.png, id=75, 194.6472pt x 276.5532pt>
+<./assets/isotipo-utp.png, id=91, 194.6472pt x 276.5532pt>
 File: ./assets/isotipo-utp.png Graphic file (type png)
 <use ./assets/isotipo-utp.png>
 Package pdftex.def Info: ./assets/isotipo-utp.png  used on input line 103.
@@ -930,7 +930,7 @@ l.125 \newpage
 \openout2 = `components/introduccion/introduccion.aux'.
 
  (./components/introduccion/introduccion.tex)
-<assets/logo-utp.png, id=114, 2055.68pt x 493.845pt>
+<assets/logo-utp.png, id=134, 2055.68pt x 493.845pt>
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 129.
@@ -941,7 +941,7 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 129.
 \openout2 = `components/introduccion/empresa.aux'.
 
  (./components/introduccion/empresa.tex
-<./assets/logo_wallpa.png, id=123, 1027.84pt x 1027.84pt>
+<./assets/logo_wallpa.png, id=143, 1027.84pt x 1027.84pt>
 File: ./assets/logo_wallpa.png Graphic file (type png)
 <use ./assets/logo_wallpa.png>
 Package pdftex.def Info: ./assets/logo_wallpa.png  used on input line 15.
@@ -963,12 +963,12 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 130.
 \openout2 = `components/desarrollo/tecnico.aux'.
 
  (./components/desarrollo/tecnico.tex
-<./assets/arquitectura.png, id=141, 1328.965pt x 626.34pt>
+<./assets/arquitectura.png, id=161, 1328.965pt x 626.34pt>
 File: ./assets/arquitectura.png Graphic file (type png)
 <use ./assets/arquitectura.png>
 Package pdftex.def Info: ./assets/arquitectura.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 214.55838pt.
-<./assets/figma.png, id=142, 1918.16624pt x 953.5625pt>
+<./assets/figma.png, id=162, 1918.16624pt x 953.5625pt>
 File: ./assets/figma.png Graphic file (type png)
 <use ./assets/figma.png>
 Package pdftex.def Info: ./assets/figma.png  used on input line 26.
@@ -982,7 +982,7 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 29.
 
 
  <./assets/arquitectura.png>]
-<./assets/estructuraProjecto.png, id=151, 363.3575pt x 449.68pt>
+<./assets/estructuraProjecto.png, id=171, 363.3575pt x 449.68pt>
 File: ./assets/estructuraProjecto.png Graphic file (type png)
 <use ./assets/estructuraProjecto.png>
 Package pdftex.def Info: ./assets/estructuraProjecto.png  used on input line 41.
@@ -995,10 +995,10 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 46.
 \pydata@fh@0=\write7
 \openout7 = `_C419B06B4C6579B50FF05ADB3B8424F1.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260512205222 C419B06B4C6579B50FF05ADB3B8424F1)...executed.
+runsystem(latexminted config  --timestamp 20260513224227 C419B06B4C6579B50FF05ADB3B8424F1)...executed.
 
  (./_C419B06B4C6579B50FF05ADB3B8424F1.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260512205222 C419B06B4C6579B50FF05ADB3B8424F1)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20260513224227 C419B06B4C6579B50FF05ADB3B8424F1)...executed.
 
  (./_minted/default.style.minted) (./_minted/A62E156BA50474E1955247A6309E44E7.highlight.minted
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
@@ -1016,16 +1016,16 @@ Package pdftex.def Info: assets/logo-utp.png  used on input line 131.
  (./components/desarrollo/bd.tex
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 3.
-<./assets/MER-fisico.png, id=171, 1489.565pt x 856.19875pt>
+<./assets/MER-fisico.png, id=192, 1489.565pt x 856.19875pt>
 File: ./assets/MER-fisico.png Graphic file (type png)
 <use ./assets/MER-fisico.png>
 Package pdftex.def Info: ./assets/MER-fisico.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 261.66934pt.
-<./assets/der_logico.png, id=172, 733.23938pt x 639.13782pt>
-File: ./assets/der_logico.png Graphic file (type png)
-<use ./assets/der_logico.png>
-Package pdftex.def Info: ./assets/der_logico.png  used on input line 21.
-(pdftex.def)             Requested size: 455.24411pt x 396.827pt.
+<./assets/der_logico.jpeg, id=193, 1014.79124pt x 673.51625pt>
+File: ./assets/der_logico.jpeg Graphic file (type jpg)
+<use ./assets/der_logico.jpeg>
+Package pdftex.def Info: ./assets/der_logico.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 455.24411pt x 302.1443pt.
 File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 24.
@@ -1039,8 +1039,8 @@ File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 29.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
- [8 <./assets/der_logico.png (PNG copy)>]
-<./assets/modelo_caso_de_uso.png, id=190, 1114.1625pt x 689.57625pt>
+ [8 <./assets/der_logico.jpeg>]
+<./assets/modelo_caso_de_uso.png, id=210, 1114.1625pt x 689.57625pt>
 File: ./assets/modelo_caso_de_uso.png Graphic file (type png)
 <use ./assets/modelo_caso_de_uso.png>
 Package pdftex.def Info: ./assets/modelo_caso_de_uso.png  used on input line 39.
@@ -1050,7 +1050,7 @@ File: assets/logo-utp.png Graphic file (type png)
 Package pdftex.def Info: assets/logo-utp.png  used on input line 45.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
  [9 <./assets/modelo_caso_de_uso.png (PNG copy)>]
-<./assets/flujo_gestionar_pagos.png, id=198, 581.92406pt x 735.49782pt>
+<./assets/flujo_gestionar_pagos.png, id=218, 581.92406pt x 735.49782pt>
 File: ./assets/flujo_gestionar_pagos.png Graphic file (type png)
 <use ./assets/flujo_gestionar_pagos.png>
 Package pdftex.def Info: ./assets/flujo_gestionar_pagos.png  used on input line 57.
@@ -1060,12 +1060,12 @@ File: assets/logo-utp.png Graphic file (type png)
 Package pdftex.def Info: assets/logo-utp.png  used on input line 67.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
  [10 <./assets/flujo_gestionar_pagos.png (PNG copy)>]
-<./assets/c1.png, id=206, 440.64626pt x 117.43875pt>
+<./assets/c1.png, id=226, 440.64626pt x 117.43875pt>
 File: ./assets/c1.png Graphic file (type png)
 <use ./assets/c1.png>
 Package pdftex.def Info: ./assets/c1.png  used on input line 70.
 (pdftex.def)             Requested size: 364.19667pt x 97.06734pt.
-<./assets/c2.png, id=207, 666.49pt x 135.50626pt>
+<./assets/c2.png, id=227, 666.49pt x 135.50626pt>
 File: ./assets/c2.png Graphic file (type png)
 <use ./assets/c2.png>
 Package pdftex.def Info: ./assets/c2.png  used on input line 76.
@@ -1113,30 +1113,58 @@ File: assets/logo-utp.png Graphic file (type png)
 <use assets/logo-utp.png>
 Package pdftex.def Info: assets/logo-utp.png  used on input line 132.
 (pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
- [18] (./bd.aux
+ [18]
+\openout2 = `components/desarrollo/interfaz.aux'.
+
+ (./components/desarrollo/interfaz.tex
+<assets/front_1.png, id=310, 1894.07625pt x 848.16875pt>
+File: assets/front_1.png Graphic file (type png)
+<use assets/front_1.png>
+Package pdftex.def Info: assets/front_1.png  used on input line 19.
+(pdftex.def)             Requested size: 455.24411pt x 203.84938pt.
+<assets/front_2.png, id=311, 1531.7225pt x 858.20625pt>
+File: assets/front_2.png Graphic file (type png)
+<use assets/front_2.png>
+Package pdftex.def Info: assets/front_2.png  used on input line 26.
+(pdftex.def)             Requested size: 455.24411pt x 255.06744pt.
+)
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 133.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+ [19
+
+
+
+ <./assets/front_1.png>]
+File: assets/logo-utp.png Graphic file (type png)
+<use assets/logo-utp.png>
+Package pdftex.def Info: assets/logo-utp.png  used on input line 133.
+(pdftex.def)             Requested size: 71.13188pt x 22.63498pt.
+ [20 <./assets/front_2.png>] (./bd.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- (./components/introduccion/introduccion.aux) (./components/introduccion/empresa.aux) (./components/desarrollo/tecnico.aux) (./components/desarrollo/bd.aux))
+ (./components/introduccion/introduccion.aux) (./components/introduccion/empresa.aux) (./components/desarrollo/tecnico.aux) (./components/desarrollo/bd.aux) (./components/desarrollo/interfaz.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `bd.out' has not changed.
-(rerunfilecheck)             Checksum: D7CE84708C932ED72062C30714AD19DF;2704.
+(rerunfilecheck)             Checksum: 9113BF57357C75F0A912675B0574ECC0;3186.
  ) 
 Here is how much of TeX's memory you used:
- 44120 strings out of 469453
- 1026740 string characters out of 5469037
- 1619969 words of memory out of 5000000
- 71957 multiletter control sequences out of 15000+600000
+ 44171 strings out of 469453
+ 1028353 string characters out of 5469037
+ 1620751 words of memory out of 5000000
+ 71993 multiletter control sequences out of 15000+600000
  650882 words of font info for 96 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  102i,16n,107p,940b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on bd.pdf (20 pages, 6071703 bytes).
+Output written on bd.pdf (22 pages, 8863361 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 377 words of extra memory for PDF output out of 10000 (max. 10000000)
 

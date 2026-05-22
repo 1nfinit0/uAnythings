@@ -1,0 +1,82 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{k+kn}{package}\PYG{+w}{ }\PYG{n+nn}{com.wallpawawqi.DAO}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{com.wallpawawqi.Class.Producto}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{com.wallpawawqi.Connection.DatabaseConnection}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.sql.Connection}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.sql.PreparedStatement}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.sql.ResultSet}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.util.ArrayList}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{java.util.List}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{class} \PYG{n+nc}{ProductoDAO}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+
+\PYG{+w}{            }\PYG{k+kd}{public}\PYG{+w}{ }\PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{Producto}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n+nf}{obtenerTodos}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+
+\PYG{+w}{                }\PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{Producto}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{productos}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{ArrayList}\PYG{o}{\PYGZlt{}\PYGZgt{}}\PYG{p}{();}
+
+\PYG{+w}{                }\PYG{n}{String}\PYG{+w}{ }\PYG{n}{sql}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s}{                    SELECT}
+\PYG{l+s}{                        id\PYGZus{}producto,}
+\PYG{l+s}{                        nombre\PYGZus{}producto,}
+\PYG{l+s}{                        descripcion\PYGZus{}producto,}
+\PYG{l+s}{                        precio\PYGZus{}producto,}
+\PYG{l+s}{                        id\PYGZus{}categoria,}
+\PYG{l+s}{                        url\PYGZus{}imagen}
+\PYG{l+s}{                    FROM producto}
+\PYG{l+s}{                \PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{p}{;}
+
+\PYG{+w}{                }\PYG{k}{try}\PYG{+w}{ }\PYG{p}{(}
+\PYG{+w}{                        }\PYG{n}{Connection}\PYG{+w}{ }\PYG{n}{conn}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{                                }\PYG{n}{DatabaseConnection}\PYG{p}{.}\PYG{n+na}{getConnection}\PYG{p}{();}
+
+\PYG{+w}{                        }\PYG{n}{PreparedStatement}\PYG{+w}{ }\PYG{n}{stmt}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{                                }\PYG{n}{conn}\PYG{p}{.}\PYG{n+na}{prepareStatement}\PYG{p}{(}\PYG{n}{sql}\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{n}{ResultSet}\PYG{+w}{ }\PYG{n}{rs}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{                                }\PYG{n}{stmt}\PYG{p}{.}\PYG{n+na}{executeQuery}\PYG{p}{()}
+\PYG{+w}{                }\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+
+\PYG{+w}{                    }\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{next}\PYG{p}{())}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+
+\PYG{+w}{                        }\PYG{n}{Producto}\PYG{+w}{ }\PYG{n}{p}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{Producto}\PYG{p}{();}
+
+\PYG{+w}{                        }\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{setId}\PYG{p}{(}
+\PYG{+w}{                                }\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{getLong}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}id\PYGZus{}producto\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{setName}\PYG{p}{(}
+\PYG{+w}{                                }\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{getString}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}nombre\PYGZus{}producto\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{setDescription}\PYG{p}{(}
+\PYG{+w}{                                }\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{getString}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}descripcion\PYGZus{}producto\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{setPrice}\PYG{p}{(}
+\PYG{+w}{                                }\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{getDouble}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}precio\PYGZus{}producto\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{categoryId}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{                                }\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{getInt}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}id\PYGZus{}categoria\PYGZdq{}}\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{wasNull}\PYG{p}{())}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                            }\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{setCategoryId}\PYG{p}{(}\PYG{n}{categoryId}\PYG{p}{);}
+\PYG{+w}{                        }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                        }\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{setImg}\PYG{p}{(}
+\PYG{+w}{                                }\PYG{n}{rs}\PYG{p}{.}\PYG{n+na}{getString}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}url\PYGZus{}imagen\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{                        }\PYG{p}{);}
+
+\PYG{+w}{                        }\PYG{n}{productos}\PYG{p}{.}\PYG{n+na}{add}\PYG{p}{(}\PYG{n}{p}\PYG{p}{);}
+\PYG{+w}{                    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Exception}\PYG{+w}{ }\PYG{n}{e}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                    }\PYG{n}{e}\PYG{p}{.}\PYG{n+na}{printStackTrace}\PYG{p}{();}
+\PYG{+w}{                }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{                }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{productos}\PYG{p}{;}
+\PYG{+w}{            }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}
