@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/styles.css">
+  <title>Don Beto | Panadería</title>
+</head>
+<body>
+  <header class="encabezado">
+    <figure class="contenedor-logo">
+      <img class="logo-principal" src="imagenes/logo.png" alt="Don Beto Logo">
+    </figure>
+    <nav class="navegacion-principal">
+      <ul class="lista-navegacion">
+        <li class="item-navegacion"><a class="enlace-navegacion" href="#">Inicio</a></li>
+        <li class="item-navegacion"><a class="enlace-navegacion" href="./productos/productos.html">Productos</a></li>
+        <li class="item-navegacion"><a class="enlace-navegacion" href="#">Nosotros</a></li>
+        <li class="item-navegacion"><a class="enlace-navegacion" href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero seccion-principal">
+      <h1 class="titulo-principal">Bienvenidos a Don Beto</h1>
+      <p class="texto-principal">La mejor panadería de la ciudad, con los sabores más auténticos y frescos.</p>
+      <a href="./productos/productos.html" class="btn boton-principal">Ver Productos</a>
+    </section>
+    <section class="seccion-productos">
+  <h2 class="titulo-productos">Nuestros Productos</h2>
+  <table class="tabla-productos">
+    <thead class="encabezado-tabla">
+      <tr>
+        <th class="celda-encabezado">Tipo</th>
+        <th class="celda-encabezado">Descripción</th>
+        <th class="celda-encabezado">Imagen</th>
+      </tr>
+    </thead>
+    <tbody class="cuerpo-tabla">
+      <tr class="fila-producto">
+        <td class="celda-producto">Pan Blanco</td>
+        <td class="celda-producto">Pan tradicional blanco, esponjoso y fresco</td>
+        <td class="celda-producto"><img class="imagen-producto" src="imagenes/panBlanco.webp" alt="Pan Blanco"></td>
+      </tr>
+      <tr class="fila-producto">
+        <td class="celda-producto">Pan Integral</td>
+        <td class="celda-producto">Pan de trigo integral, saludable y nutritivo</td>
+        <td class="celda-producto"><img class="imagen-producto" src="imagenes/panIntegral.jpeg" alt="Pan Integral"></td>
+      </tr>
+      <tr class="fila-producto">
+        <td class="celda-producto">Croissant</td>
+        <td class="celda-producto">Croissant de mantequilla, crujiente y delicioso</td>
+        <td class="celda-producto"><img class="imagen-producto" src="imagenes/croissant.jpeg" alt="Croissant"></td>
+      </tr>
+      <tr class="fila-producto">
+        <td class="celda-producto">Donas</td>
+        <td class="celda-producto">Donas glazeadas con varios sabores</td>
+        <td class="celda-producto"><img class="imagen-producto" src="imagenes/donas.webp" alt="Donas"></td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+  </main>
+  <footer class="pie-pagina">
+    <div class="contacto-info">
+      <h3>Contáctanos</h3>
+      <p>Dirección: Calle Principal 123, Ciudad</p>
+      <p>Teléfono: (123) 456-7890</p>
+      <p>Email: info@donbeto.com</p>
+    </div>
+    <div class="formulario-contacto">
+      <form class="formulario-suscripcion" action="#" method="post">
+        <label class="etiqueta-correo" for="email">Correo</label>
+        <input class="campo-correo" type="email" id="email" name="email" placeholder="tu@correo.com" required>
+        <button class="boton-enviar" type="submit">Enviar</button>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
