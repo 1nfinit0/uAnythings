@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function validar() {
+      if (document.getElementById("c1").checked) {
+        alert("Español seleccionado");
+      }
+      if (document.getElementById("c2").checked) {
+        alert("Inglés seleccionado");
+      }
+      if (document.getElementById("c3").checked) {
+        alert("Italiano seleccionado");
+      }
+      if (document.getElementById("c4").checked) {
+        alert("Portugués seleccionado");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Casillas de verificación</h1>
+  <form action="" name="f1" id="f1">
+    Seleccionar un idioma: <br>
+    <input type="checkbox" name="c1" id="c1"> Español <br>
+    <input type="checkbox" name="c2" id="c2"> Inglés <br>
+    <input type="checkbox" name="c3" id="c3"> Italiano <br>
+    <input type="checkbox" name="c4" id="c4"> Portugués <br>
+    <input type="button" value="Enviar" onclick="validar()">
+  </form>
+</body>
+</html>

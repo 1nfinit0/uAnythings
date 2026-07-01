@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function validar() {
+      if (document.getElementById("c1").checked) {
+        document.write("<img src='imagenes/images.jpeg' width='300px'>");
+      }
+      if (document.getElementById("c2").checked) {
+        document.write("<img src='imagenes/images2.jpeg' width='300px'>");
+      }
+      if (document.getElementById("c3").checked) {
+        document.write("<img src='imagenes/imagen3.jpg' width='300px'>");
+      }
+      if (document.getElementById("c4").checked) {
+        document.write("<img src='imagenes/images4.jpg' width='300px'>");
+      }
+    }
+  </script>
+</head>
+<body>
+    <h1>Imágenes radios</h1>
+  <form action="" name="f1" id="f1">
+    Seleccionar un idioma: <br>
+    <input type="radio" name="c" id="c1"> Paisaje 1 <br>
+    <input type="radio" name="c" id="c2"> Paisaje 2 <br>
+    <input type="radio" name="c" id="c3"> Paisaje 3 <br>
+    <input type="radio" name="c" id="c4"> Paisaje 4 <br>
+    <input type="button" value="Enviar" onclick="validar()">
+  </form>
+</body>
+</html>
