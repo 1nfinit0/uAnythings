@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilos/styles.css">
   <title>Don Beto | Panadería</title>
+  <script src="logica/main.js"></script>
 </head>
 <body>
   <header class="encabezado">
@@ -34,6 +35,7 @@
         <th class="celda-encabezado">Tipo</th>
         <th class="celda-encabezado">Descripción</th>
         <th class="celda-encabezado">Imagen</th>
+        <th class="celda-encabezado">Carrito <button class="boton-agregar" id="boton-agregar" type="button" onclick="agregarProductos()">Agregar al Carrito</button></th>
       </tr>
     </thead>
     <tbody class="cuerpo-tabla">
@@ -41,24 +43,35 @@
         <td class="celda-producto">Pan Blanco</td>
         <td class="celda-producto">Pan tradicional blanco, esponjoso y fresco</td>
         <td class="celda-producto"><img class="imagen-producto" src="imagenes/panBlanco.webp" alt="Pan Blanco"></td>
+        <td class="celda-producto"><input type="checkbox" name="panBlanco" id="panBlanco"></td>
       </tr>
       <tr class="fila-producto">
         <td class="celda-producto">Pan Integral</td>
         <td class="celda-producto">Pan de trigo integral, saludable y nutritivo</td>
         <td class="celda-producto"><img class="imagen-producto" src="imagenes/panIntegral.jpeg" alt="Pan Integral"></td>
+        <td class="celda-producto"><input type="checkbox" name="panIntegral" id="panIntegral"></td>
       </tr>
       <tr class="fila-producto">
         <td class="celda-producto">Croissant</td>
         <td class="celda-producto">Croissant de mantequilla, crujiente y delicioso</td>
         <td class="celda-producto"><img class="imagen-producto" src="imagenes/croissant.jpeg" alt="Croissant"></td>
+        <td class="celda-producto"><input type="checkbox" name="croissant" id="croissant"></td>
       </tr>
       <tr class="fila-producto">
         <td class="celda-producto">Donas</td>
         <td class="celda-producto">Donas glazeadas con varios sabores</td>
         <td class="celda-producto"><img class="imagen-producto" src="imagenes/donas.webp" alt="Donas"></td>
+        <td class="celda-producto"><input type="checkbox" name="donas" id="donas"></td>
       </tr>
     </tbody>
   </table>
+  </section>
+  <section class="carritoContainer">
+    <h2 class="titulo-carrito">Carrito de Compras</h2>
+    <div class="carrito">
+      <ul class="lista-carrito" id="lista-carrito"></ul>
+      <button class="boton-vaciar" id="vaciar-carrito" onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </div>
   </section>
   </main>
   <footer class="pie-pagina">
@@ -71,8 +84,8 @@
     <div class="formulario-contacto">
       <form class="formulario-suscripcion" action="#" method="post">
         <label class="etiqueta-correo" for="email">Correo</label>
-        <input class="campo-correo" type="email" id="email" name="email" placeholder="tu@correo.com" required>
-        <button class="boton-enviar" type="submit">Enviar</button>
+        <input class="campo-correo" type="" id="email" name="email" placeholder="tu@correo.com" required>
+        <button class="boton-enviar" type="button" onclick="validarEmail()">Enviar</button>
       </form>
     </div>
   </footer>

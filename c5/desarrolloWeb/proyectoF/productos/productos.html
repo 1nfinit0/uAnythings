@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 	<title>Productos</title>
+	<script src="../logica/main.js"></script>
 </head>
 <body>
 	<main class="presentacion">
@@ -20,6 +21,7 @@
 					<h2>Pan Blanco</h2>
 					<p>Pan tradicional blanco, esponjoso y fresco.</p>
 					<span class="etiqueta">Clásico</span>
+					<input type="radio" name="producto" id="pan-blanco">
 				</div>
 			</article>
 
@@ -29,6 +31,7 @@
 					<h2>Pan Integral</h2>
 					<p>Pan de trigo integral, saludable y nutritivo.</p>
 					<span class="etiqueta">Saludable</span>
+					<input type="radio" name="producto" id="pan-integral">
 				</div>
 			</article>
 
@@ -38,6 +41,7 @@
 					<h2>Croissant</h2>
 					<p>Croissant de mantequilla, crujiente y delicioso.</p>
 					<span class="etiqueta">Recién horneado</span>
+					<input type="radio" name="producto" id="croissant">
 				</div>
 			</article>
 
@@ -47,9 +51,16 @@
 					<h2>Donas</h2>
 					<p>Donas glazeadas con varios sabores.</p>
 					<span class="etiqueta">Dulce</span>
+					<input type="radio" name="producto" id="donas">
 				</div>
 			</article>
 		</section>
+		<div class="videoContainer">
+			<button class="mostrar" type="button" onclick="mostrarVideo()">Ver Video</button>
+			<div class="videoSource" id="videoSource" aria-live="polite">
+				
+			</div>
+		</div>
 	</main>
 </body>
 </html>
