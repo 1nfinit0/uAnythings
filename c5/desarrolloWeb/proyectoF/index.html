@@ -69,8 +69,14 @@
   <section class="carritoContainer">
     <h2 class="titulo-carrito">Carrito de Compras</h2>
     <div class="carrito">
-      <ul class="lista-carrito" id="lista-carrito"></ul>
-      <button class="boton-vaciar" id="vaciar-carrito" onclick="vaciarCarrito()">Vaciar Carrito</button>
+      <ul class="lista-carrito" id="lista-carrito">
+
+      </ul>
+      <div class="btn-container">
+        <button class="boton-vaciar" id="vaciar-carrito" onclick="vaciarCarrito()">Vaciar Carrito</button>
+        <button class="boton-vaciar" id="quitar-primero" onclick="quitarPrimero()">Quitar Primero</button>
+        <button class="boton-vaciar" id="quitar-ultimo" onclick="quitarUltimo()">Quitar Último</button>
+      </div>
     </div>
   </section>
   </main>

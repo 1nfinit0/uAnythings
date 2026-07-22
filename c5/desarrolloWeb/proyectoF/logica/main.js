@@ -38,10 +38,24 @@ function vaciarCarrito() {
     ul.innerHTML = "";
   });
 }
+function quitarPrimero() {
+  const ul = document.getElementById("lista-carrito");
+  if (ul && ul.firstChild) {
+    ul.removeChild(ul.firstChild);
+  }
+}
+function quitarUltimo() {
+  const ul = document.getElementById("lista-carrito");
+  if (ul && ul.lastChild) {
+    ul.removeChild(ul.lastChild);
+  }
+}
+
 function mostrarVideo() {
   videoContainer = document.getElementById("videoSource");
   if (document.getElementById("pan-blanco").checked) {
-    videoContainer.innerHTML = '<video controls><source src="../videos/pan_blanco.mp4" type="video/mp4">Tu navegador no soporta el elemento de video.</video>';
+    videoContainer.innerHTML =
+      '<video controls><source src="../videos/pan_blanco.mp4" type="video/mp4">Tu navegador no soporta el elemento de video.</video>';
   }
   if (document.getElementById("pan-integral").checked) {
     videoContainer.innerHTML =

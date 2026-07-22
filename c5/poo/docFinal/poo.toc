@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{}{}{section*.1}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Problem\'atica}{2}{section.2}%
+\contentsline {section}{\numberline {3}Soluci\'on}{2}{section.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{3}{section.4}%
+\contentsline {section}{\numberline {5}Recomendaciones}{4}{section.5}%
