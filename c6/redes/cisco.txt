@@ -1,6 +1,6 @@
 	Cambio de nombre a un Switch:
-enable
-conf terminal
+enable			entra en modo exec privilegiado, sin ello es solo exec
+conf terminal		
 hostname NOMBRE
 end
 
@@ -9,11 +9,11 @@ enable
 conf terminal
 line console 0
 password contraseña
-login
+login  (habilita la contraseña para exec)
 end
 exit
 configure terminal
-enable secret password
+enable secret password (habilita la contraseña para exec provilegiado)
 exit
 exit
 
