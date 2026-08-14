@@ -1,0 +1,20 @@
+	Cambio de nombre a un Switch:
+enable
+conf terminal
+hostname NOMBRE
+end
+
+	Setear una contraseña
+enable
+conf terminal
+line console 0
+password contraseña
+login
+end
+exit
+configure terminal
+enable secret password
+exit
+exit
+
+	
