@@ -25,7 +25,7 @@
 % === Estilo y personalización ===
 \usepackage{titling}
 \usepackage{titlesec}
-\usepackage{tocloft} 
+\usepackage{tocloft}
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage{caption}
@@ -55,7 +55,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\includegraphics[width=2.5cm,clip,trim=0cm 1cm 24cm 1cm]{assets/logo-utp.png}}
-\vspace{0.5mm}\fancyhead[R]{\textit{Bases de Datos II}\vspace{0.5mm}}
+\vspace{0.5mm}\fancyhead[R]{\textit{Sistema Operativo}\vspace{0.5mm}}
 \fancyfoot[R]{\thepage}
 \setlength{\headheight}{26.23502pt}
 \addtolength{\topmargin}{-5.64944pt}
@@ -81,19 +81,15 @@
   \vspace{0.5cm}
   \textbf{Universidad Tecnológica del Perú} \\
   \vspace{0.5cm}
-  \text{Bases de Datos II} \\
+  \text{Sistema Operativo} \\
   \vspace{1cm}
-    {\huge \textbf{Sistema de Gestión de Productos y Servicios}} \\
+    {\huge \textbf{FODA de algoritmos de planificación de CPU}} \\
   \vspace{1cm}
   % \large \textbf{Para acceder al título de...} \\
 }
 \author{
   \begin{tabular}{rl}
-    \texttt{U24236000} & \textbf{Alcalá Lermo, Rosa Elizabeth}\\
-    \texttt{U71809640} & \textbf{Huatay Salcedo, Luis Elías}\\
-    \texttt{U23331412} & \textbf{Palomino Espinoza, Axel Valentín}\\
-    \texttt{U24238652} & \textbf{Franco Calderón, Piero Alexander}\\
-    \texttt{U22239925} & \textbf{Huauya Aldazabal, Marco Junior}\\
+    \texttt{U71809640} & \textbf{Huatay Salcedo, Luis Elías} \\
   \end{tabular} \\
   % \texttt{Ingeniería}\\
 }
@@ -101,7 +97,7 @@
 % \date{14 de agosto de 2024}
 \maketitle
 \begin{center}
-  Docente: \textbf{Mg. Manuel Alejandro, Ortiz Piñella} \\
+  Docente: \textbf{Mg. José Espinal} \\
 \end{center}
 
 %======================================
@@ -112,23 +108,19 @@
 
 \newpage
 
-\begin{center}
-\Large\bfseries Índice
-\end{center}
 \begingroup
 \let\clearpage\relax
 \renewcommand{\contentsname}{}
-\tableofcontents
 \endgroup
 
 
 \newpage
 % Inicio de la numeración de páginas (desde aquí)
 \pagenumbering{arabic}
-\setcounter{page}{1}  
+\setcounter{page}{1}
 \include{components/introduccion/introduccion}
-\include{components/introduccion/empresa}
-\include{components/desarrollo/tecnico}
-\include{components/desarrollo/bd}
-\include{components/desarrollo/interfaz}
-\end{document} 
+% \include{components/introduccion/empresa}
+% \include{components/desarrollo/tecnico}
+% \include{components/desarrollo/bd}
+% \include{components/desarrollo/interfaz}
+\end{document}

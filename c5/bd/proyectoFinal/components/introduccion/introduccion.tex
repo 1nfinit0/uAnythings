@@ -1,7 +1,89 @@
-\vspace*{\fill}
+\section{FODA de algoritmos de planificación de CPU}
 
-\section{Introducción}
+\subsection{FCFS -- First-Come, First-Served}
 
-  Se presenta el proyecto de la asignatura de \textit{Bases de Datos II} basado en el desarrollo de un sistema de gestión de un negocio de venta de alimentos, en este caso, un restaurante. El sistema se encargará de gestionar la persistencia de los datos relacionados con cleintes, personal y productos, así como las operaciones de compra y venta. El objetivo principal es diseñar e implementar una base de datos eficiente y funcional mediante el uso del gestor de base de datos PostgreSQL, utilizando una interfaz web desarrollada con el framework Astro que permita a los usuarios interactuar con el sistema de manera intuitiva y eficiente. Este proyecto busca aplicar los conocimientos adquiridos en la asignatura para crear una solución práctica que pueda ser utilizada en un entorno real de negocio.
+\begin{center}
+\begin{tabular}{|p{0.21\textwidth}|p{0.67\textwidth}|}
+\hline
+\textbf{FODA} & \textbf{Descripción} \\ \hline
 
-\vspace*{\fill}
+\textbf{Fortalezas} &
+Es un algoritmo sencillo de implementar y comprender. Las tareas se ejecutan en el mismo orden en que llegan, por lo que su funcionamiento es predecible y no requiere cálculos adicionales para decidir cuál proceso ejecutar. Además, evita la inanición, ya que todo proceso eventualmente obtiene acceso al CPU. \\ \hline
+
+\textbf{Oportunidades} &
+Puede utilizarse en sistemas donde la simplicidad y la facilidad de administración sean más importantes que el tiempo de respuesta. También sirve como base para comprender algoritmos de planificación más avanzados. \\ \hline
+
+\textbf{Debilidades} &
+Puede producir tiempos de espera elevados cuando una tarea larga llega antes que varias tareas cortas. Este comportamiento se conoce como \textit{efecto convoy}. No es adecuado para sistemas interactivos donde se necesita una respuesta rápida. \\ \hline
+
+\textbf{Amenazas} &
+En sistemas con muchas tareas o con procesos de duración muy diferente, el tiempo de respuesta puede aumentar considerablemente. Esto puede provocar una experiencia poco fluida para el usuario. \\ \hline
+
+\end{tabular}
+\end{center}
+
+\subsection{SJF -- Shortest-Job-First}
+
+\begin{center}
+\begin{tabular}{|p{0.21\textwidth}|p{0.67\textwidth}|}
+\hline
+\textbf{FODA} & \textbf{Descripción} \\ \hline
+
+\textbf{Fortalezas} &
+Reduce considerablemente el tiempo promedio de espera cuando se conocen las duraciones de las tareas. En condiciones ideales, proporciona un promedio de espera menor que FCFS. \\ \hline
+
+\textbf{Oportunidades} &
+Es especialmente útil en sistemas donde las tareas tienen duraciones relativamente previsibles. También constituye la base conceptual de algoritmos como SRTF, que incorpora expulsión de procesos. \\ \hline
+
+\textbf{Debilidades} &
+Necesita conocer o estimar previamente cuánto tiempo requerirá cada proceso. Las tareas largas pueden permanecer esperando durante mucho tiempo si continuamente llegan tareas más cortas. \\ \hline
+
+\textbf{Amenazas} &
+Puede producir \textit{inanición} (\textit{starvation}) de procesos largos en sistemas donde llegan continuamente tareas cortas. Además, una estimación incorrecta de la duración de los procesos puede reducir sus beneficios. \\ \hline
+
+\end{tabular}
+\end{center}
+
+\subsection{SRTF -- Shortest-Remaining-Time-First}
+
+\begin{center}
+\begin{tabular}{|p{0.21\textwidth}|p{0.67\textwidth}|}
+\hline
+\textbf{FODA} & \textbf{Descripción} \\ \hline
+
+\textbf{Fortalezas} &
+Es una versión expulsiva de SJF que selecciona el proceso con menor tiempo de ejecución restante. Puede ofrecer tiempos de espera y respuesta muy bajos para tareas cortas, especialmente cuando las duraciones de los procesos pueden estimarse correctamente. \\ \hline
+
+\textbf{Oportunidades} &
+Puede ser útil en sistemas donde existen numerosas tareas cortas y se busca mejorar el tiempo de respuesta. Su capacidad de interrumpir un proceso permite adaptarse dinámicamente a la llegada de nuevas tareas. \\ \hline
+
+\textbf{Debilidades} &
+Requiere un mayor control del sistema, ya que puede producir múltiples cambios de contexto. Además, necesita conocer o estimar el tiempo restante de ejecución de los procesos. \\ \hline
+
+\textbf{Amenazas} &
+Los procesos largos pueden sufrir inanición si llegan continuamente procesos con menor tiempo restante. Un exceso de cambios de contexto también puede aumentar la sobrecarga del sistema y disminuir su eficiencia. \\ \hline
+
+\end{tabular}
+\end{center}
+
+\subsection{RR -- Round-Robin}
+
+\begin{center}
+\begin{tabular}{|p{0.21\textwidth}|p{0.67\textwidth}|}
+\hline
+\textbf{FODA} & \textbf{Descripción} \\ \hline
+
+\textbf{Fortalezas} &
+Es un algoritmo expulsivo diseñado especialmente para sistemas interactivos. Cada proceso recibe un intervalo de tiempo denominado \textit{quantum}, lo que permite repartir el uso del CPU de manera equitativa y garantizar una buena capacidad de respuesta. \\ \hline
+
+\textbf{Oportunidades} &
+Es apropiado para sistemas multiusuario, entornos interactivos y situaciones donde varias tareas deben recibir atención periódicamente. Puede ajustarse mediante la elección adecuada del tamaño del \textit{quantum}. \\ \hline
+
+\textbf{Debilidades} &
+Su eficiencia depende del tamaño del \textit{quantum}. Si es demasiado pequeño, aumenta el número de cambios de contexto; si es demasiado grande, el algoritmo se comporta de manera similar a FCFS y puede empeorar el tiempo de respuesta. \\ \hline
+
+\textbf{Amenazas} &
+Una elección inadecuada del \textit{quantum} puede generar sobrecarga o tiempos de respuesta poco satisfactorios. En cargas de trabajo con procesos muy cortos o muy largos, puede no alcanzar el mejor tiempo promedio de espera. \\ \hline
+
+\end{tabular}
+\end{center}
