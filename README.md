@@ -1,2 +1,2 @@
 # uAnythings
-All about my university
+Relativo al transcurso de mi formación en ingeniería de software

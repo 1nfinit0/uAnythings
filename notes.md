@@ -1,4 +1,3 @@
-
 # Notas untopic
 
 ## SQL
@@ -20,3 +19,5 @@ SELECT release_year, COUNT(DISTINCT(language)) AS Languages
 FROM films
 GROUP BY release_year
 ORDER BY Languages DESC;
+
+
