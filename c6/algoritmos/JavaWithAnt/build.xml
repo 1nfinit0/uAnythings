@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="JavaWithAnt" default="run" basedir=".">
+
+    <!-- Directorios -->
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="dist.dir" value="dist"/>
+
+    <!-- JAR -->
+    <property name="jar.name" value="JavaWithAnt.jar"/>
+
+    <!-- Inicialización -->
+    <target name="init">
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <!-- Limpiar -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+
+    <!-- Compilar -->
+    <target name="compile" depends="init">
+        <javac
+            srcdir="${src.dir}"
+            destdir="${classes.dir}"
+            includeantruntime="false"
+            encoding="UTF-8"
+        />
+    </target>
+
+    <!-- Ejecutar -->
+    <target name="run" depends="compile">
+        <java
+            classname="Main"
+            fork="true"
+            failonerror="true"
+        >
+            <classpath>
+                <pathelement location="${classes.dir}"/>
+            </classpath>
+        </java>
+    </target>
+
+    <!-- Crear JAR -->
+    <target name="jar" depends="compile">
+        <jar
+            destfile="${dist.dir}/${jar.name}"
+            basedir="${classes.dir}"
+        >
+            <manifest>
+                <attribute
+                    name="Main-Class"
+                    value="Main"
+                />
+            </manifest>
+        </jar>
+    </target>
+
+    <!-- Limpiar + compilar + JAR -->
+    <target name="build" depends="clean,jar"/>
+
+</project>
